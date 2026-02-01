@@ -124,29 +124,19 @@ export default function CedulaSufragio({ onVotoCompleto }) {
     );
   };
 
-  const VotoEspecial = ({ categoria }) => {
+  const VotoBlanco = ({ categoria }) => {
     const esPresidente = categoria === 'presidente';
     const valorActual = esPresidente ? votos.presidente : votos[categoria]?.partido;
     
     return (
-      <div className="flex gap-2 mt-2 border-t pt-2">
-        <button
-          onClick={() => handleVotoEspecial(categoria, 'blanco')}
-          className={`flex-1 py-1 px-2 text-xs rounded border-2 transition-all ${
-            valorActual === 'blanco' ? 'border-gray-600 bg-gray-100 font-bold' : 'border-gray-300 hover:border-gray-400'
-          }`}
-        >
-          BLANCO
-        </button>
-        <button
-          onClick={() => handleVotoEspecial(categoria, 'nulo')}
-          className={`flex-1 py-1 px-2 text-xs rounded border-2 transition-all ${
-            valorActual === 'nulo' ? 'border-red-600 bg-red-50 font-bold' : 'border-gray-300 hover:border-gray-400'
-          }`}
-        >
-          NULO
-        </button>
-      </div>
+      <button
+        onClick={() => handleVotoEspecial(categoria, 'blanco')}
+        className={`w-full py-2 px-2 text-xs rounded border transition-all mb-2 ${
+          valorActual === 'blanco' ? 'border-slate-600 bg-slate-100 font-bold' : 'border-slate-300 hover:border-slate-400'
+        }`}
+      >
+        VOTO EN BLANCO
+      </button>
     );
   };
 
@@ -169,6 +159,7 @@ export default function CedulaSufragio({ onVotoCompleto }) {
         <div className="flex flex-col">
           <ColumnaHeader titulo="PRESIDENTE" subtitulo="y Vicepresidentes" />
           <div className="p-2 flex-1 overflow-y-auto max-h-[600px] space-y-1">
+            <VotoBlanco categoria="presidente" />
             {candidatosPresidenciales.map((c) => (
               <CandidatoCard
                 key={c.id}
@@ -177,47 +168,46 @@ export default function CedulaSufragio({ onVotoCompleto }) {
                 onClick={() => handleVotoPresidente(c.id)}
               />
             ))}
-            <VotoEspecial categoria="presidente" />
           </div>
         </div>
 
         <div className="flex flex-col">
           <ColumnaHeader titulo="SENADORES" subtitulo="Distrito Nacional" numPref="2 opcionales" />
           <div className="p-2 flex-1 overflow-y-auto max-h-[600px] space-y-1">
+            <VotoBlanco categoria="senadoresNacional" />
             {partidosParlamentarios.map((p) => (
               <PartidoCardConPreferencial key={p.id} partido={p} categoria="senadoresNacional" numPreferencial={2} />
             ))}
-            <VotoEspecial categoria="senadoresNacional" />
           </div>
         </div>
 
         <div className="flex flex-col">
           <ColumnaHeader titulo="SENADORES" subtitulo="Distrito Regional" numPref="1 opcional" />
           <div className="p-2 flex-1 overflow-y-auto max-h-[600px] space-y-1">
+            <VotoBlanco categoria="senadoresRegional" />
             {partidosParlamentarios.map((p) => (
               <PartidoCardConPreferencial key={p.id} partido={p} categoria="senadoresRegional" numPreferencial={1} />
             ))}
-            <VotoEspecial categoria="senadoresRegional" />
           </div>
         </div>
 
         <div className="flex flex-col">
           <ColumnaHeader titulo="DIPUTADOS" subtitulo="Distrito Regional" numPref="2 opcionales" />
           <div className="p-2 flex-1 overflow-y-auto max-h-[600px] space-y-1">
+            <VotoBlanco categoria="diputados" />
             {partidosParlamentarios.map((p) => (
               <PartidoCardConPreferencial key={p.id} partido={p} categoria="diputados" numPreferencial={2} />
             ))}
-            <VotoEspecial categoria="diputados" />
           </div>
         </div>
 
         <div className="flex flex-col">
           <ColumnaHeader titulo="PARLAMENTO" subtitulo="Andino" numPref="2 opcionales" />
           <div className="p-2 flex-1 overflow-y-auto max-h-[600px] space-y-1">
+            <VotoBlanco categoria="parlamenAndino" />
             {partidosParlamentarios.map((p) => (
               <PartidoCardConPreferencial key={p.id} partido={p} categoria="parlamenAndino" numPreferencial={2} />
             ))}
-            <VotoEspecial categoria="parlamenAndino" />
           </div>
         </div>
       </div>
