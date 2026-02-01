@@ -58,17 +58,24 @@ export default function CedulaSufragio({ onVotoCompleto }) {
     >
       <div className="flex items-center gap-2">
         {candidato.foto ? (
-          <img src={candidato.foto} alt={candidato.nombre} className="w-10 h-10 rounded-full object-cover shrink-0" onError={(e) => { e.target.style.display = 'none'; e.target.nextSibling.style.display = 'flex'; }} />
+          <img src={candidato.foto} alt={candidato.nombre} className="w-10 h-10 rounded object-cover shrink-0" onError={(e) => { e.target.style.display = 'none'; e.target.nextSibling.style.display = 'flex'; }} />
         ) : null}
         <div 
-          className={`w-10 h-10 rounded-full items-center justify-center text-white font-bold text-xs shrink-0 ${candidato.foto ? 'hidden' : 'flex'}`}
+          className={`w-10 h-10 rounded items-center justify-center text-white font-bold text-xs shrink-0 ${candidato.foto ? 'hidden' : 'flex'}`}
           style={{ backgroundColor: candidato.color }}
         >
           {candidato.siglas}
         </div>
         <div className="min-w-0 flex-1">
           <p className="font-semibold text-xs truncate">{candidato.nombre}</p>
-          <p className="text-[10px] text-gray-600 truncate">{candidato.partido}</p>
+          <div className="flex items-center gap-1">
+            <p className="text-[10px] text-gray-600 truncate">{candidato.partido}</p>
+            {candidato.hojaVida && (
+              <a href={candidato.hojaVida} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="text-blue-600 hover:text-blue-800" title="Ver hoja de vida">
+                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              </a>
+            )}
+          </div>
         </div>
         <div className={`w-5 h-5 rounded-full border-2 shrink-0 flex items-center justify-center ${
           selected ? 'border-slate-700 bg-slate-700' : 'border-slate-300'
