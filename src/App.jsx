@@ -11,8 +11,7 @@ function App() {
     diputados: { partido: null, preferencial: ['', ''] },
     parlamenAndino: { partido: null, preferencial: ['', ''] },
   });
-  const [mostrarResumen, setMostrarResumen] = useState(true);
-
+  const [mostrarResumenMobile, setMostrarResumenMobile] = useState(false);
   const handleVotoCompleto = (nuevosVotos) => setVotos(nuevosVotos);
 
   const handleReset = () => setVotos({
@@ -40,25 +39,41 @@ function App() {
           <CedulaSufragio onVotoCompleto={handleVotoCompleto} />
         </div>
 
-        {mostrarResumen && (
-          <div className="w-80 shrink-0">
-            <ResumenVoto votos={votos} onReset={handleReset} />
-          </div>
-        )}
+        <div className="hidden lg:block w-80 shrink-0">
+          <ResumenVoto votos={votos} onReset={handleReset} />
+        </div>
       </div>
-
-      <button
-        onClick={() => setMostrarResumen(!mostrarResumen)}
-        className="fixed bottom-4 right-4 bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition-colors lg:hidden"
-      >
-        {mostrarResumen ? '✕' : '📋'}
-      </button>
 
       <GuiaBicameralidad />
 
-      <footer className="text-center mt-6 text-xs text-gray-500">
+      <footer className="text-center mt-6 mb-16 lg:mb-6 text-xs text-gray-500">
         <p>Simulador educativo • Datos: <a href="https://votoinformado.jne.gob.pe" target="_blank" rel="noopener" className="text-blue-600 hover:underline">JNE Voto Informado</a></p>
       </footer>
+
+      {/* Mobile: Botón fijo para votar */}
+      <div className="lg:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 p-3 shadow-lg">
+        <button
+          onClick={() => setMostrarResumenMobile(true)}
+          className="w-full bg-slate-700 text-white py-3 rounded-lg font-semibold hover:bg-slate-800 transition-colors"
+        >
+          Ver Resumen y Votar
+        </button>
+      </div>
+
+      {/* Mobile: Modal de resumen */}
+      {mostrarResumenMobile && (
+        <div className="lg:hidden fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
+          <div className="bg-white rounded-lg max-w-md w-full max-h-[90vh] overflow-y-auto">
+            <div className="sticky top-0 bg-white border-b p-3 flex justify-between items-center">
+              <h2 className="font-semibold text-lg">Resumen de tu Voto</h2>
+              <button onClick={() => setMostrarResumenMobile(false)} className="text-slate-500 hover:text-slate-700 text-2xl">&times;</button>
+            </div>
+            <div className="p-3">
+              <ResumenVoto votos={votos} onReset={() => { handleReset(); setMostrarResumenMobile(false); }} />
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

@@ -1,6 +1,14 @@
 import { useState } from 'react';
 import { candidatosPresidenciales, partidosParlamentarios, configVotoPreferencial } from '../data/candidatos';
 
+const TABS = [
+  { id: 'presidente', label: 'Presidente', short: 'PRES' },
+  { id: 'senadoresNacional', label: 'Sen. Nacional', short: 'SEN-N' },
+  { id: 'senadoresRegional', label: 'Sen. Regional', short: 'SEN-R' },
+  { id: 'diputados', label: 'Diputados', short: 'DIP' },
+  { id: 'parlamenAndino', label: 'Parl. Andino', short: 'P.AND' },
+];
+
 export default function CedulaSufragio({ onVotoCompleto }) {
   const [votos, setVotos] = useState({
     presidente: null,
@@ -9,6 +17,7 @@ export default function CedulaSufragio({ onVotoCompleto }) {
     diputados: { partido: null, preferencial: ['', ''] },
     parlamenAndino: { partido: null, preferencial: ['', ''] },
   });
+  const [activeTab, setActiveTab] = useState('presidente');
 
   const handleVotoPresidente = (valor) => {
     const nuevo = votos.presidente === valor ? null : valor;
@@ -155,6 +164,29 @@ export default function CedulaSufragio({ onVotoCompleto }) {
     </div>
   );
 
+  const getVotoIndicator = (tabId) => {
+    if (tabId === 'presidente') return votos.presidente ? '✓' : '';
+    return votos[tabId]?.partido ? '✓' : '';
+  };
+
+  const renderColumnaContent = (categoria, titulo, subtitulo, numPref) => (
+    <div className="flex flex-col h-full">
+      <ColumnaHeader titulo={titulo} subtitulo={subtitulo} numPref={numPref} />
+      <div className="p-2 flex-1 lg:overflow-y-auto lg:max-h-[600px] space-y-1">
+        <VotoBlanco categoria={categoria} />
+        {categoria === 'presidente' ? (
+          candidatosPresidenciales.map((c) => (
+            <CandidatoCard key={c.id} candidato={c} selected={votos.presidente === c.id} onClick={() => handleVotoPresidente(c.id)} />
+          ))
+        ) : (
+          partidosParlamentarios.map((p) => (
+            <PartidoCardConPreferencial key={p.id} partido={p} categoria={categoria} numPreferencial={numPref ? parseInt(numPref) : 2} />
+          ))
+        )}
+      </div>
+    </div>
+  );
+
   return (
     <div className="bg-white shadow-2xl rounded-lg overflow-hidden max-w-7xl mx-auto">
       <div className="bg-slate-800 text-white p-3 text-center">
@@ -162,60 +194,47 @@ export default function CedulaSufragio({ onVotoCompleto }) {
         <p className="text-sm text-slate-300">Elecciones Generales 2026 • 12 de abril</p>
       </div>
 
-      <div className="grid grid-cols-5 divide-x divide-gray-300">
-        <div className="flex flex-col">
-          <ColumnaHeader titulo="PRESIDENTE" subtitulo="y Vicepresidentes" />
-          <div className="p-2 flex-1 overflow-y-auto max-h-[600px] space-y-1">
-            <VotoBlanco categoria="presidente" />
-            {candidatosPresidenciales.map((c) => (
-              <CandidatoCard
-                key={c.id}
-                candidato={c}
-                selected={votos.presidente === c.id}
-                onClick={() => handleVotoPresidente(c.id)}
-              />
-            ))}
-          </div>
+      {/* Mobile: Tabs */}
+      <div className="lg:hidden">
+        <div className="flex border-b border-slate-300 bg-slate-100 overflow-x-auto">
+          {TABS.map((tab) => (
+            <button
+              key={tab.id}
+              onClick={() => setActiveTab(tab.id)}
+              className={`flex-1 min-w-[70px] py-2 px-1 text-[10px] font-medium transition-colors relative ${
+                activeTab === tab.id ? 'bg-white text-slate-800 border-b-2 border-slate-700' : 'text-slate-600 hover:bg-slate-200'
+              }`}
+            >
+              {tab.short}
+              {getVotoIndicator(tab.id) && <span className="ml-1 text-green-600">✓</span>}
+            </button>
+          ))}
         </div>
-
-        <div className="flex flex-col">
-          <ColumnaHeader titulo="SENADORES" subtitulo="Distrito Nacional" numPref="2 opcionales" />
-          <div className="p-2 flex-1 overflow-y-auto max-h-[600px] space-y-1">
-            <VotoBlanco categoria="senadoresNacional" />
-            {partidosParlamentarios.map((p) => (
-              <PartidoCardConPreferencial key={p.id} partido={p} categoria="senadoresNacional" numPreferencial={2} />
-            ))}
-          </div>
+        <div>
+          {activeTab === 'presidente' && renderColumnaContent('presidente', 'PRESIDENTE', 'y Vicepresidentes', null)}
+          {activeTab === 'senadoresNacional' && renderColumnaContent('senadoresNacional', 'SENADORES', 'Distrito Nacional', '2 opcionales')}
+          {activeTab === 'senadoresRegional' && renderColumnaContent('senadoresRegional', 'SENADORES', 'Distrito Regional', '1 opcional')}
+          {activeTab === 'diputados' && renderColumnaContent('diputados', 'DIPUTADOS', 'Distrito Regional', '2 opcionales')}
+          {activeTab === 'parlamenAndino' && renderColumnaContent('parlamenAndino', 'PARLAMENTO', 'Andino', '2 opcionales')}
         </div>
+      </div>
 
+      {/* Desktop: Grid de 5 columnas */}
+      <div className="hidden lg:grid grid-cols-5 divide-x divide-gray-300">
         <div className="flex flex-col">
-          <ColumnaHeader titulo="SENADORES" subtitulo="Distrito Regional" numPref="1 opcional" />
-          <div className="p-2 flex-1 overflow-y-auto max-h-[600px] space-y-1">
-            <VotoBlanco categoria="senadoresRegional" />
-            {partidosParlamentarios.map((p) => (
-              <PartidoCardConPreferencial key={p.id} partido={p} categoria="senadoresRegional" numPreferencial={1} />
-            ))}
-          </div>
+          {renderColumnaContent('presidente', 'PRESIDENTE', 'y Vicepresidentes', null)}
         </div>
-
         <div className="flex flex-col">
-          <ColumnaHeader titulo="DIPUTADOS" subtitulo="Distrito Regional" numPref="2 opcionales" />
-          <div className="p-2 flex-1 overflow-y-auto max-h-[600px] space-y-1">
-            <VotoBlanco categoria="diputados" />
-            {partidosParlamentarios.map((p) => (
-              <PartidoCardConPreferencial key={p.id} partido={p} categoria="diputados" numPreferencial={2} />
-            ))}
-          </div>
+          {renderColumnaContent('senadoresNacional', 'SENADORES', 'Distrito Nacional', '2 opcionales')}
         </div>
-
         <div className="flex flex-col">
-          <ColumnaHeader titulo="PARLAMENTO" subtitulo="Andino" numPref="2 opcionales" />
-          <div className="p-2 flex-1 overflow-y-auto max-h-[600px] space-y-1">
-            <VotoBlanco categoria="parlamenAndino" />
-            {partidosParlamentarios.map((p) => (
-              <PartidoCardConPreferencial key={p.id} partido={p} categoria="parlamenAndino" numPreferencial={2} />
-            ))}
-          </div>
+          {renderColumnaContent('senadoresRegional', 'SENADORES', 'Distrito Regional', '1 opcional')}
+        </div>
+        <div className="flex flex-col">
+          {renderColumnaContent('diputados', 'DIPUTADOS', 'Distrito Regional', '2 opcionales')}
+        </div>
+        <div className="flex flex-col">
+          {renderColumnaContent('parlamenAndino', 'PARLAMENTO', 'Andino', '2 opcionales')}
         </div>
       </div>
 
