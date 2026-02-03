@@ -1,7 +1,30 @@
 import { useState } from 'react';
 import { candidatosPresidenciales, partidosParlamentarios } from '../data/candidatos';
+import senadoresNacionalRaw from '../data/senadoresNacional.json';
+import senadoresRegional from '../data/senadoresRegional';
 
-export default function ResumenVoto({ votos, onReset, onVotar }) {
+const JNE_FOTO = "https://mpesije.jne.gob.pe/apidocs/";
+
+// Procesar senadores nacionales
+const senadoresNacional = senadoresNacionalRaw.data
+  .filter(c => c.strEstadoCandidato === 'INSCRITO')
+  .map(c => ({
+    idOrg: c.idOrganizacionPolitica,
+    pos: c.intPosicion,
+    nombre: `${c.strNombres} ${c.strApellidoPaterno} ${c.strApellidoMaterno}`.trim(),
+    dni: c.strDocumentoIdentidad,
+    foto: c.strGuidFoto
+  }));
+
+// Buscar candidato por partido y posición
+const buscarCandidato = (idOrg, posicion, datos) => {
+  if (!posicion || !idOrg) return null;
+  const pos = parseInt(posicion);
+  if (isNaN(pos) || pos < 1) return null;
+  return datos.find(c => c.idOrg === idOrg && c.pos === pos);
+};
+
+export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionada = 'lima' }) {
   const [mostrarConfirmacion, setMostrarConfirmacion] = useState(false);
   const [votoRegistrado, setVotoRegistrado] = useState(false);
 
@@ -15,13 +38,26 @@ export default function ResumenVoto({ votos, onReset, onVotar }) {
 
   const getSeleccionPartido = (categoria) => {
     const voto = votos[categoria];
-    if (!voto) return { nombre: 'Sin selección', color: '#D1D5DB', siglas: '—', preferencial: [] };
+    if (!voto) return { nombre: 'Sin selección', color: '#D1D5DB', siglas: '—', preferencial: [], candidatos: [] };
     const valor = voto.partido;
-    if (valor === 'blanco') return { nombre: 'VOTO EN BLANCO', color: '#9CA3AF', siglas: '—', preferencial: [] };
-    if (valor === 'nulo') return { nombre: 'VOTO NULO', color: '#EF4444', siglas: '✕', preferencial: [] };
-    if (valor === null) return { nombre: 'Sin selección', color: '#D1D5DB', siglas: '—', preferencial: [] };
+    if (valor === 'blanco') return { nombre: 'VOTO EN BLANCO', color: '#9CA3AF', siglas: '—', preferencial: [], candidatos: [] };
+    if (valor === 'nulo') return { nombre: 'VOTO NULO', color: '#EF4444', siglas: '✕', preferencial: [], candidatos: [] };
+    if (valor === null) return { nombre: 'Sin selección', color: '#D1D5DB', siglas: '—', preferencial: [], candidatos: [] };
+    
     const item = partidosParlamentarios.find(i => i.id === valor);
-    return { ...(item || { nombre: 'Sin selección', color: '#D1D5DB', siglas: '—' }), preferencial: voto.preferencial.filter(p => p) };
+    const prefFiltrados = voto.preferencial.filter(p => p);
+    
+    // Buscar candidatos por número preferencial
+    let datos = [];
+    if (categoria === 'senadoresNacional') datos = senadoresNacional;
+    else if (categoria === 'senadoresRegional') datos = senadoresRegional[regionSeleccionada] || [];
+    
+    const candidatos = prefFiltrados.map(num => {
+      const c = buscarCandidato(item?.idOrg, num, datos);
+      return c ? { ...c, hojaVida: `https://votoinformado.jne.gob.pe/hoja-vida/${item.idOrg}/${c.dni}` } : null;
+    }).filter(Boolean);
+    
+    return { ...(item || { nombre: 'Sin selección', color: '#D1D5DB', siglas: '—' }), preferencial: prefFiltrados, candidatos };
   };
 
   const presidente = getSeleccionPresidente();
@@ -47,20 +83,47 @@ export default function ResumenVoto({ votos, onReset, onVotar }) {
   };
 
   const ResumenItem = ({ titulo, seleccion, compact = false }) => (
-    <div className={`flex items-center gap-2 ${compact ? 'p-2' : 'p-3'} bg-white rounded-lg shadow-sm`}>
-      <div 
-        className={`${compact ? 'w-8 h-8 text-[10px]' : 'w-10 h-10 text-xs'} rounded-full flex items-center justify-center text-white font-bold shrink-0`}
-        style={{ backgroundColor: seleccion.color }}
-      >
-        {seleccion.siglas || '—'}
+    <div className={`${compact ? 'p-2' : 'p-3'} bg-white rounded-lg shadow-sm`}>
+      <div className="flex items-center gap-2">
+        <div 
+          className={`${compact ? 'w-8 h-8 text-[10px]' : 'w-10 h-10 text-xs'} rounded-full flex items-center justify-center text-white font-bold shrink-0`}
+          style={{ backgroundColor: seleccion.color }}
+        >
+          {seleccion.siglas || '—'}
+        </div>
+        <div className="flex-1 min-w-0">
+          <p className={`${compact ? 'text-[10px]' : 'text-xs'} text-gray-500`}>{titulo}</p>
+          <p className={`font-semibold ${compact ? 'text-xs' : 'text-sm'} truncate`}>{seleccion.nombre || seleccion.partido}</p>
+        </div>
       </div>
-      <div className="flex-1 min-w-0">
-        <p className={`${compact ? 'text-[10px]' : 'text-xs'} text-gray-500`}>{titulo}</p>
-        <p className={`font-semibold ${compact ? 'text-xs' : 'text-sm'} truncate`}>{seleccion.nombre || seleccion.partido}</p>
-        {seleccion.preferencial?.length > 0 && (
-          <p className="text-[10px] text-slate-500">Pref: {seleccion.preferencial.join(', ')}</p>
-        )}
-      </div>
+      {seleccion.candidatos?.length > 0 && (
+        <div className="mt-2 space-y-1 pl-2 border-l-2 border-slate-200 ml-4">
+          {seleccion.candidatos.map((c, i) => (
+            <div key={i} className="flex items-center gap-2">
+              <img 
+                src={`${JNE_FOTO}${c.foto}.jpg`} 
+                alt={c.nombre} 
+                className="w-6 h-6 rounded-full object-cover shrink-0"
+                onError={(e) => { e.target.style.display = 'none'; }}
+              />
+              <div className="flex-1 min-w-0">
+                <p className="text-[10px] font-medium truncate">{c.nombre}</p>
+                <a 
+                  href={c.hojaVida} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-[9px] text-blue-600 hover:underline"
+                >
+                  Ver hoja de vida
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+      {seleccion.preferencial?.length > 0 && !seleccion.candidatos?.length && (
+        <p className="text-[10px] text-slate-500 mt-1 ml-12">Pref: {seleccion.preferencial.join(', ')}</p>
+      )}
     </div>
   );
 

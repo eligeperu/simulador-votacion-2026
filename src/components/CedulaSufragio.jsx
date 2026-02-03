@@ -1,5 +1,26 @@
 import { useState } from 'react';
 import { candidatosPresidenciales, partidosParlamentarios, configVotoPreferencial } from '../data/candidatos';
+import senadoresNacionalRaw from '../data/senadoresNacional.json';
+import senadoresRegional from '../data/senadoresRegional';
+
+// Procesar datos de senadores nacionales (filtrar INSCRITO y mapear campos)
+const senadoresNacional = senadoresNacionalRaw.data
+  .filter(c => c.strEstadoCandidato === 'INSCRITO')
+  .map(c => ({
+    idOrg: c.idOrganizacionPolitica,
+    pos: c.intPosicion,
+    nombre: `${c.strNombres} ${c.strApellidoPaterno} ${c.strApellidoMaterno}`.trim(),
+    dni: c.strDocumentoIdentidad,
+    foto: c.strGuidFoto
+  }));
+
+// Función para buscar candidato por partido y número de posición
+const buscarCandidato = (idOrg, posicion, datos) => {
+  if (!posicion || !idOrg) return null;
+  const pos = parseInt(posicion);
+  if (isNaN(pos) || pos < 1) return null;
+  return datos.find(c => c.idOrg === idOrg && c.pos === pos);
+};
 
 const TABS = [
   { id: 'presidente', label: 'Presidente', short: 'PRES' },
@@ -99,6 +120,13 @@ export default function CedulaSufragio({ onVotoCompleto }) {
     const voto = votos[categoria];
     const selected = voto.partido === partido.id;
     
+    // Obtener datos de candidatos según categoría
+    const getDatosCandidatos = () => {
+      if (categoria === 'senadoresNacional') return senadoresNacional;
+      if (categoria === 'senadoresRegional') return senadoresRegional['lima'] || [];
+      return [];
+    };
+    
     return (
       <div className={`p-2 border rounded transition-all ${
         selected ? 'border-slate-700 bg-slate-50 ring-1 ring-slate-400' : 'border-slate-200 bg-white'
@@ -121,19 +149,33 @@ export default function CedulaSufragio({ onVotoCompleto }) {
           </div>
         </div>
         {selected && (
-          <div className="mt-2 flex gap-1 justify-end">
-            <span className="text-[10px] text-gray-500 self-center">Nº Pref:</span>
-            {voto.preferencial.slice(0, numPreferencial).map((val, i) => (
-              <input
-                key={i}
-                type="text"
-                value={val}
-                onChange={(e) => handleVotoPreferencial(categoria, i, e.target.value)}
-                placeholder={`${i + 1}`}
-                className="w-10 h-6 text-center text-xs border border-slate-300 rounded focus:ring-1 focus:ring-slate-500 focus:border-slate-500 focus:outline-none"
-                maxLength={3}
-              />
-            ))}
+          <div className="mt-2 space-y-1">
+            <div className="flex gap-1 justify-end items-center">
+              <span className="text-[10px] text-gray-500">Nº Pref:</span>
+              {voto.preferencial.slice(0, numPreferencial).map((val, i) => {
+                const candidato = buscarCandidato(partido.idOrg, val, getDatosCandidatos());
+                return (
+                  <div key={i} className="flex flex-col items-center">
+                    <input
+                      type="text"
+                      value={val}
+                      onChange={(e) => handleVotoPreferencial(categoria, i, e.target.value)}
+                      placeholder={`${i + 1}`}
+                      className="w-10 h-6 text-center text-xs border border-slate-300 rounded focus:ring-1 focus:ring-slate-500 focus:border-slate-500 focus:outline-none"
+                      maxLength={3}
+                    />
+                    {candidato && (
+                      <span className="text-[8px] text-green-700 font-medium mt-0.5 max-w-[60px] truncate" title={candidato.nombre}>
+                        {candidato.nombre.split(' ').slice(0, 2).join(' ')}
+                      </span>
+                    )}
+                    {val && !candidato && getDatosCandidatos().length > 0 && (
+                      <span className="text-[8px] text-red-500 mt-0.5">No existe</span>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
           </div>
         )}
       </div>
