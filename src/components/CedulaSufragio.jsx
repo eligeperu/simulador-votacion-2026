@@ -48,7 +48,7 @@ const CandidatoCard = ({ candidato, selected, onClick }) => (
     onClick={onClick}
     className={`flex items-center gap-2 p-1.5 border-b border-gray-300 min-h-[50px] cursor-pointer bg-white transition-opacity hover:opacity-90 min-w-full`}
   >
-    <div className="flex-1 text-left max-w-[63px] sm:max-w-[76px]">
+    <div className="flex-1 text-left lg:max-w-[76px]">
       <h3 className="font-bold text-[9px] sm:text-[10px] uppercase leading-tight text-black break-words pr-1">
         {candidato.partido}
       </h3>
@@ -111,7 +111,7 @@ const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto,
   return (
     <div className={`flex items-center gap-2 p-1.5 border-b border-gray-300 min-h-[50px] bg-white transition-opacity hover:opacity-90 min-w-full`}>
       <div
-        className="flex-1 text-left cursor-pointer max-w-[63px] sm:max-w-[76px]"
+        className="flex-1 text-left cursor-pointer lg:max-w-[76px]"
         onClick={() => onVotoPartido(categoria, partido.id)}
       >
         <h3 className="font-bold text-[9px] sm:text-[10px] uppercase leading-tight text-black break-words pr-2">
