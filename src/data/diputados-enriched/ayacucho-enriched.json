@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-02-07T07:20:38.900Z",
+  "fetchedAt": "2026-02-07T21:06:30.407Z",
   "idProcesoElectoral": 124,
-  "count": 97,
+  "count": 99,
   "data": [
     {
       "dni": "42466580",
@@ -15,6 +15,7 @@
       "fechaNacimiento": "21/02/1984",
       "lugarNacimiento": "HUANCAPI, VICTOR FAJARDO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -114,6 +115,7 @@
       "fechaNacimiento": "21/12/1975",
       "lugarNacimiento": "ECHARATE, LA CONVENCION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -505,6 +507,7 @@
       "fechaNacimiento": "16/05/1978",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -905,6 +908,7 @@
       "fechaNacimiento": "22/11/1956",
       "lugarNacimiento": "PUQUIO, LUCANAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1099,6 +1103,7 @@
       "fechaNacimiento": "16/10/1972",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1221,6 +1226,7 @@
       "fechaNacimiento": "30/01/1983",
       "lugarNacimiento": "HUANTA, HUANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1572,6 +1578,7 @@
       "fechaNacimiento": "05/09/1989",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1728,6 +1735,7 @@
       "fechaNacimiento": "12/09/1975",
       "lugarNacimiento": "PUEBLO LIBRE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1933,6 +1941,7 @@
       "fechaNacimiento": "21/07/1975",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2225,6 +2234,7 @@
       "fechaNacimiento": "28/01/1966",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2563,6 +2573,7 @@
       "fechaNacimiento": "31/10/1962",
       "lugarNacimiento": "CABANA, LUCANAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2867,6 +2878,7 @@
       "fechaNacimiento": "23/05/1985",
       "lugarNacimiento": "SAN MIGUEL, LA MAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3054,6 +3066,7 @@
       "fechaNacimiento": "25/11/1977",
       "lugarNacimiento": "AYNA, LA MAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3322,6 +3335,7 @@
       "fechaNacimiento": "12/02/1977",
       "lugarNacimiento": "CHUNGUI, LA MAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3450,6 +3464,7 @@
       "fechaNacimiento": "18/07/1967",
       "lugarNacimiento": "HUAMANGUILLA, HUANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3737,6 +3752,7 @@
       "fechaNacimiento": "12/09/1993",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3899,6 +3915,7 @@
       "fechaNacimiento": "13/06/1998",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3974,6 +3991,7 @@
       "fechaNacimiento": "26/04/1991",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4071,6 +4089,7 @@
       "fechaNacimiento": "21/09/1988",
       "lugarNacimiento": "CHUNGUI, LA MAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4320,6 +4339,7 @@
       "fechaNacimiento": "06/06/1970",
       "lugarNacimiento": "PUQUIO, LUCANAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4509,6 +4529,7 @@
       "fechaNacimiento": "19/11/1983",
       "lugarNacimiento": "HUANCARAYLLA, VICTOR FAJARDO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4754,6 +4775,7 @@
       "fechaNacimiento": "22/06/1970",
       "lugarNacimiento": "HUANCAPI, VICTOR FAJARDO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4871,6 +4893,7 @@
       "fechaNacimiento": "05/08/1975",
       "lugarNacimiento": "MARIA PARADO DE BELLIDO, CANGALLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4974,6 +4997,278 @@
       "resoluciones": []
     },
     {
+      "dni": "28270360",
+      "idHojaVida": 251396,
+      "idOrg": 2930,
+      "nombre": "BERTHA TEODOSIA CERVANTES ENCISO",
+      "partido": "PARTIDO APRISTA PERUANO",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/3c32c8c2-3500-49ed-800a-ab4a2dce5ffa.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "29/10/1954",
+      "lugarNacimiento": "RIMAC, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "BACHILLER EN OBSTETRICIA",
+        "institucion": "Universidad Nacional de San Cristóbal de Huamanga",
+        "ingresos2024": 7200,
+        "experienciaActual": "Secretaria II"
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 236666,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": null,
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 251396,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 196672,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional de San Cristóbal de Huamanga",
+            "carreraUni": "BACHILLER EN OBSTETRICIA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2022",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 196673,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional de San Cristóbal de Huamanga",
+            "carreraUni": "OBSTETRA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2024",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 197283,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "3",
+            "eduUniversitaria": "1",
+            "universidad": "UNIVERSIDAD SAN CRISTOBAL DE HUAMANGA - AYACUCHO",
+            "carreraUni": "TITULO PROFESIONAL  DE OBSTETRA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2024",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 197288,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "4",
+            "eduUniversitaria": "1",
+            "universidad": "UNIVERSIDAD SAN CRISTOBAL DE HUAMANGA - AYACUCHO",
+            "carreraUni": "TITULO PROFESIONAL  DE OBSTETRA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2024",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": "NINGUNO"
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 265506,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "Ministerio de Agricultura Unidad Agraria Departamental XVIII - Ayacucho",
+          "ocupacionProfesion": "Secretaria II",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Jr   9  de Diciembre Huamanga Ayacucho",
+          "anioTrabajoDesde": "1981",
+          "anioTrabajoHasta": "1992",
+          "ubigeoTrabajo": "050101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "AYACUCHO",
+          "trabajoProvincia": "HUAMANGA",
+          "trabajoDistrito": "AYACUCHO",
+          "idHojaVida": 251396,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "Ingrese al Ministerio de Agricultura  Unidad Agraria Departamental XVIII Ayacucho en el año 1980 No recuerdo el Nro de RUC,\nrenuncie al Ministerio de Agricultura en el año 1989"
+        },
+        {
+          "idHvExpeLaboral": 265515,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 2,
+          "centroTrabajo": "Banco Industrial del Perú - Sucursal Ayacucho",
+          "ocupacionProfesion": "1.-  Operadora de Telex  2.- Recibidor Pagador",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Jr. Asamblea 2da Cuadra",
+          "anioTrabajoDesde": "1989",
+          "anioTrabajoHasta": "1992",
+          "ubigeoTrabajo": "050101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "AYACUCHO",
+          "trabajoProvincia": "HUAMANGA",
+          "trabajoDistrito": "AYACUCHO",
+          "idHojaVida": 251396,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "- Fui CESADA en el gobierno de Fujimori  el año 1992\n- -No recuerdo Nro de RUC."
+        },
+        {
+          "idHvExpeLaboral": 265528,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 3,
+          "centroTrabajo": "Programa de Apoyo al Repoblamiento y Desarrollo de Zonas de Emergencia PAR-Ayacucho",
+          "ocupacionProfesion": "Secretaria de la Oficina de Administración",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Jr. 9 de Diciembre 4ta cuadra",
+          "anioTrabajoDesde": "1993",
+          "anioTrabajoHasta": "2003",
+          "ubigeoTrabajo": "050101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "AYACUCHO",
+          "trabajoProvincia": "HUAMANGA",
+          "trabajoDistrito": "AYACUCHO",
+          "idHojaVida": 251396,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "No recuerdo el Numero de Ruc"
+        },
+        {
+          "idHvExpeLaboral": 265540,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 4,
+          "centroTrabajo": "Municipalidad Provincial de Huamanga",
+          "ocupacionProfesion": "Secretaria",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Portal Municipal",
+          "anioTrabajoDesde": "2005",
+          "anioTrabajoHasta": "2017",
+          "ubigeoTrabajo": "050101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "AYACUCHO",
+          "trabajoProvincia": "HUAMANGA",
+          "trabajoDistrito": "AYACUCHO",
+          "idHojaVida": 251396,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 265580,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 5,
+          "centroTrabajo": "Centro de Salud Los Licenciados",
+          "ocupacionProfesion": "Obstetra - Titulada Colegiada",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Urbanización Los Licenciados  Mz. E lt. 18",
+          "anioTrabajoDesde": "2025",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "050101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "AYACUCHO",
+          "trabajoProvincia": "HUAMANGA",
+          "trabajoDistrito": "AYACUCHO",
+          "idHojaVida": 251396,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "A la fecha trabajo en la Posta de Salud LOS LICENCIADOS y estoy como Obstetra  en SERUM EQUIVALENTE. No recuerdo N de RUC.\nHe trabajado en Educación :\n1.-Dirección Regional de Educación de Ayacucho SAN RAMÓN   Ayacucho Huamanga  Resolución Directoral Regional N° 0438 -  06 de Junio 2094.\n- Institución Educativa FE Y ALEGRIA 50 P. Carlos Schmidt  San Juan Bautista  - Secundaria Resolución Directoral N 03618-2015\n- Institución Educativa PRITE - Ayacucho E.B.E. Inicial Intermedia - 2016   Niños Esp"
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 210779,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 7200,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 251396,
+            "idEstado": 1,
+            "totalIngresos": 7200
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 258784,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "CASA FAMILIAR",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "JR. CALLAO 405 AYACUCHO - HUAMANGA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "0001614602",
+            "fichaTomoSunarp": null,
+            "autovaluo": 300,
+            "idHojaVida": 251396,
+            "idEstado": 1,
+            "flValor": "2750"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
       "dni": "40910595",
       "idHojaVida": 247751,
       "idOrg": 2925,
@@ -4985,6 +5280,7 @@
       "fechaNacimiento": "25/04/1981",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5253,6 +5549,7 @@
       "fechaNacimiento": "31/03/1988",
       "lugarNacimiento": "SARHUA, VICTOR FAJARDO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5500,6 +5797,7 @@
       "fechaNacimiento": "29/11/1986",
       "lugarNacimiento": "AYNA, LA MAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5657,6 +5955,7 @@
       "fechaNacimiento": "07/03/1982",
       "lugarNacimiento": "CANGALLO, CANGALLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6401,6 +6700,7 @@
       "fechaNacimiento": "02/01/1988",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6564,6 +6864,7 @@
       "fechaNacimiento": "14/07/1975",
       "lugarNacimiento": "CANGALLO, CANGALLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6801,6 +7102,7 @@
       "fechaNacimiento": "06/04/1997",
       "lugarNacimiento": "ATE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6879,6 +7181,7 @@
       "fechaNacimiento": "19/11/1975",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7164,6 +7467,7 @@
       "fechaNacimiento": "11/03/1998",
       "lugarNacimiento": "HUAMANGUILLA, HUANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7281,6 +7585,7 @@
       "fechaNacimiento": "08/02/1987",
       "lugarNacimiento": "HUANTA, HUANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7477,6 +7782,7 @@
       "fechaNacimiento": "21/03/1998",
       "lugarNacimiento": "AYNA, LA MAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7654,6 +7960,7 @@
       "fechaNacimiento": "09/12/1988",
       "lugarNacimiento": "AYNA, LA MAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7789,6 +8096,7 @@
       "fechaNacimiento": "05/02/1959",
       "lugarNacimiento": "HUANTA, HUANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7896,6 +8204,7 @@
       "fechaNacimiento": "09/07/1982",
       "lugarNacimiento": "VINCHOS, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8018,6 +8327,7 @@
       "fechaNacimiento": "30/05/1996",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8092,6 +8402,7 @@
       "fechaNacimiento": "06/11/1978",
       "lugarNacimiento": "HUANTA, HUANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8366,6 +8677,7 @@
       "fechaNacimiento": "13/09/1987",
       "lugarNacimiento": "SAN LUIS, CARLOS FERMIN FITZCARRALD",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8477,6 +8789,7 @@
       "fechaNacimiento": "24/12/1948",
       "lugarNacimiento": "CANGALLO, CANGALLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8658,6 +8971,7 @@
       "fechaNacimiento": "08/05/1969",
       "lugarNacimiento": "CANGALLO, CANGALLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8998,6 +9312,7 @@
       "fechaNacimiento": "16/06/1980",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9149,6 +9464,7 @@
       "fechaNacimiento": "28/10/1944",
       "lugarNacimiento": "",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9356,6 +9672,7 @@
       "fechaNacimiento": "21/06/1987",
       "lugarNacimiento": "CHANCHAMAYO, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9508,6 +9825,7 @@
       "fechaNacimiento": "06/12/1977",
       "lugarNacimiento": "CHUQUIBAMBA, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9570,6 +9888,7 @@
       "fechaNacimiento": "11/08/1988",
       "lugarNacimiento": "HUARMEY, HUARMEY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9632,6 +9951,7 @@
       "fechaNacimiento": "11/06/1983",
       "lugarNacimiento": "HUAMACHUCO, SANCHEZ CARRION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9684,6 +10004,7 @@
       "fechaNacimiento": "16/12/1976",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9972,6 +10293,7 @@
       "fechaNacimiento": "29/08/1979",
       "lugarNacimiento": "HUANTA, HUANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10484,6 +10806,7 @@
       "fechaNacimiento": "29/09/1982",
       "lugarNacimiento": "VILCAS HUAMAN, VILCAS HUAMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10798,6 +11121,7 @@
       "fechaNacimiento": "10/09/1958",
       "lugarNacimiento": "SANTA ANA DE HUAYCAHUACHO, LUCANAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": false,
@@ -11102,6 +11426,7 @@
       "fechaNacimiento": "25/09/1994",
       "lugarNacimiento": "ICA, ICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11176,6 +11501,7 @@
       "fechaNacimiento": "02/09/1996",
       "lugarNacimiento": "SANTA ANA DE HUAYCAHUACHO, LUCANAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11350,6 +11676,7 @@
       "fechaNacimiento": "26/01/1969",
       "lugarNacimiento": "PISCO, PISCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11517,6 +11844,7 @@
       "fechaNacimiento": "28/05/1984",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11753,6 +12081,7 @@
       "fechaNacimiento": "24/11/1964",
       "lugarNacimiento": "HUANTA, HUANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12289,6 +12618,7 @@
       "fechaNacimiento": "29/12/1989",
       "lugarNacimiento": "VILCAS HUAMAN, VILCAS HUAMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12423,6 +12753,7 @@
       "fechaNacimiento": "10/08/1979",
       "lugarNacimiento": "ANDAHUAYLAS, ANDAHUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12591,6 +12922,7 @@
       "fechaNacimiento": "11/07/1989",
       "lugarNacimiento": "VISTA ALEGRE, NASCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12686,6 +13018,7 @@
       "fechaNacimiento": "04/06/1980",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12817,6 +13150,7 @@
       "fechaNacimiento": "15/12/1964",
       "lugarNacimiento": "HUANTA, HUANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12939,6 +13273,7 @@
       "fechaNacimiento": "10/10/1991",
       "lugarNacimiento": "HUANTA, HUANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13025,6 +13360,7 @@
       "fechaNacimiento": "21/03/1994",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13281,6 +13617,7 @@
       "fechaNacimiento": "15/03/1994",
       "lugarNacimiento": "TAMBO, LA MAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13359,6 +13696,7 @@
       "fechaNacimiento": "03/09/1986",
       "lugarNacimiento": "HUANCAPI, VICTOR FAJARDO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13437,6 +13775,7 @@
       "fechaNacimiento": "02/08/1980",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13605,6 +13944,7 @@
       "fechaNacimiento": "10/11/1977",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13836,6 +14176,7 @@
       "fechaNacimiento": "26/04/1978",
       "lugarNacimiento": "SAN MIGUEL DE CHACCRAMPA, ANDAHUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14082,6 +14423,7 @@
       "fechaNacimiento": "12/01/1974",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14230,6 +14572,7 @@
       "fechaNacimiento": "14/01/1996",
       "lugarNacimiento": "ANCO, LA MAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14292,6 +14635,7 @@
       "fechaNacimiento": "25/06/1959",
       "lugarNacimiento": "HUANTA, HUANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14468,6 +14812,7 @@
       "fechaNacimiento": "26/02/1969",
       "lugarNacimiento": "HUANTA, HUANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14814,6 +15159,7 @@
       "fechaNacimiento": "27/08/1977",
       "lugarNacimiento": "ACCOMARCA, VILCAS HUAMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15646,6 +15992,7 @@
       "fechaNacimiento": "04/08/1977",
       "lugarNacimiento": "SANTILLANA, HUANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15987,6 +16334,7 @@
       "fechaNacimiento": "15/02/1993",
       "lugarNacimiento": "HUANTA, HUANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16157,6 +16505,7 @@
       "fechaNacimiento": "13/04/1980",
       "lugarNacimiento": "HUANTA, HUANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16538,6 +16887,7 @@
       "fechaNacimiento": "24/09/1987",
       "lugarNacimiento": "SAN MARTIN DE PORRES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16770,6 +17120,7 @@
       "fechaNacimiento": "20/11/1982",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17070,6 +17421,7 @@
       "fechaNacimiento": "15/10/1973",
       "lugarNacimiento": "HUANTA, HUANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17380,6 +17732,7 @@
       "fechaNacimiento": "31/01/1982",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17597,6 +17950,332 @@
       "resoluciones": []
     },
     {
+      "dni": "10494090",
+      "idHojaVida": 255196,
+      "idOrg": 2930,
+      "nombre": "ROBERTO ALDORADIN VALENCIA",
+      "partido": "PARTIDO APRISTA PERUANO",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/06919854-34a3-4aad-b9c9-f3d01f1fa944.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "05/02/1946",
+      "lugarNacimiento": "CHIPAO, LUCANAS",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "GINECÓLOGA",
+        "institucion": "UNIVERSIDAD NACIONAL MAYOR DE SAN MARCOS",
+        "ingresos2024": 68400,
+        "experienciaActual": "MEDICO"
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241070,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 255196,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 202411,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Mayor de San Marcos",
+            "carreraUni": "MEDICO CIRUJANO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1976",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 146411,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "UNIVERSIDAD NACIONAL MAYOR DE SAN MARCOS",
+            "txEspecialidadPosgrado": "GINECÓLOGA",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "NO",
+            "esDoctor": "NO",
+            "txAnioPosgrado": null,
+            "idHojaVida": 255196,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": "POR 3 AÑOS 1979-1980-1981",
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": [
+          {
+            "idHvPosgradoOtro": 2800,
+            "tengoPosgradoOtro": "SI",
+            "nuItemPosgradoOtro": 1,
+            "txCenEstudioPosgradoOtro": "UNIVERSIDAD SAN IGNACION DE LOYOLA",
+            "txEspecialidadPosgradoOtro": "EMERGENCIAS OBSTETRICAS",
+            "concluidoPosgradoOtro": "SI",
+            "egresadoPosgradoOtro": "SI",
+            "txGrado": "--",
+            "txAnioPosgradoOtro": "2000",
+            "idHojaVida": 255196,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ]
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 273825,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "HOSPITAL CARRION CALZA",
+          "ocupacionProfesion": "MEDICO",
+          "rucTrabajo": null,
+          "direccionTrabajo": "AV GUARDIA CHALACA S/N",
+          "anioTrabajoDesde": "1981",
+          "anioTrabajoHasta": "2016",
+          "ubigeoTrabajo": "240102",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "CALLAO",
+          "trabajoProvincia": "CALLAO",
+          "trabajoDistrito": "BELLAVISTA",
+          "idHojaVida": 255196,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 214149,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 48000,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 20400,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 255196,
+            "idEstado": 1,
+            "totalIngresos": 68400
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 265191,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "LUCANAS-CHIPAO- MZ 38 LOTE 7    SECTOR PUQUIOTUNA - CENTRO POBLADO CHIPAO",
+            "comentario": "CASA RURAL VALORES REFERENCIALES",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P11099318",
+            "fichaTomoSunarp": null,
+            "autovaluo": 16000,
+            "idHojaVida": 255196,
+            "idEstado": 1,
+            "flValor": "60000"
+          },
+          {
+            "idHvBienInmueble": 265192,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "#########",
+            "comentario": "PREDIO RURAL CHACRA, QUE FUE VENDIDO EN EL AÑO 2022 APROX",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P11099318",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 255196,
+            "idEstado": 1,
+            "flValor": "0"
+          },
+          {
+            "idHvBienInmueble": 265193,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 3,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "JIRON SANTIAGO ANTÚNEZ DE MAYOLO MZ B  LOTE 21  N° 1 - PRIMER Y SEGUNDO PISO URB PABLO BONER LA MOLINA - LIMA - LIMA",
+            "comentario": "VALORES APROXIMADOS",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "13782414",
+            "fichaTomoSunarp": null,
+            "autovaluo": 200000,
+            "idHojaVida": 255196,
+            "idEstado": 1,
+            "flValor": "2040000"
+          },
+          {
+            "idHvBienInmueble": 265194,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 4,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "JIRON SANTIAGO ANTÚNEZ DE MAYOLO MZ B  LOTE 21  N° 2 - TERCER PISO Y AZOTEA URB PABLO BONER LA MOLINA - LIMA - LIMA",
+            "comentario": "VALORES REFERENCIALES APROXIMADOS",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "13782415",
+            "fichaTomoSunarp": null,
+            "autovaluo": 100000,
+            "idHojaVida": 255196,
+            "idEstado": 1,
+            "flValor": "544000"
+          },
+          {
+            "idHvBienInmueble": 265195,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 5,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "JIRON SANTIAGO ANTÚNEZ DE MAYOLO MZ B  LOTE 21 ESTAC N° 1 - PRIMER PISO URB PABLO BONER LA MOLINA - LIMA - LIMA",
+            "comentario": "VALORES APROXIMADOS",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "13782416",
+            "fichaTomoSunarp": null,
+            "autovaluo": 20000,
+            "idHojaVida": 255196,
+            "idEstado": 1,
+            "flValor": "60000"
+          },
+          {
+            "idHvBienInmueble": 265196,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 6,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "JIRON SANTIAGO ANTÚNEZ DE MAYOLO MZ B  LOTE 21 ESTAC N° 3 - PRIMER PISO URB PABLO BONER LA MOLINA - LIMA - LIMA",
+            "comentario": "VALORES APROXIMADOS",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "13782418",
+            "fichaTomoSunarp": null,
+            "autovaluo": 20000,
+            "idHojaVida": 255196,
+            "idEstado": 1,
+            "flValor": "60000"
+          },
+          {
+            "idHvBienInmueble": 265197,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 7,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "JIRON SANTIAGO ANTÚNEZ DE MAYOLO MZ B  LOTE 21 ESTAC N° 2 - PRIMER PISO URB PABLO BONER LA MOLINA - LIMA - LIMA",
+            "comentario": "VALORES APROXIMADOS",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "13782417",
+            "fichaTomoSunarp": null,
+            "autovaluo": 20000,
+            "idHojaVida": 255196,
+            "idEstado": 1,
+            "flValor": "60000"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 215063,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "CHI085 ",
+            "valor": 63000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "CAMIONETA",
+            "comentario": "AÑO 2024",
+            "idHojaVida": 255196,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
       "dni": "46211169",
       "idHojaVida": 254405,
       "idOrg": 2925,
@@ -17608,6 +18287,7 @@
       "fechaNacimiento": "20/01/1990",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17979,6 +18659,7 @@
       "fechaNacimiento": "25/12/1979",
       "lugarNacimiento": "PICHARI, LA CONVENCION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18230,6 +18911,7 @@
       "fechaNacimiento": "18/07/1983",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18519,6 +19201,7 @@
       "fechaNacimiento": "25/04/1966",
       "lugarNacimiento": "HUANTA, HUANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18663,6 +19346,7 @@
       "fechaNacimiento": "06/02/1960",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18725,6 +19409,7 @@
       "fechaNacimiento": "19/09/1969",
       "lugarNacimiento": "BELLAVISTA, CALLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": true,
@@ -19255,6 +19940,7 @@
       "fechaNacimiento": "03/02/1975",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19690,6 +20376,7 @@
       "fechaNacimiento": "30/10/1982",
       "lugarNacimiento": "PARAS, CANGALLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19921,6 +20608,7 @@
       "fechaNacimiento": "28/04/1984",
       "lugarNacimiento": "TUMBES, TUMBES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20018,6 +20706,7 @@
       "fechaNacimiento": "13/01/1971",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20367,6 +21056,7 @@
       "fechaNacimiento": "20/09/2000",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20429,6 +21119,7 @@
       "fechaNacimiento": "19/04/1980",
       "lugarNacimiento": "ACOCRO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20491,6 +21182,7 @@
       "fechaNacimiento": "01/01/1969",
       "lugarNacimiento": "LUCANAS, LUCANAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": false,
@@ -20643,6 +21335,7 @@
       "fechaNacimiento": "25/10/1993",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20977,6 +21670,7 @@
       "fechaNacimiento": "15/11/1973",
       "lugarNacimiento": "HUACHO, HUAURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21239,6 +21933,7 @@
       "fechaNacimiento": "13/04/1972",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,

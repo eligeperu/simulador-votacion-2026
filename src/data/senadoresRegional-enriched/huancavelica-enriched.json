@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-02-07T05:56:33.172Z",
+  "fetchedAt": "2026-02-07T19:59:41.953Z",
   "idProcesoElectoral": 124,
-  "count": 43,
+  "count": 44,
   "data": [
     {
       "dni": "41997711",
@@ -15,6 +15,7 @@
       "fechaNacimiento": "11/04/1978",
       "lugarNacimiento": "CASTROVIRREYNA, CASTROVIRREYNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -100,6 +101,7 @@
       "fechaNacimiento": "09/07/1977",
       "lugarNacimiento": "HUANCAVELICA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -162,6 +164,7 @@
       "fechaNacimiento": "19/05/1977",
       "lugarNacimiento": "HUANCAVELICA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -296,6 +299,7 @@
       "fechaNacimiento": "27/02/1967",
       "lugarNacimiento": "PAMPAS, TAYACAJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -484,6 +488,7 @@
       "fechaNacimiento": "11/02/1975",
       "lugarNacimiento": "PAMPAS, TAYACAJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -623,6 +628,7 @@
       "fechaNacimiento": "02/03/1980",
       "lugarNacimiento": "CHANCHAMAYO, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -739,6 +745,7 @@
       "fechaNacimiento": "19/05/1972",
       "lugarNacimiento": "IZCUCHACA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1109,6 +1116,7 @@
       "fechaNacimiento": "07/12/1977",
       "lugarNacimiento": "HUANCAVELICA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1273,6 +1281,7 @@
       "fechaNacimiento": "24/03/1972",
       "lugarNacimiento": "HUANCAVELICA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1533,6 +1542,7 @@
       "fechaNacimiento": "07/02/1957",
       "lugarNacimiento": "ROSARIO, ACOBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1632,6 +1642,7 @@
       "fechaNacimiento": "09/07/1978",
       "lugarNacimiento": "DANIEL HERNANDEZ, TAYACAJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1853,6 +1864,7 @@
       "fechaNacimiento": "04/12/1977",
       "lugarNacimiento": "IZCUCHACA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2067,6 +2079,7 @@
       "fechaNacimiento": "23/12/1967",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2201,6 +2214,7 @@
       "fechaNacimiento": "04/06/1976",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2540,6 +2554,7 @@
       "fechaNacimiento": "03/07/1971",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2602,6 +2617,7 @@
       "fechaNacimiento": "01/11/1967",
       "lugarNacimiento": "HUANCAVELICA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2912,6 +2928,7 @@
       "fechaNacimiento": "17/06/1968",
       "lugarNacimiento": "YAULI, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3183,6 +3200,7 @@
       "fechaNacimiento": "21/08/1975",
       "lugarNacimiento": "SALCABAMBA, TAYACAJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3333,6 +3351,7 @@
       "fechaNacimiento": "24/10/1972",
       "lugarNacimiento": "YAULI, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3612,6 +3631,7 @@
       "fechaNacimiento": "14/03/1968",
       "lugarNacimiento": "HUANCAVELICA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3965,6 +3985,7 @@
       "fechaNacimiento": "25/09/1964",
       "lugarNacimiento": "VILCA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4071,6 +4092,7 @@
       "fechaNacimiento": "02/08/1949",
       "lugarNacimiento": "CARHUAZ, CARHUAZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4133,6 +4155,7 @@
       "fechaNacimiento": "03/10/1959",
       "lugarNacimiento": "PAUCARA, ACOBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4235,6 +4258,7 @@
       "fechaNacimiento": "18/05/1968",
       "lugarNacimiento": "HUANCAVELICA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4347,6 +4371,7 @@
       "fechaNacimiento": "02/03/1980",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4498,6 +4523,7 @@
       "fechaNacimiento": "26/03/1966",
       "lugarNacimiento": "HUANCAVELICA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4674,6 +4700,7 @@
       "fechaNacimiento": "26/05/1959",
       "lugarNacimiento": "EL CARMEN, CHURCAMPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4752,6 +4779,7 @@
       "fechaNacimiento": "23/07/1947",
       "lugarNacimiento": "",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4883,6 +4911,7 @@
       "fechaNacimiento": "05/01/1977",
       "lugarNacimiento": "HUANCAVELICA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5017,6 +5046,7 @@
       "fechaNacimiento": "22/03/1970",
       "lugarNacimiento": "TOCMOCHE, CHOTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5116,6 +5146,7 @@
       "fechaNacimiento": "02/07/1969",
       "lugarNacimiento": "MARISCAL CACERES, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5427,6 +5458,7 @@
       "fechaNacimiento": "02/04/1961",
       "lugarNacimiento": "CASTROVIRREYNA, CASTROVIRREYNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5859,6 +5891,7 @@
       "fechaNacimiento": "24/04/1966",
       "lugarNacimiento": "YAULI, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5987,6 +6020,7 @@
       "fechaNacimiento": "16/08/1974",
       "lugarNacimiento": "HUANCAVELICA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6289,6 +6323,7 @@
       "fechaNacimiento": "01/07/1965",
       "lugarNacimiento": "CAJA, ACOBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6569,6 +6604,7 @@
       "fechaNacimiento": "17/06/1962",
       "lugarNacimiento": "SAN PABLO, SAN PABLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6808,6 +6844,98 @@
       "resoluciones": []
     },
     {
+      "dni": "10760573",
+      "idHojaVida": 255548,
+      "idOrg": 2857,
+      "nombre": "IRASEMA ROXANA PONCE ROSADO",
+      "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/3811e59d-38f2-4f3f-a21e-c2569029a2e5.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "29/05/1964",
+      "lugarNacimiento": "MOLLENDO, ISLAY",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": null,
+        "institucion": null,
+        "ingresos2024": 0,
+        "experienciaActual": null
+      },
+      "trayectoria": {
+        "cargoPartidario": [
+          {
+            "idHvCargoPartidario": 147183,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 1,
+            "idOrgPolCargoPartidario": 2857,
+            "orgPolCargoPartidario": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+            "cargoPartidario": "SUPLENTE - VICE PRESIDENTE COMISIÓN NACIONAL ELECTORA",
+            "anioCargoPartiDesde": "2025",
+            "anioCargoPartiHasta": "HASTA LA ACTUALIDAD",
+            "idHojaVida": 255548,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvCargoPartidario": 147184,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 2,
+            "idOrgPolCargoPartidario": 2857,
+            "orgPolCargoPartidario": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+            "cargoPartidario": "SUPLENTE DE LA COMISIÓN NACIONAL ELECTORAL",
+            "anioCargoPartiDesde": "2022",
+            "anioCargoPartiHasta": "2025",
+            "idHojaVida": 255548,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242337,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 255548,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
       "dni": "23261994",
       "idHojaVida": 254891,
       "idOrg": 2930,
@@ -6819,6 +6947,7 @@
       "fechaNacimiento": "28/08/1968",
       "lugarNacimiento": "HUANCAVELICA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7088,6 +7217,7 @@
       "fechaNacimiento": "28/01/1969",
       "lugarNacimiento": "ROSARIO, ACOBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7187,6 +7317,7 @@
       "fechaNacimiento": "14/02/1970",
       "lugarNacimiento": "ACORIA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7296,6 +7427,7 @@
       "fechaNacimiento": "09/03/1965",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7419,6 +7551,7 @@
       "fechaNacimiento": "12/07/1967",
       "lugarNacimiento": "HUANCAVELICA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7809,6 +7942,7 @@
       "fechaNacimiento": "23/04/1975",
       "lugarNacimiento": "SAN PEDRO DE CORIS, CHURCAMPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8053,6 +8187,7 @@
       "fechaNacimiento": "11/01/1973",
       "lugarNacimiento": "HUANCAVELICA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,

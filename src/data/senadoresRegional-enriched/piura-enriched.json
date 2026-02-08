@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-02-07T06:38:02.090Z",
+  "fetchedAt": "2026-02-07T20:32:50.332Z",
   "idProcesoElectoral": 124,
   "count": 56,
   "data": [
@@ -15,6 +15,7 @@
       "fechaNacimiento": "12/02/1974",
       "lugarNacimiento": "PIURA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -77,6 +78,7 @@
       "fechaNacimiento": "06/09/1968",
       "lugarNacimiento": "PIURA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -291,6 +293,7 @@
       "fechaNacimiento": "02/06/1970",
       "lugarNacimiento": "PIURA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -462,6 +465,7 @@
       "fechaNacimiento": "17/02/1970",
       "lugarNacimiento": "CATACAOS, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -678,6 +682,7 @@
       "fechaNacimiento": "01/03/1972",
       "lugarNacimiento": "SECHURA, SECHURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -998,6 +1003,7 @@
       "fechaNacimiento": "26/05/1979",
       "lugarNacimiento": "SULLANA, SULLANA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1144,6 +1150,7 @@
       "fechaNacimiento": "18/12/1976",
       "lugarNacimiento": "PIURA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1307,6 +1314,7 @@
       "fechaNacimiento": "14/03/1966",
       "lugarNacimiento": "PIURA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1899,6 +1907,7 @@
       "fechaNacimiento": "16/09/1958",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2128,6 +2137,7 @@
       "fechaNacimiento": "30/01/1966",
       "lugarNacimiento": "CHULUCANAS, MORROPON",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2342,6 +2352,7 @@
       "fechaNacimiento": "20/12/1972",
       "lugarNacimiento": "CASTILLA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2514,6 +2525,7 @@
       "fechaNacimiento": "17/01/1974",
       "lugarNacimiento": "COLASAY, JAEN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2729,6 +2741,7 @@
       "fechaNacimiento": "02/05/1975",
       "lugarNacimiento": "COLAN, PAITA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3090,6 +3103,7 @@
       "fechaNacimiento": "03/06/1961",
       "lugarNacimiento": "BELLAVISTA, SULLANA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3298,6 +3312,7 @@
       "fechaNacimiento": "18/12/1979",
       "lugarNacimiento": "SALITRAL, MORROPON",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3437,6 +3452,7 @@
       "fechaNacimiento": "07/11/1973",
       "lugarNacimiento": "PIURA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3557,6 +3573,7 @@
       "fechaNacimiento": "06/11/1947",
       "lugarNacimiento": "SULLANA, SULLANA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3664,6 +3681,7 @@
       "fechaNacimiento": "21/12/1970",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3787,6 +3805,7 @@
       "fechaNacimiento": "17/07/1951",
       "lugarNacimiento": "BELLAVISTA, CALLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4016,6 +4035,7 @@
       "fechaNacimiento": "17/11/1967",
       "lugarNacimiento": "SULLANA, SULLANA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4210,6 +4230,7 @@
       "fechaNacimiento": "02/11/1977",
       "lugarNacimiento": "VICE, SECHURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4321,6 +4342,7 @@
       "fechaNacimiento": "31/05/1966",
       "lugarNacimiento": "CHULUCANAS, MORROPON",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4422,6 +4444,7 @@
       "fechaNacimiento": "25/08/1979",
       "lugarNacimiento": "LAGUNAS, AYABACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4500,6 +4523,7 @@
       "fechaNacimiento": "25/10/1979",
       "lugarNacimiento": "SANTIAGO DE CAO, ASCOPE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4644,6 +4668,7 @@
       "fechaNacimiento": "04/08/1963",
       "lugarNacimiento": "PARIÑAS, TALARA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4743,6 +4768,7 @@
       "fechaNacimiento": "26/02/1973",
       "lugarNacimiento": "CASTILLA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4859,6 +4885,7 @@
       "fechaNacimiento": "30/09/1964",
       "lugarNacimiento": "SALPO, OTUZCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5071,6 +5098,7 @@
       "fechaNacimiento": "28/02/1963",
       "lugarNacimiento": "CASTILLA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5292,6 +5320,7 @@
       "fechaNacimiento": "17/11/1957",
       "lugarNacimiento": "FRIAS, AYABACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5418,6 +5447,7 @@
       "fechaNacimiento": "02/04/1976",
       "lugarNacimiento": "SULLANA, SULLANA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5609,6 +5639,7 @@
       "fechaNacimiento": "09/09/1959",
       "lugarNacimiento": "PIURA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5943,6 +5974,7 @@
       "fechaNacimiento": "16/07/1972",
       "lugarNacimiento": "LA HUACA, PAITA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6042,6 +6074,7 @@
       "fechaNacimiento": "15/03/1965",
       "lugarNacimiento": "ONDORES, JUNIN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6120,6 +6153,7 @@
       "fechaNacimiento": "26/10/1962",
       "lugarNacimiento": "SAPILLICA, AYABACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6292,6 +6326,7 @@
       "fechaNacimiento": "06/08/1966",
       "lugarNacimiento": "TAMARINDO, PAITA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6441,6 +6476,7 @@
       "fechaNacimiento": "09/12/1963",
       "lugarNacimiento": "AYABACA, AYABACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6503,6 +6539,7 @@
       "fechaNacimiento": "19/07/1974",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6718,6 +6755,7 @@
       "fechaNacimiento": "19/03/1948",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6894,6 +6932,7 @@
       "fechaNacimiento": "29/05/1969",
       "lugarNacimiento": "SULLANA, SULLANA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7047,6 +7086,7 @@
       "fechaNacimiento": "20/10/1963",
       "lugarNacimiento": "PIURA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7227,6 +7267,7 @@
       "fechaNacimiento": "27/09/1962",
       "lugarNacimiento": "PIURA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": true,
@@ -7823,6 +7864,7 @@
       "fechaNacimiento": "12/03/1954",
       "lugarNacimiento": "AYABACA, AYABACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8126,6 +8168,7 @@
       "fechaNacimiento": "22/06/1979",
       "lugarNacimiento": "BELLAVISTA, SULLANA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8363,6 +8406,7 @@
       "fechaNacimiento": "30/10/1976",
       "lugarNacimiento": "PIURA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8548,6 +8592,7 @@
       "fechaNacimiento": "31/12/1967",
       "lugarNacimiento": "CASTILLA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8610,6 +8655,7 @@
       "fechaNacimiento": "13/03/1958",
       "lugarNacimiento": "SULLANA, SULLANA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8938,6 +8984,7 @@
       "fechaNacimiento": "01/07/1980",
       "lugarNacimiento": "PIURA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9157,6 +9204,7 @@
       "fechaNacimiento": "21/10/1976",
       "lugarNacimiento": "ANCON, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9268,6 +9316,7 @@
       "fechaNacimiento": "04/06/1971",
       "lugarNacimiento": "AYABACA, AYABACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9610,6 +9659,7 @@
       "fechaNacimiento": "15/02/1972",
       "lugarNacimiento": "CASTILLA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9778,6 +9828,7 @@
       "fechaNacimiento": "14/05/1972",
       "lugarNacimiento": "LAREDO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9857,6 +9908,7 @@
       "fechaNacimiento": "28/04/1961",
       "lugarNacimiento": "LAS LOMAS, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10122,6 +10174,7 @@
       "fechaNacimiento": "21/02/1968",
       "lugarNacimiento": "SULLANA, SULLANA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10184,6 +10237,7 @@
       "fechaNacimiento": "31/12/1971",
       "lugarNacimiento": "PARIÑAS, TALARA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10462,6 +10516,7 @@
       "fechaNacimiento": "22/08/1977",
       "lugarNacimiento": "PAMPAS DE HOSPITAL, TUMBES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10541,6 +10596,7 @@
       "fechaNacimiento": "19/06/1942",
       "lugarNacimiento": "TAMBO GRANDE, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": false,

@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-02-07T08:27:21.474Z",
+  "fetchedAt": "2026-02-07T22:15:05.787Z",
   "idProcesoElectoral": 124,
   "count": 188,
   "data": [
@@ -15,6 +15,7 @@
       "fechaNacimiento": "26/09/1957",
       "lugarNacimiento": "SANTIAGO DE SURCO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -612,6 +613,7 @@
       "fechaNacimiento": "16/04/1984",
       "lugarNacimiento": "LAMBAYEQUE, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -894,6 +896,7 @@
       "fechaNacimiento": "21/06/1983",
       "lugarNacimiento": "FERREÑAFE, FERREÑAFE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1213,6 +1216,7 @@
       "fechaNacimiento": "18/10/1983",
       "lugarNacimiento": "LAMBAYEQUE, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1729,6 +1733,7 @@
       "fechaNacimiento": "16/07/1967",
       "lugarNacimiento": "TOCMOCHE, CHOTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2020,6 +2025,7 @@
       "fechaNacimiento": "17/09/1980",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2223,7 +2229,8 @@
       "fechaNacimiento": "19/11/1973",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
-        "exCongresista": true,
+        "congresistaActual": true,
+        "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
         "exMinistro": false,
@@ -2510,6 +2517,7 @@
       "fechaNacimiento": "16/11/1966",
       "lugarNacimiento": "OCUMAL, LUYA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2687,6 +2695,7 @@
       "fechaNacimiento": "17/01/1996",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2838,6 +2847,7 @@
       "fechaNacimiento": "15/02/1993",
       "lugarNacimiento": "FERREÑAFE, FERREÑAFE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3001,6 +3011,7 @@
       "fechaNacimiento": "24/11/1974",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3302,6 +3313,7 @@
       "fechaNacimiento": "16/05/1978",
       "lugarNacimiento": "MOCHUMI, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": false,
@@ -3580,6 +3592,7 @@
       "fechaNacimiento": "13/02/1959",
       "lugarNacimiento": "HUARMACA, HUANCABAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3972,6 +3985,7 @@
       "fechaNacimiento": "20/05/1980",
       "lugarNacimiento": "BAMBAMARCA, HUALGAYOC",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4341,6 +4355,7 @@
       "fechaNacimiento": "27/07/1975",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4475,6 +4490,7 @@
       "fechaNacimiento": "29/01/1955",
       "lugarNacimiento": "SOCOTA, CUTERVO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4631,6 +4647,7 @@
       "fechaNacimiento": "27/06/1968",
       "lugarNacimiento": "JAYANCA, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4811,6 +4828,7 @@
       "fechaNacimiento": "27/10/1987",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5095,6 +5113,7 @@
       "fechaNacimiento": "23/04/1955",
       "lugarNacimiento": "PISCO, PISCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5255,6 +5274,7 @@
       "fechaNacimiento": "31/05/1970",
       "lugarNacimiento": "SAN IGNACIO, SAN IGNACIO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5426,6 +5446,7 @@
       "fechaNacimiento": "16/05/1953",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5671,6 +5692,7 @@
       "fechaNacimiento": "19/05/1961",
       "lugarNacimiento": "LLAMA, CHOTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6000,6 +6022,7 @@
       "fechaNacimiento": "13/05/1988",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6233,6 +6256,7 @@
       "fechaNacimiento": "09/09/1966",
       "lugarNacimiento": "LAGUNAS, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": false,
@@ -6858,6 +6882,7 @@
       "fechaNacimiento": "04/07/1977",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7266,6 +7291,7 @@
       "fechaNacimiento": "26/05/1989",
       "lugarNacimiento": "SANTA ROSA, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7774,6 +7800,7 @@
       "fechaNacimiento": "21/12/1989",
       "lugarNacimiento": "LAMBAYEQUE, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7836,6 +7863,7 @@
       "fechaNacimiento": "07/11/1965",
       "lugarNacimiento": "OLMOS, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8017,6 +8045,7 @@
       "fechaNacimiento": "31/07/1950",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8298,6 +8327,7 @@
       "fechaNacimiento": "24/11/1976",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8449,6 +8479,7 @@
       "fechaNacimiento": "10/03/1995",
       "lugarNacimiento": "CAÑARIS, FERREÑAFE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8570,6 +8601,7 @@
       "fechaNacimiento": "08/05/1969",
       "lugarNacimiento": "HUAMBOS, CHOTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8686,6 +8718,7 @@
       "fechaNacimiento": "11/11/1979",
       "lugarNacimiento": "MOCHUMI, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8872,6 +8905,7 @@
       "fechaNacimiento": "12/06/1979",
       "lugarNacimiento": "SAN JERONIMO, LUYA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8989,6 +9023,7 @@
       "fechaNacimiento": "08/07/1985",
       "lugarNacimiento": "SALAS, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9198,6 +9233,7 @@
       "fechaNacimiento": "03/03/1981",
       "lugarNacimiento": "CUTERVO, CUTERVO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9425,6 +9461,7 @@
       "fechaNacimiento": "27/12/1985",
       "lugarNacimiento": "MONSEFU, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9618,6 +9655,7 @@
       "fechaNacimiento": "25/06/1958",
       "lugarNacimiento": "SANTO TOMAS, CUTERVO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10350,6 +10388,7 @@
       "fechaNacimiento": "17/04/1994",
       "lugarNacimiento": "LAMBAYEQUE, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10441,6 +10480,7 @@
       "fechaNacimiento": "13/07/1978",
       "lugarNacimiento": "LAMBAYEQUE, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10583,6 +10623,7 @@
       "fechaNacimiento": "26/06/1992",
       "lugarNacimiento": "SALAS, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10757,6 +10798,7 @@
       "fechaNacimiento": "27/05/1975",
       "lugarNacimiento": "FERREÑAFE, FERREÑAFE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11064,6 +11106,7 @@
       "fechaNacimiento": "13/08/1975",
       "lugarNacimiento": "LAMBAYEQUE, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11373,6 +11416,7 @@
       "fechaNacimiento": "15/10/2000",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11570,6 +11614,7 @@
       "fechaNacimiento": "01/06/1989",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11914,6 +11959,7 @@
       "fechaNacimiento": "27/04/1963",
       "lugarNacimiento": "CUTERVO, CUTERVO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12043,6 +12089,7 @@
       "fechaNacimiento": "13/01/1967",
       "lugarNacimiento": "CUTERVO, CUTERVO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12296,6 +12343,7 @@
       "fechaNacimiento": "27/12/1954",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12481,6 +12529,7 @@
       "fechaNacimiento": "07/10/1971",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12620,6 +12669,7 @@
       "fechaNacimiento": "05/10/1987",
       "lugarNacimiento": "SANTA ROSA, JAEN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12737,6 +12787,7 @@
       "fechaNacimiento": "20/06/1974",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12876,6 +12927,7 @@
       "fechaNacimiento": "28/02/1965",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12998,6 +13050,7 @@
       "fechaNacimiento": "02/05/1964",
       "lugarNacimiento": "FERREÑAFE, FERREÑAFE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13243,6 +13296,7 @@
       "fechaNacimiento": "26/05/1998",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13384,6 +13438,7 @@
       "fechaNacimiento": "02/06/1962",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13712,6 +13767,7 @@
       "fechaNacimiento": "09/11/1978",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14052,6 +14108,7 @@
       "fechaNacimiento": "27/01/1966",
       "lugarNacimiento": "ETEN, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14319,6 +14376,7 @@
       "fechaNacimiento": "04/01/1973",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14381,6 +14439,7 @@
       "fechaNacimiento": "08/05/1993",
       "lugarNacimiento": "ACORIA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14476,6 +14535,7 @@
       "fechaNacimiento": "18/11/1998",
       "lugarNacimiento": "HUANCAVELICA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14538,6 +14598,7 @@
       "fechaNacimiento": "30/08/1992",
       "lugarNacimiento": "YAULI, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14638,6 +14699,7 @@
       "fechaNacimiento": "10/07/1971",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14713,6 +14775,7 @@
       "fechaNacimiento": "01/03/1983",
       "lugarNacimiento": "MONSEFU, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16158,6 +16221,7 @@
       "fechaNacimiento": "23/11/1972",
       "lugarNacimiento": "CUTERVO, CUTERVO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16456,6 +16520,7 @@
       "fechaNacimiento": "26/01/1968",
       "lugarNacimiento": "SAN PEDRO DE LLOC, PACASMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16588,6 +16653,7 @@
       "fechaNacimiento": "26/09/1988",
       "lugarNacimiento": "LAMBAYEQUE, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16741,6 +16807,7 @@
       "fechaNacimiento": "27/02/1984",
       "lugarNacimiento": "INCAHUASI, FERREÑAFE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16924,6 +16991,7 @@
       "fechaNacimiento": "13/02/1991",
       "lugarNacimiento": "LLAMA, CHOTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17096,6 +17164,7 @@
       "fechaNacimiento": "16/11/1993",
       "lugarNacimiento": "FERREÑAFE, FERREÑAFE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17207,6 +17276,7 @@
       "fechaNacimiento": "31/01/1994",
       "lugarNacimiento": "FERREÑAFE, FERREÑAFE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17285,6 +17355,7 @@
       "fechaNacimiento": "05/07/1987",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17396,6 +17467,7 @@
       "fechaNacimiento": "13/11/1978",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17479,6 +17551,7 @@
       "fechaNacimiento": "07/05/1959",
       "lugarNacimiento": "JAUJA, JAUJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17596,6 +17669,7 @@
       "fechaNacimiento": "23/07/1953",
       "lugarNacimiento": "BREÑA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17792,6 +17866,7 @@
       "fechaNacimiento": "13/09/1990",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17969,6 +18044,7 @@
       "fechaNacimiento": "06/07/1954",
       "lugarNacimiento": "LLAPA, SAN MIGUEL",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18393,6 +18469,7 @@
       "fechaNacimiento": "06/07/1984",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18832,6 +18909,7 @@
       "fechaNacimiento": "02/02/1979",
       "lugarNacimiento": "PUEBLO LIBRE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19199,6 +19277,7 @@
       "fechaNacimiento": "21/02/1987",
       "lugarNacimiento": "SAN PEDRO DE LLOC, PACASMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19399,6 +19478,7 @@
       "fechaNacimiento": "18/01/1984",
       "lugarNacimiento": "OLMOS, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19716,6 +19796,7 @@
       "fechaNacimiento": "15/04/1989",
       "lugarNacimiento": "SAN HILARION, PICOTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19827,6 +19908,7 @@
       "fechaNacimiento": "01/12/1985",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20106,6 +20188,7 @@
       "fechaNacimiento": "24/03/1963",
       "lugarNacimiento": "MORROPE, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20230,6 +20313,7 @@
       "fechaNacimiento": "27/03/1970",
       "lugarNacimiento": "CATACHE, SANTA CRUZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20352,6 +20436,7 @@
       "fechaNacimiento": "22/08/1962",
       "lugarNacimiento": "NINABAMBA, SANTA CRUZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20498,6 +20583,7 @@
       "fechaNacimiento": "15/06/1981",
       "lugarNacimiento": "HUARANGO, SAN IGNACIO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20754,6 +20840,7 @@
       "fechaNacimiento": "08/12/1984",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20930,6 +21017,7 @@
       "fechaNacimiento": "06/04/1995",
       "lugarNacimiento": "PUEBLO NUEVO, FERREÑAFE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21048,6 +21136,7 @@
       "fechaNacimiento": "11/04/1982",
       "lugarNacimiento": "HUARMACA, HUANCABAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21218,6 +21307,7 @@
       "fechaNacimiento": "26/08/1988",
       "lugarNacimiento": "POMALCA, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21335,6 +21425,7 @@
       "fechaNacimiento": "23/08/1996",
       "lugarNacimiento": "CASTILLA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21487,6 +21578,7 @@
       "fechaNacimiento": "14/05/1989",
       "lugarNacimiento": "SALAS, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21615,6 +21707,7 @@
       "fechaNacimiento": "27/02/1969",
       "lugarNacimiento": "CHOTA, CHOTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21830,6 +21923,7 @@
       "fechaNacimiento": "20/04/1997",
       "lugarNacimiento": "HUARAL, HUARAL",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21929,6 +22023,7 @@
       "fechaNacimiento": "06/08/1973",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22111,6 +22206,7 @@
       "fechaNacimiento": "16/06/1968",
       "lugarNacimiento": "TUMAN, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22285,6 +22381,7 @@
       "fechaNacimiento": "15/11/1978",
       "lugarNacimiento": "LAJAS, CHOTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22407,6 +22504,7 @@
       "fechaNacimiento": "20/03/1975",
       "lugarNacimiento": "LAMBAYEQUE, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22506,6 +22604,7 @@
       "fechaNacimiento": "25/08/1948",
       "lugarNacimiento": "FERREÑAFE, FERREÑAFE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22622,6 +22721,7 @@
       "fechaNacimiento": "09/05/1986",
       "lugarNacimiento": "FERREÑAFE, FERREÑAFE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22788,6 +22888,7 @@
       "fechaNacimiento": "17/02/1955",
       "lugarNacimiento": "ETEN, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22986,6 +23087,7 @@
       "fechaNacimiento": "28/11/1961",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -23119,6 +23221,7 @@
       "fechaNacimiento": "08/12/1964",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -23232,6 +23335,7 @@
       "fechaNacimiento": "09/03/1978",
       "lugarNacimiento": "JOSE LEONARDO ORTIZ, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -23495,6 +23599,7 @@
       "fechaNacimiento": "08/02/1991",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -23557,6 +23662,7 @@
       "fechaNacimiento": "04/05/1995",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -23675,6 +23781,7 @@
       "fechaNacimiento": "12/01/1986",
       "lugarNacimiento": "RIOJA, RIOJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -23770,6 +23877,7 @@
       "fechaNacimiento": "20/02/1986",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -24021,6 +24129,7 @@
       "fechaNacimiento": "22/09/1993",
       "lugarNacimiento": "LAGUNAS, AYABACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -24178,6 +24287,7 @@
       "fechaNacimiento": "13/07/1985",
       "lugarNacimiento": "SAN PABLO, SAN PABLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -24388,6 +24498,7 @@
       "fechaNacimiento": "07/08/1982",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -24690,6 +24801,7 @@
       "fechaNacimiento": "22/12/1966",
       "lugarNacimiento": "FERREÑAFE, FERREÑAFE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -24994,6 +25106,7 @@
       "fechaNacimiento": "28/07/1985",
       "lugarNacimiento": "JOSE LEONARDO ORTIZ, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -25196,6 +25309,7 @@
       "fechaNacimiento": "04/02/1982",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -25293,6 +25407,7 @@
       "fechaNacimiento": "11/02/1994",
       "lugarNacimiento": "QUEROCOTILLO, CUTERVO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -25526,6 +25641,7 @@
       "fechaNacimiento": "26/11/1979",
       "lugarNacimiento": "QUEROCOTILLO, CUTERVO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -25642,6 +25758,7 @@
       "fechaNacimiento": "20/12/1967",
       "lugarNacimiento": "MOCHUMI, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -25793,6 +25910,7 @@
       "fechaNacimiento": "27/07/1996",
       "lugarNacimiento": "QUEROCOTILLO, CUTERVO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -26032,6 +26150,7 @@
       "fechaNacimiento": "14/02/1972",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -26208,6 +26327,7 @@
       "fechaNacimiento": "30/05/1962",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -26270,6 +26390,7 @@
       "fechaNacimiento": "28/11/1990",
       "lugarNacimiento": "OLMOS, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -26398,6 +26519,7 @@
       "fechaNacimiento": "28/08/1971",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -26616,6 +26738,7 @@
       "fechaNacimiento": "16/02/1996",
       "lugarNacimiento": "LAMBAYEQUE, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -26727,6 +26850,7 @@
       "fechaNacimiento": "26/09/1988",
       "lugarNacimiento": "LAMBAYEQUE, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -26844,6 +26968,7 @@
       "fechaNacimiento": "15/09/1961",
       "lugarNacimiento": "LAMUD, LUYA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -26999,6 +27124,7 @@
       "fechaNacimiento": "02/01/1991",
       "lugarNacimiento": "LAJAS, CHOTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -27231,6 +27357,7 @@
       "fechaNacimiento": "05/09/1979",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -27478,6 +27605,7 @@
       "fechaNacimiento": "25/01/1982",
       "lugarNacimiento": "MOCHUMI, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -27672,6 +27800,7 @@
       "fechaNacimiento": "04/11/1988",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -28390,6 +28519,7 @@
       "fechaNacimiento": "09/11/1964",
       "lugarNacimiento": "MORROPON, MORROPON",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -28529,6 +28659,7 @@
       "fechaNacimiento": "20/06/1969",
       "lugarNacimiento": "CHEPEN, CHEPEN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -28713,6 +28844,7 @@
       "fechaNacimiento": "22/02/1988",
       "lugarNacimiento": "PUEBLO LIBRE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -28847,6 +28979,7 @@
       "fechaNacimiento": "03/08/1996",
       "lugarNacimiento": "HUANGASCAR, YAUYOS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -28909,6 +29042,7 @@
       "fechaNacimiento": "16/09/1984",
       "lugarNacimiento": "SAN JOSE DE LOURDES, SAN IGNACIO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -29004,6 +29138,7 @@
       "fechaNacimiento": "28/10/1988",
       "lugarNacimiento": "PACAIPAMPA, AYABACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -29117,6 +29252,7 @@
       "fechaNacimiento": "14/10/1983",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -29236,6 +29372,7 @@
       "fechaNacimiento": "30/09/1954",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -29450,6 +29587,7 @@
       "fechaNacimiento": "05/08/2000",
       "lugarNacimiento": "JOSE LEONARDO ORTIZ, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -29528,6 +29666,7 @@
       "fechaNacimiento": "18/11/1986",
       "lugarNacimiento": "LAMBAYEQUE, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -29685,6 +29824,7 @@
       "fechaNacimiento": "20/10/1963",
       "lugarNacimiento": "JAEN, JAEN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -29931,6 +30071,7 @@
       "fechaNacimiento": "25/04/1981",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -30122,6 +30263,7 @@
       "fechaNacimiento": "12/09/1986",
       "lugarNacimiento": "QUEROCOTILLO, CUTERVO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -30285,6 +30427,7 @@
       "fechaNacimiento": "31/07/1976",
       "lugarNacimiento": "PUEBLO NUEVO, FERREÑAFE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -30392,6 +30535,7 @@
       "fechaNacimiento": "11/02/1978",
       "lugarNacimiento": "TUMBES, TUMBES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -30653,6 +30797,7 @@
       "fechaNacimiento": "19/09/1996",
       "lugarNacimiento": "CHANCHAMAYO, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -30779,6 +30924,7 @@
       "fechaNacimiento": "12/04/1967",
       "lugarNacimiento": "ACOLLA, JAUJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -30918,6 +31064,7 @@
       "fechaNacimiento": "21/09/1998",
       "lugarNacimiento": "CHANCHAMAYO, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -31164,6 +31311,7 @@
       "fechaNacimiento": "19/10/1974",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -31409,6 +31557,7 @@
       "fechaNacimiento": "21/03/1968",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -31585,6 +31734,7 @@
       "fechaNacimiento": "13/10/1960",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -31760,6 +31910,7 @@
       "fechaNacimiento": "03/02/1983",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -32017,6 +32168,7 @@
       "fechaNacimiento": "21/03/1978",
       "lugarNacimiento": "CHACHAPOYAS, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -32456,6 +32608,7 @@
       "fechaNacimiento": "04/04/1978",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -32965,6 +33118,7 @@
       "fechaNacimiento": "12/08/1976",
       "lugarNacimiento": "MONTEVIDEO, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -33064,6 +33218,7 @@
       "fechaNacimiento": "28/09/1969",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -33217,6 +33372,7 @@
       "fechaNacimiento": "27/01/1958",
       "lugarNacimiento": "NUEVA ARICA, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -33525,6 +33681,7 @@
       "fechaNacimiento": "06/02/1975",
       "lugarNacimiento": "PACORA, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -33744,6 +33901,7 @@
       "fechaNacimiento": "27/01/1983",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -33818,6 +33976,7 @@
       "fechaNacimiento": "20/12/1979",
       "lugarNacimiento": "LA FLORIDA, SAN MIGUEL",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -33917,6 +34076,7 @@
       "fechaNacimiento": "25/06/1954",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -34281,6 +34441,7 @@
       "fechaNacimiento": "14/03/1983",
       "lugarNacimiento": "SANTA ROSA, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -34786,6 +34947,7 @@
       "fechaNacimiento": "05/03/1986",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -34919,6 +35081,7 @@
       "fechaNacimiento": "17/02/1969",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -35020,6 +35183,7 @@
       "fechaNacimiento": "10/06/1988",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -35133,6 +35297,7 @@
       "fechaNacimiento": "13/01/1996",
       "lugarNacimiento": "BREÑA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -35263,6 +35428,7 @@
       "fechaNacimiento": "31/08/1967",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -35488,6 +35654,7 @@
       "fechaNacimiento": "30/08/1959",
       "lugarNacimiento": "INCAHUASI, FERREÑAFE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -35573,6 +35740,7 @@
       "fechaNacimiento": "23/03/1964",
       "lugarNacimiento": "JAEN, JAEN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -35808,6 +35976,7 @@
       "fechaNacimiento": "09/03/1953",
       "lugarNacimiento": "SAN JOSE, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -35930,6 +36099,7 @@
       "fechaNacimiento": "29/10/1975",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -36188,6 +36358,7 @@
       "fechaNacimiento": "02/04/1966",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -36426,6 +36597,7 @@
       "fechaNacimiento": "24/07/1967",
       "lugarNacimiento": "VICTOR LARCO HERRERA, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -36591,6 +36763,7 @@
       "fechaNacimiento": "21/01/1997",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -36692,6 +36865,7 @@
       "fechaNacimiento": "08/12/1988",
       "lugarNacimiento": "SAN IGNACIO, SAN IGNACIO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -36835,6 +37009,7 @@
       "fechaNacimiento": "29/03/1981",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -37028,6 +37203,7 @@
       "fechaNacimiento": "22/09/1961",
       "lugarNacimiento": "QUEROCOTO, CHOTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -37227,6 +37403,7 @@
       "fechaNacimiento": "09/08/1987",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -37361,6 +37538,7 @@
       "fechaNacimiento": "29/05/1984",
       "lugarNacimiento": "LA ARENA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -37472,6 +37650,7 @@
       "fechaNacimiento": "08/07/1984",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -37708,6 +37887,7 @@
       "fechaNacimiento": "25/01/1986",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -37770,6 +37950,7 @@
       "fechaNacimiento": "21/08/1980",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -37850,6 +38031,7 @@
       "fechaNacimiento": "14/06/1962",
       "lugarNacimiento": "OLMOS, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -37912,6 +38094,7 @@
       "fechaNacimiento": "26/08/1959",
       "lugarNacimiento": "CHULUCANAS, MORROPON",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -37991,6 +38174,7 @@
       "fechaNacimiento": "08/04/1965",
       "lugarNacimiento": "LAMBAYEQUE, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -38076,6 +38260,7 @@
       "fechaNacimiento": "06/04/1982",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -38379,6 +38564,7 @@
       "fechaNacimiento": "22/04/1977",
       "lugarNacimiento": "NUEVA ARICA, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -38677,6 +38863,7 @@
       "fechaNacimiento": "27/04/1998",
       "lugarNacimiento": "JOSE LEONARDO ORTIZ, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -38891,6 +39078,7 @@
       "fechaNacimiento": "23/07/1959",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,

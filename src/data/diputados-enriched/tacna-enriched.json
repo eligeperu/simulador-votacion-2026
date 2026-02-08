@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-02-07T09:59:24.635Z",
+  "fetchedAt": "2026-02-07T23:41:37.373Z",
   "idProcesoElectoral": 124,
-  "count": 98,
+  "count": 101,
   "data": [
     {
       "dni": "71567627",
@@ -15,6 +15,7 @@
       "fechaNacimiento": "25/11/1999",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -149,6 +150,7 @@
       "fechaNacimiento": "10/05/1978",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -289,6 +291,7 @@
       "fechaNacimiento": "20/05/1985",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -438,6 +441,7 @@
       "fechaNacimiento": "07/01/1982",
       "lugarNacimiento": "SAMA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -549,6 +553,7 @@
       "fechaNacimiento": "08/12/1990",
       "lugarNacimiento": "JULIACA, SAN ROMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -740,6 +745,7 @@
       "fechaNacimiento": "28/08/1976",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1019,6 +1025,7 @@
       "fechaNacimiento": "15/11/1976",
       "lugarNacimiento": "VILQUE CHICO, HUANCANE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1315,6 +1322,7 @@
       "fechaNacimiento": "28/12/1977",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1709,6 +1717,7 @@
       "fechaNacimiento": "22/08/1983",
       "lugarNacimiento": "ILABAYA, JORGE BASADRE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1949,6 +1958,7 @@
       "fechaNacimiento": "27/03/1963",
       "lugarNacimiento": "MOQUEGUA, MARISCAL NIETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2121,6 +2131,7 @@
       "fechaNacimiento": "01/03/1985",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2410,6 +2421,608 @@
       "resoluciones": []
     },
     {
+      "dni": "70122304",
+      "idHojaVida": 247707,
+      "idOrg": 1264,
+      "nombre": "RENE NICOLAS LOMA TONCONI",
+      "partido": "JUNTOS POR EL PERU",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/8f5fa901-12be-41e6-9cee-12afd03cf7ed.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "06/12/1988",
+      "lugarNacimiento": "YUNGUYO, YUNGUYO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "LICENCIADO EN EDUCACION",
+        "institucion": "Universidad Nacional Jorge Basadre Grohmann",
+        "ingresos2024": 6000,
+        "experienciaActual": "Docente"
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241971,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 247707,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 203311,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Jorge Basadre Grohmann",
+            "carreraUni": "LICENCIADO EN EDUCACION",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2014",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 203312,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Jorge Basadre Grohmann",
+            "carreraUni": "BACHILLER EN CIENCIAS DE LA EDUCACION",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2011",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 274951,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "Perú elite SUR SAC",
+          "ocupacionProfesion": "Docente",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Calle Bolivar 47",
+          "anioTrabajoDesde": "2000",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "220101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "TACNA",
+          "trabajoProvincia": "TACNA",
+          "trabajoDistrito": "TACNA",
+          "idHojaVida": 247707,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 214699,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 6000,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 247707,
+            "idEstado": 1,
+            "totalIngresos": 6000
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "45792658",
+      "idHojaVida": 250930,
+      "idOrg": 1264,
+      "nombre": "SVIETA VALIA FERNANDEZ GONZALEZ",
+      "partido": "JUNTOS POR EL PERU",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/095e04c3-88dc-4ef4-b2cc-9802ae1635e2.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "28/06/1989",
+      "lugarNacimiento": "TACNA, TACNA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "Educación Superior",
+        "institucion": "Universidad Nacional San Agustín",
+        "ingresos2024": 30000,
+        "experienciaActual": "Psicóloga"
+      },
+      "trayectoria": {
+        "cargoPartidario": [
+          {
+            "idHvCargoPartidario": 147148,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 1,
+            "idOrgPolCargoPartidario": 1264,
+            "orgPolCargoPartidario": "PARTIDO POLÍTICO JUNTOS POR EL PERU",
+            "cargoPartidario": "Responsable político",
+            "anioCargoPartiDesde": "2020",
+            "anioCargoPartiHasta": "2025",
+            "idHojaVida": 250930,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242111,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 250930,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 203446,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional de San Agustín de Arequipa",
+            "carreraUni": "PSICOLOGA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2015",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 203447,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional de San Agustín de Arequipa",
+            "carreraUni": "BACHILLER EN PSICOLOGÍA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2014",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 146784,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "Universidad Nacional San Agustín",
+            "txEspecialidadPosgrado": "Educación Superior",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "SI",
+            "esDoctor": null,
+            "txAnioPosgrado": "2016",
+            "idHojaVida": 250930,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": [
+          {
+            "idHvPosgradoOtro": 2870,
+            "tengoPosgradoOtro": "SI",
+            "nuItemPosgradoOtro": 1,
+            "txCenEstudioPosgradoOtro": "Universidad Nacional de La Plata",
+            "txEspecialidadPosgradoOtro": "Ciencias Sociales",
+            "concluidoPosgradoOtro": "NO",
+            "egresadoPosgradoOtro": null,
+            "txGrado": "--",
+            "txAnioPosgradoOtro": "--",
+            "idHojaVida": 250930,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ]
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 275062,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "UNESCO",
+          "ocupacionProfesion": "Psicóloga",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Alfonso Ugarter MzP1Lote23-GAL",
+          "anioTrabajoDesde": "2025",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "170101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "MOQUEGUA",
+          "trabajoProvincia": "MARISCAL NIETO",
+          "trabajoDistrito": "MOQUEGUA",
+          "idHojaVida": 250930,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 214767,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 30000,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 250930,
+            "idEstado": 1,
+            "totalIngresos": 30000
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "46282259",
+      "idHojaVida": 245939,
+      "idOrg": 1264,
+      "nombre": "LILA MILUSKA VIZA CONDORI",
+      "partido": "JUNTOS POR EL PERU",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/d0c978b4-b52a-4cff-b96b-87e5c7153f1b.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "16/03/1990",
+      "lugarNacimiento": "AREQUIPA, AREQUIPA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "MAESTRIA EN GESTION EMPRESARIAL",
+        "institucion": "UNIVERSIDAD JORGE BASADRE GROHMANN",
+        "ingresos2024": 125835,
+        "experienciaActual": "TÉCNICO"
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 237719,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 245939,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 198388,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Jorge Basadre Grohmann",
+            "carreraUni": "BACHILLER EN CIENCIAS DE LA COMUNICACION SOCIAL",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2012",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 198389,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Jorge Basadre Grohmann",
+            "carreraUni": "LICENCIADA EN COMUNICACION SOCIAL EN LA ESPECIALIDAD DE PERIODISMO Y RELACIONES PUBLICAS",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2017",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 145014,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "UNIVERSIDAD JORGE BASADRE GROHMANN",
+            "txEspecialidadPosgrado": "MAESTRIA EN GESTION EMPRESARIAL",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "NO",
+            "esDoctor": "NO",
+            "txAnioPosgrado": null,
+            "idHojaVida": 245939,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 267980,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "CONGRESO DE LA REPUBLICA",
+          "ocupacionProfesion": "TÉCNICO",
+          "rucTrabajo": null,
+          "direccionTrabajo": "AV. ABANCAY S/N",
+          "anioTrabajoDesde": "2023",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "140101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "LIMA",
+          "idHojaVida": 245939,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "HASTA LA ACTUALIDAD"
+        },
+        {
+          "idHvExpeLaboral": 267994,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 2,
+          "centroTrabajo": "SUNAFIL",
+          "ocupacionProfesion": "ASESORA 2",
+          "rucTrabajo": null,
+          "direccionTrabajo": "AV. SALAVERRY 655",
+          "anioTrabajoDesde": "2022",
+          "anioTrabajoHasta": "2023",
+          "ubigeoTrabajo": "140133",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "JESUS MARIA",
+          "idHojaVida": 245939,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 267998,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 3,
+          "centroTrabajo": "MINISTERIO DE TRABAJO",
+          "ocupacionProfesion": "ASESORA 2",
+          "rucTrabajo": null,
+          "direccionTrabajo": "AV SALAVERRY 655",
+          "anioTrabajoDesde": "2021",
+          "anioTrabajoHasta": "2022",
+          "ubigeoTrabajo": "140133",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "JESUS MARIA",
+          "idHojaVida": 245939,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 268004,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 4,
+          "centroTrabajo": "UNIVERSIDAD NACIONAL JORGE BASADRE GROHMANN",
+          "ocupacionProfesion": "ESPECIALISTA EN COMUNICACION",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Av. Miraflores s/n, Ciudad Universitaria",
+          "anioTrabajoDesde": "2016",
+          "anioTrabajoHasta": "2021",
+          "ubigeoTrabajo": "220101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "TACNA",
+          "trabajoProvincia": "TACNA",
+          "trabajoDistrito": "TACNA",
+          "idHojaVida": 245939,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "TAMBIEN TECNICO ADMINISTRATIVO EN PROMOCION Y PROYECCION DE LA INVESTIGACION"
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 211301,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 125835,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 245939,
+            "idEstado": 1,
+            "totalIngresos": 125835
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 259660,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "AVENIDA REPUBLICA DE CHILE NUM 772 DPTO 1001 - PISO 10 URB ESCUELA DE AGRICULTURA JESUS MARIA - LIMA - LIMA",
+            "comentario": "ADQUIRIDO CON CREDITO HIPOTECARIO VIGENTE",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "15898638",
+            "fichaTomoSunarp": null,
+            "autovaluo": 102092.66,
+            "idHojaVida": 245939,
+            "idEstado": 1,
+            "flValor": "343900"
+          },
+          {
+            "idHvBienInmueble": 259668,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "COCHERA",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "JR. PABLO BERMUDEZ 332MINUTA EN PROCESO DE INSCRIPCIÓN",
+            "comentario": null,
+            "inmuebleSunarp": "0",
+            "inmuebleSunarpDesc": "NO",
+            "partidaSunarp": null,
+            "fichaTomoSunarp": null,
+            "autovaluo": 20300.76,
+            "idHojaVida": 245939,
+            "idEstado": 1,
+            "flValor": "60030"
+          },
+          {
+            "idHvBienInmueble": 259671,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 3,
+            "tipoBienInmueble": "DEPOSITO",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "AV. REPUBLICA DE CHILE 772",
+            "comentario": "MINUTA EN PROCESO DE INSCRIPCION",
+            "inmuebleSunarp": "0",
+            "inmuebleSunarpDesc": "NO",
+            "partidaSunarp": null,
+            "fichaTomoSunarp": null,
+            "autovaluo": 4390.14,
+            "idHojaVida": 245939,
+            "idEstado": 1,
+            "flValor": "7860"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
       "dni": "40563049",
       "idHojaVida": 253005,
       "idOrg": 1366,
@@ -2421,6 +3034,7 @@
       "fechaNacimiento": "07/05/1980",
       "lugarNacimiento": "LUNAHUANA, CAÑETE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2626,6 +3240,7 @@
       "fechaNacimiento": "07/12/1971",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2942,6 +3557,7 @@
       "fechaNacimiento": "13/09/1964",
       "lugarNacimiento": "LARAMATE, LUCANAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3131,6 +3747,7 @@
       "fechaNacimiento": "09/05/1970",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3400,6 +4017,7 @@
       "fechaNacimiento": "25/12/1998",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3499,6 +4117,7 @@
       "fechaNacimiento": "22/09/1983",
       "lugarNacimiento": "POMATA, CHUCUITO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3598,6 +4217,7 @@
       "fechaNacimiento": "27/09/1970",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3762,6 +4382,7 @@
       "fechaNacimiento": "24/02/1968",
       "lugarNacimiento": "TORATA, MARISCAL NIETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3977,6 +4598,7 @@
       "fechaNacimiento": "20/03/1983",
       "lugarNacimiento": "CONDURIRI, EL COLLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4149,6 +4771,7 @@
       "fechaNacimiento": "17/01/1988",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4246,6 +4869,7 @@
       "fechaNacimiento": "08/02/1997",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4337,6 +4961,7 @@
       "fechaNacimiento": "16/03/1982",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4434,6 +5059,7 @@
       "fechaNacimiento": "26/06/1975",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4748,6 +5374,7 @@
       "fechaNacimiento": "09/02/1978",
       "lugarNacimiento": "PALCA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4991,6 +5618,7 @@
       "fechaNacimiento": "20/10/1977",
       "lugarNacimiento": "CANDARAVE, CANDARAVE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5229,6 +5857,7 @@
       "fechaNacimiento": "28/03/1977",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5434,6 +6063,7 @@
       "fechaNacimiento": "08/04/1988",
       "lugarNacimiento": "LAS AMAZONAS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5623,6 +6253,7 @@
       "fechaNacimiento": "16/04/1970",
       "lugarNacimiento": "QUILMANA, CAÑETE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5734,6 +6365,7 @@
       "fechaNacimiento": "25/03/1983",
       "lugarNacimiento": "MACUSANI, CARABAYA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5885,6 +6517,7 @@
       "fechaNacimiento": "12/05/1965",
       "lugarNacimiento": "MOLLENDO, ISLAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6164,6 +6797,7 @@
       "fechaNacimiento": "04/03/1964",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6367,6 +7001,7 @@
       "fechaNacimiento": "17/09/1965",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6627,6 +7262,7 @@
       "fechaNacimiento": "07/11/1995",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6848,6 +7484,7 @@
       "fechaNacimiento": "03/03/1990",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6982,6 +7619,7 @@
       "fechaNacimiento": "07/07/1967",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7034,6 +7672,7 @@
       "fechaNacimiento": "29/01/1993",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7169,6 +7808,7 @@
       "fechaNacimiento": "07/05/1987",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7320,6 +7960,7 @@
       "fechaNacimiento": "06/06/1985",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7706,6 +8347,7 @@
       "fechaNacimiento": "03/12/1981",
       "lugarNacimiento": "IRAZOLA, PADRE ABAD",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7901,6 +8543,7 @@
       "fechaNacimiento": "15/04/1976",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8132,6 +8775,7 @@
       "fechaNacimiento": "21/10/1965",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8320,6 +8964,7 @@
       "fechaNacimiento": "01/02/1960",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8559,6 +9204,7 @@
       "fechaNacimiento": "28/10/1981",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8621,6 +9267,7 @@
       "fechaNacimiento": "30/01/1987",
       "lugarNacimiento": "ALTO DE LA ALIANZA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8786,6 +9433,7 @@
       "fechaNacimiento": "28/07/1982",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8963,6 +9611,7 @@
       "fechaNacimiento": "25/04/1979",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9102,6 +9751,7 @@
       "fechaNacimiento": "03/05/1980",
       "lugarNacimiento": "YUNGUYO, YUNGUYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9405,6 +10055,7 @@
       "fechaNacimiento": "28/12/1991",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9540,6 +10191,7 @@
       "fechaNacimiento": "05/01/1990",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9703,6 +10355,7 @@
       "fechaNacimiento": "24/02/1982",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9823,6 +10476,7 @@
       "fechaNacimiento": "04/08/1991",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9982,6 +10636,7 @@
       "fechaNacimiento": "24/01/1995",
       "lugarNacimiento": "CALANA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10091,6 +10746,7 @@
       "fechaNacimiento": "29/09/1980",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10223,6 +10879,7 @@
       "fechaNacimiento": "25/01/1979",
       "lugarNacimiento": "BELLA UNION, CARAVELI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10316,6 +10973,7 @@
       "fechaNacimiento": "15/07/1958",
       "lugarNacimiento": "PUEBLO LIBRE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10458,6 +11116,7 @@
       "fechaNacimiento": "05/10/1983",
       "lugarNacimiento": "YUNGUYO, YUNGUYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10520,6 +11179,7 @@
       "fechaNacimiento": "27/06/1971",
       "lugarNacimiento": "TARATA, TARATA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10638,6 +11298,7 @@
       "fechaNacimiento": "15/05/1989",
       "lugarNacimiento": "UNICACHI, YUNGUYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10700,6 +11361,7 @@
       "fechaNacimiento": "27/08/2000",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10797,6 +11459,7 @@
       "fechaNacimiento": "24/06/1989",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10988,6 +11651,7 @@
       "fechaNacimiento": "24/12/1997",
       "lugarNacimiento": "SANTA ROSA, EL COLLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11185,6 +11849,7 @@
       "fechaNacimiento": "11/12/1984",
       "lugarNacimiento": "PILCUYO, EL COLLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11475,6 +12140,7 @@
       "fechaNacimiento": "18/07/1963",
       "lugarNacimiento": "ILAVE, EL COLLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11695,6 +12361,7 @@
       "fechaNacimiento": "15/07/1992",
       "lugarNacimiento": "JOSE MARIA QUIMPER, CAMANA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11840,6 +12507,7 @@
       "fechaNacimiento": "30/11/1992",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11997,6 +12665,7 @@
       "fechaNacimiento": "11/02/1986",
       "lugarNacimiento": "ESPINAR, ESPINAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12387,6 +13056,7 @@
       "fechaNacimiento": "04/10/1979",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12505,6 +13175,7 @@
       "fechaNacimiento": "09/04/1973",
       "lugarNacimiento": "SAN MATEO, HUAROCHIRI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12595,6 +13266,7 @@
       "fechaNacimiento": "17/07/1999",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12691,6 +13363,7 @@
       "fechaNacimiento": "18/04/1972",
       "lugarNacimiento": "PUQUIO, LUCANAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12808,6 +13481,7 @@
       "fechaNacimiento": "22/11/1986",
       "lugarNacimiento": "SAN PEDRO DE CAJAS, TARMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12907,6 +13581,7 @@
       "fechaNacimiento": "28/09/1984",
       "lugarNacimiento": "CAPASO, EL COLLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13006,6 +13681,7 @@
       "fechaNacimiento": "03/02/1961",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": false,
@@ -13178,6 +13854,7 @@
       "fechaNacimiento": "08/06/1979",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13252,6 +13929,7 @@
       "fechaNacimiento": "11/03/1997",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13314,6 +13992,7 @@
       "fechaNacimiento": "27/10/1990",
       "lugarNacimiento": "ILABAYA, JORGE BASADRE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13416,6 +14095,7 @@
       "fechaNacimiento": "03/08/1958",
       "lugarNacimiento": "TARATA, TARATA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13566,6 +14246,7 @@
       "fechaNacimiento": "09/10/1993",
       "lugarNacimiento": "MIRAFLORES, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13719,6 +14400,7 @@
       "fechaNacimiento": "22/07/1971",
       "lugarNacimiento": "ILABAYA, JORGE BASADRE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13830,6 +14512,7 @@
       "fechaNacimiento": "02/06/1995",
       "lugarNacimiento": "CHANCHAMAYO, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13956,6 +14639,7 @@
       "fechaNacimiento": "25/12/1985",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14107,6 +14791,7 @@
       "fechaNacimiento": "27/01/1969",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14312,6 +14997,7 @@
       "fechaNacimiento": "24/12/1960",
       "lugarNacimiento": "LAGUNAS, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14539,6 +15225,7 @@
       "fechaNacimiento": "23/07/1964",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14718,6 +15405,7 @@
       "fechaNacimiento": "26/08/1963",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14946,6 +15634,7 @@
       "fechaNacimiento": "17/03/1973",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15188,6 +15877,7 @@
       "fechaNacimiento": "12/07/1979",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15398,6 +16088,7 @@
       "fechaNacimiento": "09/05/1984",
       "lugarNacimiento": "JULIACA, SAN ROMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15574,6 +16265,7 @@
       "fechaNacimiento": "26/09/1972",
       "lugarNacimiento": "VARGAS GUERRA, UCAYALI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15648,6 +16340,7 @@
       "fechaNacimiento": "06/08/1984",
       "lugarNacimiento": "KELLUYO, CHUCUITO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15710,6 +16403,7 @@
       "fechaNacimiento": "06/10/1974",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15916,6 +16610,7 @@
       "fechaNacimiento": "04/02/1984",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16075,6 +16770,7 @@
       "fechaNacimiento": "14/12/1960",
       "lugarNacimiento": "AYAVIRI, MELGAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16315,6 +17011,7 @@
       "fechaNacimiento": "27/05/1974",
       "lugarNacimiento": "JULIACA, SAN ROMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17306,6 +18003,7 @@
       "fechaNacimiento": "10/08/1981",
       "lugarNacimiento": "SANTIAGO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17401,6 +18099,7 @@
       "fechaNacimiento": "27/02/1966",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17646,6 +18345,7 @@
       "fechaNacimiento": "09/10/1952",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,

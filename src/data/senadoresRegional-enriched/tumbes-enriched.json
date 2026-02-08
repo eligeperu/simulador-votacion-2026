@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-02-07T06:46:49.683Z",
+  "fetchedAt": "2026-02-07T20:40:09.013Z",
   "idProcesoElectoral": 124,
   "count": 37,
   "data": [
@@ -15,6 +15,7 @@
       "fechaNacimiento": "27/07/1979",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -291,6 +292,7 @@
       "fechaNacimiento": "11/01/1973",
       "lugarNacimiento": "PAMPAS DE HOSPITAL, TUMBES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -497,6 +499,7 @@
       "fechaNacimiento": "28/02/1969",
       "lugarNacimiento": "CORRALES, TUMBES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -685,6 +688,7 @@
       "fechaNacimiento": "11/11/1969",
       "lugarNacimiento": "",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -984,6 +988,7 @@
       "fechaNacimiento": "03/10/1963",
       "lugarNacimiento": "SAN JUAN DE LA VIRGEN, TUMBES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1281,6 +1286,7 @@
       "fechaNacimiento": "28/11/1974",
       "lugarNacimiento": "TUMBES, TUMBES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1504,6 +1510,7 @@
       "fechaNacimiento": "09/02/1978",
       "lugarNacimiento": "ZORRITOS, CONTRALMIRANTE VILLAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1713,7 +1720,8 @@
       "fechaNacimiento": "24/07/1979",
       "lugarNacimiento": "HUARIACA, PASCO",
       "flags": {
-        "exCongresista": true,
+        "congresistaActual": true,
+        "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
         "exMinistro": false,
@@ -2031,6 +2039,7 @@
       "fechaNacimiento": "10/11/1965",
       "lugarNacimiento": "TUMBES, TUMBES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2259,6 +2268,7 @@
       "fechaNacimiento": "30/08/1968",
       "lugarNacimiento": "TUMBES, TUMBES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2371,6 +2381,7 @@
       "fechaNacimiento": "15/02/1970",
       "lugarNacimiento": "CASITAS, CONTRALMIRANTE VILLAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2663,6 +2674,7 @@
       "fechaNacimiento": "28/10/1944",
       "lugarNacimiento": "CASITAS, CONTRALMIRANTE VILLAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2775,6 +2787,7 @@
       "fechaNacimiento": "12/04/1955",
       "lugarNacimiento": "ZORRITOS, CONTRALMIRANTE VILLAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2860,6 +2873,7 @@
       "fechaNacimiento": "06/09/1957",
       "lugarNacimiento": "TUMBES, TUMBES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3195,6 +3209,7 @@
       "fechaNacimiento": "23/12/1972",
       "lugarNacimiento": "TUMBES, TUMBES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3469,6 +3484,7 @@
       "fechaNacimiento": "29/06/1951",
       "lugarNacimiento": "TUMBES, TUMBES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3543,6 +3559,7 @@
       "fechaNacimiento": "01/12/1958",
       "lugarNacimiento": "TUMBES, TUMBES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3634,6 +3651,7 @@
       "fechaNacimiento": "07/01/1964",
       "lugarNacimiento": "CASITAS, CONTRALMIRANTE VILLAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3696,6 +3714,7 @@
       "fechaNacimiento": "02/12/1966",
       "lugarNacimiento": "SANTIAGO DE CHUCO, SANTIAGO DE CHUCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3796,6 +3815,7 @@
       "fechaNacimiento": "15/03/1976",
       "lugarNacimiento": "TUMBES, TUMBES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4166,6 +4186,7 @@
       "fechaNacimiento": "20/06/1958",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4405,6 +4426,7 @@
       "fechaNacimiento": "18/05/1955",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4564,6 +4586,7 @@
       "fechaNacimiento": "19/12/1970",
       "lugarNacimiento": "HUARAZ, HUARAZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4698,6 +4721,7 @@
       "fechaNacimiento": "18/09/1970",
       "lugarNacimiento": "BAGUA GRANDE, UTCUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4814,6 +4838,7 @@
       "fechaNacimiento": "24/04/1970",
       "lugarNacimiento": "JAUJA, JAUJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4892,6 +4917,7 @@
       "fechaNacimiento": "31/03/1948",
       "lugarNacimiento": "CATACAOS, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4954,6 +4980,7 @@
       "fechaNacimiento": "18/07/1951",
       "lugarNacimiento": "ZORRITOS, CONTRALMIRANTE VILLAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5031,6 +5058,7 @@
       "fechaNacimiento": "30/10/1971",
       "lugarNacimiento": "TUMBES, TUMBES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5222,6 +5250,7 @@
       "fechaNacimiento": "04/04/1967",
       "lugarNacimiento": "ZARUMILLA, ZARUMILLA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5376,6 +5405,7 @@
       "fechaNacimiento": "24/04/1967",
       "lugarNacimiento": "CORRALES, TUMBES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5513,6 +5543,7 @@
       "fechaNacimiento": "08/11/1963",
       "lugarNacimiento": "JOSE LEONARDO ORTIZ, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5972,6 +6003,7 @@
       "fechaNacimiento": "13/12/1956",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6067,6 +6099,7 @@
       "fechaNacimiento": "06/10/1963",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6311,6 +6344,7 @@
       "fechaNacimiento": "14/06/1974",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6386,6 +6420,7 @@
       "fechaNacimiento": "20/03/1974",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6448,6 +6483,7 @@
       "fechaNacimiento": "23/09/1972",
       "lugarNacimiento": "SAN JUAN DE LA VIRGEN, TUMBES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6547,6 +6583,7 @@
       "fechaNacimiento": "07/01/1976",
       "lugarNacimiento": "SULLANA, SULLANA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,

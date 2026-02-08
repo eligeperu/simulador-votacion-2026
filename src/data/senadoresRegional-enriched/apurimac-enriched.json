@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-02-07T05:43:04.332Z",
+  "fetchedAt": "2026-02-07T19:47:05.910Z",
   "idProcesoElectoral": 124,
   "count": 55,
   "data": [
@@ -15,6 +15,7 @@
       "fechaNacimiento": "23/08/1973",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -213,6 +214,7 @@
       "fechaNacimiento": "17/08/1967",
       "lugarNacimiento": "ABANCAY, ABANCAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -314,6 +316,7 @@
       "fechaNacimiento": "18/03/1976",
       "lugarNacimiento": "ABANCAY, ABANCAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -571,6 +574,7 @@
       "fechaNacimiento": "24/12/1961",
       "lugarNacimiento": "ABANCAY, ABANCAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -896,6 +900,7 @@
       "fechaNacimiento": "09/09/1976",
       "lugarNacimiento": "LURIN, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1042,6 +1047,7 @@
       "fechaNacimiento": "11/04/1970",
       "lugarNacimiento": "TALAVERA, ANDAHUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1338,6 +1344,7 @@
       "fechaNacimiento": "03/04/1975",
       "lugarNacimiento": "CHINCHEROS, CHINCHEROS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1454,6 +1461,7 @@
       "fechaNacimiento": "22/11/1960",
       "lugarNacimiento": "ABANCAY, ABANCAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1683,6 +1691,7 @@
       "fechaNacimiento": "06/03/1969",
       "lugarNacimiento": "COTABAMBAS, COTABAMBAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1745,6 +1754,7 @@
       "fechaNacimiento": "21/07/1971",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1963,6 +1973,7 @@
       "fechaNacimiento": "20/12/1974",
       "lugarNacimiento": "ANDAHUAYLAS, ANDAHUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2186,6 +2197,7 @@
       "fechaNacimiento": "06/05/1975",
       "lugarNacimiento": "IHUAYLLO, AYMARAES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2337,6 +2349,7 @@
       "fechaNacimiento": "18/02/1964",
       "lugarNacimiento": "HAQUIRA, COTABAMBAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2632,6 +2645,7 @@
       "fechaNacimiento": "27/03/1979",
       "lugarNacimiento": "CURAHUASI, ABANCAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2766,6 +2780,7 @@
       "fechaNacimiento": "16/12/1952",
       "lugarNacimiento": "CHALHUANCA, AYMARAES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2993,6 +3008,7 @@
       "fechaNacimiento": "20/11/1971",
       "lugarNacimiento": "SAN PEDRO DE CORIS, CHURCAMPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3268,6 +3284,7 @@
       "fechaNacimiento": "02/04/1974",
       "lugarNacimiento": "ABANCAY, ABANCAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3490,6 +3507,7 @@
       "fechaNacimiento": "02/07/1975",
       "lugarNacimiento": "CIRCA, ABANCAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3584,6 +3602,7 @@
       "fechaNacimiento": "14/05/1956",
       "lugarNacimiento": "PATAYPAMPA, GRAU",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3833,6 +3852,7 @@
       "fechaNacimiento": "11/02/1964",
       "lugarNacimiento": "MACARI, MELGAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3925,6 +3945,7 @@
       "fechaNacimiento": "24/09/1956",
       "lugarNacimiento": "MARA, COTABAMBAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4074,6 +4095,7 @@
       "fechaNacimiento": "30/01/1962",
       "lugarNacimiento": "BARRANCA, BARRANCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4198,6 +4220,7 @@
       "fechaNacimiento": "06/08/1954",
       "lugarNacimiento": "TALAVERA, ANDAHUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4382,6 +4405,7 @@
       "fechaNacimiento": "07/01/1967",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4467,6 +4491,7 @@
       "fechaNacimiento": "30/01/1971",
       "lugarNacimiento": "ABANCAY, ABANCAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4593,6 +4618,7 @@
       "fechaNacimiento": "21/12/1975",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4655,6 +4681,7 @@
       "fechaNacimiento": "21/10/1979",
       "lugarNacimiento": "CURAHUASI, ABANCAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4814,6 +4841,7 @@
       "fechaNacimiento": "16/06/1980",
       "lugarNacimiento": "ABANCAY, ABANCAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5021,6 +5049,7 @@
       "fechaNacimiento": "08/12/1976",
       "lugarNacimiento": "ANDARAPA, ANDAHUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5150,6 +5179,7 @@
       "fechaNacimiento": "12/05/1969",
       "lugarNacimiento": "MICAELA BASTIDAS, GRAU",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5350,6 +5380,7 @@
       "fechaNacimiento": "15/08/1961",
       "lugarNacimiento": "OCOBAMBA, CHINCHEROS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5451,6 +5482,7 @@
       "fechaNacimiento": "19/09/1975",
       "lugarNacimiento": "ANDAHUAYLAS, ANDAHUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5569,6 +5601,7 @@
       "fechaNacimiento": "07/07/1980",
       "lugarNacimiento": "ABANCAY, ABANCAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5763,6 +5796,7 @@
       "fechaNacimiento": "06/01/1969",
       "lugarNacimiento": "CURAHUASI, ABANCAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5937,6 +5971,7 @@
       "fechaNacimiento": "20/07/1967",
       "lugarNacimiento": "CHINCHEROS, CHINCHEROS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6167,6 +6202,7 @@
       "fechaNacimiento": "03/06/1971",
       "lugarNacimiento": "PAMPAS, TAYACAJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6285,6 +6321,7 @@
       "fechaNacimiento": "23/07/1961",
       "lugarNacimiento": "ABANCAY, ABANCAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6539,6 +6576,7 @@
       "fechaNacimiento": "17/03/1963",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6826,6 +6864,7 @@
       "fechaNacimiento": "15/05/1972",
       "lugarNacimiento": "SAN RAMON, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6925,6 +6964,7 @@
       "fechaNacimiento": "07/03/1955",
       "lugarNacimiento": "PICHIRHUA, ABANCAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7069,6 +7109,7 @@
       "fechaNacimiento": "22/08/1965",
       "lugarNacimiento": "ABANCAY, ABANCAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7430,6 +7471,7 @@
       "fechaNacimiento": "10/11/1958",
       "lugarNacimiento": "PICHIRHUA, ABANCAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7606,6 +7648,7 @@
       "fechaNacimiento": "26/12/1966",
       "lugarNacimiento": "HUACHAC, CHUPACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7988,6 +8031,7 @@
       "fechaNacimiento": "08/03/1978",
       "lugarNacimiento": "COTABAMBAS, COTABAMBAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8131,6 +8175,7 @@
       "fechaNacimiento": "31/05/1979",
       "lugarNacimiento": "PROGRESO, GRAU",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8230,6 +8275,7 @@
       "fechaNacimiento": "21/01/1967",
       "lugarNacimiento": "TALAVERA, ANDAHUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8524,6 +8570,7 @@
       "fechaNacimiento": "25/09/1958",
       "lugarNacimiento": "OCOBAMBA, CHINCHEROS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": false,
@@ -9469,6 +9516,7 @@
       "fechaNacimiento": "11/01/1972",
       "lugarNacimiento": "EL AGUSTINO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9554,6 +9602,7 @@
       "fechaNacimiento": "27/09/1980",
       "lugarNacimiento": "ANDAHUAYLAS, ANDAHUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9690,6 +9739,7 @@
       "fechaNacimiento": "03/11/1961",
       "lugarNacimiento": "SIHUAS, SIHUAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9787,6 +9837,7 @@
       "fechaNacimiento": "11/02/1977",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10117,6 +10168,7 @@
       "fechaNacimiento": "17/01/1959",
       "lugarNacimiento": "BREÑA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10389,6 +10441,7 @@
       "fechaNacimiento": "25/05/1969",
       "lugarNacimiento": "LAMBRAMA, ABANCAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10606,6 +10659,7 @@
       "fechaNacimiento": "23/12/1964",
       "lugarNacimiento": "PARURO, PARURO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10723,6 +10777,7 @@
       "fechaNacimiento": "19/01/1974",
       "lugarNacimiento": "SAN ANTONIO DE CACHI, ANDAHUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,

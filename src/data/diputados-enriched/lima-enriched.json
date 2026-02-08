@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-02-07T09:05:04.482Z",
+  "fetchedAt": "2026-02-07T22:49:27.252Z",
   "idProcesoElectoral": 124,
-  "count": 596,
+  "count": 595,
   "data": [
     {
       "dni": "41010370",
@@ -15,6 +15,7 @@
       "fechaNacimiento": "26/02/1970",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -281,6 +282,7 @@
       "fechaNacimiento": "04/06/1970",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -594,6 +596,7 @@
       "fechaNacimiento": "26/12/1957",
       "lugarNacimiento": "HUANUCO, HUANUCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -728,6 +731,7 @@
       "fechaNacimiento": "23/03/1988",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1022,6 +1026,7 @@
       "fechaNacimiento": "29/03/1963",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1232,6 +1237,7 @@
       "fechaNacimiento": "14/04/1982",
       "lugarNacimiento": "SANTIAGO DE SURCO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1679,6 +1685,7 @@
       "fechaNacimiento": "12/07/1990",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1979,6 +1986,7 @@
       "fechaNacimiento": "23/09/1978",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2346,6 +2354,7 @@
       "fechaNacimiento": "25/06/1979",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2628,6 +2637,7 @@
       "fechaNacimiento": "09/01/1978",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2941,6 +2951,7 @@
       "fechaNacimiento": "18/03/1988",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3101,6 +3112,7 @@
       "fechaNacimiento": "28/01/1967",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3618,6 +3630,7 @@
       "fechaNacimiento": "26/08/1952",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3928,6 +3941,7 @@
       "fechaNacimiento": "21/01/1998",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4080,6 +4094,7 @@
       "fechaNacimiento": "02/08/1963",
       "lugarNacimiento": "CHULUCANAS, MORROPON",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4279,6 +4294,7 @@
       "fechaNacimiento": "12/10/1955",
       "lugarNacimiento": "LINCE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4436,6 +4452,7 @@
       "fechaNacimiento": "14/01/1982",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4663,6 +4680,7 @@
       "fechaNacimiento": "26/01/1982",
       "lugarNacimiento": "RIPAN, DOS DE MAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4785,6 +4803,7 @@
       "fechaNacimiento": "27/01/1983",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4948,6 +4967,7 @@
       "fechaNacimiento": "25/02/1953",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5243,6 +5263,7 @@
       "fechaNacimiento": "01/03/1985",
       "lugarNacimiento": "SAN LUIS, CAÑETE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5435,6 +5456,7 @@
       "fechaNacimiento": "25/11/1953",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5644,6 +5666,7 @@
       "fechaNacimiento": "29/03/1983",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5755,6 +5778,7 @@
       "fechaNacimiento": "24/11/1974",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6120,6 +6144,7 @@
       "fechaNacimiento": "21/01/1971",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6487,6 +6512,7 @@
       "fechaNacimiento": "22/12/1988",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6752,6 +6778,7 @@
       "fechaNacimiento": "13/11/1996",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6989,6 +7016,7 @@
       "fechaNacimiento": "23/10/1992",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7168,6 +7196,7 @@
       "fechaNacimiento": "02/07/1962",
       "lugarNacimiento": "ICA, ICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7529,6 +7558,7 @@
       "fechaNacimiento": "29/05/1993",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7811,6 +7841,7 @@
       "fechaNacimiento": "29/09/1975",
       "lugarNacimiento": "BREÑA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8191,6 +8222,7 @@
       "fechaNacimiento": "20/12/1968",
       "lugarNacimiento": "CHIQUIAN, BOLOGNESI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8562,6 +8594,7 @@
       "fechaNacimiento": "22/04/1979",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8796,6 +8829,7 @@
       "fechaNacimiento": "24/03/1966",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9061,6 +9095,7 @@
       "fechaNacimiento": "07/07/1956",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9172,6 +9207,7 @@
       "fechaNacimiento": "15/11/1990",
       "lugarNacimiento": "CHACHAPOYAS, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9336,6 +9372,7 @@
       "fechaNacimiento": "11/03/1979",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9528,6 +9565,7 @@
       "fechaNacimiento": "10/08/1992",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9778,6 +9816,7 @@
       "fechaNacimiento": "20/04/1969",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9981,6 +10020,7 @@
       "fechaNacimiento": "05/05/1992",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10043,6 +10083,7 @@
       "fechaNacimiento": "15/02/1959",
       "lugarNacimiento": "ONGOY, CHINCHEROS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10392,6 +10433,7 @@
       "fechaNacimiento": "18/06/1983",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10549,6 +10591,7 @@
       "fechaNacimiento": "24/10/1976",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10828,6 +10871,7 @@
       "fechaNacimiento": "31/03/1983",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11103,6 +11147,7 @@
       "fechaNacimiento": "08/01/1991",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11317,6 +11362,7 @@
       "fechaNacimiento": "28/02/1975",
       "lugarNacimiento": "RUPA-RUPA, LEONCIO PRADO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11661,6 +11707,7 @@
       "fechaNacimiento": "22/04/1989",
       "lugarNacimiento": "SAN MARTIN DE PORRES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11723,6 +11770,7 @@
       "fechaNacimiento": "29/04/1968",
       "lugarNacimiento": "SAN MARTIN DE PORRES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12047,6 +12095,7 @@
       "fechaNacimiento": "14/03/1992",
       "lugarNacimiento": "VILLA EL SALVADOR, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12466,6 +12515,7 @@
       "fechaNacimiento": "16/03/1961",
       "lugarNacimiento": "AMBAR, HUAURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12838,6 +12888,7 @@
       "fechaNacimiento": "12/03/1970",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13063,6 +13114,7 @@
       "fechaNacimiento": "08/10/1988",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13379,7 +13431,8 @@
       "fechaNacimiento": "24/08/1994",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
-        "exCongresista": true,
+        "congresistaActual": true,
+        "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
         "exMinistro": false,
@@ -13699,6 +13752,7 @@
       "fechaNacimiento": "21/12/1993",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13949,6 +14003,7 @@
       "fechaNacimiento": "23/06/1965",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14137,6 +14192,7 @@
       "fechaNacimiento": "20/04/1963",
       "lugarNacimiento": "VICCO, PASCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14370,6 +14426,7 @@
       "fechaNacimiento": "06/07/1982",
       "lugarNacimiento": "CALLERIA, CORONEL PORTILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14660,6 +14717,7 @@
       "fechaNacimiento": "03/02/1971",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14917,6 +14975,7 @@
       "fechaNacimiento": "19/03/1981",
       "lugarNacimiento": "PUEBLO LIBRE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15346,6 +15405,7 @@
       "fechaNacimiento": "07/06/1973",
       "lugarNacimiento": "PUEBLO LIBRE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15705,6 +15765,7 @@
       "fechaNacimiento": "01/01/1999",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15785,6 +15846,7 @@
       "fechaNacimiento": "06/05/1954",
       "lugarNacimiento": "PIURA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16331,6 +16393,7 @@
       "fechaNacimiento": "29/06/1987",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16504,6 +16567,7 @@
       "fechaNacimiento": "09/05/1962",
       "lugarNacimiento": "SURQUILLO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16688,6 +16752,7 @@
       "fechaNacimiento": "17/06/1964",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16869,6 +16934,7 @@
       "fechaNacimiento": "24/10/1989",
       "lugarNacimiento": "RUPA-RUPA, LEONCIO PRADO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17247,6 +17313,7 @@
       "fechaNacimiento": "07/10/1958",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17473,6 +17540,7 @@
       "fechaNacimiento": "16/02/1964",
       "lugarNacimiento": "PAUCARA, ACOBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17641,6 +17709,7 @@
       "fechaNacimiento": "25/05/1970",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17886,6 +17955,7 @@
       "fechaNacimiento": "14/11/1973",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18252,6 +18322,7 @@
       "fechaNacimiento": "06/04/1964",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18635,6 +18706,7 @@
       "fechaNacimiento": "21/05/1974",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18886,6 +18958,7 @@
       "fechaNacimiento": "03/10/1958",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19040,6 +19113,7 @@
       "fechaNacimiento": "20/08/1987",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19308,6 +19382,7 @@
       "fechaNacimiento": "18/06/1973",
       "lugarNacimiento": "CANCHAYLLO, JAUJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19569,6 +19644,7 @@
       "fechaNacimiento": "22/04/1998",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19685,6 +19761,7 @@
       "fechaNacimiento": "07/11/1998",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19802,6 +19879,7 @@
       "fechaNacimiento": "11/08/1975",
       "lugarNacimiento": "IMPERIAL, CAÑETE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19880,6 +19958,7 @@
       "fechaNacimiento": "15/01/1957",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20036,6 +20115,7 @@
       "fechaNacimiento": "25/08/1978",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20182,6 +20262,7 @@
       "fechaNacimiento": "26/11/1971",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20618,6 +20699,7 @@
       "fechaNacimiento": "06/11/1978",
       "lugarNacimiento": "SURQUILLO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20837,6 +20919,7 @@
       "fechaNacimiento": "16/09/1983",
       "lugarNacimiento": "HUARAL, HUARAL",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21006,6 +21089,7 @@
       "fechaNacimiento": "10/06/1977",
       "lugarNacimiento": "RIMAC, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21122,6 +21206,7 @@
       "fechaNacimiento": "21/05/2000",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21254,6 +21339,7 @@
       "fechaNacimiento": "13/10/1997",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21371,6 +21457,7 @@
       "fechaNacimiento": "23/04/1977",
       "lugarNacimiento": "VILLA MARIA DEL TRIUNFO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21488,6 +21575,7 @@
       "fechaNacimiento": "19/03/1981",
       "lugarNacimiento": "SANTA ROSA DE SACCO, YAULI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21606,6 +21694,7 @@
       "fechaNacimiento": "20/09/1975",
       "lugarNacimiento": "PUEBLO LIBRE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": false,
@@ -21768,6 +21857,7 @@
       "fechaNacimiento": "26/03/1983",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22018,6 +22108,7 @@
       "fechaNacimiento": "10/02/1986",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22291,6 +22382,7 @@
       "fechaNacimiento": "07/01/1982",
       "lugarNacimiento": "COMAS, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22426,6 +22518,7 @@
       "fechaNacimiento": "02/02/1983",
       "lugarNacimiento": "PUEBLO LIBRE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22598,6 +22691,7 @@
       "fechaNacimiento": "01/07/1963",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22715,6 +22809,7 @@
       "fechaNacimiento": "12/10/1978",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22812,6 +22907,7 @@
       "fechaNacimiento": "15/04/1990",
       "lugarNacimiento": "LAMPA, LAMPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -23057,6 +23153,7 @@
       "fechaNacimiento": "27/08/1957",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -23237,6 +23334,7 @@
       "fechaNacimiento": "25/04/1976",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -23554,6 +23652,7 @@
       "fechaNacimiento": "18/03/1989",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -23799,6 +23898,7 @@
       "fechaNacimiento": "14/09/1990",
       "lugarNacimiento": "CHORRILLOS, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -24065,6 +24165,7 @@
       "fechaNacimiento": "28/06/1974",
       "lugarNacimiento": "PALCA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -24164,6 +24265,7 @@
       "fechaNacimiento": "31/10/1982",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -24263,6 +24365,7 @@
       "fechaNacimiento": "03/03/1971",
       "lugarNacimiento": "CHAUPIMARCA, PASCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -24462,6 +24565,7 @@
       "fechaNacimiento": "04/10/1975",
       "lugarNacimiento": "SAN JUAN DE LURIGANCHO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -24696,6 +24800,7 @@
       "fechaNacimiento": "01/01/1977",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -24813,6 +24918,7 @@
       "fechaNacimiento": "26/06/1972",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -25117,6 +25223,7 @@
       "fechaNacimiento": "20/11/1972",
       "lugarNacimiento": "HUANUCO, HUANUCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -25277,6 +25384,7 @@
       "fechaNacimiento": "07/02/1974",
       "lugarNacimiento": "SAN MARTIN DE PORRES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -25406,6 +25514,7 @@
       "fechaNacimiento": "05/12/1981",
       "lugarNacimiento": "JACAS CHICO, YAROWILCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -25523,6 +25632,7 @@
       "fechaNacimiento": "26/07/1972",
       "lugarNacimiento": "EL AGUSTINO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -25748,6 +25858,7 @@
       "fechaNacimiento": "01/07/1965",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -25915,6 +26026,7 @@
       "fechaNacimiento": "10/10/1975",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -26174,6 +26286,7 @@
       "fechaNacimiento": "03/03/1977",
       "lugarNacimiento": "EL AGUSTINO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -26440,6 +26553,7 @@
       "fechaNacimiento": "26/01/1981",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -26690,6 +26804,7 @@
       "fechaNacimiento": "23/07/1957",
       "lugarNacimiento": "MIRAFLORES, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -26826,230 +26941,6 @@
       "resoluciones": []
     },
     {
-      "dni": "72607119",
-      "idHojaVida": 251372,
-      "idOrg": 2218,
-      "nombre": "CESAR DANILO ROMERO LICAPA",
-      "partido": "PARTIDO POLITICO NACIONAL PERU LIBRE",
-      "cargo": "DIPUTADO",
-      "foto": "https://mpesije.jne.gob.pe/apidocs/ee613dab-5050-46b4-8be4-040b54c7f76b.jpg",
-      "estado": "INSCRITO",
-      "fechaNacimiento": "25/09/1995",
-      "lugarNacimiento": "",
-      "flags": {
-        "exCongresista": false,
-        "exAlcalde": false,
-        "exGobernador": false,
-        "exMinistro": false,
-        "cargosAnteriores": [],
-        "sentenciaPenal": false,
-        "sentenciaPenalDetalle": [],
-        "sentenciaObliga": false,
-        "sentenciaObligaDetalle": []
-      },
-      "resumen": {
-        "educacionMax": "EN CURSO",
-        "institucion": "UNIVERSIDAD TECNOLOGICA DEL PERU",
-        "ingresos2024": 24000,
-        "experienciaActual": "Servicio de asistencia técnica administrativa"
-      },
-      "trayectoria": {
-        "cargoPartidario": [
-          {
-            "idHvCargoPartidario": 145178,
-            "tengoCargoPartidario": "SI",
-            "itemCargoPartidario": 1,
-            "idOrgPolCargoPartidario": 2218,
-            "orgPolCargoPartidario": "PARTIDO POLÍTICO PARTIDO POLITICO NACIONAL PERU LIBRE",
-            "cargoPartidario": "SECRETARIO GENERAL DISTRITAL",
-            "anioCargoPartiDesde": "2022",
-            "anioCargoPartiHasta": "2025",
-            "idHojaVida": 251372,
-            "idEstado": 1,
-            "estado": "ACTIVO (R)",
-            "txComentario": null
-          }
-        ],
-        "cargoEleccion": []
-      },
-      "formacionAcademica": {
-        "educacionBasica": {
-          "idHvEduBasica": 235798,
-          "tengoEduBasica": "SI",
-          "eduPrimaria": "SI",
-          "concluidoEduPrimaria": "SI",
-          "eduSecundaria": "SI",
-          "concluidoEduSecundaria": "SI",
-          "idHojaVida": 251372,
-          "idEstado": 1,
-          "estado": "ACTIVO (R)"
-        },
-        "educacionTecnico": [
-          {
-            "idHvEduTecnico": 160304,
-            "tengoEduTecnico": "SI",
-            "cenEstudioTecnico": "RAMIRO PRIALE PRIALE",
-            "carreraTecnico": "PROFESIONAL TÉCNICO EN CONTABILIDAD",
-            "concluidoEduTecnico": "1",
-            "idHojaVida": 251372,
-            "idEstado": 1,
-            "estado": "ACTIVO (R)",
-            "txComentario": null
-          }
-        ],
-        "educacionNoUniversitaria": [],
-        "educacionUniversitaria": [
-          {
-            "idHvEduUniversitaria": 196327,
-            "tengoEduUniversitaria": "SI",
-            "itemEduUni": "1",
-            "eduUniversitaria": "1",
-            "universidad": "UNIVERSIDAD TECNOLOGICA DEL PERU",
-            "carreraUni": "EN CURSO",
-            "concluidoEduUni": "NO",
-            "egresadoEduUni": null,
-            "bachillerEduUni": null,
-            "anioBachiller": null,
-            "tituloUni": null,
-            "anioTitulo": null,
-            "idEstado": 1,
-            "estado": "ACTIVO (R)",
-            "txComentario": null
-          }
-        ],
-        "educacionPosgrado": [],
-        "educacionPosgradoOtro": []
-      },
-      "experienciaLaboral": [
-        {
-          "idHvExpeLaboral": 265099,
-          "tengoExpeLaboral": "1",
-          "itemExpeLaboral": 1,
-          "centroTrabajo": "Hospital jose agurto tello de chosica",
-          "ocupacionProfesion": "Servicio de asistencia técnica administrativa",
-          "rucTrabajo": null,
-          "direccionTrabajo": "Jr. Arequipa n 214",
-          "anioTrabajoDesde": "2023",
-          "anioTrabajoHasta": "2025",
-          "ubigeoTrabajo": "140112",
-          "trabajoPais": "PERU",
-          "trabajoDepartamento": "LIMA",
-          "trabajoProvincia": "LIMA",
-          "trabajoDistrito": "LURIGANCHO",
-          "idHojaVida": 251372,
-          "idEstado": 1,
-          "estado": "ACTIVO (R)",
-          "txComentario": "Se presta servicios de trabajo individual en virtud a sucesivas Ordenes de Servicio que se paga previa entrega de actividades y mediante Recibo por Honorarios"
-        },
-        {
-          "idHvExpeLaboral": 265106,
-          "tengoExpeLaboral": "1",
-          "itemExpeLaboral": 2,
-          "centroTrabajo": "TERCERIZA PERU S.R.L",
-          "ocupacionProfesion": "TELEOPERADOR",
-          "rucTrabajo": null,
-          "direccionTrabajo": "Calle los Halcones 102 Urb. Limatambo",
-          "anioTrabajoDesde": "2021",
-          "anioTrabajoHasta": "2022",
-          "ubigeoTrabajo": "140131",
-          "trabajoPais": "PERU",
-          "trabajoDepartamento": "LIMA",
-          "trabajoProvincia": "LIMA",
-          "trabajoDistrito": "SURQUILLO",
-          "idHojaVida": 251372,
-          "idEstado": 1,
-          "estado": "ACTIVO (R)",
-          "txComentario": null
-        },
-        {
-          "idHvExpeLaboral": 265111,
-          "tengoExpeLaboral": "1",
-          "itemExpeLaboral": 3,
-          "centroTrabajo": "UNIVERSIDAD NACIONAL DE EDUCACION ENRIQUE GUZMAN Y VALLE",
-          "ocupacionProfesion": "TECNICO CONTABLE",
-          "rucTrabajo": null,
-          "direccionTrabajo": "Av. Enrique Guzman y Valle n 951",
-          "anioTrabajoDesde": "2018",
-          "anioTrabajoHasta": "2020",
-          "ubigeoTrabajo": "140112",
-          "trabajoPais": "PERU",
-          "trabajoDepartamento": "LIMA",
-          "trabajoProvincia": "LIMA",
-          "trabajoDistrito": "LURIGANCHO",
-          "idHojaVida": 251372,
-          "idEstado": 1,
-          "estado": "ACTIVO (R)",
-          "txComentario": null
-        },
-        {
-          "idHvExpeLaboral": 265114,
-          "tengoExpeLaboral": "1",
-          "itemExpeLaboral": 4,
-          "centroTrabajo": "GLOBAL SALES SOLUTIONS LINE SL.",
-          "ocupacionProfesion": "TELEOPERADOR",
-          "rucTrabajo": null,
-          "direccionTrabajo": "Av. La Molina n 496",
-          "anioTrabajoDesde": "2017",
-          "anioTrabajoHasta": "2018",
-          "ubigeoTrabajo": "140103",
-          "trabajoPais": "PERU",
-          "trabajoDepartamento": "LIMA",
-          "trabajoProvincia": "LIMA",
-          "trabajoDistrito": "ATE",
-          "idHojaVida": 251372,
-          "idEstado": 1,
-          "estado": "ACTIVO (R)",
-          "txComentario": null
-        },
-        {
-          "idHvExpeLaboral": 265117,
-          "tengoExpeLaboral": "1",
-          "itemExpeLaboral": 5,
-          "centroTrabajo": "DYNAMICALL",
-          "ocupacionProfesion": "CUSTOMER SERVICE REPRESENTATIVE",
-          "rucTrabajo": null,
-          "direccionTrabajo": "Calle Santa Ines 115, Urb. Industrial Sta Rosa",
-          "anioTrabajoDesde": "2016",
-          "anioTrabajoHasta": "2016",
-          "ubigeoTrabajo": "140103",
-          "trabajoPais": "PERU",
-          "trabajoDepartamento": "LIMA",
-          "trabajoProvincia": "LIMA",
-          "trabajoDistrito": "ATE",
-          "idHojaVida": 251372,
-          "idEstado": 1,
-          "estado": "ACTIVO (R)",
-          "txComentario": null
-        }
-      ],
-      "declaracionJurada": {
-        "ingreso": [
-          {
-            "idHvIngresos": 209823,
-            "idTengoIngresos": "1",
-            "tengoIngresos": "SI",
-            "anioIngresos": "2024",
-            "remuBrutaPublico": 0,
-            "remuBrutaPrivado": 0,
-            "rentaIndividualPublico": 24000,
-            "rentaIndividualPrivado": 0,
-            "otroIngresoPublico": 0,
-            "otroIngresoPrivado": 0,
-            "idHojaVida": 251372,
-            "idEstado": 1,
-            "totalIngresos": 24000
-          }
-        ],
-        "bienInmueble": [],
-        "bienMueble": [],
-        "otroMueble": [],
-        "titularidad": []
-      },
-      "sentenciaPenal": [],
-      "sentenciaObliga": [],
-      "resoluciones": []
-    },
-    {
       "dni": "40444232",
       "idHojaVida": 247521,
       "idOrg": 2218,
@@ -27061,6 +26952,7 @@
       "fechaNacimiento": "12/04/1979",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -27322,6 +27214,7 @@
       "fechaNacimiento": "19/01/1972",
       "lugarNacimiento": "EL PARCO, BAGUA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -27594,6 +27487,7 @@
       "fechaNacimiento": "05/04/1971",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -27770,6 +27664,7 @@
       "fechaNacimiento": "08/12/1983",
       "lugarNacimiento": "CHAVINILLO, YAROWILCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -28058,6 +27953,7 @@
       "fechaNacimiento": "25/12/1975",
       "lugarNacimiento": "INDEPENDENCIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -28246,6 +28142,7 @@
       "fechaNacimiento": "17/05/1962",
       "lugarNacimiento": "ILAVE, EL COLLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -28447,6 +28344,7 @@
       "fechaNacimiento": "15/04/1949",
       "lugarNacimiento": "HUANCANE, HUANCANE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -28632,6 +28530,7 @@
       "fechaNacimiento": "15/05/1946",
       "lugarNacimiento": "SAN PABLO, SAN PABLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -28811,6 +28710,7 @@
       "fechaNacimiento": "14/03/1997",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -29111,6 +29011,7 @@
       "fechaNacimiento": "28/05/1979",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -29309,6 +29210,7 @@
       "fechaNacimiento": "06/04/1989",
       "lugarNacimiento": "COMAS, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -29473,6 +29375,7 @@
       "fechaNacimiento": "18/12/1961",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -29786,6 +29689,7 @@
       "fechaNacimiento": "23/01/1992",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -30017,6 +29921,7 @@
       "fechaNacimiento": "26/09/1996",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -30231,6 +30136,7 @@
       "fechaNacimiento": "21/08/1974",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -30457,6 +30363,7 @@
       "fechaNacimiento": "26/01/2000",
       "lugarNacimiento": "TALAVERA, ANDAHUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -30594,6 +30501,7 @@
       "fechaNacimiento": "04/09/1979",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -30918,6 +30826,7 @@
       "fechaNacimiento": "21/11/1981",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -31117,6 +31026,7 @@
       "fechaNacimiento": "13/07/1989",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -31335,6 +31245,7 @@
       "fechaNacimiento": "21/02/1997",
       "lugarNacimiento": "CASTILLA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -31481,6 +31392,7 @@
       "fechaNacimiento": "26/06/1997",
       "lugarNacimiento": "PACHACAMAC, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -31580,6 +31492,7 @@
       "fechaNacimiento": "11/03/1978",
       "lugarNacimiento": "SAN MARTIN DE PORRES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -31799,6 +31712,7 @@
       "fechaNacimiento": "23/11/1981",
       "lugarNacimiento": "CARAPO, HUANCA SANCOS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -32041,6 +31955,7 @@
       "fechaNacimiento": "01/03/1987",
       "lugarNacimiento": "SAN MARTIN DE PORRES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -32267,6 +32182,7 @@
       "fechaNacimiento": "07/08/1993",
       "lugarNacimiento": "CAJAMARCA, CAJAMARCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -32418,6 +32334,7 @@
       "fechaNacimiento": "06/11/1969",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -32581,6 +32498,7 @@
       "fechaNacimiento": "14/06/1986",
       "lugarNacimiento": "COMAS, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -32745,6 +32663,7 @@
       "fechaNacimiento": "07/03/1981",
       "lugarNacimiento": "LA MOLINA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -32978,6 +32897,7 @@
       "fechaNacimiento": "09/10/1954",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -33498,6 +33418,7 @@
       "fechaNacimiento": "10/07/1990",
       "lugarNacimiento": "SAN JUAN DE MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -33741,6 +33662,7 @@
       "fechaNacimiento": "23/04/1959",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -33932,6 +33854,7 @@
       "fechaNacimiento": "28/09/1988",
       "lugarNacimiento": "RUPA-RUPA, LEONCIO PRADO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -34326,6 +34249,7 @@
       "fechaNacimiento": "19/11/1971",
       "lugarNacimiento": "CASTILLA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -34711,6 +34635,7 @@
       "fechaNacimiento": "26/06/1974",
       "lugarNacimiento": "VILLA MARIA DEL TRIUNFO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -34898,6 +34823,7 @@
       "fechaNacimiento": "26/02/1998",
       "lugarNacimiento": "CHOTA, CHOTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -35071,6 +34997,7 @@
       "fechaNacimiento": "06/08/1958",
       "lugarNacimiento": "PAUCARA, ACOBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -35348,6 +35275,7 @@
       "fechaNacimiento": "25/09/1985",
       "lugarNacimiento": "QUEROBAMBA, SUCRE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -35492,6 +35420,7 @@
       "fechaNacimiento": "25/11/1980",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -35720,6 +35649,7 @@
       "fechaNacimiento": "08/10/1973",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -35995,6 +35925,7 @@
       "fechaNacimiento": "13/08/1956",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -36208,6 +36139,7 @@
       "fechaNacimiento": "07/04/1970",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -36595,6 +36527,7 @@
       "fechaNacimiento": "13/07/1987",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -36834,6 +36767,7 @@
       "fechaNacimiento": "31/12/1974",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -37151,6 +37085,7 @@
       "fechaNacimiento": "02/05/1959",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -37350,6 +37285,7 @@
       "fechaNacimiento": "13/04/1947",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -37566,6 +37502,7 @@
       "fechaNacimiento": "15/09/1960",
       "lugarNacimiento": "PISCOBAMBA, MARISCAL LUZURIAGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -37906,6 +37843,7 @@
       "fechaNacimiento": "14/04/1956",
       "lugarNacimiento": "BAMBAMARCA, HUALGAYOC",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -38176,6 +38114,7 @@
       "fechaNacimiento": "16/02/1981",
       "lugarNacimiento": "URANMARCA, CHINCHEROS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -38261,6 +38200,7 @@
       "fechaNacimiento": "10/04/1966",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -38573,6 +38513,7 @@
       "fechaNacimiento": "26/05/1967",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -38788,6 +38729,7 @@
       "fechaNacimiento": "10/09/1972",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -38928,6 +38870,7 @@
       "fechaNacimiento": "17/09/1971",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -39017,6 +38960,7 @@
       "fechaNacimiento": "16/07/1972",
       "lugarNacimiento": "CASTILLA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -39096,6 +39040,7 @@
       "fechaNacimiento": "04/04/1959",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -39365,6 +39310,7 @@
       "fechaNacimiento": "15/06/1966",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -39647,6 +39593,7 @@
       "fechaNacimiento": "12/08/1987",
       "lugarNacimiento": "ATE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -39804,6 +39751,7 @@
       "fechaNacimiento": "08/11/1984",
       "lugarNacimiento": "SAN JUAN DE LURIGANCHO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -39983,6 +39931,7 @@
       "fechaNacimiento": "14/05/1965",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -40298,6 +40247,7 @@
       "fechaNacimiento": "02/01/1984",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -40451,6 +40401,7 @@
       "fechaNacimiento": "28/06/1978",
       "lugarNacimiento": "SANTIAGO DE SURCO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -40584,6 +40535,7 @@
       "fechaNacimiento": "01/02/1979",
       "lugarNacimiento": "SAN VICENTE DE CAÑETE, CAÑETE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -40878,6 +40830,7 @@
       "fechaNacimiento": "20/01/1968",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -41082,6 +41035,7 @@
       "fechaNacimiento": "04/04/1970",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -41425,6 +41379,7 @@
       "fechaNacimiento": "26/06/1996",
       "lugarNacimiento": "SANTIAGO DE SURCO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -41571,6 +41526,7 @@
       "fechaNacimiento": "21/12/1976",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -41838,6 +41794,7 @@
       "fechaNacimiento": "27/07/1975",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -41992,6 +41949,7 @@
       "fechaNacimiento": "15/07/1977",
       "lugarNacimiento": "SUMBILCA, HUARAL",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -42092,6 +42050,7 @@
       "fechaNacimiento": "01/11/1975",
       "lugarNacimiento": "EL AGUSTINO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -42241,6 +42200,7 @@
       "fechaNacimiento": "05/05/1977",
       "lugarNacimiento": "VISCHONGO, VILCAS HUAMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -42415,6 +42375,7 @@
       "fechaNacimiento": "16/01/1962",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -42582,6 +42543,7 @@
       "fechaNacimiento": "03/06/1990",
       "lugarNacimiento": "CARABAYLLO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -42731,6 +42693,7 @@
       "fechaNacimiento": "16/07/1995",
       "lugarNacimiento": "SAN JUAN DE MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -42987,6 +42950,7 @@
       "fechaNacimiento": "16/05/1984",
       "lugarNacimiento": "EL AGUSTINO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -43049,6 +43013,7 @@
       "fechaNacimiento": "11/10/1965",
       "lugarNacimiento": "MOLINOS, JAUJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -43231,6 +43196,7 @@
       "fechaNacimiento": "23/10/1990",
       "lugarNacimiento": "LIRCAY, ANGARAES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -43293,6 +43259,7 @@
       "fechaNacimiento": "25/07/1966",
       "lugarNacimiento": "HUACHO, HUAURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -43393,6 +43360,7 @@
       "fechaNacimiento": "28/04/1991",
       "lugarNacimiento": "SAN JUAN DE MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -43559,6 +43527,7 @@
       "fechaNacimiento": "17/08/1983",
       "lugarNacimiento": "AMBO, AMBO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -43696,6 +43665,7 @@
       "fechaNacimiento": "07/06/1999",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -43813,6 +43783,7 @@
       "fechaNacimiento": "19/12/1979",
       "lugarNacimiento": "COMAS, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -44001,6 +43972,7 @@
       "fechaNacimiento": "19/05/1969",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -44173,6 +44145,7 @@
       "fechaNacimiento": "30/10/1986",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -44347,6 +44320,7 @@
       "fechaNacimiento": "23/08/1966",
       "lugarNacimiento": "OCAÑA, LUCANAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -44432,6 +44406,7 @@
       "fechaNacimiento": "30/09/1979",
       "lugarNacimiento": "CALLERIA, CORONEL PORTILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -44751,6 +44726,7 @@
       "fechaNacimiento": "16/03/1980",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -44851,6 +44827,7 @@
       "fechaNacimiento": "19/06/1974",
       "lugarNacimiento": "PAMPAMARCA, CANAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -44949,6 +44926,7 @@
       "fechaNacimiento": "13/06/1986",
       "lugarNacimiento": "TINTAY, AYMARAES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -45166,6 +45144,7 @@
       "fechaNacimiento": "13/05/1970",
       "lugarNacimiento": "UPAHUACHO, PARINACOCHAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -45251,6 +45230,7 @@
       "fechaNacimiento": "16/07/1980",
       "lugarNacimiento": "LANGA, HUAROCHIRI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -45397,6 +45377,7 @@
       "fechaNacimiento": "18/11/1972",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -45508,6 +45489,7 @@
       "fechaNacimiento": "14/11/1980",
       "lugarNacimiento": "TOTOS, CANGALLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -45660,6 +45642,7 @@
       "fechaNacimiento": "23/10/1983",
       "lugarNacimiento": "HUIMBAYOC, SAN MARTIN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -45759,6 +45742,7 @@
       "fechaNacimiento": "08/02/1984",
       "lugarNacimiento": "HUACHOCOLPA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -46079,6 +46063,7 @@
       "fechaNacimiento": "28/12/1961",
       "lugarNacimiento": "PALPA, PALPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -46379,6 +46364,7 @@
       "fechaNacimiento": "14/03/1972",
       "lugarNacimiento": "CHIQUIAN, BOLOGNESI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -46618,6 +46604,7 @@
       "fechaNacimiento": "16/01/1997",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -46774,6 +46761,7 @@
       "fechaNacimiento": "30/03/1956",
       "lugarNacimiento": "QUITO ARMA, HUAYTARA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -46989,6 +46977,7 @@
       "fechaNacimiento": "19/12/1993",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -47285,6 +47274,7 @@
       "fechaNacimiento": "14/12/1986",
       "lugarNacimiento": "PUEBLO LIBRE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -47476,6 +47466,7 @@
       "fechaNacimiento": "07/03/1984",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -47554,6 +47545,7 @@
       "fechaNacimiento": "19/01/1981",
       "lugarNacimiento": "BELLAVISTA, CALLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -47695,6 +47687,7 @@
       "fechaNacimiento": "24/09/1973",
       "lugarNacimiento": "SANTIAGO DE SURCO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -47817,6 +47810,7 @@
       "fechaNacimiento": "31/05/1988",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -47916,6 +47910,7 @@
       "fechaNacimiento": "03/04/1998",
       "lugarNacimiento": "ATE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -48070,6 +48065,7 @@
       "fechaNacimiento": "27/01/1998",
       "lugarNacimiento": "SAN LUIS, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -48224,6 +48220,7 @@
       "fechaNacimiento": "11/12/1962",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -48409,6 +48406,7 @@
       "fechaNacimiento": "18/09/1988",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -48736,6 +48734,7 @@
       "fechaNacimiento": "06/04/1995",
       "lugarNacimiento": "SULLANA, SULLANA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -48835,6 +48834,7 @@
       "fechaNacimiento": "28/08/1992",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -48978,6 +48978,7 @@
       "fechaNacimiento": "19/07/2000",
       "lugarNacimiento": "SAN JUAN DE LURIGANCHO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -49095,6 +49096,7 @@
       "fechaNacimiento": "18/07/1999",
       "lugarNacimiento": "PUEBLO LIBRE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -49297,6 +49299,7 @@
       "fechaNacimiento": "14/12/1976",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -49580,6 +49583,7 @@
       "fechaNacimiento": "22/06/1970",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -49719,6 +49723,7 @@
       "fechaNacimiento": "06/11/1997",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -49837,6 +49842,7 @@
       "fechaNacimiento": "21/03/1998",
       "lugarNacimiento": "SAN JUAN DE LURIGANCHO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -50024,6 +50030,7 @@
       "fechaNacimiento": "01/10/1997",
       "lugarNacimiento": "SAN JUAN DE LURIGANCHO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -50210,6 +50217,7 @@
       "fechaNacimiento": "29/12/1998",
       "lugarNacimiento": "RUPA-RUPA, LEONCIO PRADO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -50356,6 +50364,7 @@
       "fechaNacimiento": "12/11/1997",
       "lugarNacimiento": "PUEBLO LIBRE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -50513,6 +50522,7 @@
       "fechaNacimiento": "05/12/1980",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -50730,6 +50740,7 @@
       "fechaNacimiento": "09/12/1995",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -50847,6 +50858,7 @@
       "fechaNacimiento": "09/10/1972",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -51082,6 +51094,7 @@
       "fechaNacimiento": "08/05/1968",
       "lugarNacimiento": "SANTIAGO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -51199,6 +51212,7 @@
       "fechaNacimiento": "07/10/1967",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -51361,6 +51375,7 @@
       "fechaNacimiento": "03/04/1977",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -51531,6 +51546,7 @@
       "fechaNacimiento": "06/07/1961",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -51736,6 +51752,7 @@
       "fechaNacimiento": "29/09/1991",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -51835,6 +51852,7 @@
       "fechaNacimiento": "24/03/1969",
       "lugarNacimiento": "MORO, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -52282,6 +52300,7 @@
       "fechaNacimiento": "29/11/1956",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -52430,6 +52449,7 @@
       "fechaNacimiento": "05/07/1964",
       "lugarNacimiento": "SAN JUAN, LUCANAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -52546,6 +52566,7 @@
       "fechaNacimiento": "02/12/1982",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -52697,6 +52718,7 @@
       "fechaNacimiento": "24/04/1990",
       "lugarNacimiento": "CASMA, CASMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -52854,6 +52876,7 @@
       "fechaNacimiento": "21/06/1977",
       "lugarNacimiento": "TAYABAMBA, PATAZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -52953,6 +52976,7 @@
       "fechaNacimiento": "14/03/1972",
       "lugarNacimiento": "CHAUPIMARCA, PASCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -53204,6 +53228,7 @@
       "fechaNacimiento": "03/02/1987",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -53409,6 +53434,7 @@
       "fechaNacimiento": "12/12/1974",
       "lugarNacimiento": "HUANTA, HUANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -53607,6 +53633,7 @@
       "fechaNacimiento": "31/10/1981",
       "lugarNacimiento": "CARAZ, HUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -53781,6 +53808,7 @@
       "fechaNacimiento": "22/08/1977",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -54090,6 +54118,7 @@
       "fechaNacimiento": "19/08/1969",
       "lugarNacimiento": "VISTA ALEGRE, NASCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -54253,6 +54282,7 @@
       "fechaNacimiento": "28/06/1987",
       "lugarNacimiento": "PARIÑAS, TALARA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -54435,6 +54465,7 @@
       "fechaNacimiento": "30/11/1968",
       "lugarNacimiento": "WANCHAQ, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -54692,6 +54723,7 @@
       "fechaNacimiento": "27/06/1984",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -54927,6 +54959,7 @@
       "fechaNacimiento": "30/05/1980",
       "lugarNacimiento": "OBAS, YAROWILCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -55017,6 +55050,7 @@
       "fechaNacimiento": "09/11/1992",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -55109,6 +55143,7 @@
       "fechaNacimiento": "09/06/1981",
       "lugarNacimiento": "CHANCAY, HUARAL",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -55289,6 +55324,7 @@
       "fechaNacimiento": "27/12/1997",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -55390,6 +55426,7 @@
       "fechaNacimiento": "15/05/1993",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -55485,6 +55522,7 @@
       "fechaNacimiento": "15/01/1981",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -55646,6 +55684,7 @@
       "fechaNacimiento": "03/01/1975",
       "lugarNacimiento": "BELLAVISTA, CALLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -55831,6 +55870,7 @@
       "fechaNacimiento": "27/04/1978",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -56035,6 +56075,7 @@
       "fechaNacimiento": "30/05/1962",
       "lugarNacimiento": "PAMPACHIRI, ANDAHUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -56218,6 +56259,7 @@
       "fechaNacimiento": "10/10/1990",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -56390,6 +56432,7 @@
       "fechaNacimiento": "19/09/1976",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -56522,6 +56565,7 @@
       "fechaNacimiento": "17/08/1962",
       "lugarNacimiento": "PUEBLO LIBRE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -56648,6 +56692,7 @@
       "fechaNacimiento": "16/04/1970",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -56772,6 +56817,7 @@
       "fechaNacimiento": "07/03/1981",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -56923,6 +56969,7 @@
       "fechaNacimiento": "18/10/1966",
       "lugarNacimiento": "RIMAC, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -57119,6 +57166,7 @@
       "fechaNacimiento": "25/11/1968",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -57444,6 +57492,7 @@
       "fechaNacimiento": "25/10/1965",
       "lugarNacimiento": "PARIÑAS, TALARA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -57703,6 +57752,7 @@
       "fechaNacimiento": "07/10/1979",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -57827,6 +57877,7 @@
       "fechaNacimiento": "26/01/1965",
       "lugarNacimiento": "PUEBLO LIBRE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -58256,6 +58307,7 @@
       "fechaNacimiento": "03/03/1966",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -58534,6 +58586,7 @@
       "fechaNacimiento": "02/04/1988",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -58617,6 +58670,7 @@
       "fechaNacimiento": "23/02/1973",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -58854,6 +58908,7 @@
       "fechaNacimiento": "16/03/1968",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -58982,6 +59037,7 @@
       "fechaNacimiento": "12/05/1963",
       "lugarNacimiento": "CHANCHAMAYO, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -59061,6 +59117,7 @@
       "fechaNacimiento": "24/09/1999",
       "lugarNacimiento": "ZEPITA, CHUCUITO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -59123,6 +59180,7 @@
       "fechaNacimiento": "24/08/1997",
       "lugarNacimiento": "VIRU, VIRU",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -59243,6 +59301,7 @@
       "fechaNacimiento": "02/09/1988",
       "lugarNacimiento": "DESAGUADERO, CHUCUITO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -59372,6 +59431,7 @@
       "fechaNacimiento": "31/08/1967",
       "lugarNacimiento": "LA MERCED, AIJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -59434,6 +59494,7 @@
       "fechaNacimiento": "21/03/1991",
       "lugarNacimiento": "HUARMEY, HUARMEY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -59550,6 +59611,7 @@
       "fechaNacimiento": "12/06/1987",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -59629,6 +59691,7 @@
       "fechaNacimiento": "05/10/1968",
       "lugarNacimiento": "HUARMEY, HUARMEY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -59691,6 +59754,7 @@
       "fechaNacimiento": "11/06/1959",
       "lugarNacimiento": "CHEPEN, CHEPEN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -59776,6 +59840,7 @@
       "fechaNacimiento": "13/08/1995",
       "lugarNacimiento": "PAITA, PAITA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -59838,6 +59903,7 @@
       "fechaNacimiento": "29/03/1965",
       "lugarNacimiento": "HUARMEY, HUARMEY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -59923,6 +59989,7 @@
       "fechaNacimiento": "01/06/1982",
       "lugarNacimiento": "MIRACOSTA, CHOTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -60002,6 +60069,7 @@
       "fechaNacimiento": "07/03/1959",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -60064,6 +60132,7 @@
       "fechaNacimiento": "20/07/1989",
       "lugarNacimiento": "SULLANA, SULLANA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -60126,6 +60195,7 @@
       "fechaNacimiento": "17/06/1970",
       "lugarNacimiento": "CORIS, AIJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -60211,6 +60281,7 @@
       "fechaNacimiento": "28/08/1990",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -60273,6 +60344,7 @@
       "fechaNacimiento": "28/07/1975",
       "lugarNacimiento": "EL PRADO, SAN MIGUEL",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -60373,6 +60445,7 @@
       "fechaNacimiento": "23/09/1969",
       "lugarNacimiento": "HUARMEY, HUARMEY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -60435,6 +60508,7 @@
       "fechaNacimiento": "13/04/1997",
       "lugarNacimiento": "EL AGUSTINO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -60537,6 +60611,7 @@
       "fechaNacimiento": "01/07/1981",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -60634,6 +60709,7 @@
       "fechaNacimiento": "04/11/1995",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -60725,6 +60801,7 @@
       "fechaNacimiento": "25/05/1981",
       "lugarNacimiento": "MARMOT, GRAN CHIMU",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -60787,6 +60864,7 @@
       "fechaNacimiento": "01/08/1995",
       "lugarNacimiento": "TOCACHE, TOCACHE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -60861,6 +60939,7 @@
       "fechaNacimiento": "04/10/1979",
       "lugarNacimiento": "CHACLACAYO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -60923,6 +61002,7 @@
       "fechaNacimiento": "28/12/1955",
       "lugarNacimiento": "SAN JUAN DE BIGOTE, MORROPON",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -61008,6 +61088,7 @@
       "fechaNacimiento": "03/03/1978",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -61070,6 +61151,7 @@
       "fechaNacimiento": "20/11/1985",
       "lugarNacimiento": "VIRU, VIRU",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -61184,6 +61266,7 @@
       "fechaNacimiento": "04/03/1947",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -61568,6 +61651,7 @@
       "fechaNacimiento": "29/07/1974",
       "lugarNacimiento": "PONTO, HUARI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -61881,6 +61965,7 @@
       "fechaNacimiento": "17/02/1973",
       "lugarNacimiento": "CARAYBAMBA, AYMARAES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -62083,6 +62168,7 @@
       "fechaNacimiento": "17/05/1981",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -62394,6 +62480,7 @@
       "fechaNacimiento": "24/10/1981",
       "lugarNacimiento": "HUANCAPI, VICTOR FAJARDO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -62670,6 +62757,7 @@
       "fechaNacimiento": "26/09/1987",
       "lugarNacimiento": "SAN VICENTE DE CAÑETE, CAÑETE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -62968,6 +63056,7 @@
       "fechaNacimiento": "14/05/1993",
       "lugarNacimiento": "COMAS, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -63161,6 +63250,7 @@
       "fechaNacimiento": "14/01/1994",
       "lugarNacimiento": "SAN MARTIN DE PORRES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -63354,6 +63444,7 @@
       "fechaNacimiento": "27/07/1981",
       "lugarNacimiento": "PANGOA, SATIPO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -63618,6 +63709,7 @@
       "fechaNacimiento": "08/04/1997",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -63865,6 +63957,7 @@
       "fechaNacimiento": "06/08/1978",
       "lugarNacimiento": "YAULI, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -64185,6 +64278,7 @@
       "fechaNacimiento": "11/06/1994",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -64361,6 +64455,7 @@
       "fechaNacimiento": "21/09/1981",
       "lugarNacimiento": "EL AGUSTINO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -64665,6 +64760,7 @@
       "fechaNacimiento": "11/02/1961",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -64871,6 +64967,7 @@
       "fechaNacimiento": "22/11/1988",
       "lugarNacimiento": "COMAS, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -65032,6 +65129,7 @@
       "fechaNacimiento": "04/06/1962",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -65198,6 +65296,7 @@
       "fechaNacimiento": "03/07/1974",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -65573,6 +65672,7 @@
       "fechaNacimiento": "26/02/1969",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -65933,6 +66033,7 @@
       "fechaNacimiento": "04/07/1992",
       "lugarNacimiento": "HUARAZ, HUARAZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -66134,6 +66235,7 @@
       "fechaNacimiento": "19/04/1944",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -66274,6 +66376,7 @@
       "fechaNacimiento": "25/04/2000",
       "lugarNacimiento": "SAN MARTIN DE PORRES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -66519,6 +66622,7 @@
       "fechaNacimiento": "26/01/1998",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -66627,6 +66731,7 @@
       "fechaNacimiento": "09/11/1975",
       "lugarNacimiento": "EL AGUSTINO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -66717,6 +66822,7 @@
       "fechaNacimiento": "08/06/1987",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -66795,6 +66901,7 @@
       "fechaNacimiento": "01/10/1982",
       "lugarNacimiento": "SAN JERONIMO, ANDAHUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -67178,6 +67285,7 @@
       "fechaNacimiento": "15/06/1971",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -67268,6 +67376,7 @@
       "fechaNacimiento": "15/02/1993",
       "lugarNacimiento": "INDEPENDENCIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -67346,6 +67455,7 @@
       "fechaNacimiento": "24/04/1981",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -67457,6 +67567,7 @@
       "fechaNacimiento": "06/10/1997",
       "lugarNacimiento": "SAPALLANGA, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -67680,6 +67791,7 @@
       "fechaNacimiento": "20/06/1981",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -67795,6 +67907,7 @@
       "fechaNacimiento": "14/07/1999",
       "lugarNacimiento": "LURIGANCHO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -67918,6 +68031,7 @@
       "fechaNacimiento": "22/06/1983",
       "lugarNacimiento": "VENTANILLA, CALLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -67996,6 +68110,7 @@
       "fechaNacimiento": "20/09/1985",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -68259,6 +68374,7 @@
       "fechaNacimiento": "12/05/1976",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -68530,6 +68646,7 @@
       "fechaNacimiento": "29/12/1994",
       "lugarNacimiento": "SAN JUAN DE JARPA, CHUPACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -68608,6 +68725,7 @@
       "fechaNacimiento": "16/06/1992",
       "lugarNacimiento": "CHINCHIHUASI, CHURCAMPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -68686,6 +68804,7 @@
       "fechaNacimiento": "21/02/1988",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -68805,6 +68924,7 @@
       "fechaNacimiento": "24/04/1996",
       "lugarNacimiento": "SAN JUAN DE MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -68916,6 +69036,7 @@
       "fechaNacimiento": "08/01/1994",
       "lugarNacimiento": "SAN JOSE DE LOURDES, SAN IGNACIO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -69030,6 +69151,7 @@
       "fechaNacimiento": "28/01/1988",
       "lugarNacimiento": "SANTA MARIA, HUAURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -69108,6 +69230,7 @@
       "fechaNacimiento": "29/05/1982",
       "lugarNacimiento": "LAMAS, LAMAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -69235,6 +69358,7 @@
       "fechaNacimiento": "12/01/1991",
       "lugarNacimiento": "IÑAPARI, TAHUAMANU",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -69357,6 +69481,7 @@
       "fechaNacimiento": "05/07/1997",
       "lugarNacimiento": "PAMPAS, TAYACAJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -69435,6 +69560,7 @@
       "fechaNacimiento": "03/08/1993",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -69554,6 +69680,7 @@
       "fechaNacimiento": "04/06/1997",
       "lugarNacimiento": "PIMPINGOS, CUTERVO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -69644,6 +69771,7 @@
       "fechaNacimiento": "03/10/1982",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -69919,6 +70047,7 @@
       "fechaNacimiento": "17/07/1995",
       "lugarNacimiento": "HUACHO, HUAURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -69997,6 +70126,7 @@
       "fechaNacimiento": "16/07/1994",
       "lugarNacimiento": "LLATA, HUAMALIES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -70075,6 +70205,7 @@
       "fechaNacimiento": "18/02/1997",
       "lugarNacimiento": "CHACABAMBA, YAROWILCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -70174,6 +70305,7 @@
       "fechaNacimiento": "03/09/1969",
       "lugarNacimiento": "ICA, ICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -70464,6 +70596,7 @@
       "fechaNacimiento": "29/07/1987",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -70635,6 +70768,7 @@
       "fechaNacimiento": "28/03/1989",
       "lugarNacimiento": "MARGOS, HUANUCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -70845,6 +70979,7 @@
       "fechaNacimiento": "27/09/1997",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -70923,6 +71058,7 @@
       "fechaNacimiento": "25/10/1994",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -71018,6 +71154,7 @@
       "fechaNacimiento": "22/03/1995",
       "lugarNacimiento": "YARINACOCHA, CORONEL PORTILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -71172,6 +71309,7 @@
       "fechaNacimiento": "06/11/1986",
       "lugarNacimiento": "BELLAVISTA, CALLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -71318,6 +71456,7 @@
       "fechaNacimiento": "17/08/1961",
       "lugarNacimiento": "CHANCHAMAYO, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -71485,6 +71624,7 @@
       "fechaNacimiento": "09/07/1999",
       "lugarNacimiento": "SAN JUAN DE LURIGANCHO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -71565,6 +71705,7 @@
       "fechaNacimiento": "11/11/1979",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -71693,6 +71834,7 @@
       "fechaNacimiento": "02/11/1987",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -71886,6 +72028,7 @@
       "fechaNacimiento": "08/01/2000",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -71987,6 +72130,7 @@
       "fechaNacimiento": "03/08/1972",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -72196,6 +72340,7 @@
       "fechaNacimiento": "26/12/1968",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -72313,6 +72458,7 @@
       "fechaNacimiento": "27/09/1965",
       "lugarNacimiento": "SULLANA, SULLANA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -72513,6 +72659,7 @@
       "fechaNacimiento": "18/11/1972",
       "lugarNacimiento": "FLORIDA, BONGARA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -72680,6 +72827,7 @@
       "fechaNacimiento": "06/11/1985",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -72914,6 +73062,7 @@
       "fechaNacimiento": "04/11/1993",
       "lugarNacimiento": "COMAS, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -73075,6 +73224,7 @@
       "fechaNacimiento": "05/06/1984",
       "lugarNacimiento": "SAN MARTIN DE PORRES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -73266,6 +73416,7 @@
       "fechaNacimiento": "04/03/1969",
       "lugarNacimiento": "PATIVILCA, BARRANCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": false,
@@ -73644,6 +73795,7 @@
       "fechaNacimiento": "19/05/1976",
       "lugarNacimiento": "CHANCHAMAYO, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -73795,6 +73947,7 @@
       "fechaNacimiento": "10/11/1990",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -73965,6 +74118,7 @@
       "fechaNacimiento": "01/08/1977",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -74158,6 +74312,7 @@
       "fechaNacimiento": "02/10/1976",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -74275,6 +74430,7 @@
       "fechaNacimiento": "11/02/1985",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -74403,6 +74559,7 @@
       "fechaNacimiento": "29/03/1982",
       "lugarNacimiento": "SAN MARTIN DE PORRES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -74525,6 +74682,7 @@
       "fechaNacimiento": "14/03/1994",
       "lugarNacimiento": "CARHUAMAYO, JUNIN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -74745,6 +74903,7 @@
       "fechaNacimiento": "16/09/1976",
       "lugarNacimiento": "LA OROYA, YAULI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -74961,6 +75120,7 @@
       "fechaNacimiento": "26/07/1999",
       "lugarNacimiento": "EL TAMBO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -75158,6 +75318,7 @@
       "fechaNacimiento": "02/01/1991",
       "lugarNacimiento": "CAJABAMBA, CAJABAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -75558,6 +75719,7 @@
       "fechaNacimiento": "16/09/1985",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -75818,6 +75980,7 @@
       "fechaNacimiento": "12/03/1988",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -76169,6 +76332,7 @@
       "fechaNacimiento": "01/08/1997",
       "lugarNacimiento": "SAN RAMON, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -76286,6 +76450,7 @@
       "fechaNacimiento": "23/11/1967",
       "lugarNacimiento": "ICA, ICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -76451,6 +76616,7 @@
       "fechaNacimiento": "18/08/1970",
       "lugarNacimiento": "QUILMANA, CAÑETE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -76588,6 +76754,7 @@
       "fechaNacimiento": "17/02/1992",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -76705,6 +76872,7 @@
       "fechaNacimiento": "30/05/1967",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -76948,6 +77116,7 @@
       "fechaNacimiento": "04/06/1996",
       "lugarNacimiento": "CHILCA, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -77196,6 +77365,7 @@
       "fechaNacimiento": "15/08/1992",
       "lugarNacimiento": "CHONGOS ALTO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -77367,6 +77537,7 @@
       "fechaNacimiento": "01/03/1970",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -77604,6 +77775,7 @@
       "fechaNacimiento": "05/09/1993",
       "lugarNacimiento": "CCOCHACCASA, ANGARAES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -77810,6 +77982,7 @@
       "fechaNacimiento": "12/04/1967",
       "lugarNacimiento": "SAN JUAN DE MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -77944,6 +78117,7 @@
       "fechaNacimiento": "30/05/1968",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -78140,6 +78314,7 @@
       "fechaNacimiento": "21/07/1984",
       "lugarNacimiento": "SAPALLANGA, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -78289,6 +78464,7 @@
       "fechaNacimiento": "12/05/1972",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -78519,6 +78695,7 @@
       "fechaNacimiento": "29/05/1978",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -78748,6 +78925,7 @@
       "fechaNacimiento": "08/01/1981",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -78876,6 +79054,7 @@
       "fechaNacimiento": "03/04/1989",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -79138,6 +79317,7 @@
       "fechaNacimiento": "30/05/1966",
       "lugarNacimiento": "PATIVILCA, BARRANCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -79455,6 +79635,7 @@
       "fechaNacimiento": "06/04/1981",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -79675,6 +79856,7 @@
       "fechaNacimiento": "08/06/1983",
       "lugarNacimiento": "COMAS, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -79873,6 +80055,7 @@
       "fechaNacimiento": "22/02/1971",
       "lugarNacimiento": "SAN FRANCISCO DE ASIS DE YARUSYACAN, PASCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -80209,6 +80392,7 @@
       "fechaNacimiento": "11/02/1957",
       "lugarNacimiento": "BELLAVISTA, CALLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -80410,6 +80594,7 @@
       "fechaNacimiento": "27/10/1955",
       "lugarNacimiento": "SULLANA, SULLANA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -80596,6 +80781,7 @@
       "fechaNacimiento": "08/03/1956",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -80870,6 +81056,7 @@
       "fechaNacimiento": "28/04/1990",
       "lugarNacimiento": "COMAS, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -81119,6 +81306,7 @@
       "fechaNacimiento": "03/07/1996",
       "lugarNacimiento": "PUEBLO LIBRE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -81381,6 +81569,7 @@
       "fechaNacimiento": "19/05/1970",
       "lugarNacimiento": "PUEBLO LIBRE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -81640,6 +81829,7 @@
       "fechaNacimiento": "05/09/1959",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -81895,6 +82085,7 @@
       "fechaNacimiento": "09/09/1976",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -82086,6 +82277,7 @@
       "fechaNacimiento": "10/03/1992",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -82271,6 +82463,7 @@
       "fechaNacimiento": "05/10/1967",
       "lugarNacimiento": "LINCE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -82480,6 +82673,7 @@
       "fechaNacimiento": "18/07/1981",
       "lugarNacimiento": "SATIPO, SATIPO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -82673,6 +82867,7 @@
       "fechaNacimiento": "28/04/1989",
       "lugarNacimiento": "",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -82908,6 +83103,7 @@
       "fechaNacimiento": "14/07/1969",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -83040,6 +83236,7 @@
       "fechaNacimiento": "12/06/1981",
       "lugarNacimiento": "LINCE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -83229,6 +83426,7 @@
       "fechaNacimiento": "21/09/1952",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -83557,6 +83755,7 @@
       "fechaNacimiento": "01/02/1980",
       "lugarNacimiento": "CHEPEN, CHEPEN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -83710,6 +83909,7 @@
       "fechaNacimiento": "30/11/1964",
       "lugarNacimiento": "LINCE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -84134,6 +84334,7 @@
       "fechaNacimiento": "11/07/1980",
       "lugarNacimiento": "MAGDALENA, CAJAMARCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -84494,6 +84695,7 @@
       "fechaNacimiento": "29/07/1963",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -84850,6 +85052,7 @@
       "fechaNacimiento": "21/05/1955",
       "lugarNacimiento": "TARMA, TARMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -85002,6 +85205,7 @@
       "fechaNacimiento": "23/02/1998",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -85228,6 +85432,7 @@
       "fechaNacimiento": "11/08/1960",
       "lugarNacimiento": "CALLAO, CALLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -85516,6 +85721,7 @@
       "fechaNacimiento": "24/07/1953",
       "lugarNacimiento": "SAN ISIDRO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -85695,6 +85901,7 @@
       "fechaNacimiento": "11/09/1960",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -86072,6 +86279,7 @@
       "fechaNacimiento": "07/05/1984",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -86285,6 +86493,7 @@
       "fechaNacimiento": "19/01/1982",
       "lugarNacimiento": "PUNO, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -86518,6 +86727,7 @@
       "fechaNacimiento": "04/10/1945",
       "lugarNacimiento": "CHINGAS, ANTONIO RAIMONDI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -86850,6 +87060,7 @@
       "fechaNacimiento": "23/01/1980",
       "lugarNacimiento": "NAZCA, NASCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -87365,6 +87576,7 @@
       "fechaNacimiento": "08/05/1983",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -87795,6 +88007,7 @@
       "fechaNacimiento": "12/04/1967",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -88038,6 +88251,7 @@
       "fechaNacimiento": "03/01/1977",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -88304,6 +88518,7 @@
       "fechaNacimiento": "29/07/1985",
       "lugarNacimiento": "PUEBLO LIBRE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -88465,6 +88680,7 @@
       "fechaNacimiento": "15/08/1968",
       "lugarNacimiento": "YUNGAY, YUNGAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -88798,6 +89014,7 @@
       "fechaNacimiento": "02/04/1964",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -89394,6 +89611,7 @@
       "fechaNacimiento": "20/03/1984",
       "lugarNacimiento": "VILLA MARIA DEL TRIUNFO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -89600,6 +89818,7 @@
       "fechaNacimiento": "01/04/1975",
       "lugarNacimiento": "VENTANILLA, CALLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -89751,6 +89970,7 @@
       "fechaNacimiento": "09/04/1984",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -89911,6 +90131,7 @@
       "fechaNacimiento": "22/11/1994",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -90028,6 +90249,7 @@
       "fechaNacimiento": "22/01/1991",
       "lugarNacimiento": "SAN BORJA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -90384,6 +90606,7 @@
       "fechaNacimiento": "18/02/1968",
       "lugarNacimiento": "SAN MARTIN DE PORRES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -90649,6 +90872,7 @@
       "fechaNacimiento": "13/09/1993",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -90723,6 +90947,7 @@
       "fechaNacimiento": "18/02/1968",
       "lugarNacimiento": "PUEBLO LIBRE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -91281,6 +91506,7 @@
       "fechaNacimiento": "07/11/1967",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -91731,6 +91957,7 @@
       "fechaNacimiento": "14/08/1989",
       "lugarNacimiento": "",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -91848,6 +92075,7 @@
       "fechaNacimiento": "12/07/1977",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -92070,6 +92298,7 @@
       "fechaNacimiento": "29/08/1965",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -92235,6 +92464,7 @@
       "fechaNacimiento": "24/06/1988",
       "lugarNacimiento": "OLLEROS, HUARAZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -92334,6 +92564,7 @@
       "fechaNacimiento": "05/09/1976",
       "lugarNacimiento": "SAN MARTIN DE PORRES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -92562,6 +92793,7 @@
       "fechaNacimiento": "18/04/1960",
       "lugarNacimiento": "EL TAMBO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -92838,6 +93070,7 @@
       "fechaNacimiento": "05/04/1980",
       "lugarNacimiento": "LA UNION, TARMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -92972,6 +93205,7 @@
       "fechaNacimiento": "15/11/1975",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -93237,6 +93471,7 @@
       "fechaNacimiento": "15/10/1971",
       "lugarNacimiento": "CARMEN SALCEDO, LUCANAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -93336,6 +93571,7 @@
       "fechaNacimiento": "30/09/1987",
       "lugarNacimiento": "CHACHAPOYAS, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -93489,6 +93725,7 @@
       "fechaNacimiento": "19/08/1966",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -93657,6 +93894,7 @@
       "fechaNacimiento": "28/02/1979",
       "lugarNacimiento": "TORIBIO CASANOVA, CUTERVO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -93806,6 +94044,7 @@
       "fechaNacimiento": "26/12/1992",
       "lugarNacimiento": "SAN BORJA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -94099,6 +94338,7 @@
       "fechaNacimiento": "17/12/1955",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -94427,6 +94667,7 @@
       "fechaNacimiento": "05/12/1956",
       "lugarNacimiento": "LINCE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -94641,6 +94882,7 @@
       "fechaNacimiento": "10/03/1984",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -94798,6 +95040,7 @@
       "fechaNacimiento": "09/06/1964",
       "lugarNacimiento": "CHACHAPOYAS, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -95086,6 +95329,7 @@
       "fechaNacimiento": "24/08/1992",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -95224,6 +95468,7 @@
       "fechaNacimiento": "01/04/1954",
       "lugarNacimiento": "QUILCAS, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -95510,6 +95755,7 @@
       "fechaNacimiento": "26/08/1968",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -95728,6 +95974,7 @@
       "fechaNacimiento": "26/02/1980",
       "lugarNacimiento": "CHILCA, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -96039,6 +96286,7 @@
       "fechaNacimiento": "22/09/1995",
       "lugarNacimiento": "SAN MARTIN DE PORRES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -96302,6 +96550,7 @@
       "fechaNacimiento": "16/05/1976",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -96481,6 +96730,7 @@
       "fechaNacimiento": "31/01/1963",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -96918,6 +97168,7 @@
       "fechaNacimiento": "03/03/1956",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -97069,6 +97320,7 @@
       "fechaNacimiento": "09/11/1971",
       "lugarNacimiento": "BELLAVISTA, CALLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -97192,6 +97444,7 @@
       "fechaNacimiento": "01/03/1967",
       "lugarNacimiento": "ATICO, CARAVELI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -97529,6 +97782,7 @@
       "fechaNacimiento": "06/12/1963",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -97640,6 +97894,7 @@
       "fechaNacimiento": "02/11/1961",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -97863,6 +98118,7 @@
       "fechaNacimiento": "30/11/1968",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -98002,6 +98258,7 @@
       "fechaNacimiento": "20/05/1987",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -98113,6 +98370,7 @@
       "fechaNacimiento": "23/03/1949",
       "lugarNacimiento": "TICLLOS, BOLOGNESI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -98363,6 +98621,7 @@
       "fechaNacimiento": "30/11/1973",
       "lugarNacimiento": "SANTA ANA DE TUSI, DANIEL ALCIDES CARRION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -98448,6 +98707,7 @@
       "fechaNacimiento": "04/06/1982",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -98677,6 +98937,7 @@
       "fechaNacimiento": "05/06/1970",
       "lugarNacimiento": "ANCO HUALLO, CHINCHEROS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -98798,6 +99059,7 @@
       "fechaNacimiento": "26/03/1983",
       "lugarNacimiento": "PUERTO BERMUDEZ, OXAPAMPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -98911,6 +99173,7 @@
       "fechaNacimiento": "12/12/1983",
       "lugarNacimiento": "CURICACA, JAUJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -98973,6 +99236,7 @@
       "fechaNacimiento": "08/04/1975",
       "lugarNacimiento": "APONGO, VICTOR FAJARDO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -99085,6 +99349,7 @@
       "fechaNacimiento": "11/01/1954",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -99312,6 +99577,7 @@
       "fechaNacimiento": "12/08/1968",
       "lugarNacimiento": "LUYA, LUYA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -99637,6 +99903,7 @@
       "fechaNacimiento": "06/06/1955",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -99778,6 +100045,7 @@
       "fechaNacimiento": "19/01/1959",
       "lugarNacimiento": "CARAYBAMBA, AYMARAES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -100159,6 +100427,7 @@
       "fechaNacimiento": "12/11/1983",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -100312,6 +100581,7 @@
       "fechaNacimiento": "12/07/1961",
       "lugarNacimiento": "PACHACONAS, ANTABAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -100550,6 +100820,7 @@
       "fechaNacimiento": "21/08/1975",
       "lugarNacimiento": "SALCAHUASI, TAYACAJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -100805,6 +101076,7 @@
       "fechaNacimiento": "27/04/1994",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -100958,6 +101230,7 @@
       "fechaNacimiento": "22/11/1974",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -101179,6 +101452,7 @@
       "fechaNacimiento": "05/03/1960",
       "lugarNacimiento": "SANTA CRUZ DE CHUCA, SANTIAGO DE CHUCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -101345,6 +101619,7 @@
       "fechaNacimiento": "30/12/1970",
       "lugarNacimiento": "EL TAMBO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -101628,6 +101903,7 @@
       "fechaNacimiento": "19/05/1982",
       "lugarNacimiento": "PIMPINGOS, CUTERVO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -101843,6 +102119,7 @@
       "fechaNacimiento": "24/07/1964",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -102069,6 +102346,7 @@
       "fechaNacimiento": "02/02/1969",
       "lugarNacimiento": "SECCLLA, ANGARAES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -102348,6 +102626,7 @@
       "fechaNacimiento": "03/05/1996",
       "lugarNacimiento": "CHORRILLOS, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -102422,6 +102701,7 @@
       "fechaNacimiento": "14/10/1957",
       "lugarNacimiento": "CALLAO, CALLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -102562,6 +102842,7 @@
       "fechaNacimiento": "14/06/1987",
       "lugarNacimiento": "SAN VICENTE DE CAÑETE, CAÑETE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -102732,6 +103013,7 @@
       "fechaNacimiento": "26/02/1988",
       "lugarNacimiento": "CAJACAY, BOLOGNESI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -102992,6 +103274,7 @@
       "fechaNacimiento": "25/02/1961",
       "lugarNacimiento": "LAMPA, LAMPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -103185,6 +103468,7 @@
       "fechaNacimiento": "21/01/1965",
       "lugarNacimiento": "BELLAVISTA, CALLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -103417,6 +103701,7 @@
       "fechaNacimiento": "07/12/1989",
       "lugarNacimiento": "SAN MARTIN DE PORRES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -103563,6 +103848,7 @@
       "fechaNacimiento": "25/08/1957",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -103834,6 +104120,7 @@
       "fechaNacimiento": "16/10/1986",
       "lugarNacimiento": "TOCACHE, TOCACHE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -104066,6 +104353,7 @@
       "fechaNacimiento": "12/09/1986",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -104254,6 +104542,7 @@
       "fechaNacimiento": "30/08/1966",
       "lugarNacimiento": "CHEPEN, CHEPEN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -104523,6 +104812,7 @@
       "fechaNacimiento": "18/08/1979",
       "lugarNacimiento": "URARINAS, LORETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -104639,6 +104929,7 @@
       "fechaNacimiento": "30/08/1969",
       "lugarNacimiento": "INDEPENDENCIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -104835,6 +105126,7 @@
       "fechaNacimiento": "04/11/1968",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -104952,6 +105244,7 @@
       "fechaNacimiento": "24/09/1984",
       "lugarNacimiento": "SAN MARTIN DE PORRES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -105086,6 +105379,7 @@
       "fechaNacimiento": "17/07/1976",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -105222,6 +105516,7 @@
       "fechaNacimiento": "15/04/1958",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -105350,6 +105645,7 @@
       "fechaNacimiento": "10/01/1959",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -105593,6 +105889,7 @@
       "fechaNacimiento": "15/05/1976",
       "lugarNacimiento": "CALLERIA, CORONEL PORTILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -105803,6 +106100,7 @@
       "fechaNacimiento": "15/06/1958",
       "lugarNacimiento": "RIMAC, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -105961,6 +106259,7 @@
       "fechaNacimiento": "04/08/1982",
       "lugarNacimiento": "EL AGUSTINO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -106060,6 +106359,7 @@
       "fechaNacimiento": "05/01/1986",
       "lugarNacimiento": "LA UNION, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -106333,6 +106633,7 @@
       "fechaNacimiento": "30/08/1966",
       "lugarNacimiento": "SABANDIA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -106506,6 +106807,7 @@
       "fechaNacimiento": "06/08/1963",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -106669,6 +106971,7 @@
       "fechaNacimiento": "27/04/1975",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -106780,6 +107083,7 @@
       "fechaNacimiento": "16/12/1986",
       "lugarNacimiento": "PARAMONGA, BARRANCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -106916,6 +107220,7 @@
       "fechaNacimiento": "19/12/1983",
       "lugarNacimiento": "SAN PABLO, SAN PABLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -107015,6 +107320,7 @@
       "fechaNacimiento": "20/12/1973",
       "lugarNacimiento": "SAN MIGUEL, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -107225,6 +107531,7 @@
       "fechaNacimiento": "13/05/1994",
       "lugarNacimiento": "SAN BORJA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -107395,6 +107702,7 @@
       "fechaNacimiento": "13/05/1986",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -107546,6 +107854,7 @@
       "fechaNacimiento": "13/07/1982",
       "lugarNacimiento": "TUCUME, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -107608,6 +107917,7 @@
       "fechaNacimiento": "23/12/1985",
       "lugarNacimiento": "SAN FRANCISCO DE ASIS, LAURICOCHA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -107705,6 +108015,7 @@
       "fechaNacimiento": "17/09/2000",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -107767,6 +108078,7 @@
       "fechaNacimiento": "09/02/1956",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -107893,6 +108205,7 @@
       "fechaNacimiento": "26/04/1983",
       "lugarNacimiento": "FERREÑAFE, FERREÑAFE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -107988,6 +108301,7 @@
       "fechaNacimiento": "23/05/2000",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -108193,6 +108507,7 @@
       "fechaNacimiento": "30/12/1994",
       "lugarNacimiento": "JAEN, JAEN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -108424,6 +108739,7 @@
       "fechaNacimiento": "19/04/1997",
       "lugarNacimiento": "CELENDIN, CELENDIN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -108621,6 +108937,7 @@
       "fechaNacimiento": "01/07/1970",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -108818,6 +109135,7 @@
       "fechaNacimiento": "23/02/1974",
       "lugarNacimiento": "COMAS, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -109030,6 +109348,7 @@
       "fechaNacimiento": "10/05/1964",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -109252,6 +109571,7 @@
       "fechaNacimiento": "11/04/1974",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -109586,6 +109906,7 @@
       "fechaNacimiento": "11/08/1988",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -109876,6 +110197,7 @@
       "fechaNacimiento": "16/08/1969",
       "lugarNacimiento": "",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -110212,6 +110534,7 @@
       "fechaNacimiento": "23/12/1951",
       "lugarNacimiento": "MOTUPE, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -110336,6 +110659,7 @@
       "fechaNacimiento": "23/09/1969",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -110462,6 +110786,7 @@
       "fechaNacimiento": "21/06/1975",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -110611,6 +110936,7 @@
       "fechaNacimiento": "09/02/1982",
       "lugarNacimiento": "SAN MARTIN DE PORRES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -110846,6 +111172,7 @@
       "fechaNacimiento": "06/09/1946",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -110949,6 +111276,7 @@
       "fechaNacimiento": "04/02/1952",
       "lugarNacimiento": "LA UNION, DOS DE MAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -111077,6 +111405,7 @@
       "fechaNacimiento": "02/10/1981",
       "lugarNacimiento": "PUEBLO LIBRE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -111298,6 +111627,7 @@
       "fechaNacimiento": "30/09/1971",
       "lugarNacimiento": "CARMEN SALCEDO, LUCANAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -111449,6 +111779,7 @@
       "fechaNacimiento": "14/07/1964",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -111689,6 +112020,7 @@
       "fechaNacimiento": "03/06/1964",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -112047,6 +112379,7 @@
       "fechaNacimiento": "08/09/1992",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -112204,6 +112537,7 @@
       "fechaNacimiento": "10/07/1974",
       "lugarNacimiento": "PUEBLO LIBRE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -112452,6 +112786,7 @@
       "fechaNacimiento": "13/11/1993",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -112563,6 +112898,7 @@
       "fechaNacimiento": "27/10/1968",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -112898,6 +113234,7 @@
       "fechaNacimiento": "31/05/1992",
       "lugarNacimiento": "COMAS, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -113054,6 +113391,7 @@
       "fechaNacimiento": "27/11/1988",
       "lugarNacimiento": "SAPILLICA, AYABACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -113149,6 +113487,7 @@
       "fechaNacimiento": "26/07/1970",
       "lugarNacimiento": "PATAZ, PATAZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -113439,6 +113778,7 @@
       "fechaNacimiento": "04/10/1959",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -113810,6 +114150,7 @@
       "fechaNacimiento": "09/01/1992",
       "lugarNacimiento": "POLVORA, TOCACHE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -114069,6 +114410,7 @@
       "fechaNacimiento": "19/10/1981",
       "lugarNacimiento": "EL AGUSTINO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -114317,6 +114659,7 @@
       "fechaNacimiento": "23/06/1976",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -114448,6 +114791,7 @@
       "fechaNacimiento": "28/02/1959",
       "lugarNacimiento": "HUANCHAY, HUARAZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -114665,6 +115009,7 @@
       "fechaNacimiento": "09/09/1987",
       "lugarNacimiento": "EL AGUSTINO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -116442,6 +116787,7 @@
       "fechaNacimiento": "08/03/1984",
       "lugarNacimiento": "SAN MARTIN DE PORRES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -116588,6 +116934,7 @@
       "fechaNacimiento": "01/09/1966",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -116843,6 +117190,7 @@
       "fechaNacimiento": "20/10/1979",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -116949,6 +117297,7 @@
       "fechaNacimiento": "28/12/1959",
       "lugarNacimiento": "SULLANA, SULLANA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -117044,6 +117393,7 @@
       "fechaNacimiento": "04/04/1963",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -117256,6 +117606,7 @@
       "fechaNacimiento": "04/06/1989",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -117524,6 +117875,7 @@
       "fechaNacimiento": "08/05/1989",
       "lugarNacimiento": "CHEPEN, CHEPEN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -117658,6 +118010,7 @@
       "fechaNacimiento": "27/02/1983",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -117765,6 +118118,7 @@
       "fechaNacimiento": "13/02/1970",
       "lugarNacimiento": "SAN PEDRO DE CORIS, CHURCAMPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -118012,6 +118366,7 @@
       "fechaNacimiento": "11/11/1965",
       "lugarNacimiento": "QUILMANA, CAÑETE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -118151,6 +118506,7 @@
       "fechaNacimiento": "13/01/1979",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -118325,6 +118681,7 @@
       "fechaNacimiento": "19/10/1974",
       "lugarNacimiento": "CHINCHA ALTA, CHINCHA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -118740,6 +119097,7 @@
       "fechaNacimiento": "26/12/1979",
       "lugarNacimiento": "ARAPA, AZANGARO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -118948,6 +119306,7 @@
       "fechaNacimiento": "04/07/1982",
       "lugarNacimiento": "CHACHAPOYAS, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -119215,6 +119574,7 @@
       "fechaNacimiento": "02/09/1968",
       "lugarNacimiento": "CONCEPCION, VILCAS HUAMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -119456,6 +119816,7 @@
       "fechaNacimiento": "14/06/1977",
       "lugarNacimiento": "SAN CARLOS, BONGARA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -119587,6 +119948,7 @@
       "fechaNacimiento": "08/01/1999",
       "lugarNacimiento": "CHAMBARA, CONCEPCION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -119830,6 +120192,7 @@
       "fechaNacimiento": "29/03/1969",
       "lugarNacimiento": "SAN ISIDRO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -120248,6 +120611,7 @@
       "fechaNacimiento": "07/11/1963",
       "lugarNacimiento": "ICA, ICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -120501,6 +120865,7 @@
       "fechaNacimiento": "29/05/1956",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -120724,6 +121089,7 @@
       "fechaNacimiento": "21/11/1998",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -120835,6 +121201,7 @@
       "fechaNacimiento": "16/11/1981",
       "lugarNacimiento": "SAN BUENAVENTURA, CANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -120998,6 +121365,7 @@
       "fechaNacimiento": "19/03/1967",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -121135,6 +121503,7 @@
       "fechaNacimiento": "18/04/1996",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -121305,6 +121674,7 @@
       "fechaNacimiento": "14/11/1980",
       "lugarNacimiento": "SAN ISIDRO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -121670,6 +122040,7 @@
       "fechaNacimiento": "03/05/1955",
       "lugarNacimiento": "CHANGUILLO, NASCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,

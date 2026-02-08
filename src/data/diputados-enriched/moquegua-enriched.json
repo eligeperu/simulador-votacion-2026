@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-02-07T09:21:10.311Z",
+  "fetchedAt": "2026-02-07T23:03:47.665Z",
   "idProcesoElectoral": 124,
   "count": 92,
   "data": [
@@ -15,6 +15,7 @@
       "fechaNacimiento": "18/04/1980",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -245,6 +246,7 @@
       "fechaNacimiento": "16/05/1985",
       "lugarNacimiento": "ILO, ILO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -374,6 +376,7 @@
       "fechaNacimiento": "01/01/1984",
       "lugarNacimiento": "PACOCHA, ILO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": true,
@@ -772,6 +775,7 @@
       "fechaNacimiento": "06/10/1985",
       "lugarNacimiento": "MOQUEGUA, MARISCAL NIETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1081,6 +1085,7 @@
       "fechaNacimiento": "13/02/1975",
       "lugarNacimiento": "ILABAYA, JORGE BASADRE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1308,6 +1313,7 @@
       "fechaNacimiento": "29/12/1971",
       "lugarNacimiento": "PACOCHA, ILO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1458,6 +1464,7 @@
       "fechaNacimiento": "16/02/1965",
       "lugarNacimiento": "ILABAYA, JORGE BASADRE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1761,6 +1768,7 @@
       "fechaNacimiento": "29/03/1987",
       "lugarNacimiento": "ACORA, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1883,6 +1891,7 @@
       "fechaNacimiento": "03/10/1965",
       "lugarNacimiento": "ILO, ILO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2115,6 +2124,7 @@
       "fechaNacimiento": "06/03/1993",
       "lugarNacimiento": "MOQUEGUA, MARISCAL NIETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2289,6 +2299,7 @@
       "fechaNacimiento": "29/08/1991",
       "lugarNacimiento": "MOQUEGUA, MARISCAL NIETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2522,6 +2533,7 @@
       "fechaNacimiento": "15/06/1989",
       "lugarNacimiento": "PISCO, PISCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2662,6 +2674,7 @@
       "fechaNacimiento": "21/09/1961",
       "lugarNacimiento": "PACOCHA, ILO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2747,6 +2760,7 @@
       "fechaNacimiento": "23/04/1954",
       "lugarNacimiento": "SAN CRISTOBAL, MARISCAL NIETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2922,6 +2936,7 @@
       "fechaNacimiento": "08/04/1990",
       "lugarNacimiento": "MOQUEGUA, MARISCAL NIETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3077,6 +3092,7 @@
       "fechaNacimiento": "21/04/1978",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3341,6 +3357,7 @@
       "fechaNacimiento": "30/01/1988",
       "lugarNacimiento": "SANDIA, SANDIA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3612,6 +3629,7 @@
       "fechaNacimiento": "28/11/1974",
       "lugarNacimiento": "MOQUEGUA, MARISCAL NIETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3871,6 +3889,7 @@
       "fechaNacimiento": "09/12/1974",
       "lugarNacimiento": "MOQUEGUA, MARISCAL NIETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4107,6 +4126,7 @@
       "fechaNacimiento": "04/01/1983",
       "lugarNacimiento": "YANAS, DOS DE MAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4251,6 +4271,7 @@
       "fechaNacimiento": "03/03/1999",
       "lugarNacimiento": "BARRANCA, BARRANCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4405,6 +4426,7 @@
       "fechaNacimiento": "28/07/1964",
       "lugarNacimiento": "CASTILLA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4542,6 +4564,7 @@
       "fechaNacimiento": "30/04/1968",
       "lugarNacimiento": "ILO, ILO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4753,6 +4776,7 @@
       "fechaNacimiento": "01/09/1972",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4893,6 +4917,7 @@
       "fechaNacimiento": "09/08/1963",
       "lugarNacimiento": "MOQUEGUA, MARISCAL NIETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5225,6 +5250,7 @@
       "fechaNacimiento": "16/02/1977",
       "lugarNacimiento": "EL PORVENIR, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5428,6 +5454,7 @@
       "fechaNacimiento": "15/04/1984",
       "lugarNacimiento": "PACOCHA, ILO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5718,6 +5745,7 @@
       "fechaNacimiento": "02/02/1993",
       "lugarNacimiento": "PARINARI, LORETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5834,6 +5862,7 @@
       "fechaNacimiento": "13/06/1970",
       "lugarNacimiento": "ILO, ILO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6148,6 +6177,7 @@
       "fechaNacimiento": "15/12/1985",
       "lugarNacimiento": "PUNO, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6337,6 +6367,7 @@
       "fechaNacimiento": "30/01/1970",
       "lugarNacimiento": "ILO, ILO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6549,6 +6580,7 @@
       "fechaNacimiento": "20/12/1958",
       "lugarNacimiento": "OMATE, GENERAL SANCHEZ CERRO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6651,6 +6683,7 @@
       "fechaNacimiento": "02/02/1944",
       "lugarNacimiento": "CUCHUMBAYA, MARISCAL NIETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6759,6 +6792,7 @@
       "fechaNacimiento": "17/10/1996",
       "lugarNacimiento": "PAUCARPATA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6973,6 +7007,7 @@
       "fechaNacimiento": "23/10/1977",
       "lugarNacimiento": "CARUMAS, MARISCAL NIETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7219,6 +7254,7 @@
       "fechaNacimiento": "25/02/1970",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7425,6 +7461,7 @@
       "fechaNacimiento": "30/05/1979",
       "lugarNacimiento": "CUCHUMBAYA, MARISCAL NIETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7543,6 +7580,7 @@
       "fechaNacimiento": "07/02/1971",
       "lugarNacimiento": "ILO, ILO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7628,6 +7666,7 @@
       "fechaNacimiento": "03/06/1955",
       "lugarNacimiento": "CUCHUMBAYA, MARISCAL NIETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7754,6 +7793,7 @@
       "fechaNacimiento": "15/11/1987",
       "lugarNacimiento": "CAMANA, CAMANA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7853,6 +7893,7 @@
       "fechaNacimiento": "27/05/1992",
       "lugarNacimiento": "LEIMEBAMBA, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7915,6 +7956,7 @@
       "fechaNacimiento": "25/05/1977",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8093,6 +8135,7 @@
       "fechaNacimiento": "22/05/1986",
       "lugarNacimiento": "YUNGUYO, YUNGUYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8248,6 +8291,7 @@
       "fechaNacimiento": "18/11/1967",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8348,6 +8392,7 @@
       "fechaNacimiento": "25/10/1993",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8530,6 +8575,7 @@
       "fechaNacimiento": "17/08/1988",
       "lugarNacimiento": "CHOJATA, GENERAL SANCHEZ CERRO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8712,6 +8758,7 @@
       "fechaNacimiento": "17/06/1991",
       "lugarNacimiento": "CIUDAD NUEVA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8830,6 +8877,7 @@
       "fechaNacimiento": "20/07/2000",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8998,6 +9046,7 @@
       "fechaNacimiento": "10/04/1963",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9060,6 +9109,7 @@
       "fechaNacimiento": "01/09/1983",
       "lugarNacimiento": "PUNO, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9274,6 +9324,7 @@
       "fechaNacimiento": "10/09/1987",
       "lugarNacimiento": "CONDORMARCA, BOLIVAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9453,6 +9504,7 @@
       "fechaNacimiento": "11/12/1971",
       "lugarNacimiento": "CAMANA, CAMANA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9760,6 +9812,7 @@
       "fechaNacimiento": "28/10/1996",
       "lugarNacimiento": "CALANA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9977,6 +10030,7 @@
       "fechaNacimiento": "22/01/1994",
       "lugarNacimiento": "JULI, CHUCUITO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10089,6 +10143,7 @@
       "fechaNacimiento": "16/12/1963",
       "lugarNacimiento": "ILO, ILO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10188,6 +10243,7 @@
       "fechaNacimiento": "24/10/1972",
       "lugarNacimiento": "SAMEGUA, MARISCAL NIETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10527,6 +10583,7 @@
       "fechaNacimiento": "13/06/1997",
       "lugarNacimiento": "MOQUEGUA, MARISCAL NIETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10644,6 +10701,7 @@
       "fechaNacimiento": "22/09/1960",
       "lugarNacimiento": "CAYMA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10847,6 +10905,7 @@
       "fechaNacimiento": "12/06/1995",
       "lugarNacimiento": "CAYMA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10937,6 +10996,7 @@
       "fechaNacimiento": "19/04/1991",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11102,6 +11162,7 @@
       "fechaNacimiento": "13/09/1967",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11288,6 +11349,7 @@
       "fechaNacimiento": "31/01/1981",
       "lugarNacimiento": "MONZON, HUAMALIES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11515,6 +11577,7 @@
       "fechaNacimiento": "12/11/1980",
       "lugarNacimiento": "HUANTA, HUANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11614,6 +11677,7 @@
       "fechaNacimiento": "05/12/1991",
       "lugarNacimiento": "PUNCHANA, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11713,6 +11777,7 @@
       "fechaNacimiento": "16/01/1984",
       "lugarNacimiento": "ILO, ILO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11867,6 +11932,7 @@
       "fechaNacimiento": "18/09/1960",
       "lugarNacimiento": "MARGOS, HUANUCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11968,6 +12034,7 @@
       "fechaNacimiento": "28/01/1996",
       "lugarNacimiento": "LLOQUE, GENERAL SANCHEZ CERRO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12102,6 +12169,7 @@
       "fechaNacimiento": "25/05/1987",
       "lugarNacimiento": "PUNO, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12341,6 +12409,7 @@
       "fechaNacimiento": "10/07/1992",
       "lugarNacimiento": "AYABACA, AYABACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12403,6 +12472,7 @@
       "fechaNacimiento": "19/11/1971",
       "lugarNacimiento": "PUNO, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12636,6 +12706,7 @@
       "fechaNacimiento": "14/06/1992",
       "lugarNacimiento": "PIURA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12802,6 +12873,7 @@
       "fechaNacimiento": "31/10/1993",
       "lugarNacimiento": "CARHUAMAYO, JUNIN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12901,6 +12973,7 @@
       "fechaNacimiento": "01/12/1968",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13119,6 +13192,7 @@
       "fechaNacimiento": "28/12/1985",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13287,6 +13361,7 @@
       "fechaNacimiento": "22/12/1978",
       "lugarNacimiento": "MOQUEGUA, MARISCAL NIETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13596,6 +13671,7 @@
       "fechaNacimiento": "02/06/1980",
       "lugarNacimiento": "PLATERIA, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13822,6 +13898,7 @@
       "fechaNacimiento": "15/02/1954",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13884,6 +13961,7 @@
       "fechaNacimiento": "31/07/1990",
       "lugarNacimiento": "MOQUEGUA, MARISCAL NIETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14133,6 +14211,7 @@
       "fechaNacimiento": "25/05/1965",
       "lugarNacimiento": "YANAHUARA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14362,6 +14441,7 @@
       "fechaNacimiento": "11/08/1963",
       "lugarNacimiento": "ILO, ILO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14616,6 +14696,7 @@
       "fechaNacimiento": "25/03/1993",
       "lugarNacimiento": "MOQUEGUA, MARISCAL NIETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14830,6 +14911,7 @@
       "fechaNacimiento": "21/01/1998",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14931,6 +15013,7 @@
       "fechaNacimiento": "28/06/1968",
       "lugarNacimiento": "ILAVE, EL COLLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15116,6 +15199,7 @@
       "fechaNacimiento": "13/09/1964",
       "lugarNacimiento": "MOQUEGUA, MARISCAL NIETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15383,6 +15467,7 @@
       "fechaNacimiento": "26/10/1982",
       "lugarNacimiento": "ASILLO, AZANGARO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15462,6 +15547,7 @@
       "fechaNacimiento": "08/12/1989",
       "lugarNacimiento": "CHORRILLOS, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15655,6 +15741,7 @@
       "fechaNacimiento": "10/10/1979",
       "lugarNacimiento": "LLOQUE, GENERAL SANCHEZ CERRO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15839,6 +15926,7 @@
       "fechaNacimiento": "14/01/1956",
       "lugarNacimiento": "MACUSANI, CARABAYA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16183,6 +16271,7 @@
       "fechaNacimiento": "08/01/1989",
       "lugarNacimiento": "CHACOCHE, ABANCAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16245,6 +16334,7 @@
       "fechaNacimiento": "12/07/1994",
       "lugarNacimiento": "ABANCAY, ABANCAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16324,6 +16414,7 @@
       "fechaNacimiento": "15/06/1973",
       "lugarNacimiento": "ILO, ILO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16573,6 +16664,7 @@
       "fechaNacimiento": "20/02/1964",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,

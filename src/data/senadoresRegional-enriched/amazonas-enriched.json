@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-02-07T05:36:43.779Z",
+  "fetchedAt": "2026-02-07T19:41:34.015Z",
   "idProcesoElectoral": 124,
-  "count": 42,
+  "count": 44,
   "data": [
     {
       "dni": "33767786",
@@ -15,6 +15,7 @@
       "fechaNacimiento": "15/02/1964",
       "lugarNacimiento": "EL CENEPA, CONDORCANQUI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -149,6 +150,7 @@
       "fechaNacimiento": "12/03/1948",
       "lugarNacimiento": "HUANUCO, HUANUCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -273,6 +275,7 @@
       "fechaNacimiento": "16/04/1978",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -370,6 +373,7 @@
       "fechaNacimiento": "27/06/1966",
       "lugarNacimiento": "JAEN, JAEN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -629,6 +633,7 @@
       "fechaNacimiento": "04/08/1956",
       "lugarNacimiento": "MARISCAL CASTILLA, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -805,6 +810,7 @@
       "fechaNacimiento": "27/05/1972",
       "lugarNacimiento": "MOLINOPAMPA, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -867,6 +873,7 @@
       "fechaNacimiento": "23/02/1957",
       "lugarNacimiento": "SANTO TOMAS, LUYA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1112,6 +1119,7 @@
       "fechaNacimiento": "18/04/1976",
       "lugarNacimiento": "IMAZA, BAGUA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1250,6 +1258,7 @@
       "fechaNacimiento": "25/11/1978",
       "lugarNacimiento": "RIO SANTIAGO, CONDORCANQUI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1349,6 +1358,7 @@
       "fechaNacimiento": "28/01/1974",
       "lugarNacimiento": "CUISPES, BONGARA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1502,6 +1512,7 @@
       "fechaNacimiento": "29/06/1969",
       "lugarNacimiento": "AYABACA, AYABACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1663,6 +1674,7 @@
       "fechaNacimiento": "10/10/1968",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1774,6 +1786,7 @@
       "fechaNacimiento": "11/10/1960",
       "lugarNacimiento": "LONYA GRANDE, UTCUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2061,6 +2074,7 @@
       "fechaNacimiento": "02/02/1966",
       "lugarNacimiento": "CHACHAPOYAS, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2292,6 +2306,313 @@
       "resoluciones": []
     },
     {
+      "dni": "41243755",
+      "idHojaVida": 249175,
+      "idOrg": 2931,
+      "nombre": "ROSA MABEL BARRANTES VASQUEZ",
+      "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/57891a62-d7ab-4a63-8ad2-c1b34f7afda3.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "17/09/1980",
+      "lugarNacimiento": "LA PECA, BAGUA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": null,
+        "institucion": null,
+        "ingresos2024": 11520,
+        "experienciaActual": null
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 240120,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 249175,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 213316,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 11520,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 249175,
+            "idEstado": 1,
+            "totalIngresos": 11520
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "16734493",
+      "idHojaVida": 249653,
+      "idOrg": 2931,
+      "nombre": "JORGE LUIS CARBONEL CHOTA",
+      "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/db7f7dbd-0d3a-4e19-ab68-a23624d788c5.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "25/06/1975",
+      "lugarNacimiento": "LA PECA, BAGUA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "MAESTRO EN CIENCIAS CON MENCION EN PROYECTOS DE INVERSION",
+        "institucion": "Universidad Nacional Pedro Ruiz Gallo",
+        "ingresos2024": 36000,
+        "experienciaActual": "DOCENTE"
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 240081,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": null,
+          "idHojaVida": 249653,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 201145,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Pedro Ruiz Gallo",
+            "carreraUni": "LICENCIADO EN MATEMATICA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2004",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 201146,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Pedro Ruiz Gallo",
+            "carreraUni": "LICENCIADO EN EDUCACION",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2010",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 201147,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "3",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Pedro Ruiz Gallo",
+            "carreraUni": "BACHILLER EN EDUCACION",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2009",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 201148,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "4",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Privada César Vallejo",
+            "carreraUni": "BACHILLER EN INGENIERIA CIVIL",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2016",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 201149,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "5",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional Pedro Ruiz Gallo",
+            "carreraUni": "BACHILLER EN MATEMATICA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2004",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 145950,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "Universidad Nacional Pedro Ruiz Gallo",
+            "txEspecialidadPosgrado": "MAESTRO EN CIENCIAS CON MENCION EN PROYECTOS DE INVERSION",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "SI",
+            "esDoctor": null,
+            "txAnioPosgrado": "2019",
+            "idHojaVida": 249653,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 2,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 271989,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "IE JOSE CARLOS MARIATEGUI",
+          "ocupacionProfesion": "DOCENTE",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Av. Chachapoyas s/n",
+          "anioTrabajoDesde": "2025",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "010205",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "AMAZONAS",
+          "trabajoProvincia": "BAGUA",
+          "trabajoDistrito": "BAGUA",
+          "idHojaVida": 249653,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 213287,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 36000,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 249653,
+            "idEstado": 1,
+            "totalIngresos": 36000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 263574,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "JIRON SARGENTO LORES       LA PECA - BAGUA - AMAZONAS",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "02016248",
+            "fichaTomoSunarp": null,
+            "autovaluo": 26,
+            "idHojaVida": 249653,
+            "idEstado": 1,
+            "flValor": "13000"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
       "dni": "33670934",
       "idHojaVida": 249573,
       "idOrg": 2901,
@@ -2303,6 +2624,7 @@
       "fechaNacimiento": "02/11/1968",
       "lugarNacimiento": "SANTA CRUZ, CUTERVO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2633,6 +2955,7 @@
       "fechaNacimiento": "20/09/1967",
       "lugarNacimiento": "CONCHAN, CHOTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2772,6 +3095,7 @@
       "fechaNacimiento": "15/09/1971",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2851,6 +3175,7 @@
       "fechaNacimiento": "30/08/1980",
       "lugarNacimiento": "SAN RAFAEL, AMBO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2936,6 +3261,7 @@
       "fechaNacimiento": "28/03/1968",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3033,6 +3359,7 @@
       "fechaNacimiento": "06/04/1945",
       "lugarNacimiento": "GUADALUPE, PACASMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3095,6 +3422,7 @@
       "fechaNacimiento": "19/02/1954",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3197,6 +3525,7 @@
       "fechaNacimiento": "03/10/1958",
       "lugarNacimiento": "IMPERIAL, CAÑETE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3259,6 +3588,7 @@
       "fechaNacimiento": "11/03/1977",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3462,6 +3792,7 @@
       "fechaNacimiento": "26/10/1980",
       "lugarNacimiento": "JAEN, JAEN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3584,6 +3915,7 @@
       "fechaNacimiento": "01/11/1980",
       "lugarNacimiento": "LONYA GRANDE, UTCUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3873,6 +4205,7 @@
       "fechaNacimiento": "17/02/1965",
       "lugarNacimiento": "CUJILLO, CUTERVO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3984,6 +4317,7 @@
       "fechaNacimiento": "13/11/1970",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4338,6 +4672,7 @@
       "fechaNacimiento": "14/08/1978",
       "lugarNacimiento": "CHIMBAN, CHOTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4439,6 +4774,7 @@
       "fechaNacimiento": "01/03/1970",
       "lugarNacimiento": "EL CENEPA, CONDORCANQUI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4535,6 +4871,7 @@
       "fechaNacimiento": "05/06/1977",
       "lugarNacimiento": "LONGAR, RODRIGUEZ DE MENDOZA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4597,6 +4934,7 @@
       "fechaNacimiento": "11/11/1978",
       "lugarNacimiento": "CAJARURO, UTCUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4738,6 +5076,7 @@
       "fechaNacimiento": "07/04/1977",
       "lugarNacimiento": "BAGUA GRANDE, UTCUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4865,6 +5204,7 @@
       "fechaNacimiento": "28/06/1952",
       "lugarNacimiento": "LEVANTO, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5056,6 +5396,7 @@
       "fechaNacimiento": "24/09/1960",
       "lugarNacimiento": "ANDAHUAYLAS, ANDAHUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5279,6 +5620,7 @@
       "fechaNacimiento": "07/07/1975",
       "lugarNacimiento": "ULCUMAYO, JUNIN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5434,6 +5776,7 @@
       "fechaNacimiento": "17/05/1958",
       "lugarNacimiento": "HUACHO, HUAURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5512,6 +5855,7 @@
       "fechaNacimiento": "08/01/1976",
       "lugarNacimiento": "LEIMEBAMBA, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": false,
@@ -5724,6 +6068,7 @@
       "fechaNacimiento": "11/08/1960",
       "lugarNacimiento": "SAN JERONIMO, LUYA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6033,6 +6378,7 @@
       "fechaNacimiento": "18/08/1959",
       "lugarNacimiento": "HUAMBO, RODRIGUEZ DE MENDOZA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": true,
@@ -6404,6 +6750,7 @@
       "fechaNacimiento": "30/09/1955",
       "lugarNacimiento": "LAREDO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": true,
@@ -6657,6 +7004,7 @@
       "fechaNacimiento": "16/10/1962",
       "lugarNacimiento": "JAEN, JAEN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6882,6 +7230,7 @@
       "fechaNacimiento": "21/02/1975",
       "lugarNacimiento": "LA PECA, BAGUA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,

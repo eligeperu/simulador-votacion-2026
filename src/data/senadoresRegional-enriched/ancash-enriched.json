@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-02-07T05:40:04.142Z",
+  "fetchedAt": "2026-02-07T19:44:43.490Z",
   "idProcesoElectoral": 124,
   "count": 64,
   "data": [
@@ -15,6 +15,7 @@
       "fechaNacimiento": "29/10/1964",
       "lugarNacimiento": "CABANA, PALLASCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -271,6 +272,7 @@
       "fechaNacimiento": "29/01/1973",
       "lugarNacimiento": "CARHUAZ, CARHUAZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -409,6 +411,7 @@
       "fechaNacimiento": "12/12/1953",
       "lugarNacimiento": "MACATE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -795,6 +798,7 @@
       "fechaNacimiento": "11/01/1965",
       "lugarNacimiento": "SANTA, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1090,6 +1094,7 @@
       "fechaNacimiento": "26/07/1965",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1379,6 +1384,7 @@
       "fechaNacimiento": "15/04/1952",
       "lugarNacimiento": "CARHUAZ, CARHUAZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1625,7 +1631,8 @@
       "fechaNacimiento": "08/07/1968",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
-        "exCongresista": true,
+        "congresistaActual": true,
+        "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
         "exMinistro": false,
@@ -1964,6 +1971,7 @@
       "fechaNacimiento": "15/04/1946",
       "lugarNacimiento": "PAMPAS GRANDE, HUARAZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2128,7 +2136,8 @@
       "fechaNacimiento": "15/12/1975",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
-        "exCongresista": true,
+        "congresistaActual": true,
+        "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
         "exMinistro": false,
@@ -2591,6 +2600,7 @@
       "fechaNacimiento": "22/12/1974",
       "lugarNacimiento": "RAGASH, SIHUAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2887,6 +2897,7 @@
       "fechaNacimiento": "03/09/1969",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2972,6 +2983,7 @@
       "fechaNacimiento": "21/12/1974",
       "lugarNacimiento": "TAURIJA, PATAZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3173,6 +3185,7 @@
       "fechaNacimiento": "18/04/1973",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3285,6 +3298,7 @@
       "fechaNacimiento": "12/09/1959",
       "lugarNacimiento": "POMABAMBA, POMABAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3444,6 +3458,7 @@
       "fechaNacimiento": "21/02/1969",
       "lugarNacimiento": "BELLAVISTA, CALLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3598,6 +3613,7 @@
       "fechaNacimiento": "04/07/1956",
       "lugarNacimiento": "HUARAZ, HUARAZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3767,6 +3783,7 @@
       "fechaNacimiento": "05/03/1977",
       "lugarNacimiento": "NAZCA, NASCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4141,6 +4158,7 @@
       "fechaNacimiento": "12/07/1975",
       "lugarNacimiento": "HUARAZ, HUARAZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4252,6 +4270,7 @@
       "fechaNacimiento": "11/01/1944",
       "lugarNacimiento": "LLATA, HUAMALIES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4428,6 +4447,7 @@
       "fechaNacimiento": "17/08/1950",
       "lugarNacimiento": "SANTA ROSA, PALLASCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4631,6 +4651,7 @@
       "fechaNacimiento": "13/03/1961",
       "lugarNacimiento": "POMABAMBA, POMABAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4726,6 +4747,7 @@
       "fechaNacimiento": "11/01/1974",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5023,6 +5045,7 @@
       "fechaNacimiento": "19/07/1979",
       "lugarNacimiento": "CHUPACA, CHUPACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5197,6 +5220,7 @@
       "fechaNacimiento": "15/08/1971",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5352,6 +5376,7 @@
       "fechaNacimiento": "26/07/1975",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5551,6 +5576,7 @@
       "fechaNacimiento": "06/02/1974",
       "lugarNacimiento": "YUNGAY, YUNGAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5650,6 +5676,7 @@
       "fechaNacimiento": "09/05/1974",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5844,6 +5871,7 @@
       "fechaNacimiento": "30/05/1962",
       "lugarNacimiento": "SANTA, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6007,6 +6035,7 @@
       "fechaNacimiento": "25/08/1962",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6092,6 +6121,7 @@
       "fechaNacimiento": "18/03/1978",
       "lugarNacimiento": "PATIVILCA, BARRANCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6144,6 +6174,7 @@
       "fechaNacimiento": "05/02/1968",
       "lugarNacimiento": "CORIS, AIJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6297,6 +6328,7 @@
       "fechaNacimiento": "08/06/1972",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6546,6 +6578,7 @@
       "fechaNacimiento": "23/06/1980",
       "lugarNacimiento": "SANTA, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6734,6 +6767,7 @@
       "fechaNacimiento": "31/01/1969",
       "lugarNacimiento": "MACATE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6961,6 +6995,7 @@
       "fechaNacimiento": "04/01/1948",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7260,6 +7295,7 @@
       "fechaNacimiento": "15/05/1967",
       "lugarNacimiento": "CARAZ, HUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7480,6 +7516,7 @@
       "fechaNacimiento": "12/04/1968",
       "lugarNacimiento": "BARRANCO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8013,6 +8050,7 @@
       "fechaNacimiento": "28/01/1970",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8114,6 +8152,7 @@
       "fechaNacimiento": "28/10/1961",
       "lugarNacimiento": "CARHUAZ, CARHUAZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8255,6 +8294,7 @@
       "fechaNacimiento": "03/03/1946",
       "lugarNacimiento": "SANTIAGO DE CHUCO, SANTIAGO DE CHUCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8734,6 +8774,7 @@
       "fechaNacimiento": "27/08/1951",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8875,6 +8916,7 @@
       "fechaNacimiento": "09/05/1964",
       "lugarNacimiento": "SAMANCO, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9084,6 +9126,7 @@
       "fechaNacimiento": "30/04/1974",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9146,6 +9189,7 @@
       "fechaNacimiento": "21/07/1969",
       "lugarNacimiento": "CASTILLA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9458,6 +9502,7 @@
       "fechaNacimiento": "25/11/1949",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9575,6 +9620,7 @@
       "fechaNacimiento": "29/06/1976",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9637,6 +9683,7 @@
       "fechaNacimiento": "11/04/1973",
       "lugarNacimiento": "HUARAZ, HUARAZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9962,6 +10009,7 @@
       "fechaNacimiento": "04/09/1971",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10040,6 +10088,7 @@
       "fechaNacimiento": "31/10/1966",
       "lugarNacimiento": "CARAZ, HUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10169,6 +10218,7 @@
       "fechaNacimiento": "05/11/1955",
       "lugarNacimiento": "SAN ISIDRO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10326,6 +10376,7 @@
       "fechaNacimiento": "24/11/1970",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10388,6 +10439,7 @@
       "fechaNacimiento": "22/10/1980",
       "lugarNacimiento": "TARAY, CALCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10622,6 +10674,7 @@
       "fechaNacimiento": "05/05/1969",
       "lugarNacimiento": "SAN JUAN DE MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10879,6 +10932,7 @@
       "fechaNacimiento": "26/07/1970",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11050,6 +11104,7 @@
       "fechaNacimiento": "19/09/1960",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11276,6 +11331,7 @@
       "fechaNacimiento": "01/04/1976",
       "lugarNacimiento": "CHOCOPE, ASCOPE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11350,6 +11406,7 @@
       "fechaNacimiento": "28/11/1962",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11640,6 +11697,7 @@
       "fechaNacimiento": "11/02/1971",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11702,6 +11760,7 @@
       "fechaNacimiento": "13/01/1946",
       "lugarNacimiento": "COLCABAMBA, HUARAZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11926,6 +11985,7 @@
       "fechaNacimiento": "10/11/1954",
       "lugarNacimiento": "SAN MARTIN DE PORRES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12275,6 +12335,7 @@
       "fechaNacimiento": "27/01/1980",
       "lugarNacimiento": "HUARAZ, HUARAZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13039,6 +13100,7 @@
       "fechaNacimiento": "09/06/1978",
       "lugarNacimiento": "CASMA, CASMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13146,6 +13208,7 @@
       "fechaNacimiento": "09/02/1967",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13468,6 +13531,7 @@
       "fechaNacimiento": "06/11/1959",
       "lugarNacimiento": "HUARAZ, HUARAZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,

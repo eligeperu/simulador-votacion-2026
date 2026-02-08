@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-02-07T06:02:13.821Z",
+  "fetchedAt": "2026-02-07T20:04:18.908Z",
   "idProcesoElectoral": 124,
-  "count": 54,
+  "count": 56,
   "data": [
     {
       "dni": "22288478",
@@ -15,6 +15,7 @@
       "fechaNacimiento": "02/11/1969",
       "lugarNacimiento": "PISCO, PISCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -205,6 +206,7 @@
       "fechaNacimiento": "17/08/1954",
       "lugarNacimiento": "ICA, ICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -378,6 +380,7 @@
       "fechaNacimiento": "08/12/1954",
       "lugarNacimiento": "ICA, ICA",
       "flags": {
+        "congresistaActual": true,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1826,6 +1829,323 @@
       "resoluciones": []
     },
     {
+      "dni": "21476816",
+      "idHojaVida": 244120,
+      "idOrg": 1264,
+      "nombre": "JULIA YSABEL VEGA CABRERA",
+      "partido": "JUNTOS POR EL PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/9c5a34f8-d2f5-438c-a532-eb1c9ab57797.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "09/12/1971",
+      "lugarNacimiento": "ICA, ICA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": null,
+        "institucion": null,
+        "ingresos2024": 47528.64,
+        "experienciaActual": "PROFESORA"
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242205,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 244120,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [
+          {
+            "idHvNoUniversitaria": 145373,
+            "tengoNoUniversitaria": "SI",
+            "eduNoUniversitaria": null,
+            "centroEstudioNoUni": "ITP JUAN XXIII",
+            "carreraNoUni": "PROFESOR",
+            "concluidoNoUni": "1",
+            "idHojaVida": 244120,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)"
+          }
+        ],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 275272,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "IE 23009 COLEGIO SAN MIGUEL",
+          "ocupacionProfesion": "PROFESORA",
+          "rucTrabajo": "20494436257",
+          "direccionTrabajo": "AV. JOSE MATILLAS MANZANILLA 323",
+          "anioTrabajoDesde": "2005",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "100101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "ICA",
+          "trabajoProvincia": "ICA",
+          "trabajoDistrito": "ICA",
+          "idHojaVida": 244120,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 214880,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 47528.64,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 244120,
+            "idEstado": 1,
+            "totalIngresos": 47528.64
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "22268904",
+      "idHojaVida": 250936,
+      "idOrg": 1264,
+      "nombre": "VICTOR LORENZO CAMASCA ZAPATA",
+      "partido": "JUNTOS POR EL PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/0f0599fe-0bb4-4ea0-b9d3-f418eb63d971.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "05/09/1955",
+      "lugarNacimiento": "PISCO, PISCO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "CONTADOR PUBLICO",
+        "institucion": "Universidad Nacional San Luis Gonzaga",
+        "ingresos2024": 142696,
+        "experienciaActual": "CONTADOR PÚBLICO"
+      },
+      "trayectoria": {
+        "cargoPartidario": [
+          {
+            "idHvCargoPartidario": 144642,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 1,
+            "idOrgPolCargoPartidario": 1809,
+            "orgPolCargoPartidario": "ALIANZA PARA LA RECONSTRUCCION",
+            "cargoPartidario": "FUNDADOR",
+            "anioCargoPartiDesde": "2010",
+            "anioCargoPartiHasta": "2010",
+            "idHojaVida": 250936,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 234321,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 250936,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 194422,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional San Luis Gonzaga",
+            "carreraUni": "CONTADOR PUBLICO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1982",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 262582,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "IEST. P. PISCO (MINISTERIO DE EDUCACIÓN)",
+          "ocupacionProfesion": "CONTADOR PÚBLICO",
+          "rucTrabajo": "20147610719",
+          "direccionTrabajo": "AV. LAS AMERICAS S/N",
+          "anioTrabajoDesde": "1985",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "100401",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "ICA",
+          "trabajoProvincia": "PISCO",
+          "trabajoDistrito": "PISCO",
+          "idHojaVida": 250936,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 208695,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 53676,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 89020,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 250936,
+            "idEstado": 1,
+            "totalIngresos": 142696
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 254796,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "CASA HABITACIÓN",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "URB. PARACAS MZ. F LT. 11",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "02007143",
+            "fichaTomoSunarp": null,
+            "autovaluo": 150000,
+            "idHojaVida": 250936,
+            "idEstado": 1,
+            "flValor": "150000"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 208815,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "F2Y580 ",
+            "valor": 0,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "VEHICULO",
+            "comentario": "CORRESPONDE A PLACA ANTIGUA DEL VEHICULO AUDI DE LA PLACA Q7-2013",
+            "idHojaVida": 250936,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 208816,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 2,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "BZJ335 ",
+            "valor": 30000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "AUTO",
+            "comentario": null,
+            "idHojaVida": 250936,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 208817,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 3,
+            "vehiculo": "CAMIONETA",
+            "marca": null,
+            "placa": "Q7-2013",
+            "valor": 60000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "AUDI",
+            "comentario": null,
+            "idHojaVida": 250936,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
       "dni": "21414172",
       "idHojaVida": 250977,
       "idOrg": 1366,
@@ -1837,6 +2157,7 @@
       "fechaNacimiento": "25/06/1963",
       "lugarNacimiento": "ICA, ICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2491,6 +2812,7 @@
       "fechaNacimiento": "18/07/1972",
       "lugarNacimiento": "NAZCA, NASCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2761,6 +3083,7 @@
       "fechaNacimiento": "20/01/1968",
       "lugarNacimiento": "ICA, ICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3119,6 +3442,7 @@
       "fechaNacimiento": "12/06/1975",
       "lugarNacimiento": "ICA, ICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3233,6 +3557,7 @@
       "fechaNacimiento": "27/10/1969",
       "lugarNacimiento": "ZUÑIGA, CAÑETE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3346,6 +3671,7 @@
       "fechaNacimiento": "06/12/1949",
       "lugarNacimiento": "CHINCHA ALTA, CHINCHA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3457,6 +3783,7 @@
       "fechaNacimiento": "07/07/1957",
       "lugarNacimiento": "PALPA, PALPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3731,6 +4058,7 @@
       "fechaNacimiento": "24/01/1956",
       "lugarNacimiento": "CHINCHA ALTA, CHINCHA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4278,6 +4606,7 @@
       "fechaNacimiento": "20/04/1976",
       "lugarNacimiento": "ICA, ICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4577,6 +4906,7 @@
       "fechaNacimiento": "28/06/1977",
       "lugarNacimiento": "RIO GRANDE, PALPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4728,6 +5058,7 @@
       "fechaNacimiento": "19/10/1965",
       "lugarNacimiento": "CHALHUANCA, AYMARAES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4946,6 +5277,7 @@
       "fechaNacimiento": "22/10/1953",
       "lugarNacimiento": "CHINCHA ALTA, CHINCHA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5045,6 +5377,7 @@
       "fechaNacimiento": "19/03/1968",
       "lugarNacimiento": "CHAVIN, CHINCHA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": false,
@@ -5372,6 +5705,7 @@
       "fechaNacimiento": "27/09/1954",
       "lugarNacimiento": "CHINCHA ALTA, CHINCHA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5467,6 +5801,7 @@
       "fechaNacimiento": "26/02/1958",
       "lugarNacimiento": "ICA, ICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5908,6 +6243,7 @@
       "fechaNacimiento": "31/12/1971",
       "lugarNacimiento": "SAN VICENTE DE CAÑETE, CAÑETE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6154,6 +6490,7 @@
       "fechaNacimiento": "03/06/1972",
       "lugarNacimiento": "MARCONA, NASCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6280,6 +6617,7 @@
       "fechaNacimiento": "15/09/1964",
       "lugarNacimiento": "ICA, ICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6463,6 +6801,7 @@
       "fechaNacimiento": "16/12/1968",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6746,6 +7085,7 @@
       "fechaNacimiento": "21/07/1961",
       "lugarNacimiento": "CHINCHA ALTA, CHINCHA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6820,6 +7160,7 @@
       "fechaNacimiento": "15/12/1961",
       "lugarNacimiento": "HUACHO, HUAURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6899,6 +7240,7 @@
       "fechaNacimiento": "13/10/1963",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7082,6 +7424,7 @@
       "fechaNacimiento": "05/07/1955",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7355,6 +7698,7 @@
       "fechaNacimiento": "09/11/1976",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7527,6 +7871,7 @@
       "fechaNacimiento": "25/02/1978",
       "lugarNacimiento": "SANTA, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7589,6 +7934,7 @@
       "fechaNacimiento": "20/08/1965",
       "lugarNacimiento": "ICA, ICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": false,
@@ -8179,6 +8525,7 @@
       "fechaNacimiento": "26/10/1965",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8293,6 +8640,7 @@
       "fechaNacimiento": "12/06/1951",
       "lugarNacimiento": "NAZCA, NASCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8433,6 +8781,7 @@
       "fechaNacimiento": "08/07/1973",
       "lugarNacimiento": "NAZCA, NASCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8562,6 +8911,7 @@
       "fechaNacimiento": "05/08/1960",
       "lugarNacimiento": "INDEPENDENCIA, HUARAZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8731,6 +9081,7 @@
       "fechaNacimiento": "10/02/1971",
       "lugarNacimiento": "TOMEPAMPA, LA UNION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": false,
@@ -9338,6 +9689,7 @@
       "fechaNacimiento": "10/08/1950",
       "lugarNacimiento": "CONGALLA, ANGARAES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9477,6 +9829,7 @@
       "fechaNacimiento": "17/10/1966",
       "lugarNacimiento": "OCAÑA, LUCANAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9555,6 +9908,7 @@
       "fechaNacimiento": "13/11/1971",
       "lugarNacimiento": "HUMAY, PISCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9679,6 +10033,7 @@
       "fechaNacimiento": "15/09/1958",
       "lugarNacimiento": "AYACUCHO, HUAMANGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11787,6 +12142,7 @@
       "fechaNacimiento": "27/08/1974",
       "lugarNacimiento": "ICA, ICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11922,6 +12278,7 @@
       "fechaNacimiento": "16/12/1975",
       "lugarNacimiento": "ICA, ICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12096,6 +12453,7 @@
       "fechaNacimiento": "25/08/1974",
       "lugarNacimiento": "GROCIO PRADO, CHINCHA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12191,6 +12549,7 @@
       "fechaNacimiento": "07/05/1965",
       "lugarNacimiento": "ICA, ICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12313,6 +12672,7 @@
       "fechaNacimiento": "13/05/1965",
       "lugarNacimiento": "CORDOVA, HUAYTARA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12529,6 +12889,7 @@
       "fechaNacimiento": "11/08/1967",
       "lugarNacimiento": "ICA, ICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12868,6 +13229,7 @@
       "fechaNacimiento": "21/09/1972",
       "lugarNacimiento": "ICA, ICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13065,6 +13427,7 @@
       "fechaNacimiento": "11/07/1976",
       "lugarNacimiento": "PUNO, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13276,6 +13639,7 @@
       "fechaNacimiento": "07/12/1954",
       "lugarNacimiento": "ICA, ICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13533,6 +13897,7 @@
       "fechaNacimiento": "09/07/1970",
       "lugarNacimiento": "PUEBLO NUEVO, ICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13618,6 +13983,7 @@
       "fechaNacimiento": "05/12/1967",
       "lugarNacimiento": "CHINCHA ALTA, CHINCHA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13803,6 +14169,7 @@
       "fechaNacimiento": "28/11/1977",
       "lugarNacimiento": "OCAÑA, LUCANAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14010,6 +14377,7 @@
       "fechaNacimiento": "17/06/1980",
       "lugarNacimiento": "SAN ANDRES, PISCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14088,6 +14456,7 @@
       "fechaNacimiento": "10/02/1962",
       "lugarNacimiento": "ICA, ICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14296,6 +14665,7 @@
       "fechaNacimiento": "26/11/1967",
       "lugarNacimiento": "CHINCHA ALTA, CHINCHA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14483,6 +14853,7 @@
       "fechaNacimiento": "28/04/1968",
       "lugarNacimiento": "ICA, ICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,

@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-02-07T06:27:02.622Z",
+  "fetchedAt": "2026-02-07T20:24:02.760Z",
   "idProcesoElectoral": 124,
   "count": 41,
   "data": [
@@ -15,6 +15,7 @@
       "fechaNacimiento": "05/05/1956",
       "lugarNacimiento": "OYOTUN, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -179,6 +180,7 @@
       "fechaNacimiento": "15/10/1966",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -471,6 +473,7 @@
       "fechaNacimiento": "04/08/1969",
       "lugarNacimiento": "SANTA CRUZ, ALTO AMAZONAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -566,6 +569,7 @@
       "fechaNacimiento": "11/11/1965",
       "lugarNacimiento": "LAMAS, LAMAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -853,6 +857,7 @@
       "fechaNacimiento": "01/09/1962",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": true,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1229,6 +1234,7 @@
       "fechaNacimiento": "08/07/1978",
       "lugarNacimiento": "SAN PEDRO, CANCHIS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1571,6 +1577,7 @@
       "fechaNacimiento": "20/07/1978",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1722,6 +1729,7 @@
       "fechaNacimiento": "15/04/1963",
       "lugarNacimiento": "COLCHA, PARURO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2184,6 +2192,7 @@
       "fechaNacimiento": "10/05/1979",
       "lugarNacimiento": "TAHUAMANU, TAHUAMANU",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2328,6 +2337,7 @@
       "fechaNacimiento": "31/07/1980",
       "lugarNacimiento": "TAMBOPATA, TAMBOPATA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2623,6 +2633,7 @@
       "fechaNacimiento": "07/02/1967",
       "lugarNacimiento": "INCAHUASI, FERREÑAFE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2911,6 +2922,7 @@
       "fechaNacimiento": "20/11/1963",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3022,6 +3034,7 @@
       "fechaNacimiento": "04/11/1975",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3295,6 +3308,7 @@
       "fechaNacimiento": "11/06/1963",
       "lugarNacimiento": "TAMBOPATA, TAMBOPATA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3465,6 +3479,7 @@
       "fechaNacimiento": "17/04/1967",
       "lugarNacimiento": "TAMBOPATA, TAMBOPATA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3599,6 +3614,7 @@
       "fechaNacimiento": "12/06/1968",
       "lugarNacimiento": "TAMBOPATA, TAMBOPATA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3730,6 +3746,7 @@
       "fechaNacimiento": "06/12/1948",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3910,6 +3927,7 @@
       "fechaNacimiento": "13/09/1957",
       "lugarNacimiento": "HUARANCHAL, OTUZCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4608,6 +4626,7 @@
       "fechaNacimiento": "01/07/1977",
       "lugarNacimiento": "CUSIPATA, QUISPICANCHI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4732,6 +4751,7 @@
       "fechaNacimiento": "23/12/1966",
       "lugarNacimiento": "COTABAMBAS, COTABAMBAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4905,6 +4925,7 @@
       "fechaNacimiento": "15/11/1979",
       "lugarNacimiento": "PUEBLO NUEVO, CHINCHA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5033,6 +5054,7 @@
       "fechaNacimiento": "01/11/1969",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5118,6 +5140,7 @@
       "fechaNacimiento": "02/02/1978",
       "lugarNacimiento": "TAMBOPATA, TAMBOPATA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5336,6 +5359,7 @@
       "fechaNacimiento": "25/09/1978",
       "lugarNacimiento": "PUNO, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5614,6 +5638,7 @@
       "fechaNacimiento": "03/11/1955",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5717,6 +5742,7 @@
       "fechaNacimiento": "07/09/1979",
       "lugarNacimiento": "ANTA, ANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5925,6 +5951,7 @@
       "fechaNacimiento": "15/09/1977",
       "lugarNacimiento": "PIURA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6067,6 +6094,7 @@
       "fechaNacimiento": "18/10/1978",
       "lugarNacimiento": "PISCO, PISCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6252,6 +6280,7 @@
       "fechaNacimiento": "08/12/1974",
       "lugarNacimiento": "TAMBOPATA, TAMBOPATA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6370,6 +6399,7 @@
       "fechaNacimiento": "06/06/1948",
       "lugarNacimiento": "PACHAS, DOS DE MAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6545,6 +6575,7 @@
       "fechaNacimiento": "18/05/1964",
       "lugarNacimiento": "RAMON CASTILLA, MARISCAL RAMON CASTILLA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6644,6 +6675,7 @@
       "fechaNacimiento": "29/06/1957",
       "lugarNacimiento": "HUAYOPATA, LA CONVENCION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6722,6 +6754,7 @@
       "fechaNacimiento": "05/12/1973",
       "lugarNacimiento": "TAMBOPATA, TAMBOPATA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7044,6 +7077,7 @@
       "fechaNacimiento": "17/01/1978",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7415,6 +7449,7 @@
       "fechaNacimiento": "12/12/1965",
       "lugarNacimiento": "CHANCHAMAYO, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7514,6 +7549,7 @@
       "fechaNacimiento": "14/04/1968",
       "lugarNacimiento": "SAN VICENTE DE CAÑETE, CAÑETE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7615,6 +7651,7 @@
       "fechaNacimiento": "19/12/1977",
       "lugarNacimiento": "SANTIAGO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7830,6 +7867,7 @@
       "fechaNacimiento": "03/03/1973",
       "lugarNacimiento": "IBERIA, TAHUAMANU",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8038,6 +8076,7 @@
       "fechaNacimiento": "27/12/1975",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8192,6 +8231,7 @@
       "fechaNacimiento": "14/04/1963",
       "lugarNacimiento": "ANDARAPA, ANDAHUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8298,6 +8338,7 @@
       "fechaNacimiento": "13/06/1978",
       "lugarNacimiento": "ATE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,

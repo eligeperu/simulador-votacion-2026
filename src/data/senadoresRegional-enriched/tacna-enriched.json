@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-02-07T06:45:00.779Z",
+  "fetchedAt": "2026-02-07T20:38:41.506Z",
   "idProcesoElectoral": 124,
   "count": 54,
   "data": [
@@ -15,6 +15,7 @@
       "fechaNacimiento": "23/06/1965",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -363,6 +364,7 @@
       "fechaNacimiento": "09/01/1957",
       "lugarNacimiento": "JULI, CHUCUITO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -602,6 +604,7 @@
       "fechaNacimiento": "19/09/1965",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1095,6 +1098,7 @@
       "fechaNacimiento": "13/08/1960",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1493,6 +1497,7 @@
       "fechaNacimiento": "01/06/1960",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1936,6 +1941,7 @@
       "fechaNacimiento": "05/10/1976",
       "lugarNacimiento": "BREÑA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2089,6 +2095,7 @@
       "fechaNacimiento": "03/11/1955",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2245,6 +2252,7 @@
       "fechaNacimiento": "17/09/1968",
       "lugarNacimiento": "MARISCAL CACERES, CAMANA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2798,6 +2806,7 @@
       "fechaNacimiento": "01/11/1963",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3045,6 +3054,7 @@
       "fechaNacimiento": "05/05/1948",
       "lugarNacimiento": "CHALHUANCA, AYMARAES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3261,6 +3271,7 @@
       "fechaNacimiento": "19/03/1972",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3471,6 +3482,7 @@
       "fechaNacimiento": "31/08/1970",
       "lugarNacimiento": "GOYLLARISQUIZGA, DANIEL ALCIDES CARRION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3682,6 +3694,7 @@
       "fechaNacimiento": "14/03/1976",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3914,6 +3927,7 @@
       "fechaNacimiento": "04/02/1971",
       "lugarNacimiento": "ILO, ILO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4110,7 +4124,8 @@
       "fechaNacimiento": "02/06/1963",
       "lugarNacimiento": "HUACULLANI, CHUCUITO",
       "flags": {
-        "exCongresista": true,
+        "congresistaActual": true,
+        "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
         "exMinistro": false,
@@ -4353,6 +4368,7 @@
       "fechaNacimiento": "10/03/1974",
       "lugarNacimiento": "DESAGUADERO, CHUCUITO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4671,6 +4687,7 @@
       "fechaNacimiento": "22/10/1954",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4846,6 +4863,7 @@
       "fechaNacimiento": "19/07/1947",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": false,
@@ -5031,6 +5049,7 @@
       "fechaNacimiento": "25/02/1961",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": false,
@@ -5224,6 +5243,7 @@
       "fechaNacimiento": "19/01/1960",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5419,6 +5439,7 @@
       "fechaNacimiento": "30/03/1976",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5652,6 +5673,7 @@
       "fechaNacimiento": "07/12/1963",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5945,6 +5967,7 @@
       "fechaNacimiento": "26/09/1980",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6178,6 +6201,7 @@
       "fechaNacimiento": "26/05/1967",
       "lugarNacimiento": "SITAJARA, TARATA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6300,6 +6324,7 @@
       "fechaNacimiento": "06/12/1979",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6436,6 +6461,7 @@
       "fechaNacimiento": "01/11/1963",
       "lugarNacimiento": "JULI, CHUCUITO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6536,6 +6562,7 @@
       "fechaNacimiento": "19/11/1974",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6771,6 +6798,7 @@
       "fechaNacimiento": "12/04/1980",
       "lugarNacimiento": "PACOCHA, ILO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7052,6 +7080,7 @@
       "fechaNacimiento": "02/10/1977",
       "lugarNacimiento": "JULI, CHUCUITO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7314,6 +7343,7 @@
       "fechaNacimiento": "12/05/1978",
       "lugarNacimiento": "ANDABAMBA, SANTA CRUZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7425,6 +7455,7 @@
       "fechaNacimiento": "26/03/1964",
       "lugarNacimiento": "BAMBAMARCA, HUALGAYOC",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7531,6 +7562,7 @@
       "fechaNacimiento": "19/03/1965",
       "lugarNacimiento": "SANTIAGO DE CAO, ASCOPE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7879,6 +7911,7 @@
       "fechaNacimiento": "24/11/1976",
       "lugarNacimiento": "MOQUEGUA, MARISCAL NIETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8105,6 +8138,7 @@
       "fechaNacimiento": "30/05/1963",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8402,6 +8436,7 @@
       "fechaNacimiento": "30/11/1976",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8564,6 +8599,7 @@
       "fechaNacimiento": "02/10/1947",
       "lugarNacimiento": "MOLLENDO, ISLAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8743,6 +8779,7 @@
       "fechaNacimiento": "08/09/1979",
       "lugarNacimiento": "PISACOMA, CHUCUITO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8951,6 +8988,7 @@
       "fechaNacimiento": "23/10/1953",
       "lugarNacimiento": "LAMAS, LAMAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9029,6 +9067,7 @@
       "fechaNacimiento": "25/12/1953",
       "lugarNacimiento": "NAMORA, CAJAMARCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9303,6 +9342,7 @@
       "fechaNacimiento": "13/08/1948",
       "lugarNacimiento": "ILABAYA, JORGE BASADRE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9365,6 +9405,7 @@
       "fechaNacimiento": "11/02/1965",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9582,6 +9623,7 @@
       "fechaNacimiento": "16/09/1977",
       "lugarNacimiento": "TARMA, TARMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9698,6 +9740,7 @@
       "fechaNacimiento": "07/03/1953",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9869,6 +9912,7 @@
       "fechaNacimiento": "11/02/1966",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10009,6 +10053,7 @@
       "fechaNacimiento": "21/07/1957",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10345,6 +10390,7 @@
       "fechaNacimiento": "20/10/1969",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10536,6 +10582,7 @@
       "fechaNacimiento": "17/10/1949",
       "lugarNacimiento": "SITAJARA, TARATA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10724,6 +10771,7 @@
       "fechaNacimiento": "18/06/1948",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10893,6 +10941,7 @@
       "fechaNacimiento": "18/09/1967",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11240,6 +11289,7 @@
       "fechaNacimiento": "17/07/1958",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11376,6 +11426,7 @@
       "fechaNacimiento": "21/01/1967",
       "lugarNacimiento": "TARATA, TARATA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11533,6 +11584,7 @@
       "fechaNacimiento": "22/07/1974",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11612,6 +11664,7 @@
       "fechaNacimiento": "27/12/1960",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11911,6 +11964,7 @@
       "fechaNacimiento": "30/05/1966",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,

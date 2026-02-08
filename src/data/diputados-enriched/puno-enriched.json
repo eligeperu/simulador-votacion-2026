@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-02-07T09:49:12.706Z",
+  "fetchedAt": "2026-02-07T23:31:22.957Z",
   "idProcesoElectoral": 124,
-  "count": 116,
+  "count": 130,
   "data": [
     {
       "dni": "00401945",
@@ -15,6 +15,7 @@
       "fechaNacimiento": "20/01/1959",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -152,6 +153,7 @@
       "fechaNacimiento": "18/01/1996",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -309,6 +311,7 @@
       "fechaNacimiento": "09/05/1971",
       "lugarNacimiento": "HUACULLANI, CHUCUITO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -404,6 +407,7 @@
       "fechaNacimiento": "04/11/1970",
       "lugarNacimiento": "JULIACA, SAN ROMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -550,6 +554,7 @@
       "fechaNacimiento": "10/01/1963",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -790,6 +795,7 @@
       "fechaNacimiento": "22/11/1972",
       "lugarNacimiento": "PUNO, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1184,6 +1190,7 @@
       "fechaNacimiento": "07/09/1964",
       "lugarNacimiento": "JULIACA, SAN ROMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1382,6 +1389,7 @@
       "fechaNacimiento": "23/11/1999",
       "lugarNacimiento": "CHORRILLOS, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1612,6 +1620,7 @@
       "fechaNacimiento": "27/10/1980",
       "lugarNacimiento": "JULIACA, SAN ROMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1781,6 +1790,7 @@
       "fechaNacimiento": "03/02/1973",
       "lugarNacimiento": "COMBAPATA, CANCHIS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1903,6 +1913,7 @@
       "fechaNacimiento": "26/05/1972",
       "lugarNacimiento": "ILAVE, EL COLLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2116,6 +2127,7 @@
       "fechaNacimiento": "11/06/1972",
       "lugarNacimiento": "JULIACA, SAN ROMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2459,6 +2471,7 @@
       "fechaNacimiento": "26/08/1972",
       "lugarNacimiento": "AZANGARO, AZANGARO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2710,6 +2723,7 @@
       "fechaNacimiento": "04/10/1997",
       "lugarNacimiento": "PUNO, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2811,6 +2825,7 @@
       "fechaNacimiento": "01/10/1966",
       "lugarNacimiento": "PUNO, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3244,6 +3259,7 @@
       "fechaNacimiento": "28/05/1975",
       "lugarNacimiento": "JULIACA, SAN ROMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3585,6 +3601,7 @@
       "fechaNacimiento": "22/02/1995",
       "lugarNacimiento": "JULIACA, SAN ROMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3719,6 +3736,7 @@
       "fechaNacimiento": "16/07/1972",
       "lugarNacimiento": "MACUSANI, CARABAYA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3864,6 +3882,7 @@
       "fechaNacimiento": "16/01/1979",
       "lugarNacimiento": "JULIACA, SAN ROMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4168,6 +4187,7 @@
       "fechaNacimiento": "25/06/1991",
       "lugarNacimiento": "OCUVIRI, LAMPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4336,6 +4356,7 @@
       "fechaNacimiento": "08/06/1983",
       "lugarNacimiento": "JULIACA, SAN ROMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4521,6 +4542,7 @@
       "fechaNacimiento": "07/11/1956",
       "lugarNacimiento": "YUNGUYO, YUNGUYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": false,
@@ -4783,6 +4805,7 @@
       "fechaNacimiento": "08/11/1986",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4932,6 +4955,7 @@
       "fechaNacimiento": "27/08/1986",
       "lugarNacimiento": "HUANCANE, HUANCANE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5029,6 +5053,7 @@
       "fechaNacimiento": "13/08/1957",
       "lugarNacimiento": "ATUNCOLLA, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5227,6 +5252,7 @@
       "fechaNacimiento": "31/07/1993",
       "lugarNacimiento": "ANTAUTA, MELGAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5324,6 +5350,7 @@
       "fechaNacimiento": "23/02/1963",
       "lugarNacimiento": "PICHACANI, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5636,6 +5663,7 @@
       "fechaNacimiento": "14/05/1974",
       "lugarNacimiento": "PICHACANI, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5948,6 +5976,7 @@
       "fechaNacimiento": "09/01/1972",
       "lugarNacimiento": "JULIACA, SAN ROMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6204,6 +6233,7 @@
       "fechaNacimiento": "11/01/1963",
       "lugarNacimiento": "MOHO, MOHO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6451,6 +6481,7 @@
       "fechaNacimiento": "15/02/1982",
       "lugarNacimiento": "PUNO, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6713,6 +6744,7 @@
       "fechaNacimiento": "24/06/1986",
       "lugarNacimiento": "ANANEA, SAN ANTONIO DE PUTINA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6944,6 +6976,7 @@
       "fechaNacimiento": "10/08/1972",
       "lugarNacimiento": "CHUPA, AZANGARO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7041,6 +7074,7 @@
       "fechaNacimiento": "29/06/1967",
       "lugarNacimiento": "AZANGARO, AZANGARO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7214,6 +7248,7 @@
       "fechaNacimiento": "07/07/1958",
       "lugarNacimiento": "COATA, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7386,6 +7421,7 @@
       "fechaNacimiento": "27/05/1994",
       "lugarNacimiento": "CHUPA, AZANGARO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7523,6 +7559,7 @@
       "fechaNacimiento": "12/04/1977",
       "lugarNacimiento": "TARACO, HUANCANE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7792,6 +7829,7 @@
       "fechaNacimiento": "18/09/1999",
       "lugarNacimiento": "AYAVIRI, MELGAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7920,6 +7958,7 @@
       "fechaNacimiento": "14/09/1981",
       "lugarNacimiento": "UMACHIRI, MELGAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8221,6 +8260,7 @@
       "fechaNacimiento": "08/12/1973",
       "lugarNacimiento": "PATAMBUCO, SANDIA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8449,6 +8489,542 @@
       "resoluciones": []
     },
     {
+      "dni": "73210702",
+      "idHojaVida": 252596,
+      "idOrg": 2931,
+      "nombre": "MARCIAL JHON FLORES QUISPE",
+      "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/5cc3cdbb-cac4-4204-89e9-e33b93302ea4.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "15/04/1995",
+      "lugarNacimiento": "HUATASANI, HUANCANE",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "Bachiller en Sociología",
+        "institucion": "Universidad Nacional del Altiplano",
+        "ingresos2024": 0,
+        "experienciaActual": "Sociólogo independiente"
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242243,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 252596,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 203569,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional del Altiplano",
+            "carreraUni": "Bachiller en Sociología",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2022",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 275198,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "Profesional independiente",
+          "ocupacionProfesion": "Sociólogo independiente",
+          "rucTrabajo": null,
+          "direccionTrabajo": "COM. SAN SALVADOR",
+          "anioTrabajoDesde": "2023",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "200511",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "PUNO",
+          "trabajoProvincia": "HUANCANE",
+          "trabajoDistrito": "HUATASANI",
+          "idHojaVida": 252596,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "29633478",
+      "idHojaVida": 247811,
+      "idOrg": 2931,
+      "nombre": "ORLANDO HILARIO RIOS CISNEROS",
+      "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/b9171d14-7795-48f4-9300-75de66a01120.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "12/08/1958",
+      "lugarNacimiento": "SICUANI, CANCHIS",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "Bachiller en Ciencias Contables",
+        "institucion": "Universidad Nacional del Altiplano",
+        "ingresos2024": 17400,
+        "experienciaActual": "Supervisor"
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242248,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 247811,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 203575,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional del Altiplano",
+            "carreraUni": "Bachiller en Ciencias Contables",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1988",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 203576,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional del Altiplano",
+            "carreraUni": "Contador Público",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2022",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 275226,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "NIZA REGIÓN SUR SAC",
+          "ocupacionProfesion": "Supervisor",
+          "rucTrabajo": "20498136606",
+          "direccionTrabajo": "Jr. Arequipa 459",
+          "anioTrabajoDesde": "2013",
+          "anioTrabajoHasta": "2017",
+          "ubigeoTrabajo": "200101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "PUNO",
+          "trabajoProvincia": "PUNO",
+          "trabajoDistrito": "PUNO",
+          "idHojaVida": 247811,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 214846,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 17400,
+            "idHojaVida": 247811,
+            "idEstado": 1,
+            "totalIngresos": 17400
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 266982,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "AREQUIPA-SOCABAYA- MZ B LOTE 19    SECTOR II - PROGRAMA LA CAMPIÑA I",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P06111256",
+            "fichaTomoSunarp": null,
+            "autovaluo": 73188.13,
+            "idHojaVida": 247811,
+            "idEstado": 1,
+            "flValor": "300000"
+          },
+          {
+            "idHvBienInmueble": 266993,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "Casa",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "Jirón 1 de Mayo 909 - Puno",
+            "comentario": null,
+            "inmuebleSunarp": "0",
+            "inmuebleSunarpDesc": "NO",
+            "partidaSunarp": null,
+            "fichaTomoSunarp": null,
+            "autovaluo": 34056.96,
+            "idHojaVida": 247811,
+            "idEstado": 1,
+            "flValor": "400000"
+          },
+          {
+            "idHvBienInmueble": 266995,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 3,
+            "tipoBienInmueble": "Casa",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "Vivienda El Bosque 6 - 13",
+            "comentario": null,
+            "inmuebleSunarp": "0",
+            "inmuebleSunarpDesc": "NO",
+            "partidaSunarp": null,
+            "fichaTomoSunarp": null,
+            "autovaluo": 9925.5,
+            "idHojaVida": 247811,
+            "idEstado": 1,
+            "flValor": "140000"
+          },
+          {
+            "idHvBienInmueble": 266997,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 4,
+            "tipoBienInmueble": "Casa",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "Teófilo Nuñez 607 - Mollendo",
+            "comentario": "Propiedad de esposa, por herencia",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "P06215760",
+            "fichaTomoSunarp": null,
+            "autovaluo": 21346.3,
+            "idHojaVida": 247811,
+            "idEstado": 1,
+            "flValor": "60000"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "01308872",
+      "idHojaVida": 245910,
+      "idOrg": 2931,
+      "nombre": "VICENTE FREDY SONCCO QUISPE",
+      "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/b8a876db-6878-4107-9291-c9ff2af33a51.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "04/04/1968",
+      "lugarNacimiento": "PUNO, PUNO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "INGENIERO AGRICOLA",
+        "institucion": "Universidad Nacional del Altiplano",
+        "ingresos2024": 0,
+        "experienciaActual": "Gerente General IVP San Román"
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242285,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 245910,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 203613,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional del Altiplano",
+            "carreraUni": "INGENIERO AGRICOLA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2010",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 203614,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad José Carlos Mariátegui",
+            "carreraUni": "BACHILLER EN INGENIERIA CIVIL",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2009",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 203615,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "3",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad José Carlos Mariátegui",
+            "carreraUni": "INGENIERO CIVIL",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2017",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 203616,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "4",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Jaime Bausate y Meza",
+            "carreraUni": "BACHILLER EN PERIODISMO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2021",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 203617,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "5",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional del Altiplano",
+            "carreraUni": "BACHILLER EN CIENCIAS DE LA INGENIERIA AGRICOLA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1997",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 275238,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "Municipalidad Provincial San Román",
+          "ocupacionProfesion": "Gerente General IVP San Román",
+          "rucTrabajo": "20165195290",
+          "direccionTrabajo": "Jirón Jaurégui 321",
+          "anioTrabajoDesde": "2019",
+          "anioTrabajoHasta": "2022",
+          "ubigeoTrabajo": "200901",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "PUNO",
+          "trabajoProvincia": "SAN ROMAN",
+          "trabajoDistrito": "JULIACA",
+          "idHojaVida": 245910,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 267012,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "Terreno",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "Jirón Paucarcolla S/N",
+            "comentario": null,
+            "inmuebleSunarp": "0",
+            "inmuebleSunarpDesc": "NO",
+            "partidaSunarp": null,
+            "fichaTomoSunarp": null,
+            "autovaluo": 16633,
+            "idHojaVida": 245910,
+            "idEstado": 1,
+            "flValor": "80000"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 216002,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "1331EZ ",
+            "valor": 3000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "Advance CTX110 color azul año 2023",
+            "comentario": null,
+            "idHojaVida": 245910,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
       "dni": "42459027",
       "idHojaVida": 248489,
       "idOrg": 2731,
@@ -8460,6 +9036,7 @@
       "fechaNacimiento": "14/11/1983",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8631,6 +9208,7 @@
       "fechaNacimiento": "24/08/1995",
       "lugarNacimiento": "JULIACA, SAN ROMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8847,6 +9425,7 @@
       "fechaNacimiento": "03/11/1977",
       "lugarNacimiento": "DESAGUADERO, CHUCUITO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8909,6 +9488,7 @@
       "fechaNacimiento": "13/08/1999",
       "lugarNacimiento": "JULIACA, SAN ROMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9027,6 +9607,7 @@
       "fechaNacimiento": "17/05/1995",
       "lugarNacimiento": "JULIACA, SAN ROMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9287,6 +9868,7 @@
       "fechaNacimiento": "14/12/1988",
       "lugarNacimiento": "ASILLO, AZANGARO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9384,6 +9966,7 @@
       "fechaNacimiento": "16/02/1986",
       "lugarNacimiento": "YUNGUYO, YUNGUYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9531,6 +10114,7 @@
       "fechaNacimiento": "09/09/1988",
       "lugarNacimiento": "NUÑOA, MELGAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9593,6 +10177,7 @@
       "fechaNacimiento": "14/01/1977",
       "lugarNacimiento": "SAMAN, AZANGARO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9879,6 +10464,7 @@
       "fechaNacimiento": "31/10/1983",
       "lugarNacimiento": "YANAHUAYA, SANDIA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10030,6 +10616,7 @@
       "fechaNacimiento": "04/08/1974",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10217,6 +10804,7 @@
       "fechaNacimiento": "11/10/1970",
       "lugarNacimiento": "PUNO, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10447,6 +11035,7 @@
       "fechaNacimiento": "14/10/1981",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10641,6 +11230,7 @@
       "fechaNacimiento": "08/07/1981",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10703,6 +11293,7 @@
       "fechaNacimiento": "14/01/1959",
       "lugarNacimiento": "MAGDALENA DEL MAR, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10837,6 +11428,7 @@
       "fechaNacimiento": "24/11/1966",
       "lugarNacimiento": "PUEBLO LIBRE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10955,6 +11547,7 @@
       "fechaNacimiento": "12/12/1985",
       "lugarNacimiento": "LA ESPERANZA, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11156,6 +11749,7 @@
       "fechaNacimiento": "08/07/1977",
       "lugarNacimiento": "DESAGUADERO, CHUCUITO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11235,6 +11829,7 @@
       "fechaNacimiento": "12/09/1992",
       "lugarNacimiento": "DESAGUADERO, CHUCUITO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11400,6 +11995,7 @@
       "fechaNacimiento": "10/08/1980",
       "lugarNacimiento": "SAN PABLO, SAN PABLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11462,6 +12058,7 @@
       "fechaNacimiento": "02/04/1981",
       "lugarNacimiento": "AYAVIRI, MELGAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11670,6 +12267,7 @@
       "fechaNacimiento": "30/08/1989",
       "lugarNacimiento": "LIMBANI, SANDIA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11861,6 +12459,7 @@
       "fechaNacimiento": "16/11/1991",
       "lugarNacimiento": "PUNO, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12267,6 +12866,7 @@
       "fechaNacimiento": "24/12/1999",
       "lugarNacimiento": "MARIANO MELGAR, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12439,6 +13039,7 @@
       "fechaNacimiento": "08/03/1990",
       "lugarNacimiento": "HUANCANE, HUANCANE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12748,6 +13349,7 @@
       "fechaNacimiento": "28/07/1984",
       "lugarNacimiento": "MOHO, MOHO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12857,6 +13459,7 @@
       "fechaNacimiento": "24/02/1985",
       "lugarNacimiento": "PUNO, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13084,6 +13687,7 @@
       "fechaNacimiento": "05/07/1985",
       "lugarNacimiento": "PUNO, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13338,6 +13942,7 @@
       "fechaNacimiento": "19/02/1973",
       "lugarNacimiento": "MACUSANI, CARABAYA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13455,6 +14060,7 @@
       "fechaNacimiento": "04/01/1968",
       "lugarNacimiento": "INCHUPALLA, HUANCANE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13652,6 +14258,7 @@
       "fechaNacimiento": "18/01/1987",
       "lugarNacimiento": "CAJAMARCA, CAJAMARCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13818,6 +14425,7 @@
       "fechaNacimiento": "17/07/1988",
       "lugarNacimiento": "LLAMA, MARISCAL LUZURIAGA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13920,6 +14528,503 @@
       "resoluciones": []
     },
     {
+      "dni": "01330394",
+      "idHojaVida": 253184,
+      "idOrg": 2921,
+      "nombre": "WALTER ALFARO SOSA",
+      "partido": "PARTIDO POLITICO PRIN",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/c01aac5b-1337-4f2d-a42a-3f5c77557e98.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "03/12/1974",
+      "lugarNacimiento": "ILAVE, EL COLLAO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "CIRUJANO DENTISTA",
+        "institucion": "Universidad Nacional del Altiplano",
+        "ingresos2024": 35000,
+        "experienciaActual": "ODONTOLOGO"
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 238070,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 253184,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 198767,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional del Altiplano",
+            "carreraUni": "CIRUJANO DENTISTA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2008",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 198768,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional del Altiplano",
+            "carreraUni": "BACHILLER EN CIENCIAS DE LA ODONTOLOGIA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2007",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 198769,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "3",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Alas Peruanas S.A.",
+            "carreraUni": "TITULO DE ESPECIALISTA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2013",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 268473,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "REED DE SALUD NEL COLLARO - MINSA",
+          "ocupacionProfesion": "ODONTOLOGO",
+          "rucTrabajo": null,
+          "direccionTrabajo": "JR ATAHUALPA S/N",
+          "anioTrabajoDesde": "2014",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "201201",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "PUNO",
+          "trabajoProvincia": "EL COLLAO",
+          "trabajoDistrito": "ILAVE",
+          "idHojaVida": 253184,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 211569,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 35000,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 253184,
+            "idEstado": 1,
+            "totalIngresos": 35000
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 212228,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "Z8D301 ",
+            "valor": 90000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "SUZUKIFRONX",
+            "comentario": "CAMIONETA SUV",
+            "idHojaVida": 253184,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "46757828",
+      "idHojaVida": 248928,
+      "idOrg": 2921,
+      "nombre": "MARIBEL YESENIA PAURO PARRILLO",
+      "partido": "PARTIDO POLITICO PRIN",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/ae7280aa-b831-4494-9db3-c1f2af8c6545.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "02/09/1991",
+      "lugarNacimiento": "JULIACA, SAN ROMAN",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "BACHILLER EN DERECHO",
+        "institucion": "Universidad Andina Néstor Cáceres Velásquez",
+        "ingresos2024": 16000,
+        "experienciaActual": null
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 238097,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 248928,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 198801,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Andina Néstor Cáceres Velásquez",
+            "carreraUni": "BACHILLER EN DERECHO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2016",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 198802,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Andina Néstor Cáceres Velásquez",
+            "carreraUni": "ABOGADA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2017",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 211597,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 16000,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 248928,
+            "idEstado": 1,
+            "totalIngresos": 16000
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 212247,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "AJX777 ",
+            "valor": 45000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "T- KING - ZB1023ADB75",
+            "comentario": "MINI - CAMION 305 TONELADAS",
+            "idHojaVida": 248928,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "01345033",
+      "idHojaVida": 251199,
+      "idOrg": 2921,
+      "nombre": "PERCY YOE LIMACHE HUANCCO",
+      "partido": "PARTIDO POLITICO PRIN",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/9d7566b4-768a-4230-8b61-bcdeaa5cae44.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "21/12/1977",
+      "lugarNacimiento": "PUNO, PUNO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "MAESTRIA EN AUDITORIA Y TRIBUTACION",
+        "institucion": "UNIVERSIDAD NACIONAL DEL ALTIPLANO - PUNO",
+        "ingresos2024": 0,
+        "experienciaActual": "GERENTE GENERAL"
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 238064,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 251199,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 160833,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "JOSE ANTONIO ENCINAS",
+            "carreraTecnico": "PROFESIONAL TÉCNICO EN COMPUTACIÓN E INFORMÁTICA",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 251199,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionNoUniversitaria": [
+          {
+            "idHvNoUniversitaria": 144957,
+            "tengoNoUniversitaria": "SI",
+            "eduNoUniversitaria": null,
+            "centroEstudioNoUni": "IAT - SUNAT",
+            "carreraNoUni": "TECNICO EN COMPUTACION",
+            "concluidoNoUni": "1",
+            "idHojaVida": 251199,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)"
+          }
+        ],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 198760,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional del Altiplano",
+            "carreraUni": "BACHILLER EN CIENCIAS DE LA INGENIERIA DE SISTEMAS",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2006",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 198761,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional del Altiplano",
+            "carreraUni": "INGENIERO DE SISTEMAS",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2015",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 145137,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "UNIVERSIDAD NACIONAL DEL ALTIPLANO - PUNO",
+            "txEspecialidadPosgrado": "MAESTRIA EN AUDITORIA Y TRIBUTACION",
+            "concluidoPosgrado": "NO",
+            "egresadoPosgrado": null,
+            "esMaestro": null,
+            "esDoctor": null,
+            "txAnioPosgrado": null,
+            "idHojaVida": 251199,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": "ESTUDIANTE - PENDIENTE 2 CURSOS",
+            "fgRegistro": null
+          },
+          {
+            "idHvPosgrado": 145138,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 2,
+            "txCenEstudioPosgrado": "UNIVERSIDAD NACIONAL DEL ALTIPLANO - PUNO",
+            "txEspecialidadPosgrado": "ESPECIALIZACION DE SSOMA",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "NO",
+            "esMaestro": null,
+            "esDoctor": null,
+            "txAnioPosgrado": null,
+            "idHojaVida": 251199,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 268465,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "IDENTIFICACION DE PELIGORS Y EVALUACION DE RIESGOS",
+          "ocupacionProfesion": "GERENTE GENERAL",
+          "rucTrabajo": "20607817775",
+          "direccionTrabajo": "JR RUQUS 150",
+          "anioTrabajoDesde": "2020",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "200905",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "PUNO",
+          "trabajoProvincia": "SAN ROMAN",
+          "trabajoDistrito": "SAN MIGUEL",
+          "idHojaVida": 251199,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": [
+          {
+            "idHVTitularidad": 9223,
+            "tengoTitularidad": "SI",
+            "nuItemTitularidad": 1,
+            "txPersonaJuridica": "IPEAL PERU S.A.C.",
+            "idParamTipoTitularidad": 88,
+            "txTipoTitularidad": "PARTICIPACIONES",
+            "flCantidad": 78150,
+            "flValor": 1,
+            "idHojaVida": 251199,
+            "idEstado": 1,
+            "txUsuario": "41374028",
+            "txFechaRegistro": null,
+            "txComentario": null,
+            "txRegistroManual": null
+          }
+        ]
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
       "dni": "02307843",
       "idHojaVida": 244889,
       "idOrg": 3025,
@@ -13931,6 +15036,7 @@
       "fechaNacimiento": "04/10/1977",
       "lugarNacimiento": "SANTA ROSA, MELGAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14009,6 +15115,7 @@
       "fechaNacimiento": "03/10/1990",
       "lugarNacimiento": "JULI, CHUCUITO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14147,6 +15254,581 @@
       "resoluciones": []
     },
     {
+      "dni": "07598406",
+      "idHojaVida": 249620,
+      "idOrg": 3023,
+      "nombre": "MARGARITA CONCEPCION VELASQUEZ CABRERA",
+      "partido": "UNIDAD NACIONAL",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/e4ba712e-4395-4e3b-b144-9da46ea5340c.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "28/06/1950",
+      "lugarNacimiento": "PUNO, PUNO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "DERECHO INTERNACIONAL",
+        "institucion": "UNIVERSIDAD TG SMEVSHENKO",
+        "ingresos2024": 0,
+        "experienciaActual": null
+      },
+      "trayectoria": {
+        "cargoPartidario": [
+          {
+            "idHvCargoPartidario": 146373,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 1,
+            "idOrgPolCargoPartidario": 2943,
+            "orgPolCargoPartidario": "PARTIDO POLÍTICO PARTIDO POPULAR CRISTIANO - PPC",
+            "cargoPartidario": "SECRETARIA DE DOCTRINA - PUNO",
+            "anioCargoPartiDesde": "2023",
+            "anioCargoPartiHasta": "2025",
+            "idHojaVida": 249620,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 239443,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 249620,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 161189,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "CONSERVATORIO MUSICA - SUECIA",
+            "carreraTecnico": "TECNICA VOCAL",
+            "concluidoEduTecnico": "2",
+            "idHojaVida": 249620,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 200388,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "UNIVERSIDAD NACIONAL TRUJILLO",
+            "carreraUni": "ABOGADA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1986",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 145687,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "UNIVERSIDAD TG SMEVSHENKO",
+            "txEspecialidadPosgrado": "DERECHO INTERNACIONAL",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "NO",
+            "esDoctor": "NO",
+            "txAnioPosgrado": null,
+            "idHojaVida": 249620,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 213430,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "B3H071 ",
+            "valor": 16650,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "CAMIONETA TOYOTA",
+            "comentario": null,
+            "idHojaVida": 249620,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "71831695",
+      "idHojaVida": 244617,
+      "idOrg": 3023,
+      "nombre": "MICHAEL DAVID CHURATA TILA",
+      "partido": "UNIDAD NACIONAL",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/ed6af7dd-c8b4-4a08-a980-c8b2cc763b0e.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "30/09/1995",
+      "lugarNacimiento": "JULIACA, SAN ROMAN",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": null,
+        "institucion": null,
+        "ingresos2024": 0,
+        "experienciaActual": null
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 238485,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": null,
+          "concluidoEduPrimaria": null,
+          "eduSecundaria": null,
+          "concluidoEduSecundaria": null,
+          "idHojaVida": 244617,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "01318139",
+      "idHojaVida": 243779,
+      "idOrg": 3023,
+      "nombre": "JAVIER MARTIN INQUILLA BRAVO",
+      "partido": "UNIDAD NACIONAL",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/0f0b1f33-fe80-41aa-848b-984af31e12d1.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "11/11/1971",
+      "lugarNacimiento": "PUNO, PUNO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "DOCTORADO EN ECONOMIA Y POLITICAS PUBLICAS",
+        "institucion": "UNIVERSIDAD NACIONAL DEL ALTIPLANO - PUNO",
+        "ingresos2024": 75544.9,
+        "experienciaActual": "EX GERENTE DE AGENCIA SENIOR"
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 239430,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 243779,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 161185,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "IST JOSE ANTONIO ENCINAS - PUNO",
+            "carreraTecnico": "PROFESIONAL TECNICO EN ELECTORONICA",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 243779,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 200364,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional del Altiplano",
+            "carreraUni": "BACHILLER EN ECONOMIA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1997",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 145680,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "UNIVERSIDAD NACIONAL DEL ALTIPLANO - PUNO",
+            "txEspecialidadPosgrado": "DOCTORADO EN ECONOMIA Y POLITICAS PUBLICAS",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "NO",
+            "esDoctor": "NO",
+            "txAnioPosgrado": null,
+            "idHojaVida": 243779,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": "ESTUDIOS CONCLUIDOS EN EL AÑO 2023",
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 270915,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "CAJA AREQUIPA",
+          "ocupacionProfesion": "EX GERENTE DE AGENCIA SENIOR",
+          "rucTrabajo": "20100209641",
+          "direccionTrabajo": "CALLE LA MERCED 106",
+          "anioTrabajoDesde": "2003",
+          "anioTrabajoHasta": "2024",
+          "ubigeoTrabajo": "040101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "AREQUIPA",
+          "trabajoProvincia": "AREQUIPA",
+          "trabajoDistrito": "AREQUIPA",
+          "idHojaVida": 243779,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 212761,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 75544.9,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 243779,
+            "idEstado": 1,
+            "totalIngresos": 75544.9
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 262710,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "  MZ 18 LOTE 52 URB AZIRUNI I ETAPA PUNO - PUNO - PUNO",
+            "comentario": "PUNO",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "05001374",
+            "fichaTomoSunarp": null,
+            "autovaluo": 21506.64,
+            "idHojaVida": 243779,
+            "idEstado": 1,
+            "flValor": "250000"
+          },
+          {
+            "idHvBienInmueble": 262711,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "AVENIDA JOSE MARIA PLAZA NUM 429 DPTO 306 - TERCER PISO URB JESUS MARIA JESUS MARIA - LIMA - LIMA",
+            "comentario": "JESUS MARIA",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "15462061",
+            "fichaTomoSunarp": null,
+            "autovaluo": 104196.18,
+            "idHojaVida": 243779,
+            "idEstado": 1,
+            "flValor": "450000"
+          },
+          {
+            "idHvBienInmueble": 262712,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 3,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "  MZ \"I\" LOTE 5 URB SALCEDO I ETAPA PUNO - PUNO - PUNO",
+            "comentario": "PROPIEDAD VENDIDA EN DOS LOTES, EN EL AÑO 2024 Y AÑO 2025",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11225116",
+            "fichaTomoSunarp": null,
+            "autovaluo": 0,
+            "idHojaVida": 243779,
+            "idEstado": 1,
+            "flValor": "0"
+          },
+          {
+            "idHvBienInmueble": 262714,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 4,
+            "tipoBienInmueble": "PREDIO",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "JIRON JOSE ANTONIO ENCINAS 252 - PUNO",
+            "comentario": null,
+            "inmuebleSunarp": "0",
+            "inmuebleSunarpDesc": "NO",
+            "partidaSunarp": null,
+            "fichaTomoSunarp": null,
+            "autovaluo": 93695.45,
+            "idHojaVida": 243779,
+            "idEstado": 1,
+            "flValor": "200000"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 213416,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "Z6G443 ",
+            "valor": 55000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "CAMIONETA HYUNDAI CRETA",
+            "comentario": null,
+            "idHojaVida": 243779,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": [
+          {
+            "idHVTitularidad": 9702,
+            "tengoTitularidad": "SI",
+            "nuItemTitularidad": 1,
+            "txPersonaJuridica": "SYJMA NEGOCIOS INTEGRALES EIRL",
+            "idParamTipoTitularidad": 88,
+            "txTipoTitularidad": "PARTICIPACIONES",
+            "flCantidad": 100,
+            "flValor": 10000,
+            "idHojaVida": 243779,
+            "idEstado": 1,
+            "txUsuario": "45657438",
+            "txFechaRegistro": null,
+            "txComentario": null,
+            "txRegistroManual": null
+          },
+          {
+            "idHVTitularidad": 9703,
+            "tengoTitularidad": "SI",
+            "nuItemTitularidad": 2,
+            "txPersonaJuridica": "EMPRESA DE PRESTAMOS SYJMA PERU EIRL",
+            "idParamTipoTitularidad": 88,
+            "txTipoTitularidad": "PARTICIPACIONES",
+            "flCantidad": 100,
+            "flValor": 150000,
+            "idHojaVida": 243779,
+            "idEstado": 1,
+            "txUsuario": "45657438",
+            "txFechaRegistro": null,
+            "txComentario": null,
+            "txRegistroManual": null
+          }
+        ]
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "70108923",
+      "idHojaVida": 245962,
+      "idOrg": 3023,
+      "nombre": "CARMEN MERCEDES ZEA JARA",
+      "partido": "UNIDAD NACIONAL",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/c614847e-6ff9-4def-abd4-e3fa951e1db2.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "15/07/1997",
+      "lugarNacimiento": "JULIACA, SAN ROMAN",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": null,
+        "institucion": null,
+        "ingresos2024": 0,
+        "experienciaActual": null
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 238482,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 245962,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 212569,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "Z5L386 ",
+            "valor": 0.1,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "NO DECLARA SER PROPIETARIA",
+            "comentario": null,
+            "idHojaVida": 245962,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
       "dni": "01889282",
       "idHojaVida": 254765,
       "idOrg": 14,
@@ -14158,6 +15840,7 @@
       "fechaNacimiento": "03/07/1977",
       "lugarNacimiento": "ILAVE, EL COLLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14461,6 +16144,7 @@
       "fechaNacimiento": "02/08/1978",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14643,6 +16327,7 @@
       "fechaNacimiento": "23/10/1967",
       "lugarNacimiento": "PUCARA, LAMPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14911,6 +16596,7 @@
       "fechaNacimiento": "27/07/1978",
       "lugarNacimiento": "SOCABAYA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15237,6 +16923,7 @@
       "fechaNacimiento": "25/02/1971",
       "lugarNacimiento": "PAUCARCOLLA, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15425,6 +17112,7 @@
       "fechaNacimiento": "22/07/1976",
       "lugarNacimiento": "CAPACHICA, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15565,6 +17253,7 @@
       "fechaNacimiento": "22/02/1988",
       "lugarNacimiento": "PUNO, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15927,6 +17616,240 @@
       "resoluciones": []
     },
     {
+      "dni": "73092899",
+      "idHojaVida": 254425,
+      "idOrg": 1366,
+      "nombre": "KATERYN FRANSSI GUERRA MARON",
+      "partido": "FUERZA POPULAR",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/4849746e-d29d-4f51-ad5c-7a6a2eead5a6.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "05/04/1992",
+      "lugarNacimiento": "PUNO, PUNO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "INTERVENCIÓN PSICOLÓGICA",
+        "institucion": "UNIVERSIDAD CÉSAR VALLEJO",
+        "ingresos2024": 41108,
+        "experienciaActual": "PREFECTA REGIONAL"
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 238420,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 254425,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 199126,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional del Altiplano",
+            "carreraUni": "Licenciada en Trabajo Social",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2017",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 199127,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional del Altiplano",
+            "carreraUni": "Bachiller en Trabajo Social",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2016",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 145285,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "UNIVERSIDAD CÉSAR VALLEJO",
+            "txEspecialidadPosgrado": "INTERVENCIÓN PSICOLÓGICA",
+            "concluidoPosgrado": "NO",
+            "egresadoPosgrado": null,
+            "esMaestro": null,
+            "esDoctor": null,
+            "txAnioPosgrado": null,
+            "idHojaVida": 254425,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": "ME ENCUENTRO CURSANDO EL SEGUNDO CICLO DE LA MAESTRÍA.",
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 269063,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "MINISTERIO DEL INTERIOR",
+          "ocupacionProfesion": "PREFECTA REGIONAL",
+          "rucTrabajo": null,
+          "direccionTrabajo": "JR. TACNA/ RICARDO PALMA S/N",
+          "anioTrabajoDesde": "2023",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "200101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "PUNO",
+          "trabajoProvincia": "PUNO",
+          "trabajoDistrito": "PUNO",
+          "idHojaVida": 254425,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "SE CONTINÚA EN EL CARGO A LA ESPERA DEL CESE."
+        },
+        {
+          "idHvExpeLaboral": 269070,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 2,
+          "centroTrabajo": "MINISTERIO DEL INTERIOR",
+          "ocupacionProfesion": "SUB PREFECTO PROVINCIAL DE PUNO",
+          "rucTrabajo": null,
+          "direccionTrabajo": "JR. TACNA/RICARDO PALMA S/N",
+          "anioTrabajoDesde": "2023",
+          "anioTrabajoHasta": "2023",
+          "ubigeoTrabajo": "200101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "PUNO",
+          "trabajoProvincia": "PUNO",
+          "trabajoDistrito": "PUNO",
+          "idHojaVida": 254425,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "DESDE EL 15 DE ABRIL HASTA EL 5 DE OCTUBRE 2023."
+        },
+        {
+          "idHvExpeLaboral": 269075,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 3,
+          "centroTrabajo": "MINISTERIO DE JUSTICIA Y DERECHOS HUMANOS",
+          "ocupacionProfesion": "RESPONSABLE DE TRABAJO SOCIAL",
+          "rucTrabajo": null,
+          "direccionTrabajo": "JR. DEZA N.° 763",
+          "anioTrabajoDesde": "2023",
+          "anioTrabajoHasta": "2023",
+          "ubigeoTrabajo": "200101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "PUNO",
+          "trabajoProvincia": "PUNO",
+          "trabajoDistrito": "PUNO",
+          "idHojaVida": 254425,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "DESDE EL 9 DE MARZO HASTA EL 19 MARZO 2023."
+        },
+        {
+          "idHvExpeLaboral": 269080,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 4,
+          "centroTrabajo": "EMPRESA HIDROAMBIENTE & CONSTRUCCIONES",
+          "ocupacionProfesion": "GESTOR SOCIAL",
+          "rucTrabajo": null,
+          "direccionTrabajo": "AV. JULIACA 2120",
+          "anioTrabajoDesde": "2022",
+          "anioTrabajoHasta": "2023",
+          "ubigeoTrabajo": "200101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "PUNO",
+          "trabajoProvincia": "PUNO",
+          "trabajoDistrito": "PUNO",
+          "idHojaVida": 254425,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "DESDE EL 01 DE JUNIO HASTA EL 31 DE ENERO 2023"
+        },
+        {
+          "idHvExpeLaboral": 269088,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 5,
+          "centroTrabajo": "WILLAY COMUNICACIÓN ESTRATÉGICA E.I.R.L",
+          "ocupacionProfesion": "COORDINADORA",
+          "rucTrabajo": null,
+          "direccionTrabajo": "CALLE LOS CLAVELES APV. LA PRADERA Lt.9, Mz H. CUSCO",
+          "anioTrabajoDesde": "2019",
+          "anioTrabajoHasta": "2019",
+          "ubigeoTrabajo": "200101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "PUNO",
+          "trabajoProvincia": "PUNO",
+          "trabajoDistrito": "PUNO",
+          "idHojaVida": 254425,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "DESDE EL 01 DE ENERO HASTA EL 31 DE DICIEMBRE 2019."
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 211902,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 41108,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 254425,
+            "idEstado": 1,
+            "totalIngresos": 41108
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
       "dni": "02394232",
       "idHojaVida": 254860,
       "idOrg": 2857,
@@ -15938,6 +17861,7 @@
       "fechaNacimiento": "12/11/1964",
       "lugarNacimiento": "TARACO, HUANCANE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16045,6 +17969,7 @@
       "fechaNacimiento": "13/02/1995",
       "lugarNacimiento": "JULIACA, SAN ROMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16165,6 +18090,7 @@
       "fechaNacimiento": "30/11/1973",
       "lugarNacimiento": "JULIACA, SAN ROMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16299,6 +18225,7 @@
       "fechaNacimiento": "04/07/1976",
       "lugarNacimiento": "PUNO, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16499,6 +18426,7 @@
       "fechaNacimiento": "11/11/1983",
       "lugarNacimiento": "PUNO, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16857,6 +18785,7 @@
       "fechaNacimiento": "13/04/1980",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17087,6 +19016,7 @@
       "fechaNacimiento": "01/01/1959",
       "lugarNacimiento": "AZANGARO, AZANGARO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": true,
@@ -17452,6 +19382,188 @@
       "resoluciones": []
     },
     {
+      "dni": "01327153",
+      "idHojaVida": 255474,
+      "idOrg": 2931,
+      "nombre": "CAROLL NOEMI FLORES FLORES",
+      "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/3a0bec24-b5a9-4062-8da1-66ba186e44b0.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "02/05/1976",
+      "lugarNacimiento": "TACNA, TACNA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "DESARROLLO RURAL  - GESTION DE RECURSOS NATURALES",
+        "institucion": "UNIVERSIDAD NACIONAL DEL ALTIPLANO",
+        "ingresos2024": 58737,
+        "experienciaActual": null
+      },
+      "trayectoria": {
+        "cargoPartidario": [
+          {
+            "idHvCargoPartidario": 147144,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 1,
+            "idOrgPolCargoPartidario": 809,
+            "orgPolCargoPartidario": "INTEGRACION DEL TITICACA - INTI",
+            "cargoPartidario": "FUNDADOR",
+            "anioCargoPartiDesde": "2006",
+            "anioCargoPartiHasta": "2007",
+            "idHojaVida": 255474,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242087,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 255474,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 203416,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional del Altiplano",
+            "carreraUni": "LICENCIADA EN BIOLOGIA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2002",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 203417,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional de San Agustín de Arequipa",
+            "carreraUni": "SEGUNDA ESPECIALIDAD EN CONTAMINACION Y GESTION AMBIENTAL",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2011",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 203418,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "3",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional del Altiplano",
+            "carreraUni": "BACHILLER EN CIENCIAS BIOLOGICAS",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2000",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 146771,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "UNIVERSIDAD NACIONAL DEL ALTIPLANO",
+            "txEspecialidadPosgrado": "DESARROLLO RURAL  - GESTION DE RECURSOS NATURALES",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "NO",
+            "esDoctor": "NO",
+            "txAnioPosgrado": null,
+            "idHojaVida": 255474,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": null,
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 214751,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 27657,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 31080,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 255474,
+            "idEstado": 1,
+            "totalIngresos": 58737
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 215862,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "BRS476 ",
+            "valor": 40500,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "VOLKSWAGEN CROSS",
+            "comentario": null,
+            "idHojaVida": 255474,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
       "dni": "43942970",
       "idHojaVida": 254319,
       "idOrg": 2731,
@@ -17463,6 +19575,7 @@
       "fechaNacimiento": "19/11/1986",
       "lugarNacimiento": "SANTA ROSA, MELGAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17695,6 +19808,7 @@
       "fechaNacimiento": "21/11/1967",
       "lugarNacimiento": "JULIACA, SAN ROMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17812,6 +19926,7 @@
       "fechaNacimiento": "27/05/1983",
       "lugarNacimiento": "ORURILLO, MELGAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17918,6 +20033,7 @@
       "fechaNacimiento": "14/12/1997",
       "lugarNacimiento": "TARACO, HUANCANE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18013,6 +20129,7 @@
       "fechaNacimiento": "02/08/1978",
       "lugarNacimiento": "ILAVE, EL COLLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18118,6 +20235,7 @@
       "fechaNacimiento": "29/03/1974",
       "lugarNacimiento": "CAMINACA, AZANGARO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18287,6 +20405,7 @@
       "fechaNacimiento": "18/02/1987",
       "lugarNacimiento": "YUNGUYO, YUNGUYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18438,6 +20557,7 @@
       "fechaNacimiento": "13/09/1982",
       "lugarNacimiento": "CHUGAY, SANCHEZ CARRION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18562,6 +20682,7 @@
       "fechaNacimiento": "18/09/1980",
       "lugarNacimiento": "PUNO, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18691,6 +20812,7 @@
       "fechaNacimiento": "13/02/1984",
       "lugarNacimiento": "POMATA, CHUCUITO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18977,6 +21099,7 @@
       "fechaNacimiento": "18/09/1982",
       "lugarNacimiento": "CAYMA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19072,6 +21195,7 @@
       "fechaNacimiento": "27/04/1999",
       "lugarNacimiento": "JULIACA, SAN ROMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19223,6 +21347,7 @@
       "fechaNacimiento": "09/03/1994",
       "lugarNacimiento": "AYAVIRI, MELGAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19369,6 +21494,7 @@
       "fechaNacimiento": "08/05/1974",
       "lugarNacimiento": "MARIANO MELGAR, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19470,6 +21596,7 @@
       "fechaNacimiento": "29/03/1991",
       "lugarNacimiento": "COJATA, HUANCANE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19623,6 +21750,7 @@
       "fechaNacimiento": "25/08/1991",
       "lugarNacimiento": "JULIACA, SAN ROMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19806,6 +21934,7 @@
       "fechaNacimiento": "07/03/1961",
       "lugarNacimiento": "VILQUE CHICO, HUANCANE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20164,6 +22293,7 @@
       "fechaNacimiento": "28/05/1978",
       "lugarNacimiento": "PUNO, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20368,6 +22498,7 @@
       "fechaNacimiento": "15/06/1977",
       "lugarNacimiento": "JULIACA, SAN ROMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20689,6 +22820,7 @@
       "fechaNacimiento": "01/09/1995",
       "lugarNacimiento": "JULIACA, SAN ROMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20785,6 +22917,7 @@
       "fechaNacimiento": "09/08/1987",
       "lugarNacimiento": "ACORA, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20837,6 +22970,7 @@
       "fechaNacimiento": "04/11/1998",
       "lugarNacimiento": "LAMPA, LAMPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20899,6 +23033,7 @@
       "fechaNacimiento": "28/02/1996",
       "lugarNacimiento": "QUILCAPUNCU, SAN ANTONIO DE PUTINA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20961,6 +23096,7 @@
       "fechaNacimiento": "21/08/1994",
       "lugarNacimiento": "ZEPITA, CHUCUITO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21056,6 +23192,7 @@
       "fechaNacimiento": "29/04/1993",
       "lugarNacimiento": "HUACULLANI, CHUCUITO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21124,6 +23261,106 @@
       "resoluciones": []
     },
     {
+      "dni": "43265484",
+      "idHojaVida": 249887,
+      "idOrg": 2921,
+      "nombre": "DIANA MARISOL HUANCA APAZA",
+      "partido": "PARTIDO POLITICO PRIN",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/b1ab289d-862d-4795-86b3-4159cf5891c2.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "21/09/1985",
+      "lugarNacimiento": "ILO, ILO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": null,
+        "institucion": null,
+        "ingresos2024": 24300,
+        "experienciaActual": "CONFECCIONISTA"
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 242342,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 249887,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 275286,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "RUFFUS SPORT",
+          "ocupacionProfesion": "CONFECCIONISTA",
+          "rucTrabajo": null,
+          "direccionTrabajo": "AV CIRCUNVALACION 326",
+          "anioTrabajoDesde": "2025",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "200901",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "PUNO",
+          "trabajoProvincia": "SAN ROMAN",
+          "trabajoDistrito": "JULIACA",
+          "idHojaVida": 249887,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 214888,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 0,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 24300,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 0,
+            "idHojaVida": 249887,
+            "idEstado": 1,
+            "totalIngresos": 24300
+          }
+        ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
       "dni": "01203752",
       "idHojaVida": 244635,
       "idOrg": 3025,
@@ -21135,6 +23372,7 @@
       "fechaNacimiento": "23/12/1951",
       "lugarNacimiento": "PUNO, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22596,6 +24834,7 @@
       "fechaNacimiento": "27/06/1972",
       "lugarNacimiento": "ARAPA, AZANGARO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22926,6 +25165,7 @@
       "fechaNacimiento": "31/08/1993",
       "lugarNacimiento": "JULIACA, SAN ROMAN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -23001,6 +25241,162 @@
             "totalIngresos": 2250
           }
         ],
+        "bienInmueble": [],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "42559418",
+      "idHojaVida": 255173,
+      "idOrg": 3023,
+      "nombre": "MARIBEL MAMANI AQUISE",
+      "partido": "UNIDAD NACIONAL",
+      "cargo": "DIPUTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/3f333926-5e1e-4876-b758-4f32800af85c.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "28/06/1982",
+      "lugarNacimiento": "JULIACA, SAN ROMAN",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "SEGURIDAD INDUSTRIAL Y MEDIO AMBIENTE",
+        "institucion": "UNIVERSIDAD NACIONAL DEL ALTIPLANO",
+        "ingresos2024": 0,
+        "experienciaActual": "INGENIERA GEOLOGA"
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241021,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 255173,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 202328,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional del Altiplano",
+            "carreraUni": "BACHILLER EN INGENIERIA GEOLOGICA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2008",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 202329,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional del Altiplano",
+            "carreraUni": "INGENIERO GEOLOGO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "2010",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [
+          {
+            "idHvPosgrado": 146377,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 1,
+            "txCenEstudioPosgrado": "UNIVERSIDAD NACIONAL DEL ALTIPLANO",
+            "txEspecialidadPosgrado": "SEGURIDAD INDUSTRIAL Y MEDIO AMBIENTE",
+            "concluidoPosgrado": "SI",
+            "egresadoPosgrado": "SI",
+            "esMaestro": "NO",
+            "esDoctor": "NO",
+            "txAnioPosgrado": null,
+            "idHojaVida": 255173,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": null,
+            "fgRegistro": null
+          },
+          {
+            "idHvPosgrado": 146382,
+            "tengoPosgrado": "SI",
+            "nuItemPosgrado": 2,
+            "txCenEstudioPosgrado": "UNIVERSIDAD NACIONAL DEL ALTIPLANO",
+            "txEspecialidadPosgrado": "DOCTORADO TECNOLOGIA AMBIENTAL",
+            "concluidoPosgrado": "NO",
+            "egresadoPosgrado": null,
+            "esMaestro": null,
+            "esDoctor": null,
+            "txAnioPosgrado": null,
+            "idHojaVida": 255173,
+            "idEstado": 1,
+            "txEstado": "ACTIVO (R)",
+            "fgRegistroManual": 1,
+            "txComentario": "ACTUALMENTE ESTUDIANDO",
+            "fgRegistro": null
+          }
+        ],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 273708,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "CONSULTORA INDEPENDIENTE",
+          "ocupacionProfesion": "INGENIERA GEOLOGA",
+          "rucTrabajo": null,
+          "direccionTrabajo": "AV. SESQUICENTENARIO N° 1501",
+          "anioTrabajoDesde": "2015",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "200101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "PUNO",
+          "trabajoProvincia": "PUNO",
+          "trabajoDistrito": "PUNO",
+          "idHojaVida": 255173,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [],
         "bienInmueble": [],
         "bienMueble": [],
         "otroMueble": [],

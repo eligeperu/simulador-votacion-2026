@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-02-07T08:04:42.870Z",
+  "fetchedAt": "2026-02-07T21:52:42.191Z",
   "idProcesoElectoral": 124,
   "count": 180,
   "data": [
@@ -15,6 +15,7 @@
       "fechaNacimiento": "31/12/1978",
       "lugarNacimiento": "TARMA, TARMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -168,6 +169,7 @@
       "fechaNacimiento": "17/12/1984",
       "lugarNacimiento": "ACOBAMBA, ACOBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -430,6 +432,7 @@
       "fechaNacimiento": "18/01/1987",
       "lugarNacimiento": "TRES DE DICIEMBRE, CHUPACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -618,6 +621,7 @@
       "fechaNacimiento": "25/03/1998",
       "lugarNacimiento": "INDEPENDENCIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -731,6 +735,7 @@
       "fechaNacimiento": "30/11/1993",
       "lugarNacimiento": "HUAYLLAHUARA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -828,6 +833,7 @@
       "fechaNacimiento": "28/05/1985",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1195,6 +1201,7 @@
       "fechaNacimiento": "01/12/1982",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1602,6 +1609,7 @@
       "fechaNacimiento": "04/08/1989",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1894,6 +1902,7 @@
       "fechaNacimiento": "20/06/1961",
       "lugarNacimiento": "MITO, CONCEPCION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1972,6 +1981,7 @@
       "fechaNacimiento": "10/07/1971",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2165,6 +2175,7 @@
       "fechaNacimiento": "09/01/1988",
       "lugarNacimiento": "SATIPO, SATIPO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2530,6 +2541,7 @@
       "fechaNacimiento": "20/12/1975",
       "lugarNacimiento": "TARMA, TARMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2915,6 +2927,7 @@
       "fechaNacimiento": "24/05/1984",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3121,6 +3134,7 @@
       "fechaNacimiento": "24/04/1989",
       "lugarNacimiento": "SANTA ANA DE TUSI, DANIEL ALCIDES CARRION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3359,6 +3373,7 @@
       "fechaNacimiento": "21/11/1987",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3493,6 +3508,7 @@
       "fechaNacimiento": "16/02/1995",
       "lugarNacimiento": "PERENE, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3646,6 +3662,7 @@
       "fechaNacimiento": "15/08/1986",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3745,6 +3762,7 @@
       "fechaNacimiento": "04/10/1957",
       "lugarNacimiento": "CHAUPIMARCA, PASCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3913,6 +3931,7 @@
       "fechaNacimiento": "08/10/1958",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4177,6 +4196,7 @@
       "fechaNacimiento": "01/05/1967",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4398,6 +4418,7 @@
       "fechaNacimiento": "30/10/1987",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4706,6 +4727,7 @@
       "fechaNacimiento": "31/12/1989",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4887,6 +4909,7 @@
       "fechaNacimiento": "26/10/1994",
       "lugarNacimiento": "SARAYACU, UCAYALI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5110,6 +5133,7 @@
       "fechaNacimiento": "02/08/1967",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5465,6 +5489,7 @@
       "fechaNacimiento": "08/09/1981",
       "lugarNacimiento": "EL TAMBO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5576,6 +5601,7 @@
       "fechaNacimiento": "12/07/1978",
       "lugarNacimiento": "SAN VICENTE DE CAÑETE, CAÑETE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5866,6 +5892,7 @@
       "fechaNacimiento": "17/01/1974",
       "lugarNacimiento": "JAUJA, JAUJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5977,6 +6004,7 @@
       "fechaNacimiento": "26/12/1986",
       "lugarNacimiento": "CHILCA, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6113,6 +6141,7 @@
       "fechaNacimiento": "23/06/1981",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6424,6 +6453,7 @@
       "fechaNacimiento": "31/03/1983",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6570,6 +6600,7 @@
       "fechaNacimiento": "25/04/1986",
       "lugarNacimiento": "EL TAMBO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6667,6 +6698,7 @@
       "fechaNacimiento": "13/01/1982",
       "lugarNacimiento": "PICHANAQUI, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6752,6 +6784,7 @@
       "fechaNacimiento": "16/10/1961",
       "lugarNacimiento": "HUAYUCACHI, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6989,6 +7022,7 @@
       "fechaNacimiento": "07/08/1978",
       "lugarNacimiento": "CHANCHAMAYO, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7072,6 +7106,7 @@
       "fechaNacimiento": "10/01/1976",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7441,6 +7476,7 @@
       "fechaNacimiento": "02/06/1982",
       "lugarNacimiento": "HUANUCO, HUANUCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7554,6 +7590,7 @@
       "fechaNacimiento": "21/07/1976",
       "lugarNacimiento": "CHILCA, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7819,6 +7856,7 @@
       "fechaNacimiento": "17/04/1974",
       "lugarNacimiento": "ABANCAY, ABANCAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8050,6 +8088,7 @@
       "fechaNacimiento": "04/12/1971",
       "lugarNacimiento": "SAN JUAN DE JARPA, CHUPACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8294,6 +8333,7 @@
       "fechaNacimiento": "18/09/1992",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8582,6 +8622,7 @@
       "fechaNacimiento": "06/06/1983",
       "lugarNacimiento": "HUAMANCACA CHICO, CHUPACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8930,6 +8971,7 @@
       "fechaNacimiento": "21/11/1979",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9191,6 +9233,7 @@
       "fechaNacimiento": "06/03/1949",
       "lugarNacimiento": "CHUPACA, CHUPACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": false,
@@ -9415,6 +9458,7 @@
       "fechaNacimiento": "07/08/1977",
       "lugarNacimiento": "CONCEPCION, CONCEPCION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9566,6 +9610,7 @@
       "fechaNacimiento": "27/07/1970",
       "lugarNacimiento": "CHUPACA, CHUPACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9710,6 +9755,7 @@
       "fechaNacimiento": "17/01/1984",
       "lugarNacimiento": "PANGOA, SATIPO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9933,6 +9979,7 @@
       "fechaNacimiento": "13/10/1973",
       "lugarNacimiento": "SATIPO, SATIPO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10028,6 +10075,7 @@
       "fechaNacimiento": "09/01/2000",
       "lugarNacimiento": "CHILCA, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10146,6 +10194,7 @@
       "fechaNacimiento": "13/01/1962",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10404,6 +10453,7 @@
       "fechaNacimiento": "26/11/1983",
       "lugarNacimiento": "CONCEPCION, CONCEPCION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10533,6 +10583,7 @@
       "fechaNacimiento": "26/10/1969",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10788,6 +10839,7 @@
       "fechaNacimiento": "13/09/1977",
       "lugarNacimiento": "YAULI, YAULI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10981,6 +11033,7 @@
       "fechaNacimiento": "10/10/1981",
       "lugarNacimiento": "PILCOMAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11374,6 +11427,7 @@
       "fechaNacimiento": "27/08/1993",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11602,6 +11656,7 @@
       "fechaNacimiento": "02/09/1965",
       "lugarNacimiento": "CONGALLA, ANGARAES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11701,6 +11756,7 @@
       "fechaNacimiento": "27/04/1995",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11849,6 +11905,7 @@
       "fechaNacimiento": "19/01/1996",
       "lugarNacimiento": "CONGALLA, ANGARAES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11965,6 +12022,7 @@
       "fechaNacimiento": "02/01/1989",
       "lugarNacimiento": "SICAYA, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12064,6 +12122,7 @@
       "fechaNacimiento": "01/06/1993",
       "lugarNacimiento": "CHILCA, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12284,6 +12343,7 @@
       "fechaNacimiento": "07/04/1986",
       "lugarNacimiento": "CHUPACA, CHUPACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12489,6 +12549,7 @@
       "fechaNacimiento": "01/09/1974",
       "lugarNacimiento": "PERENE, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12699,6 +12760,7 @@
       "fechaNacimiento": "07/06/1994",
       "lugarNacimiento": "ATE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12821,6 +12883,7 @@
       "fechaNacimiento": "18/04/1971",
       "lugarNacimiento": "SAN JUAN DE JARPA, CHUPACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12883,6 +12946,7 @@
       "fechaNacimiento": "12/07/1959",
       "lugarNacimiento": "SAN MIGUEL, SAN MIGUEL",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12962,6 +13026,7 @@
       "fechaNacimiento": "01/01/1968",
       "lugarNacimiento": "QUILCAS, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13024,6 +13089,7 @@
       "fechaNacimiento": "26/06/1963",
       "lugarNacimiento": "PARIAHUANCA, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13086,6 +13152,7 @@
       "fechaNacimiento": "12/05/1984",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13376,6 +13443,7 @@
       "fechaNacimiento": "23/08/1972",
       "lugarNacimiento": "HUASICANCHA, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13627,6 +13695,7 @@
       "fechaNacimiento": "23/05/1978",
       "lugarNacimiento": "TARMA, TARMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13967,6 +14036,7 @@
       "fechaNacimiento": "18/09/1991",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14221,6 +14291,7 @@
       "fechaNacimiento": "08/06/1984",
       "lugarNacimiento": "PERENE, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14524,6 +14595,7 @@
       "fechaNacimiento": "27/02/1976",
       "lugarNacimiento": "LA OROYA, YAULI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14598,6 +14670,7 @@
       "fechaNacimiento": "16/05/1991",
       "lugarNacimiento": "CONSTITUCION, OXAPAMPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14761,6 +14834,7 @@
       "fechaNacimiento": "01/08/1957",
       "lugarNacimiento": "CHANCHAMAYO, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14861,6 +14935,7 @@
       "fechaNacimiento": "26/01/1990",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15048,6 +15123,7 @@
       "fechaNacimiento": "08/10/1980",
       "lugarNacimiento": "MOROCOCHA, YAULI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15181,6 +15257,7 @@
       "fechaNacimiento": "30/04/1985",
       "lugarNacimiento": "COLCABAMBA, TAYACAJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15276,6 +15353,7 @@
       "fechaNacimiento": "10/07/1967",
       "lugarNacimiento": "SICAYA, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15526,6 +15604,7 @@
       "fechaNacimiento": "05/09/1994",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15600,6 +15679,7 @@
       "fechaNacimiento": "14/09/1965",
       "lugarNacimiento": "SATIPO, SATIPO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15746,6 +15826,7 @@
       "fechaNacimiento": "18/01/1990",
       "lugarNacimiento": "HUANCAVELICA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15961,6 +16042,7 @@
       "fechaNacimiento": "01/06/1968",
       "lugarNacimiento": "CHILCA, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16112,6 +16194,7 @@
       "fechaNacimiento": "21/09/1948",
       "lugarNacimiento": "LLOCLLAPAMPA, JAUJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16174,6 +16257,7 @@
       "fechaNacimiento": "08/09/1964",
       "lugarNacimiento": "EL TAMBO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16343,6 +16427,7 @@
       "fechaNacimiento": "21/11/1964",
       "lugarNacimiento": "FERREÑAFE, FERREÑAFE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16536,6 +16621,7 @@
       "fechaNacimiento": "12/02/1973",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16659,6 +16745,7 @@
       "fechaNacimiento": "23/01/1978",
       "lugarNacimiento": "SATIPO, SATIPO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16813,6 +16900,7 @@
       "fechaNacimiento": "05/03/1955",
       "lugarNacimiento": "TUMBES, TUMBES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16903,6 +16991,7 @@
       "fechaNacimiento": "01/03/1985",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17073,6 +17162,7 @@
       "fechaNacimiento": "17/08/1941",
       "lugarNacimiento": "CHUPACA, CHUPACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17174,6 +17264,7 @@
       "fechaNacimiento": "11/05/1974",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17257,6 +17348,7 @@
       "fechaNacimiento": "20/09/1968",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17399,6 +17491,7 @@
       "fechaNacimiento": "26/04/1987",
       "lugarNacimiento": "CHANCHAMAYO, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17506,6 +17599,7 @@
       "fechaNacimiento": "19/11/1962",
       "lugarNacimiento": "VIRU, VIRU",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17613,6 +17707,7 @@
       "fechaNacimiento": "02/09/1970",
       "lugarNacimiento": "VIRU, VIRU",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17826,6 +17921,7 @@
       "fechaNacimiento": "08/06/1979",
       "lugarNacimiento": "TARMA, TARMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18178,6 +18274,7 @@
       "fechaNacimiento": "05/01/1994",
       "lugarNacimiento": "PERENE, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18452,6 +18549,7 @@
       "fechaNacimiento": "01/11/1979",
       "lugarNacimiento": "HUAMANCACA CHICO, CHUPACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18661,6 +18759,7 @@
       "fechaNacimiento": "22/03/1993",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18812,6 +18911,7 @@
       "fechaNacimiento": "27/11/1965",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18953,6 +19053,7 @@
       "fechaNacimiento": "07/11/1972",
       "lugarNacimiento": "TARMA, TARMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19059,6 +19160,7 @@
       "fechaNacimiento": "12/05/1994",
       "lugarNacimiento": "MOLINOS, JAUJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19137,6 +19239,7 @@
       "fechaNacimiento": "17/12/1959",
       "lugarNacimiento": "SUMBILCA, HUARAL",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19351,6 +19454,7 @@
       "fechaNacimiento": "02/04/1976",
       "lugarNacimiento": "MOLINOS, JAUJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19477,6 +19581,7 @@
       "fechaNacimiento": "01/12/1984",
       "lugarNacimiento": "ANDABAMBA, SANTA CRUZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19796,6 +19901,7 @@
       "fechaNacimiento": "06/05/1957",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20094,6 +20200,7 @@
       "fechaNacimiento": "07/11/1955",
       "lugarNacimiento": "YAULI, YAULI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20228,6 +20335,7 @@
       "fechaNacimiento": "29/03/1971",
       "lugarNacimiento": "LA OROYA, YAULI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20402,6 +20510,7 @@
       "fechaNacimiento": "17/11/1995",
       "lugarNacimiento": "HUANUCO, HUANUCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20578,6 +20687,7 @@
       "fechaNacimiento": "16/02/1972",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20689,6 +20799,7 @@
       "fechaNacimiento": "27/10/1985",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20842,6 +20953,7 @@
       "fechaNacimiento": "09/12/1983",
       "lugarNacimiento": "YAUYOS, JAUJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20953,6 +21065,7 @@
       "fechaNacimiento": "21/09/1999",
       "lugarNacimiento": "PICHANAQUI, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21064,6 +21177,7 @@
       "fechaNacimiento": "09/04/1961",
       "lugarNacimiento": "CHANCHAMAYO, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21231,6 +21345,7 @@
       "fechaNacimiento": "17/12/1968",
       "lugarNacimiento": "CHANCHAMAYO, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21441,6 +21556,7 @@
       "fechaNacimiento": "10/11/1982",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21536,6 +21652,7 @@
       "fechaNacimiento": "23/02/1994",
       "lugarNacimiento": "SAN AGUSTIN, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21619,6 +21736,7 @@
       "fechaNacimiento": "01/10/1954",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21681,6 +21799,7 @@
       "fechaNacimiento": "04/11/1966",
       "lugarNacimiento": "CHUPACA, CHUPACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21743,6 +21862,7 @@
       "fechaNacimiento": "01/07/1957",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22094,6 +22214,7 @@
       "fechaNacimiento": "07/01/1991",
       "lugarNacimiento": "CONCEPCION, CONCEPCION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22341,6 +22462,7 @@
       "fechaNacimiento": "10/10/1999",
       "lugarNacimiento": "SAN LORENZO, JAUJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22403,6 +22525,7 @@
       "fechaNacimiento": "04/04/1989",
       "lugarNacimiento": "SAN RAMON, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22590,6 +22713,7 @@
       "fechaNacimiento": "06/11/1991",
       "lugarNacimiento": "TARMA, TARMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22682,6 +22806,7 @@
       "fechaNacimiento": "02/04/1986",
       "lugarNacimiento": "ACORIA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22848,6 +22973,7 @@
       "fechaNacimiento": "11/01/1965",
       "lugarNacimiento": "ACORIA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22931,6 +23057,7 @@
       "fechaNacimiento": "25/03/1996",
       "lugarNacimiento": "PICHANAQUI, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -23011,6 +23138,7 @@
       "fechaNacimiento": "01/05/1965",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -23185,6 +23313,7 @@
       "fechaNacimiento": "15/01/1986",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -23353,6 +23482,7 @@
       "fechaNacimiento": "17/10/1956",
       "lugarNacimiento": "SAN JUAN DE CHACÑA, AYMARAES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -23596,6 +23726,7 @@
       "fechaNacimiento": "02/11/1975",
       "lugarNacimiento": "ACOLLA, JAUJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -23681,6 +23812,7 @@
       "fechaNacimiento": "08/05/1987",
       "lugarNacimiento": "TARMA, TARMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -23908,6 +24040,7 @@
       "fechaNacimiento": "13/02/1988",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -24405,6 +24538,7 @@
       "fechaNacimiento": "08/02/1996",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -24671,6 +24805,7 @@
       "fechaNacimiento": "02/09/1990",
       "lugarNacimiento": "ULCUMAYO, JUNIN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -24918,6 +25053,7 @@
       "fechaNacimiento": "14/11/1988",
       "lugarNacimiento": "PACOBAMBA, ANDAHUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -25243,6 +25379,7 @@
       "fechaNacimiento": "14/06/1962",
       "lugarNacimiento": "TARMA, TARMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -25454,6 +25591,7 @@
       "fechaNacimiento": "24/11/1961",
       "lugarNacimiento": "JAUJA, JAUJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": false,
@@ -25645,6 +25783,7 @@
       "fechaNacimiento": "25/09/1982",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -25816,6 +25955,7 @@
       "fechaNacimiento": "23/12/1999",
       "lugarNacimiento": "SAN RAMON, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -25914,6 +26054,7 @@
       "fechaNacimiento": "23/06/1972",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -26120,6 +26261,7 @@
       "fechaNacimiento": "18/03/1973",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -26269,6 +26411,7 @@
       "fechaNacimiento": "10/08/1986",
       "lugarNacimiento": "CHANCHAMAYO, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -26622,6 +26765,7 @@
       "fechaNacimiento": "18/03/1993",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -26811,6 +26955,7 @@
       "fechaNacimiento": "25/07/1973",
       "lugarNacimiento": "CHANCHAMAYO, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -27049,6 +27194,7 @@
       "fechaNacimiento": "01/01/1969",
       "lugarNacimiento": "ACOLLA, JAUJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -27254,6 +27400,7 @@
       "fechaNacimiento": "29/07/1990",
       "lugarNacimiento": "PICHANAQUI, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -27440,6 +27587,7 @@
       "fechaNacimiento": "05/11/1992",
       "lugarNacimiento": "JAUJA, JAUJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -27654,6 +27802,7 @@
       "fechaNacimiento": "03/04/1966",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -27871,6 +28020,7 @@
       "fechaNacimiento": "29/05/1943",
       "lugarNacimiento": "TARMA, TARMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -27976,6 +28126,7 @@
       "fechaNacimiento": "15/03/1970",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -28069,6 +28220,7 @@
       "fechaNacimiento": "09/11/1961",
       "lugarNacimiento": "ORCOTUNA, CONCEPCION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -28194,6 +28346,7 @@
       "fechaNacimiento": "11/07/1988",
       "lugarNacimiento": "JAUJA, JAUJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -28457,6 +28610,7 @@
       "fechaNacimiento": "23/01/1968",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -28711,6 +28865,7 @@
       "fechaNacimiento": "26/03/1981",
       "lugarNacimiento": "RIMAC, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -28942,6 +29097,7 @@
       "fechaNacimiento": "25/03/1981",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -29207,6 +29363,7 @@
       "fechaNacimiento": "04/06/1976",
       "lugarNacimiento": "COMAS, CONCEPCION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -29486,6 +29643,7 @@
       "fechaNacimiento": "10/03/1989",
       "lugarNacimiento": "COLCABAMBA, TAYACAJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -29870,6 +30028,7 @@
       "fechaNacimiento": "02/04/1976",
       "lugarNacimiento": "MATAHUASI, CONCEPCION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -29980,6 +30139,7 @@
       "fechaNacimiento": "02/09/1982",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -30153,6 +30313,7 @@
       "fechaNacimiento": "10/10/1965",
       "lugarNacimiento": "JAUJA, JAUJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -30316,6 +30477,7 @@
       "fechaNacimiento": "28/03/1972",
       "lugarNacimiento": "JAUJA, JAUJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -30652,6 +30814,7 @@
       "fechaNacimiento": "04/01/1959",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -30815,6 +30978,7 @@
       "fechaNacimiento": "12/01/1983",
       "lugarNacimiento": "CHILCA, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -30991,6 +31155,7 @@
       "fechaNacimiento": "19/04/1995",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -31144,6 +31309,7 @@
       "fechaNacimiento": "23/12/1965",
       "lugarNacimiento": "TARMA, TARMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -31379,6 +31545,7 @@
       "fechaNacimiento": "09/11/1978",
       "lugarNacimiento": "SATIPO, SATIPO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -31698,6 +31865,7 @@
       "fechaNacimiento": "05/07/1956",
       "lugarNacimiento": "CHUPACA, CHUPACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -31893,6 +32061,7 @@
       "fechaNacimiento": "09/08/1976",
       "lugarNacimiento": "CHONGOS BAJO, CHUPACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -32188,6 +32357,7 @@
       "fechaNacimiento": "21/08/1977",
       "lugarNacimiento": "RIO TAMBO, SATIPO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -32484,6 +32654,7 @@
       "fechaNacimiento": "07/03/1985",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -32740,6 +32911,7 @@
       "fechaNacimiento": "02/08/1982",
       "lugarNacimiento": "SALCAHUASI, TAYACAJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -33038,6 +33210,7 @@
       "fechaNacimiento": "22/11/1959",
       "lugarNacimiento": "PUEBLO LIBRE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -33368,6 +33541,7 @@
       "fechaNacimiento": "28/03/1981",
       "lugarNacimiento": "MAZAMARI, SATIPO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -33553,6 +33727,7 @@
       "fechaNacimiento": "07/04/1991",
       "lugarNacimiento": "SAN JOSE DE LOURDES, SAN IGNACIO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -33648,6 +33823,7 @@
       "fechaNacimiento": "27/06/1983",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -33819,6 +33995,7 @@
       "fechaNacimiento": "07/07/1995",
       "lugarNacimiento": "SAN LUIS DE SHUARO, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -33899,6 +34076,7 @@
       "fechaNacimiento": "29/07/1981",
       "lugarNacimiento": "TARMA, TARMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -34216,6 +34394,7 @@
       "fechaNacimiento": "13/12/1984",
       "lugarNacimiento": "CANCHAYLLO, JAUJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -34442,6 +34621,7 @@
       "fechaNacimiento": "20/10/1966",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,

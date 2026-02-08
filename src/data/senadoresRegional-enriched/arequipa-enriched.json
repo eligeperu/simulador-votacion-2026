@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-02-07T05:45:54.253Z",
+  "fetchedAt": "2026-02-07T19:49:13.889Z",
   "idProcesoElectoral": 124,
   "count": 54,
   "data": [
@@ -15,6 +15,7 @@
       "fechaNacimiento": "10/06/1970",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -196,6 +197,7 @@
       "fechaNacimiento": "27/04/1967",
       "lugarNacimiento": "CAYMA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -433,6 +435,7 @@
       "fechaNacimiento": "11/03/1958",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -697,6 +700,7 @@
       "fechaNacimiento": "18/08/1970",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -879,6 +883,7 @@
       "fechaNacimiento": "24/10/1957",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1127,6 +1132,7 @@
       "fechaNacimiento": "30/05/1967",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1398,6 +1404,7 @@
       "fechaNacimiento": "23/12/1956",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1685,6 +1692,7 @@
       "fechaNacimiento": "21/09/1977",
       "lugarNacimiento": "FERREÑAFE, FERREÑAFE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1875,6 +1883,7 @@
       "fechaNacimiento": "15/09/1950",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2103,6 +2112,7 @@
       "fechaNacimiento": "03/12/1975",
       "lugarNacimiento": "MOQUEGUA, MARISCAL NIETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2226,6 +2236,7 @@
       "fechaNacimiento": "27/09/1970",
       "lugarNacimiento": "MIRAFLORES, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2342,6 +2353,7 @@
       "fechaNacimiento": "13/11/1972",
       "lugarNacimiento": "PUTINA, SAN ANTONIO DE PUTINA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2441,6 +2453,7 @@
       "fechaNacimiento": "28/02/1964",
       "lugarNacimiento": "AZANGARO, AZANGARO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2575,6 +2588,7 @@
       "fechaNacimiento": "16/08/1975",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2817,6 +2831,7 @@
       "fechaNacimiento": "04/07/1955",
       "lugarNacimiento": "PUNTA DE BOMBON, ISLAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2949,6 +2964,7 @@
       "fechaNacimiento": "29/09/1978",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3166,6 +3182,7 @@
       "fechaNacimiento": "02/07/1960",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": true,
         "exGobernador": false,
@@ -3701,6 +3718,7 @@
       "fechaNacimiento": "21/08/1955",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4106,6 +4124,7 @@
       "fechaNacimiento": "01/12/1963",
       "lugarNacimiento": "AYAVIRI, MELGAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4227,6 +4246,7 @@
       "fechaNacimiento": "20/11/1970",
       "lugarNacimiento": "PAUCARPATA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4433,6 +4453,7 @@
       "fechaNacimiento": "29/09/1970",
       "lugarNacimiento": "YARABAMBA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4643,6 +4664,7 @@
       "fechaNacimiento": "08/02/1958",
       "lugarNacimiento": "CERRO COLORADO, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4959,6 +4981,7 @@
       "fechaNacimiento": "08/02/1965",
       "lugarNacimiento": "NICASIO, LAMPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5076,6 +5099,7 @@
       "fechaNacimiento": "28/08/1974",
       "lugarNacimiento": "PAUCARPATA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5210,6 +5234,7 @@
       "fechaNacimiento": "06/08/1972",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5361,6 +5386,7 @@
       "fechaNacimiento": "26/09/1975",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5509,6 +5535,7 @@
       "fechaNacimiento": "03/06/1977",
       "lugarNacimiento": "SIBAYO, CAYLLOMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": false,
@@ -5834,6 +5861,7 @@
       "fechaNacimiento": "20/06/1974",
       "lugarNacimiento": "CAMANA, CAMANA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5968,6 +5996,7 @@
       "fechaNacimiento": "02/06/1970",
       "lugarNacimiento": "PUNO, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6193,6 +6222,7 @@
       "fechaNacimiento": "13/03/1978",
       "lugarNacimiento": "TORATA, MARISCAL NIETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6424,6 +6454,7 @@
       "fechaNacimiento": "23/06/1962",
       "lugarNacimiento": "SANTIAGO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6846,6 +6877,7 @@
       "fechaNacimiento": "30/08/1970",
       "lugarNacimiento": "PUQUINA, GENERAL SANCHEZ CERRO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7254,6 +7286,7 @@
       "fechaNacimiento": "24/12/1962",
       "lugarNacimiento": "PAMPACOLCA, CASTILLA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7660,6 +7693,7 @@
       "fechaNacimiento": "02/07/1967",
       "lugarNacimiento": "YANAHUARA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7925,6 +7959,7 @@
       "fechaNacimiento": "29/04/1979",
       "lugarNacimiento": "TALAVERA, ANDAHUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8065,6 +8100,7 @@
       "fechaNacimiento": "02/03/1976",
       "lugarNacimiento": "TIABAYA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8127,6 +8163,7 @@
       "fechaNacimiento": "08/08/1959",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8189,6 +8226,7 @@
       "fechaNacimiento": "14/09/1961",
       "lugarNacimiento": "HUANCANE, HUANCANE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8423,6 +8461,7 @@
       "fechaNacimiento": "13/12/1978",
       "lugarNacimiento": "SOCABAYA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8537,6 +8576,7 @@
       "fechaNacimiento": "10/12/1979",
       "lugarNacimiento": "MADRIGAL, CAYLLOMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8689,6 +8729,7 @@
       "fechaNacimiento": "11/10/1974",
       "lugarNacimiento": "MARIANO MELGAR, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8800,6 +8841,7 @@
       "fechaNacimiento": "17/04/1962",
       "lugarNacimiento": "PUNO, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8999,6 +9041,7 @@
       "fechaNacimiento": "12/06/1954",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9184,6 +9227,7 @@
       "fechaNacimiento": "07/11/1974",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9355,6 +9399,7 @@
       "fechaNacimiento": "22/10/1968",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9878,6 +9923,7 @@
       "fechaNacimiento": "16/01/1956",
       "lugarNacimiento": "HUANCARQUI, CASTILLA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9940,6 +9986,7 @@
       "fechaNacimiento": "06/11/1961",
       "lugarNacimiento": "CHIVAY, CAYLLOMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10058,6 +10105,7 @@
       "fechaNacimiento": "03/04/1975",
       "lugarNacimiento": "SANTO TOMAS, CHUMBIVILCAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10198,6 +10246,7 @@
       "fechaNacimiento": "26/08/1972",
       "lugarNacimiento": "EL AGUSTINO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10385,6 +10434,7 @@
       "fechaNacimiento": "20/06/1979",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10488,6 +10538,7 @@
       "fechaNacimiento": "05/04/1973",
       "lugarNacimiento": "CAMANA, CAMANA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10699,6 +10750,7 @@
       "fechaNacimiento": "21/04/1969",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10938,6 +10990,7 @@
       "fechaNacimiento": "13/02/1954",
       "lugarNacimiento": "QUEQUEÑA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11247,6 +11300,7 @@
       "fechaNacimiento": "03/01/1955",
       "lugarNacimiento": "CCATCA, QUISPICANCHI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,

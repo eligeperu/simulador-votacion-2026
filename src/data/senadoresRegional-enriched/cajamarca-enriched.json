@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-02-07T05:51:26.324Z",
+  "fetchedAt": "2026-02-07T19:53:22.968Z",
   "idProcesoElectoral": 124,
-  "count": 53,
+  "count": 56,
   "data": [
     {
       "dni": "26681948",
@@ -15,6 +15,7 @@
       "fechaNacimiento": "03/07/1970",
       "lugarNacimiento": "OXAMARCA, CELENDIN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -159,6 +160,7 @@
       "fechaNacimiento": "06/09/1961",
       "lugarNacimiento": "CAJAMARCA, CAJAMARCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -453,6 +455,7 @@
       "fechaNacimiento": "26/04/1960",
       "lugarNacimiento": "CHOTA, CHOTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -659,6 +662,7 @@
       "fechaNacimiento": "27/11/1968",
       "lugarNacimiento": "CAJAMARCA, CAJAMARCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -810,6 +814,7 @@
       "fechaNacimiento": "19/09/1975",
       "lugarNacimiento": "CAJAMARCA, CAJAMARCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1277,6 +1282,7 @@
       "fechaNacimiento": "23/05/1958",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1362,6 +1368,7 @@
       "fechaNacimiento": "12/02/1968",
       "lugarNacimiento": "CHOTA, CHOTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2035,6 +2042,7 @@
       "fechaNacimiento": "25/05/1949",
       "lugarNacimiento": "CHOTA, CHOTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2455,6 +2463,7 @@
       "fechaNacimiento": "09/03/1970",
       "lugarNacimiento": "BAMBAMARCA, HUALGAYOC",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2553,6 +2562,7 @@
       "fechaNacimiento": "30/01/1969",
       "lugarNacimiento": "JAEN, JAEN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2996,6 +3006,7 @@
       "fechaNacimiento": "18/05/1980",
       "lugarNacimiento": "HUARANGO, SAN IGNACIO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3273,7 +3284,8 @@
       "fechaNacimiento": "01/12/1981",
       "lugarNacimiento": "HUARANGO, SAN IGNACIO",
       "flags": {
-        "exCongresista": true,
+        "congresistaActual": true,
+        "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
         "exMinistro": false,
@@ -3685,6 +3697,7 @@
       "fechaNacimiento": "15/01/1960",
       "lugarNacimiento": "CAJAMARCA, CAJAMARCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3972,6 +3985,7 @@
       "fechaNacimiento": "19/10/1949",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4270,6 +4284,7 @@
       "fechaNacimiento": "12/12/1976",
       "lugarNacimiento": "CAJAMARCA, CAJAMARCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4532,6 +4547,7 @@
       "fechaNacimiento": "26/02/1980",
       "lugarNacimiento": "SAN IGNACIO, SAN IGNACIO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4658,6 +4674,7 @@
       "fechaNacimiento": "06/09/1970",
       "lugarNacimiento": "CAJAMARCA, CAJAMARCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": false,
@@ -4875,6 +4892,7 @@
       "fechaNacimiento": "04/06/1964",
       "lugarNacimiento": "CAJAMARCA, CAJAMARCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5009,6 +5027,7 @@
       "fechaNacimiento": "03/08/1973",
       "lugarNacimiento": "BAMBAMARCA, HUALGAYOC",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5060,6 +5079,432 @@
       "resoluciones": []
     },
     {
+      "dni": "02879361",
+      "idHojaVida": 248902,
+      "idOrg": 2931,
+      "nombre": "DELKY EDMUNDO GUTIERREZ GUERRERO",
+      "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/da9c46d9-7d96-47f8-8c9b-8ad38c88b237.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "29/08/1975",
+      "lugarNacimiento": "TABACONAS, SAN IGNACIO",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "INGENIERO AGRONOMO",
+        "institucion": "Universidad Nacional de Piura",
+        "ingresos2024": 34000,
+        "experienciaActual": "DIRECTIVO"
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241402,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 248902,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 202834,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional de Piura",
+            "carreraUni": "INGENIERO AGRONOMO",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1999",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvEduUniversitaria": 202835,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "2",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Nacional de Piura",
+            "carreraUni": "BACHILLER EN AGRONOMIA",
+            "concluidoEduUni": "SI",
+            "egresadoEduUni": "SI",
+            "bachillerEduUni": null,
+            "anioBachiller": "1998",
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 274483,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "COOPERATIVA AGRARIA CAFETALERA CENFROCAFE PERU",
+          "ocupacionProfesion": "DIRECTIVO",
+          "rucTrabajo": null,
+          "direccionTrabajo": "CALLE RIO CHUNCHUCA 207",
+          "anioTrabajoDesde": "2023",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "060801",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "CAJAMARCA",
+          "trabajoProvincia": "JAEN",
+          "trabajoDistrito": "JAEN",
+          "idHojaVida": 248902,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": "PRESIDENTE DEL CONSEJO DE ADMINISTRACION"
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 214461,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 30000,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 3000,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 1000,
+            "idHojaVida": 248902,
+            "idEstado": 1,
+            "totalIngresos": 34000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 265783,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "CALLE RICARDO PALMA   LOTE 07   JAEN - JAEN - CAJAMARCA",
+            "comentario": "CULTIVOS DE CAFE",
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11024899",
+            "fichaTomoSunarp": null,
+            "autovaluo": 50000,
+            "idHojaVida": 248902,
+            "idEstado": 1,
+            "flValor": "50000"
+          },
+          {
+            "idHvBienInmueble": 265784,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "UBICACION RURAL UNIDAD INMOBILIARIA N°9 FLAT NUM 201   EDIF MULTIFAMILIAR VASCO - PERUANO JAEN - JAEN - CAJAMARCA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11038230",
+            "fichaTomoSunarp": null,
+            "autovaluo": 100000,
+            "idHojaVida": 248902,
+            "idEstado": 1,
+            "flValor": "72500"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 215331,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "NL11214",
+            "valor": 3200,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "SUMO PLOMO",
+            "comentario": null,
+            "idHojaVida": 248902,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 215332,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 2,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "A5C824 ",
+            "valor": 50000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "CAMIONETA PICKUP",
+            "comentario": null,
+            "idHojaVida": 248902,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": [
+          {
+            "idHVTitularidad": 10367,
+            "tengoTitularidad": "SI",
+            "nuItemTitularidad": 1,
+            "txPersonaJuridica": "COOPERATIVA AGRARIA CENFROCAFE",
+            "idParamTipoTitularidad": 88,
+            "txTipoTitularidad": "PARTICIPACIONES",
+            "flCantidad": 2200,
+            "flValor": 22000,
+            "idHojaVida": 248902,
+            "idEstado": 1,
+            "txUsuario": "78021215",
+            "txFechaRegistro": null,
+            "txComentario": null,
+            "txRegistroManual": null
+          }
+        ]
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
+      "dni": "27571101",
+      "idHojaVida": 249330,
+      "idOrg": 2931,
+      "nombre": "LUZ ANGELICA REGALADO CABRERA",
+      "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/28d5ee08-26cd-4b8d-8e7c-897f7cddbdc2.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "08/02/1971",
+      "lugarNacimiento": "BAMBAMARCA, HUALGAYOC",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": null,
+        "institucion": null,
+        "ingresos2024": 0,
+        "experienciaActual": null
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241850,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "NO",
+          "idHojaVida": 249330,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 266414,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "UBICACION RURAL SECTOR SAN ANTONIO ALTO/PREDIO SHINSHILPAMPA COD.PRED. 7_7659265_81575 AREA Ha. 0.0565 U.C. 81575 BAMBAMARCA - HUALGAYOC - CAJAMARCA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "02070269",
+            "fichaTomoSunarp": null,
+            "autovaluo": 8000,
+            "idHojaVida": 249330,
+            "idEstado": 1,
+            "flValor": "25000"
+          },
+          {
+            "idHvBienInmueble": 266415,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "UBICACION RURAL SECTOR SAN ANTONIO ALTO/PREDIO SHINSHILPAMPA COD.PRED. 7_7659265_81584 AREA Ha. 0.1774 U.C. 81584 BAMBAMARCA - HUALGAYOC - CAJAMARCA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "02070275",
+            "fichaTomoSunarp": null,
+            "autovaluo": 8000,
+            "idHojaVida": 249330,
+            "idEstado": 1,
+            "flValor": "25000"
+          },
+          {
+            "idHvBienInmueble": 266416,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 3,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "UBICACION RURAL SECTOR SAN ANTONIO ALTO/PREDIO SHINSHILPAMPA COD.PRED. 7_7659265_81585 AREA Ha. 0.7083 U.C. 81585 BAMBAMARCA - HUALGAYOC - CAJAMARCA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "02070278",
+            "fichaTomoSunarp": null,
+            "autovaluo": 8000,
+            "idHojaVida": 249330,
+            "idEstado": 1,
+            "flValor": "25000"
+          },
+          {
+            "idHvBienInmueble": 266417,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 4,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "UBICACION RURAL SECTOR SAN ANTONIO ALTO/PREDIO SHINSHILPAMPA COD.PRED. 7_7659265_81579 AREA Ha. 0.1124 U.C. 81579 BAMBAMARCA - HUALGAYOC - CAJAMARCA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "02074521",
+            "fichaTomoSunarp": null,
+            "autovaluo": 8000,
+            "idHojaVida": 249330,
+            "idEstado": 1,
+            "flValor": "25000"
+          },
+          {
+            "idHvBienInmueble": 266418,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 5,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "UBICACION RURAL VALLE SIN VALLE/CASERIO PAMPA GRANDE/LA QUINUA PARCELA 7_7659265_52800/ AREA Ha. 0.8899 U.C. 52800/HH.CC. 7_7659265_1 BAMBAMARCA - HUALGAYOC - CAJAMARCA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11021501",
+            "fichaTomoSunarp": null,
+            "autovaluo": 10000,
+            "idHojaVida": 249330,
+            "idEstado": 1,
+            "flValor": "25000"
+          },
+          {
+            "idHvBienInmueble": 266419,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 6,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "UBICACION RURAL VALLE SIN VALLE/CASERIO PAMPA GRANDE/LA QUINUA PARCELA 7_7659265_52994/ AREA Ha. 0.6144 U.C. 52994/HH.CC. 7_7659265_1 BAMBAMARCA - HUALGAYOC - CAJAMARCA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11021505",
+            "fichaTomoSunarp": null,
+            "autovaluo": 10000,
+            "idHojaVida": 249330,
+            "idEstado": 1,
+            "flValor": "25000"
+          }
+        ],
+        "bienMueble": [],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
       "dni": "08504328",
       "idHojaVida": 249065,
       "idOrg": 2731,
@@ -5071,6 +5516,7 @@
       "fechaNacimiento": "29/11/1962",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5281,6 +5727,7 @@
       "fechaNacimiento": "25/04/1970",
       "lugarNacimiento": "SOROCHUCO, CELENDIN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5430,6 +5877,7 @@
       "fechaNacimiento": "16/10/1977",
       "lugarNacimiento": "SANTIAGO DE CHUCO, SANTIAGO DE CHUCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5567,6 +6015,7 @@
       "fechaNacimiento": "09/10/1972",
       "lugarNacimiento": "PULAN, SANTA CRUZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5731,6 +6180,7 @@
       "fechaNacimiento": "22/10/1978",
       "lugarNacimiento": "CAJAMARCA, CAJAMARCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5883,6 +6333,7 @@
       "fechaNacimiento": "23/11/1968",
       "lugarNacimiento": "CAJAMARCA, CAJAMARCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5966,6 +6417,7 @@
       "fechaNacimiento": "12/02/1971",
       "lugarNacimiento": "HUANCAVELICA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6163,6 +6615,7 @@
       "fechaNacimiento": "23/07/1975",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6225,6 +6678,7 @@
       "fechaNacimiento": "13/01/1972",
       "lugarNacimiento": "SAN JOSE DE LOURDES, SAN IGNACIO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6435,6 +6889,7 @@
       "fechaNacimiento": "01/08/1968",
       "lugarNacimiento": "ENCAÑADA, CAJAMARCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6510,6 +6965,7 @@
       "fechaNacimiento": "13/10/1951",
       "lugarNacimiento": "CAJAMARCA, CAJAMARCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6686,6 +7142,7 @@
       "fechaNacimiento": "14/02/1949",
       "lugarNacimiento": "CAJAMARCA, CAJAMARCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6984,6 +7441,7 @@
       "fechaNacimiento": "21/01/1960",
       "lugarNacimiento": "JESUS, CAJAMARCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7249,6 +7707,7 @@
       "fechaNacimiento": "05/10/1955",
       "lugarNacimiento": "LLAPA, SAN MIGUEL",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7394,6 +7853,7 @@
       "fechaNacimiento": "27/12/1979",
       "lugarNacimiento": "CAJAMARCA, CAJAMARCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7548,6 +8008,7 @@
       "fechaNacimiento": "06/05/1978",
       "lugarNacimiento": "JOSE LEONARDO ORTIZ, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7626,6 +8087,7 @@
       "fechaNacimiento": "10/03/1977",
       "lugarNacimiento": "QUEROCOTILLO, CUTERVO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7688,6 +8150,7 @@
       "fechaNacimiento": "26/02/1977",
       "lugarNacimiento": "CONCHAN, CHOTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7865,6 +8328,7 @@
       "fechaNacimiento": "20/02/1974",
       "lugarNacimiento": "CUTERVO, CUTERVO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8035,6 +8499,7 @@
       "fechaNacimiento": "12/03/1977",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8163,6 +8628,7 @@
       "fechaNacimiento": "27/09/1974",
       "lugarNacimiento": "JAEN, JAEN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8344,6 +8810,7 @@
       "fechaNacimiento": "19/04/1973",
       "lugarNacimiento": "CAJAMARCA, CAJAMARCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8490,6 +8957,7 @@
       "fechaNacimiento": "15/10/1976",
       "lugarNacimiento": "CHOTA, CHOTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8822,6 +9290,119 @@
       "resoluciones": []
     },
     {
+      "dni": "08171751",
+      "idHojaVida": 255076,
+      "idOrg": 2927,
+      "nombre": "DEMETRIO JOSE BRICEÑO CERNA",
+      "partido": "SALVEMOS AL PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/53a53ca8-064c-4924-87df-b4d563885a02.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "29/11/1973",
+      "lugarNacimiento": "CAJABAMBA, CAJABAMBA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": null,
+        "institucion": null,
+        "ingresos2024": 0,
+        "experienciaActual": "PERSONAL DE LIMPIEZA"
+      },
+      "trayectoria": {
+        "cargoPartidario": [],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 240924,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 255076,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [
+          {
+            "idHvNoUniversitaria": 145268,
+            "tengoNoUniversitaria": "SI",
+            "eduNoUniversitaria": null,
+            "centroEstudioNoUni": "IESTP JASD",
+            "carreraNoUni": "TECNICO EN AGROPECUARIA",
+            "concluidoNoUni": "1",
+            "idHojaVida": 255076,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)"
+          }
+        ],
+        "educacionUniversitaria": [],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 273507,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "IESTP",
+          "ocupacionProfesion": "PERSONAL DE LIMPIEZA",
+          "rucTrabajo": null,
+          "direccionTrabajo": "AV. VITOR RAUL HAYA DE LA TORRE 102",
+          "anioTrabajoDesde": "2007",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "060201",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "CAJAMARCA",
+          "trabajoProvincia": "CAJABAMBA",
+          "trabajoDistrito": "CAJABAMBA",
+          "idHojaVida": 255076,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 214906,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "5351SM ",
+            "valor": 10000,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "X",
+            "comentario": "X",
+            "idHojaVida": 255076,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
       "dni": "17613547",
       "idHojaVida": 252392,
       "idOrg": 2867,
@@ -8833,6 +9414,7 @@
       "fechaNacimiento": "31/07/1972",
       "lugarNacimiento": "MORROPE, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9256,6 +9838,7 @@
       "fechaNacimiento": "23/08/1963",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9461,6 +10044,7 @@
       "fechaNacimiento": "04/09/1965",
       "lugarNacimiento": "CAJABAMBA, CAJABAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9815,6 +10399,7 @@
       "fechaNacimiento": "26/11/1974",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10107,6 +10692,7 @@
       "fechaNacimiento": "11/10/1956",
       "lugarNacimiento": "CAJAMARCA, CAJAMARCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10393,6 +10979,7 @@
       "fechaNacimiento": "13/01/1958",
       "lugarNacimiento": "CAJABAMBA, CAJABAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10664,6 +11251,7 @@
       "fechaNacimiento": "30/11/1975",
       "lugarNacimiento": "GREGORIO PITA, SAN MARCOS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10771,6 +11359,7 @@
       "fechaNacimiento": "25/05/1972",
       "lugarNacimiento": "ENCAÑADA, CAJAMARCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10866,6 +11455,7 @@
       "fechaNacimiento": "17/07/1951",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10983,6 +11573,7 @@
       "fechaNacimiento": "02/07/1973",
       "lugarNacimiento": "LLAPA, SAN MIGUEL",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11074,6 +11665,7 @@
       "fechaNacimiento": "07/12/1973",
       "lugarNacimiento": "MAGDALENA, CAJAMARCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,

@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-02-07T06:24:52.536Z",
+  "fetchedAt": "2026-02-07T20:22:20.918Z",
   "idProcesoElectoral": 124,
   "count": 51,
   "data": [
@@ -15,7 +15,8 @@
       "fechaNacimiento": "19/04/1971",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
-        "exCongresista": true,
+        "congresistaActual": true,
+        "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
         "exMinistro": false,
@@ -379,6 +380,7 @@
       "fechaNacimiento": "31/07/1977",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -675,6 +677,7 @@
       "fechaNacimiento": "05/11/1970",
       "lugarNacimiento": "RAMON CASTILLA, MARISCAL RAMON CASTILLA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1327,6 +1330,7 @@
       "fechaNacimiento": "25/06/1978",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1656,7 +1660,8 @@
       "fechaNacimiento": "11/06/1974",
       "lugarNacimiento": "CAYNARACHI, LAMAS",
       "flags": {
-        "exCongresista": true,
+        "congresistaActual": true,
+        "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
         "exMinistro": false,
@@ -1937,6 +1942,7 @@
       "fechaNacimiento": "21/06/1976",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2316,6 +2322,7 @@
       "fechaNacimiento": "05/11/1974",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2496,6 +2503,7 @@
       "fechaNacimiento": "09/01/1962",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": true,
         "exGobernador": false,
@@ -2836,6 +2844,7 @@
       "fechaNacimiento": "18/08/1970",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3065,6 +3074,7 @@
       "fechaNacimiento": "09/11/1975",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3127,6 +3137,7 @@
       "fechaNacimiento": "16/08/1968",
       "lugarNacimiento": "YURIMAGUAS, ALTO AMAZONAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3297,6 +3308,7 @@
       "fechaNacimiento": "18/10/1956",
       "lugarNacimiento": "YORONGOS, RIOJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3472,6 +3484,7 @@
       "fechaNacimiento": "03/03/1965",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3731,6 +3744,7 @@
       "fechaNacimiento": "22/03/1962",
       "lugarNacimiento": "NAUTA, LORETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3830,6 +3844,7 @@
       "fechaNacimiento": "25/07/1977",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4080,6 +4095,7 @@
       "fechaNacimiento": "06/12/1970",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4312,6 +4328,7 @@
       "fechaNacimiento": "12/01/1962",
       "lugarNacimiento": "SARAYACU, UCAYALI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4553,6 +4570,7 @@
       "fechaNacimiento": "30/08/1977",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4759,6 +4777,7 @@
       "fechaNacimiento": "12/01/1971",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5041,6 +5060,7 @@
       "fechaNacimiento": "03/11/1979",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5093,6 +5113,7 @@
       "fechaNacimiento": "16/05/1977",
       "lugarNacimiento": "NAUTA, LORETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5260,6 +5281,7 @@
       "fechaNacimiento": "26/03/1971",
       "lugarNacimiento": "MALA, CAÑETE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5436,6 +5458,7 @@
       "fechaNacimiento": "22/03/1961",
       "lugarNacimiento": "QUEROCOTILLO, CUTERVO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5498,6 +5521,7 @@
       "fechaNacimiento": "24/06/1945",
       "lugarNacimiento": "SANTA CRUZ, ALTO AMAZONAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5560,6 +5584,7 @@
       "fechaNacimiento": "15/04/1955",
       "lugarNacimiento": "CHOROS, CUTERVO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5843,6 +5868,7 @@
       "fechaNacimiento": "07/04/1964",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5905,6 +5931,7 @@
       "fechaNacimiento": "05/11/1959",
       "lugarNacimiento": "AYABACA, AYABACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6004,6 +6031,7 @@
       "fechaNacimiento": "01/01/1969",
       "lugarNacimiento": "SAN PEDRO DE CORIS, CHURCAMPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6185,6 +6213,7 @@
       "fechaNacimiento": "11/03/1977",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6287,6 +6316,7 @@
       "fechaNacimiento": "26/07/1954",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6868,6 +6898,7 @@
       "fechaNacimiento": "07/01/1967",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7011,6 +7042,7 @@
       "fechaNacimiento": "08/06/1972",
       "lugarNacimiento": "URARINAS, LORETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7089,6 +7121,7 @@
       "fechaNacimiento": "29/05/1966",
       "lugarNacimiento": "LAGUNAS, ALTO AMAZONAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7167,6 +7200,7 @@
       "fechaNacimiento": "21/05/1968",
       "lugarNacimiento": "LAS AMAZONAS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7229,6 +7263,7 @@
       "fechaNacimiento": "08/04/1972",
       "lugarNacimiento": "URARINAS, LORETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7356,6 +7391,7 @@
       "fechaNacimiento": "15/02/1942",
       "lugarNacimiento": "",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7418,6 +7454,7 @@
       "fechaNacimiento": "07/06/1970",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7682,6 +7719,7 @@
       "fechaNacimiento": "02/12/1967",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7983,6 +8021,7 @@
       "fechaNacimiento": "07/11/1978",
       "lugarNacimiento": "YURIMAGUAS, ALTO AMAZONAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8122,6 +8161,7 @@
       "fechaNacimiento": "16/04/1973",
       "lugarNacimiento": "CHICAMA, ASCOPE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8343,6 +8383,7 @@
       "fechaNacimiento": "25/03/1967",
       "lugarNacimiento": "SAN ANTONIO DE CACHI, ANDAHUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8695,6 +8736,7 @@
       "fechaNacimiento": "20/06/1959",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8884,6 +8926,7 @@
       "fechaNacimiento": "09/10/1977",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9174,6 +9217,7 @@
       "fechaNacimiento": "10/09/1958",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9362,6 +9406,7 @@
       "fechaNacimiento": "26/02/1978",
       "lugarNacimiento": "INDIANA, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9491,6 +9536,7 @@
       "fechaNacimiento": "31/08/1974",
       "lugarNacimiento": "SAQUENA, REQUENA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9858,6 +9904,7 @@
       "fechaNacimiento": "12/03/1963",
       "lugarNacimiento": "REQUENA, REQUENA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10030,6 +10077,7 @@
       "fechaNacimiento": "21/03/1971",
       "lugarNacimiento": "BELLAVISTA, CALLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10279,6 +10327,7 @@
       "fechaNacimiento": "04/10/1972",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10578,6 +10627,7 @@
       "fechaNacimiento": "22/07/1975",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10772,6 +10822,7 @@
       "fechaNacimiento": "25/05/1974",
       "lugarNacimiento": "PEBAS, MARISCAL RAMON CASTILLA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,

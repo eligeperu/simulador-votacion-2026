@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-02-07T06:49:39.952Z",
+  "fetchedAt": "2026-02-07T20:42:21.729Z",
   "idProcesoElectoral": 124,
   "count": 54,
   "data": [
@@ -15,6 +15,7 @@
       "fechaNacimiento": "11/02/1955",
       "lugarNacimiento": "VARGAS GUERRA, UCAYALI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -902,6 +903,7 @@
       "fechaNacimiento": "18/01/1971",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1216,6 +1218,7 @@
       "fechaNacimiento": "25/11/1969",
       "lugarNacimiento": "MAQUIA, REQUENA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1322,6 +1325,7 @@
       "fechaNacimiento": "01/06/1970",
       "lugarNacimiento": "RUPA-RUPA, LEONCIO PRADO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1981,6 +1985,7 @@
       "fechaNacimiento": "20/06/1954",
       "lugarNacimiento": "BOLOGNESI, PALLASCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2376,6 +2381,7 @@
       "fechaNacimiento": "12/12/1961",
       "lugarNacimiento": "PADRE MARQUEZ, UCAYALI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2479,6 +2485,7 @@
       "fechaNacimiento": "14/01/1966",
       "lugarNacimiento": "RIOJA, RIOJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": true,
@@ -2843,6 +2850,7 @@
       "fechaNacimiento": "29/12/1977",
       "lugarNacimiento": "LAMAS, LAMAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3077,6 +3085,7 @@
       "fechaNacimiento": "20/10/1965",
       "lugarNacimiento": "CALLERIA, CORONEL PORTILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3157,6 +3166,7 @@
       "fechaNacimiento": "05/08/1960",
       "lugarNacimiento": "RUPA-RUPA, LEONCIO PRADO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3320,6 +3330,7 @@
       "fechaNacimiento": "24/06/1970",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3427,6 +3438,7 @@
       "fechaNacimiento": "07/08/1970",
       "lugarNacimiento": "CONTAMANA, UCAYALI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3502,6 +3514,7 @@
       "fechaNacimiento": "20/02/1970",
       "lugarNacimiento": "PUNO, PUNO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3724,6 +3737,7 @@
       "fechaNacimiento": "16/08/1980",
       "lugarNacimiento": "MONZON, HUAMALIES",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3875,6 +3889,7 @@
       "fechaNacimiento": "12/09/1978",
       "lugarNacimiento": "BELLAVISTA, CALLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4061,6 +4076,7 @@
       "fechaNacimiento": "21/10/1962",
       "lugarNacimiento": "TAHUANIA, ATALAYA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4217,6 +4233,7 @@
       "fechaNacimiento": "13/10/1952",
       "lugarNacimiento": "AMBO, AMBO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": true,
@@ -4581,6 +4598,7 @@
       "fechaNacimiento": "04/11/1978",
       "lugarNacimiento": "MAQUIA, REQUENA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4736,6 +4754,7 @@
       "fechaNacimiento": "28/02/1970",
       "lugarNacimiento": "FERNANDO LORES, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4844,6 +4863,7 @@
       "fechaNacimiento": "28/07/1976",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5092,6 +5112,7 @@
       "fechaNacimiento": "20/09/1976",
       "lugarNacimiento": "CALLERIA, CORONEL PORTILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5424,6 +5445,7 @@
       "fechaNacimiento": "21/11/1980",
       "lugarNacimiento": "VITOC, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5709,6 +5731,7 @@
       "fechaNacimiento": "26/12/1976",
       "lugarNacimiento": "TACNA, TACNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6199,6 +6222,7 @@
       "fechaNacimiento": "05/01/1974",
       "lugarNacimiento": "CALLERIA, CORONEL PORTILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6458,6 +6482,7 @@
       "fechaNacimiento": "18/09/1966",
       "lugarNacimiento": "PUERTO BERMUDEZ, OXAPAMPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6552,6 +6577,7 @@
       "fechaNacimiento": "04/04/1957",
       "lugarNacimiento": "SANTIAGO DE CHOCORVOS, HUAYTARA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6637,6 +6663,7 @@
       "fechaNacimiento": "27/03/1954",
       "lugarNacimiento": "CALLERIA, CORONEL PORTILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6737,6 +6764,7 @@
       "fechaNacimiento": "23/05/1975",
       "lugarNacimiento": "OYOTUN, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7029,6 +7057,7 @@
       "fechaNacimiento": "14/08/1963",
       "lugarNacimiento": "EL PORVENIR, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7151,6 +7180,7 @@
       "fechaNacimiento": "23/08/1972",
       "lugarNacimiento": "HUARMEY, HUARMEY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7236,6 +7266,7 @@
       "fechaNacimiento": "19/03/1967",
       "lugarNacimiento": "CALLERIA, CORONEL PORTILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7439,6 +7470,7 @@
       "fechaNacimiento": "30/06/1976",
       "lugarNacimiento": "CALLERIA, CORONEL PORTILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7593,6 +7625,7 @@
       "fechaNacimiento": "20/01/1974",
       "lugarNacimiento": "TOCACHE, TOCACHE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7802,6 +7835,7 @@
       "fechaNacimiento": "08/02/1973",
       "lugarNacimiento": "HUANUCO, HUANUCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8041,6 +8075,7 @@
       "fechaNacimiento": "27/07/1956",
       "lugarNacimiento": "PADRE ABAD, PADRE ABAD",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8259,6 +8294,7 @@
       "fechaNacimiento": "06/10/1973",
       "lugarNacimiento": "PADRE ABAD, PADRE ABAD",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8403,6 +8439,7 @@
       "fechaNacimiento": "07/04/1975",
       "lugarNacimiento": "CALLERIA, CORONEL PORTILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8503,6 +8540,7 @@
       "fechaNacimiento": "26/04/1971",
       "lugarNacimiento": "SAN JERONIMO DE TUNAN, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8757,6 +8795,7 @@
       "fechaNacimiento": "25/12/1959",
       "lugarNacimiento": "LURIN, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8891,6 +8930,7 @@
       "fechaNacimiento": "25/08/1969",
       "lugarNacimiento": "TAMBOPATA, TAMBOPATA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9041,6 +9081,7 @@
       "fechaNacimiento": "28/08/1971",
       "lugarNacimiento": "IRAZOLA, PADRE ABAD",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9103,6 +9144,7 @@
       "fechaNacimiento": "19/11/1960",
       "lugarNacimiento": "CONTAMANA, UCAYALI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9442,6 +9484,7 @@
       "fechaNacimiento": "06/09/1972",
       "lugarNacimiento": "RUPA-RUPA, LEONCIO PRADO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9504,6 +9547,7 @@
       "fechaNacimiento": "18/10/1956",
       "lugarNacimiento": "PADRE MARQUEZ, UCAYALI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9688,6 +9732,7 @@
       "fechaNacimiento": "25/01/1946",
       "lugarNacimiento": "PARIÑAS, TALARA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10031,6 +10076,7 @@
       "fechaNacimiento": "11/03/1978",
       "lugarNacimiento": "MOROCOCHA, YAULI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10182,6 +10228,7 @@
       "fechaNacimiento": "10/03/1969",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10417,6 +10464,7 @@
       "fechaNacimiento": "08/10/1978",
       "lugarNacimiento": "HUARAL, HUARAL",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10748,6 +10796,7 @@
       "fechaNacimiento": "12/11/1976",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10868,6 +10917,7 @@
       "fechaNacimiento": "14/03/1955",
       "lugarNacimiento": "YURIMAGUAS, ALTO AMAZONAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11171,6 +11221,7 @@
       "fechaNacimiento": "21/10/1977",
       "lugarNacimiento": "TARAPOTO, SAN MARTIN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11233,6 +11284,7 @@
       "fechaNacimiento": "13/01/1963",
       "lugarNacimiento": "BELLAVISTA, CALLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11412,6 +11464,7 @@
       "fechaNacimiento": "19/12/1979",
       "lugarNacimiento": "YARINACOCHA, CORONEL PORTILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11513,6 +11566,7 @@
       "fechaNacimiento": "05/08/1965",
       "lugarNacimiento": "SARAYACU, UCAYALI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,

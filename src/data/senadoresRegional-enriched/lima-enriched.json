@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-02-07T06:21:54.462Z",
+  "fetchedAt": "2026-02-07T20:20:11.584Z",
   "idProcesoElectoral": 124,
-  "count": 136,
+  "count": 138,
   "data": [
     {
       "dni": "07286931",
@@ -15,6 +15,7 @@
       "fechaNacimiento": "30/05/1966",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -387,6 +388,7 @@
       "fechaNacimiento": "30/11/1948",
       "lugarNacimiento": "ICA, ICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -706,7 +708,8 @@
       "fechaNacimiento": "16/06/1963",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
-        "exCongresista": true,
+        "congresistaActual": true,
+        "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
         "exMinistro": false,
@@ -914,6 +917,7 @@
       "fechaNacimiento": "16/01/1972",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1359,6 +1363,7 @@
       "fechaNacimiento": "04/02/1979",
       "lugarNacimiento": "SULLANA, SULLANA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": true,
@@ -1688,6 +1693,7 @@
       "fechaNacimiento": "18/03/1978",
       "lugarNacimiento": "MOLLENDO, ISLAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1939,6 +1945,7 @@
       "fechaNacimiento": "30/03/1977",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2136,6 +2143,7 @@
       "fechaNacimiento": "15/01/1957",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2266,6 +2274,7 @@
       "fechaNacimiento": "05/11/1960",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2561,7 +2570,8 @@
       "fechaNacimiento": "19/05/1950",
       "lugarNacimiento": "SAN ISIDRO, LIMA",
       "flags": {
-        "exCongresista": true,
+        "congresistaActual": true,
+        "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
         "exMinistro": false,
@@ -2915,6 +2925,7 @@
       "fechaNacimiento": "25/02/1954",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3255,6 +3266,7 @@
       "fechaNacimiento": "18/10/1968",
       "lugarNacimiento": "BREÑA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3661,6 +3673,7 @@
       "fechaNacimiento": "25/04/1953",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4354,6 +4367,7 @@
       "fechaNacimiento": "25/07/1969",
       "lugarNacimiento": "SULLANA, SULLANA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4465,6 +4479,7 @@
       "fechaNacimiento": "17/07/1943",
       "lugarNacimiento": "BELLAVISTA, CALLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4701,6 +4716,7 @@
       "fechaNacimiento": "02/01/1961",
       "lugarNacimiento": "BELLAVISTA, CALLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4801,6 +4817,7 @@
       "fechaNacimiento": "03/10/1963",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4992,6 +5009,7 @@
       "fechaNacimiento": "21/05/1979",
       "lugarNacimiento": "CHANCAY, HUARAL",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5222,6 +5240,7 @@
       "fechaNacimiento": "01/09/1962",
       "lugarNacimiento": "PACASMAYO, PACASMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5362,6 +5381,7 @@
       "fechaNacimiento": "23/08/1967",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5437,6 +5457,7 @@
       "fechaNacimiento": "16/09/1954",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5512,6 +5533,7 @@
       "fechaNacimiento": "18/10/1970",
       "lugarNacimiento": "HUANTA, HUANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5564,6 +5586,7 @@
       "fechaNacimiento": "29/03/1969",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5932,6 +5955,7 @@
       "fechaNacimiento": "30/06/1979",
       "lugarNacimiento": "SAN AGUSTIN, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6164,6 +6188,7 @@
       "fechaNacimiento": "07/07/1964",
       "lugarNacimiento": "JAUJA, JAUJA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6531,6 +6556,7 @@
       "fechaNacimiento": "31/12/1953",
       "lugarNacimiento": "SAN ISIDRO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6796,6 +6822,7 @@
       "fechaNacimiento": "08/11/1960",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6936,6 +6963,7 @@
       "fechaNacimiento": "06/08/1963",
       "lugarNacimiento": "EL TAMBO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7153,6 +7181,7 @@
       "fechaNacimiento": "11/11/1968",
       "lugarNacimiento": "CARAZ, HUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7451,6 +7480,7 @@
       "fechaNacimiento": "16/04/1975",
       "lugarNacimiento": "SAN ISIDRO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": false,
@@ -7719,6 +7749,7 @@
       "fechaNacimiento": "19/01/1968",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8043,6 +8074,7 @@
       "fechaNacimiento": "20/03/1946",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8325,6 +8357,7 @@
       "fechaNacimiento": "30/01/1953",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8558,6 +8591,7 @@
       "fechaNacimiento": "09/08/1936",
       "lugarNacimiento": "HUANUCO, HUANUCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8919,6 +8953,7 @@
       "fechaNacimiento": "01/07/1966",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9161,6 +9196,7 @@
       "fechaNacimiento": "23/01/1973",
       "lugarNacimiento": "RIMAC, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9231,6 +9267,7 @@
       "fechaNacimiento": "25/03/1976",
       "lugarNacimiento": "CHETILLA, CAJAMARCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9293,6 +9330,7 @@
       "fechaNacimiento": "15/11/1965",
       "lugarNacimiento": "PUEBLO LIBRE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9677,6 +9715,7 @@
       "fechaNacimiento": "12/02/1963",
       "lugarNacimiento": "CAJATAMBO, CAJATAMBO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9912,6 +9951,7 @@
       "fechaNacimiento": "12/08/1959",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10008,6 +10048,7 @@
       "fechaNacimiento": "23/08/1961",
       "lugarNacimiento": "ARMA, CASTROVIRREYNA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10208,6 +10249,7 @@
       "fechaNacimiento": "04/03/1974",
       "lugarNacimiento": "EL AGUSTINO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10481,6 +10523,7 @@
       "fechaNacimiento": "16/10/1971",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10988,6 +11031,7 @@
       "fechaNacimiento": "25/12/1960",
       "lugarNacimiento": "MANSERICHE, ALTO AMAZONAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11116,6 +11160,7 @@
       "fechaNacimiento": "10/11/1960",
       "lugarNacimiento": "MOROCOCHA, YAULI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11273,6 +11318,7 @@
       "fechaNacimiento": "22/11/1971",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11495,6 +11541,7 @@
       "fechaNacimiento": "08/09/1957",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11930,6 +11977,307 @@
       "resoluciones": []
     },
     {
+      "dni": "07817028",
+      "idHojaVida": 247895,
+      "idOrg": 2927,
+      "nombre": "JORGE LUIS VILLACORTA CARRANZA",
+      "partido": "SALVEMOS AL PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/c1b165cd-18e6-4b6d-a835-35b67a931428.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "15/02/1955",
+      "lugarNacimiento": "CHORRILLOS, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "Ciencias Economicas",
+        "institucion": "Universidad Ricardo Palma",
+        "ingresos2024": 0,
+        "experienciaActual": "Viceministro de Construcción y Saneamiento"
+      },
+      "trayectoria": {
+        "cargoPartidario": [
+          {
+            "idHvCargoPartidario": 147019,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 1,
+            "idOrgPolCargoPartidario": 2235,
+            "orgPolCargoPartidario": "PARTIDO POLITICO CONTIGO",
+            "cargoPartidario": "GERENTE GENERAL",
+            "anioCargoPartiDesde": "2020",
+            "anioCargoPartiHasta": "2020",
+            "idHojaVida": 247895,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvCargoPartidario": 147020,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 2,
+            "idOrgPolCargoPartidario": 2235,
+            "orgPolCargoPartidario": "PARTIDO POLITICO CONTIGO",
+            "cargoPartidario": "SECRETARIO NACIONAL DE ORGANIZACIÓN",
+            "anioCargoPartiDesde": "2015",
+            "anioCargoPartiHasta": "2021",
+            "idHojaVida": 247895,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241370,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 247895,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [],
+        "educacionNoUniversitaria": [
+          {
+            "idHvNoUniversitaria": 145321,
+            "tengoNoUniversitaria": "SI",
+            "eduNoUniversitaria": null,
+            "centroEstudioNoUni": "George Whashigton University",
+            "carreraNoUni": "6to Seminario de Comunicación Politica y Marketing Politico",
+            "concluidoNoUni": "1",
+            "idHojaVida": 247895,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)"
+          }
+        ],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 202791,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Ricardo Palma",
+            "carreraUni": "Ciencias Economicas",
+            "concluidoEduUni": "NO",
+            "egresadoEduUni": null,
+            "bachillerEduUni": null,
+            "anioBachiller": null,
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 274465,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "Ministerio de Vivienda Construcción y Saneamiento",
+          "ocupacionProfesion": "Viceministro de Construcción y Saneamiento",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Paseo de la Republica 3361",
+          "anioTrabajoDesde": "2002",
+          "anioTrabajoHasta": "2005",
+          "ubigeoTrabajo": "140124",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "SAN ISIDRO",
+          "idHojaVida": 247895,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 274467,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 2,
+          "centroTrabajo": "Sedapal",
+          "ocupacionProfesion": "Presidente",
+          "rucTrabajo": null,
+          "direccionTrabajo": "La Atarjea",
+          "anioTrabajoDesde": "2003",
+          "anioTrabajoHasta": "2005",
+          "ubigeoTrabajo": "140103",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "ATE",
+          "idHojaVida": 247895,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 274470,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 3,
+          "centroTrabajo": "Despacho Presidencial de la República",
+          "ocupacionProfesion": "Asesor técnico",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Desamparados",
+          "anioTrabajoDesde": "2016",
+          "anioTrabajoHasta": "2016",
+          "ubigeoTrabajo": "140101",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "LIMA",
+          "idHojaVida": 247895,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 274475,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 4,
+          "centroTrabajo": "Fondo Nacional de capacitación laboral y promoción del empleo",
+          "ocupacionProfesion": "Director Ejecutivo",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Republica de Panamá 3030",
+          "anioTrabajoDesde": "2018",
+          "anioTrabajoHasta": "2018",
+          "ubigeoTrabajo": "140124",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "SAN ISIDRO",
+          "idHojaVida": 247895,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        },
+        {
+          "idHvExpeLaboral": 274482,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 5,
+          "centroTrabajo": "Ministerio de la Presidencia",
+          "ocupacionProfesion": "Vice Ministro",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Av. Paseo de la República 3361",
+          "anioTrabajoDesde": "2001",
+          "anioTrabajoHasta": "2002",
+          "ubigeoTrabajo": "140124",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "SAN ISIDRO",
+          "idHojaVida": 247895,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 265746,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "AVENIDA DEL EJERCITO NUM 825 ESTAC N° 01 - PRIMER PISO   MAGDALENA DEL MAR - LIMA - LIMA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "14007531",
+            "fichaTomoSunarp": null,
+            "autovaluo": 15205.99,
+            "idHojaVida": 247895,
+            "idEstado": 1,
+            "flValor": "15205.99"
+          },
+          {
+            "idHvBienInmueble": 265747,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "AVENIDA DEL EJERCITO NUM 865 DPTO N° 1301 - DECIMO TERCER PISO   MAGDALENA DEL MAR - LIMA - LIMA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "14007593",
+            "fichaTomoSunarp": null,
+            "autovaluo": 114586.01,
+            "idHojaVida": 247895,
+            "idEstado": 1,
+            "flValor": "114586.01"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 215305,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "D3A300 ",
+            "valor": 23800,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "Auto Nissan",
+            "comentario": null,
+            "idHojaVida": 247895,
+            "idEstado": 1
+          },
+          {
+            "idHvBienMueble": 215306,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 2,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "F3P217 ",
+            "valor": 47600,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "Camioneta Gran Cherokee plome",
+            "comentario": null,
+            "idHojaVida": 247895,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
       "dni": "08683704",
       "idHojaVida": 250237,
       "idOrg": 2901,
@@ -11941,6 +12289,7 @@
       "fechaNacimiento": "20/03/1967",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12092,6 +12441,7 @@
       "fechaNacimiento": "16/02/1966",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12184,6 +12534,7 @@
       "fechaNacimiento": "17/10/1956",
       "lugarNacimiento": "ZUÑIGA, CAÑETE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12479,6 +12830,7 @@
       "fechaNacimiento": "17/11/1977",
       "lugarNacimiento": "SANTA MARIA DE CHICMO, ANDAHUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12558,6 +12910,7 @@
       "fechaNacimiento": "11/03/1968",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12725,6 +13078,7 @@
       "fechaNacimiento": "09/08/1958",
       "lugarNacimiento": "BELLAVISTA, CALLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12932,6 +13286,7 @@
       "fechaNacimiento": "02/05/1968",
       "lugarNacimiento": "MARCONA, NASCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13243,6 +13598,7 @@
       "fechaNacimiento": "12/01/1961",
       "lugarNacimiento": "BARRANCO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13437,6 +13793,7 @@
       "fechaNacimiento": "11/04/1955",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13598,6 +13955,7 @@
       "fechaNacimiento": "13/08/1942",
       "lugarNacimiento": "ABANCAY, ABANCAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13734,6 +14092,7 @@
       "fechaNacimiento": "25/03/1965",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14025,6 +14384,7 @@
       "fechaNacimiento": "23/06/1965",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14178,6 +14538,7 @@
       "fechaNacimiento": "19/12/1948",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14371,6 +14732,7 @@
       "fechaNacimiento": "29/10/1961",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14596,6 +14958,7 @@
       "fechaNacimiento": "24/10/1976",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14867,6 +15230,7 @@
       "fechaNacimiento": "03/06/1967",
       "lugarNacimiento": "",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14919,6 +15283,7 @@
       "fechaNacimiento": "20/10/1974",
       "lugarNacimiento": "SANTIAGO DE CHUCO, SANTIAGO DE CHUCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14981,6 +15346,7 @@
       "fechaNacimiento": "15/11/1950",
       "lugarNacimiento": "LAMBAYEQUE, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15064,6 +15430,7 @@
       "fechaNacimiento": "29/05/1948",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15473,6 +15840,7 @@
       "fechaNacimiento": "07/07/1978",
       "lugarNacimiento": "EL CARMEN DE LA FRONTERA, HUANCABAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15650,6 +16018,7 @@
       "fechaNacimiento": "27/01/1957",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15883,6 +16252,7 @@
       "fechaNacimiento": "18/01/1939",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16054,6 +16424,7 @@
       "fechaNacimiento": "22/04/1968",
       "lugarNacimiento": "HUANCAVELICA, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16257,6 +16628,7 @@
       "fechaNacimiento": "08/06/1954",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16592,6 +16964,7 @@
       "fechaNacimiento": "17/11/1962",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16710,6 +17083,7 @@
       "fechaNacimiento": "19/04/1969",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16851,6 +17225,7 @@
       "fechaNacimiento": "27/08/1956",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17024,6 +17399,7 @@
       "fechaNacimiento": "20/04/1953",
       "lugarNacimiento": "OXAPAMPA, OXAPAMPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17256,6 +17632,7 @@
       "fechaNacimiento": "02/05/1964",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17534,6 +17911,7 @@
       "fechaNacimiento": "01/10/1956",
       "lugarNacimiento": "SAN MATEO, HUAROCHIRI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17612,6 +17990,7 @@
       "fechaNacimiento": "26/01/1979",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17735,6 +18114,7 @@
       "fechaNacimiento": "09/03/1975",
       "lugarNacimiento": "NUEVO IMPERIAL, CAÑETE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -17898,6 +18278,7 @@
       "fechaNacimiento": "01/08/1959",
       "lugarNacimiento": "PIURA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18209,6 +18590,7 @@
       "fechaNacimiento": "01/04/1965",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18287,6 +18669,7 @@
       "fechaNacimiento": "27/08/1963",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18574,6 +18957,7 @@
       "fechaNacimiento": "26/03/1966",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18652,6 +19036,7 @@
       "fechaNacimiento": "15/02/1979",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -18940,6 +19325,7 @@
       "fechaNacimiento": "02/02/1965",
       "lugarNacimiento": "MITO, CONCEPCION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19058,6 +19444,7 @@
       "fechaNacimiento": "01/05/1964",
       "lugarNacimiento": "CALCA, CALCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19341,6 +19728,7 @@
       "fechaNacimiento": "11/02/1978",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19440,6 +19828,7 @@
       "fechaNacimiento": "19/02/1975",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19557,6 +19946,7 @@
       "fechaNacimiento": "15/04/1969",
       "lugarNacimiento": "HUANZA, HUAROCHIRI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -19870,6 +20260,7 @@
       "fechaNacimiento": "30/09/1948",
       "lugarNacimiento": "LURIGANCHO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20090,6 +20481,7 @@
       "fechaNacimiento": "29/06/1956",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20262,6 +20654,7 @@
       "fechaNacimiento": "09/06/1956",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20324,6 +20717,7 @@
       "fechaNacimiento": "03/10/1938",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20671,6 +21065,7 @@
       "fechaNacimiento": "08/10/1958",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20805,6 +21200,7 @@
       "fechaNacimiento": "27/11/1979",
       "lugarNacimiento": "LINCE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -20991,6 +21387,7 @@
       "fechaNacimiento": "12/05/1969",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21360,6 +21757,7 @@
       "fechaNacimiento": "25/04/1955",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -21637,6 +22035,7 @@
       "fechaNacimiento": "29/04/1944",
       "lugarNacimiento": "SAN ISIDRO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22026,6 +22425,7 @@
       "fechaNacimiento": "28/02/1964",
       "lugarNacimiento": "RIMAC, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22266,7 +22666,8 @@
       "fechaNacimiento": "17/10/1955",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
-        "exCongresista": true,
+        "congresistaActual": true,
+        "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
         "exMinistro": false,
@@ -22457,6 +22858,7 @@
       "fechaNacimiento": "28/02/1961",
       "lugarNacimiento": "BELLAVISTA, CALLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -22826,6 +23228,7 @@
       "fechaNacimiento": "08/07/1968",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -23398,6 +23801,7 @@
       "fechaNacimiento": "20/07/1971",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -23742,6 +24146,7 @@
       "fechaNacimiento": "18/02/1945",
       "lugarNacimiento": "BELLAVISTA, CALLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -24088,6 +24493,7 @@
       "fechaNacimiento": "19/02/1962",
       "lugarNacimiento": "BREÑA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -24244,6 +24650,7 @@
       "fechaNacimiento": "12/07/1976",
       "lugarNacimiento": "EL TAMBO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -24494,6 +24901,7 @@
       "fechaNacimiento": "07/03/1961",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -24691,6 +25099,7 @@
       "fechaNacimiento": "20/02/1956",
       "lugarNacimiento": "ATIQUIPA, CARAVELI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -24865,6 +25274,7 @@
       "fechaNacimiento": "08/10/1956",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -25209,6 +25619,7 @@
       "fechaNacimiento": "11/08/1959",
       "lugarNacimiento": "CABANILLA, LAMPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -25701,6 +26112,7 @@
       "fechaNacimiento": "03/06/1976",
       "lugarNacimiento": "JUMBILLA, BONGARA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -25851,6 +26263,7 @@
       "fechaNacimiento": "01/04/1954",
       "lugarNacimiento": "CHACHAPOYAS, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -25954,6 +26367,7 @@
       "fechaNacimiento": "18/06/1963",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -26206,6 +26620,7 @@
       "fechaNacimiento": "29/03/1959",
       "lugarNacimiento": "PIURA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -26347,6 +26762,393 @@
       "resoluciones": []
     },
     {
+      "dni": "07787126",
+      "idHojaVida": 255098,
+      "idOrg": 2927,
+      "nombre": "MARIA EVELINA MERINO CHONG",
+      "partido": "SALVEMOS AL PERU",
+      "cargo": "SENADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/62c69100-eff8-498b-97e9-3ea1e76ef7e9.jpg",
+      "estado": "INSCRITO",
+      "fechaNacimiento": "09/06/1962",
+      "lugarNacimiento": "PUEBLO LIBRE, LIMA",
+      "flags": {
+        "congresistaActual": false,
+        "exCongresista": false,
+        "exAlcalde": false,
+        "exGobernador": false,
+        "exMinistro": false,
+        "cargosAnteriores": [],
+        "sentenciaPenal": false,
+        "sentenciaPenalDetalle": [],
+        "sentenciaObliga": false,
+        "sentenciaObligaDetalle": []
+      },
+      "resumen": {
+        "educacionMax": "Ciencias Politicas y ADministración",
+        "institucion": "Universidad Ricardo Palma",
+        "ingresos2024": 72000,
+        "experienciaActual": "Gerente"
+      },
+      "trayectoria": {
+        "cargoPartidario": [
+          {
+            "idHvCargoPartidario": 146937,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 1,
+            "idOrgPolCargoPartidario": 2997,
+            "orgPolCargoPartidario": "PARTIDO HUMANISTA PERUANO P.H.P",
+            "cargoPartidario": "COMISIÓN POLÍTICA NACIONAL",
+            "anioCargoPartiDesde": "2023",
+            "anioCargoPartiHasta": "2025",
+            "idHojaVida": 255098,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          },
+          {
+            "idHvCargoPartidario": 146936,
+            "tengoCargoPartidario": "SI",
+            "itemCargoPartidario": 2,
+            "idOrgPolCargoPartidario": 2997,
+            "orgPolCargoPartidario": "PARTIDO HUMANISTA PERUANO P.H.P",
+            "cargoPartidario": "FUNDADOR",
+            "anioCargoPartiDesde": "2023",
+            "anioCargoPartiHasta": "2025",
+            "idHojaVida": 255098,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "cargoEleccion": []
+      },
+      "formacionAcademica": {
+        "educacionBasica": {
+          "idHvEduBasica": 241079,
+          "tengoEduBasica": "SI",
+          "eduPrimaria": "SI",
+          "concluidoEduPrimaria": "SI",
+          "eduSecundaria": "SI",
+          "concluidoEduSecundaria": "SI",
+          "idHojaVida": 255098,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)"
+        },
+        "educacionTecnico": [
+          {
+            "idHvEduTecnico": 161601,
+            "tengoEduTecnico": "SI",
+            "cenEstudioTecnico": "EXPRO - EXCELENCIA PROFESIONAL",
+            "carreraTecnico": "PROFESIONAL TÉCNICO EN ADMINISTRACIÓN DE EMPRESAS",
+            "concluidoEduTecnico": "1",
+            "idHojaVida": 255098,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionNoUniversitaria": [
+          {
+            "idHvNoUniversitaria": 145287,
+            "tengoNoUniversitaria": "SI",
+            "eduNoUniversitaria": null,
+            "centroEstudioNoUni": "Toulouse Lautrec",
+            "carreraNoUni": "Dec y diseño de espacios residenciales",
+            "concluidoNoUni": "1",
+            "idHojaVida": 255098,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)"
+          }
+        ],
+        "educacionUniversitaria": [
+          {
+            "idHvEduUniversitaria": 202418,
+            "tengoEduUniversitaria": "SI",
+            "itemEduUni": "1",
+            "eduUniversitaria": "1",
+            "universidad": "Universidad Ricardo Palma",
+            "carreraUni": "Ciencias Politicas y ADministración",
+            "concluidoEduUni": "NO",
+            "egresadoEduUni": null,
+            "bachillerEduUni": null,
+            "anioBachiller": null,
+            "tituloUni": null,
+            "anioTitulo": null,
+            "idEstado": 1,
+            "estado": "ACTIVO (R)",
+            "txComentario": null
+          }
+        ],
+        "educacionPosgrado": [],
+        "educacionPosgradoOtro": []
+      },
+      "experienciaLaboral": [
+        {
+          "idHvExpeLaboral": 273837,
+          "tengoExpeLaboral": "1",
+          "itemExpeLaboral": 1,
+          "centroTrabajo": "Chong Corp MyA estructuras SAC",
+          "ocupacionProfesion": "Gerente",
+          "rucTrabajo": null,
+          "direccionTrabajo": "Surco",
+          "anioTrabajoDesde": "2014",
+          "anioTrabajoHasta": "2025",
+          "ubigeoTrabajo": "140130",
+          "trabajoPais": "PERU",
+          "trabajoDepartamento": "LIMA",
+          "trabajoProvincia": "LIMA",
+          "trabajoDistrito": "SANTIAGO DE SURCO",
+          "idHojaVida": 255098,
+          "idEstado": 1,
+          "estado": "ACTIVO (R)",
+          "txComentario": null
+        }
+      ],
+      "declaracionJurada": {
+        "ingreso": [
+          {
+            "idHvIngresos": 214169,
+            "idTengoIngresos": "1",
+            "tengoIngresos": "SI",
+            "anioIngresos": "2024",
+            "remuBrutaPublico": 0,
+            "remuBrutaPrivado": 64000,
+            "rentaIndividualPublico": 0,
+            "rentaIndividualPrivado": 0,
+            "otroIngresoPublico": 0,
+            "otroIngresoPrivado": 8000,
+            "idHojaVida": 255098,
+            "idEstado": 1,
+            "totalIngresos": 72000
+          }
+        ],
+        "bienInmueble": [
+          {
+            "idHvBienInmueble": 265224,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 1,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "CALLE VELASCO ASTETE   PISO 1   SANTIAGO DE SURCO - LIMA - LIMA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "44869934",
+            "fichaTomoSunarp": null,
+            "autovaluo": 10000,
+            "idHojaVida": 255098,
+            "idEstado": 1,
+            "flValor": "68000"
+          },
+          {
+            "idHvBienInmueble": 265225,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 2,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "CALLE VELASCO ASTETE NUM 1444 DPTO 201   SANTIAGO DE SURCO - LIMA - LIMA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "44869950",
+            "fichaTomoSunarp": null,
+            "autovaluo": 500000,
+            "idHojaVida": 255098,
+            "idEstado": 1,
+            "flValor": "830000"
+          },
+          {
+            "idHvBienInmueble": 265226,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 3,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "AVENIDA ALEJANDRO VELASCO ASTETE NUM 1178 ESTAC N° 21 - SÓTANO URB CHACARILLA DEL ESTANQUE SANTIAGO DE SURCO - LIMA - LIMA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "12218064",
+            "fichaTomoSunarp": null,
+            "autovaluo": 25000,
+            "idHojaVida": 255098,
+            "idEstado": 1,
+            "flValor": "68000"
+          },
+          {
+            "idHvBienInmueble": 265227,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 4,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "AVENIDA ALEJANDRO VELASCO ASTETE NUM 1180 DPTO N° S101 - SEMISÓTANO URB CHACARILLA DEL ESTANQUE SANTIAGO DE SURCO - LIMA - LIMA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "12218089",
+            "fichaTomoSunarp": null,
+            "autovaluo": 300000,
+            "idHojaVida": 255098,
+            "idEstado": 1,
+            "flValor": "1258000"
+          },
+          {
+            "idHvBienInmueble": 265228,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 5,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "AVENIDA ALEJANDRO VELASCO ASTETE NUM 1180 DEPOSIT N° 1 - SEMISÓTANO URB CHACARILLA DEL ESTANQUE SANTIAGO DE SURCO - LIMA - LIMA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "12218071",
+            "fichaTomoSunarp": null,
+            "autovaluo": 50000,
+            "idHojaVida": 255098,
+            "idEstado": 1,
+            "flValor": "68000"
+          },
+          {
+            "idHvBienInmueble": 265229,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 6,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "AVENIDA SERGIO BERNALES NUM 375 ESTAC 1 - PRIMER PISO URB BARRIO MEDICO Y CLINICA PROPIA SURQUILLO - LIMA - LIMA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "12491900",
+            "fichaTomoSunarp": null,
+            "autovaluo": 300000,
+            "idHojaVida": 255098,
+            "idEstado": 1,
+            "flValor": "544000"
+          },
+          {
+            "idHvBienInmueble": 265230,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 7,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "AVENIDA SERGIO BERNALES NUM 377 DPTO 201 - SEGUNDO PISO URB BARRIO MEDICO Y CLINICA PROPIA SURQUILLO - LIMA - LIMA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "12491955",
+            "fichaTomoSunarp": null,
+            "autovaluo": 300000,
+            "idHojaVida": 255098,
+            "idEstado": 1,
+            "flValor": "540000"
+          },
+          {
+            "idHvBienInmueble": 265231,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 8,
+            "tipoBienInmueble": "REGISTRO DE PREDIOS",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "AVENIDA CARRETERA PISCO - PARACAS MZ A LOTE 06 URB HABILITACION URBANA PARA USO INDUSTRIAL PARACAS - PISCO - ICA",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11025919",
+            "fichaTomoSunarp": null,
+            "autovaluo": 138000,
+            "idHojaVida": 255098,
+            "idEstado": 1,
+            "flValor": "238000"
+          },
+          {
+            "idHvBienInmueble": 265232,
+            "idTengoinmueble": "1",
+            "tengoInmueble": "SI",
+            "itemInmueble": 9,
+            "tipoBienInmueble": "SECCION ESPECIAL DE PREDIOS RURALES",
+            "ubigeoInmueble": null,
+            "inmueblePais": null,
+            "inmuebleDepartamento": null,
+            "inmuebleProvincia": null,
+            "inmuebleDistrito": null,
+            "inmuebleDireccion": "    AREA Ha. 0.1905 U.C. 206601 PARCELA 108 CALCA - CALCA - CUSCO",
+            "comentario": null,
+            "inmuebleSunarp": "1",
+            "inmuebleSunarpDesc": "SI",
+            "partidaSunarp": "11139280",
+            "fichaTomoSunarp": null,
+            "autovaluo": 172000,
+            "idHojaVida": 255098,
+            "idEstado": 1,
+            "flValor": "272000"
+          }
+        ],
+        "bienMueble": [
+          {
+            "idHvBienMueble": 215079,
+            "idTengoBienMueble": "1",
+            "tengoBienMueble": "SI",
+            "itemMueble": 1,
+            "vehiculo": "REGISTRO DE PROPIEDAD VEHICULAR",
+            "marca": null,
+            "placa": "AE5502 ",
+            "valor": 0,
+            "modelo": null,
+            "anio": null,
+            "caracteristica": "Nissan",
+            "comentario": "Vendido y no se hizo cambio de nombre de propietario",
+            "idHojaVida": 255098,
+            "idEstado": 1
+          }
+        ],
+        "otroMueble": [],
+        "titularidad": []
+      },
+      "sentenciaPenal": [],
+      "sentenciaObliga": [],
+      "resoluciones": []
+    },
+    {
       "dni": "06608668",
       "idHojaVida": 248452,
       "idOrg": 2867,
@@ -26358,6 +27160,7 @@
       "fechaNacimiento": "26/11/1947",
       "lugarNacimiento": "CHINCHA ALTA, CHINCHA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -26510,6 +27313,7 @@
       "fechaNacimiento": "17/01/1971",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -26756,6 +27560,7 @@
       "fechaNacimiento": "18/10/1967",
       "lugarNacimiento": "CHORRILLOS, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -26878,6 +27683,7 @@
       "fechaNacimiento": "02/05/1956",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -27051,6 +27857,7 @@
       "fechaNacimiento": "14/11/1969",
       "lugarNacimiento": "YURIMAGUAS, ALTO AMAZONAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -27131,6 +27938,7 @@
       "fechaNacimiento": "27/03/1973",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -27319,6 +28127,7 @@
       "fechaNacimiento": "13/01/1969",
       "lugarNacimiento": "JACAS CHICO, YAROWILCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -27508,6 +28317,7 @@
       "fechaNacimiento": "24/04/1953",
       "lugarNacimiento": "CHACHAPOYAS, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -27701,6 +28511,7 @@
       "fechaNacimiento": "04/07/1963",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -27908,6 +28719,7 @@
       "fechaNacimiento": "29/09/1975",
       "lugarNacimiento": "LA VICTORIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -27988,6 +28800,7 @@
       "fechaNacimiento": "29/08/1945",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": true,
         "exGobernador": false,
@@ -28185,6 +28998,7 @@
       "fechaNacimiento": "20/04/1946",
       "lugarNacimiento": "HUALLANCA, HUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -28574,6 +29388,7 @@
       "fechaNacimiento": "17/06/1976",
       "lugarNacimiento": "MOROCOCHA, YAULI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -28817,6 +29632,7 @@
       "fechaNacimiento": "07/11/1963",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -29047,6 +29863,7 @@
       "fechaNacimiento": "04/02/1970",
       "lugarNacimiento": "AYABACA, AYABACA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -29124,6 +29941,7 @@
       "fechaNacimiento": "29/04/1964",
       "lugarNacimiento": "PUEBLO LIBRE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -29282,6 +30100,7 @@
       "fechaNacimiento": "17/12/1975",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -29606,6 +30425,7 @@
       "fechaNacimiento": "02/05/1977",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -30035,6 +30855,7 @@
       "fechaNacimiento": "24/06/1969",
       "lugarNacimiento": "ILABAYA, JORGE BASADRE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -30483,6 +31304,7 @@
       "fechaNacimiento": "22/01/1969",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -30750,6 +31572,7 @@
       "fechaNacimiento": "04/11/1954",
       "lugarNacimiento": "YANAHUARA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -30850,6 +31673,7 @@
       "fechaNacimiento": "13/02/1966",
       "lugarNacimiento": "PUEBLO LIBRE, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,

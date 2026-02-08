@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-02-07T05:54:23.709Z",
+  "fetchedAt": "2026-02-07T19:57:42.688Z",
   "idProcesoElectoral": 124,
   "count": 58,
   "data": [
@@ -15,6 +15,7 @@
       "fechaNacimiento": "22/02/1974",
       "lugarNacimiento": "ACCHA, PARURO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -367,6 +368,7 @@
       "fechaNacimiento": "12/11/1976",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -702,6 +704,7 @@
       "fechaNacimiento": "11/05/1972",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -977,6 +980,7 @@
       "fechaNacimiento": "17/01/1975",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1276,6 +1280,7 @@
       "fechaNacimiento": "15/09/1974",
       "lugarNacimiento": "SANTA ANA, LA CONVENCION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1427,6 +1432,7 @@
       "fechaNacimiento": "27/02/1963",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1579,6 +1585,7 @@
       "fechaNacimiento": "08/02/1969",
       "lugarNacimiento": "HUANOQUITE, PARURO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1734,6 +1741,7 @@
       "fechaNacimiento": "27/03/1966",
       "lugarNacimiento": "AYNA, LA MAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": false,
@@ -2033,6 +2041,7 @@
       "fechaNacimiento": "11/10/1974",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2275,6 +2284,7 @@
       "fechaNacimiento": "24/12/1964",
       "lugarNacimiento": "WANCHAQ, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2459,6 +2469,7 @@
       "fechaNacimiento": "21/05/1976",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2737,6 +2748,7 @@
       "fechaNacimiento": "03/12/1980",
       "lugarNacimiento": "SANTIAGO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2908,6 +2920,7 @@
       "fechaNacimiento": "10/04/1974",
       "lugarNacimiento": "MARANGANI, CANCHIS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3113,6 +3126,7 @@
       "fechaNacimiento": "05/09/1974",
       "lugarNacimiento": "SAN JERONIMO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3307,6 +3321,7 @@
       "fechaNacimiento": "25/10/1980",
       "lugarNacimiento": "YANAOCA, CANAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3429,6 +3444,7 @@
       "fechaNacimiento": "26/02/1951",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3968,6 +3984,7 @@
       "fechaNacimiento": "22/06/1967",
       "lugarNacimiento": "SANTIAGO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4100,6 +4117,7 @@
       "fechaNacimiento": "15/03/1974",
       "lugarNacimiento": "YAULI, HUANCAVELICA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4162,6 +4180,7 @@
       "fechaNacimiento": "24/10/1966",
       "lugarNacimiento": "SANTA ANA, LA CONVENCION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4373,6 +4392,7 @@
       "fechaNacimiento": "03/05/1972",
       "lugarNacimiento": "NUÑOA, MELGAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4556,6 +4576,7 @@
       "fechaNacimiento": "04/08/1965",
       "lugarNacimiento": "TAMBOPATA, TAMBOPATA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4755,6 +4776,7 @@
       "fechaNacimiento": "18/02/1977",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4961,6 +4983,7 @@
       "fechaNacimiento": "14/04/1980",
       "lugarNacimiento": "SANTA ANA, LA CONVENCION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5320,6 +5343,7 @@
       "fechaNacimiento": "11/11/1967",
       "lugarNacimiento": "SANTA ANA, LA CONVENCION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": true,
         "exGobernador": false,
@@ -5606,6 +5630,7 @@
       "fechaNacimiento": "12/10/1975",
       "lugarNacimiento": "WANCHAQ, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5740,6 +5765,7 @@
       "fechaNacimiento": "21/11/1966",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6032,6 +6058,7 @@
       "fechaNacimiento": "22/11/1961",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6364,6 +6391,7 @@
       "fechaNacimiento": "11/05/1974",
       "lugarNacimiento": "HUANCARANI, PAUCARTAMBO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6463,6 +6491,7 @@
       "fechaNacimiento": "04/04/1970",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6648,6 +6677,7 @@
       "fechaNacimiento": "13/07/1979",
       "lugarNacimiento": "AYNA, LA MAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6990,6 +7020,7 @@
       "fechaNacimiento": "13/12/1969",
       "lugarNacimiento": "CALCA, CALCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7257,6 +7288,7 @@
       "fechaNacimiento": "18/10/1968",
       "lugarNacimiento": "URUBAMBA, URUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7540,6 +7572,7 @@
       "fechaNacimiento": "20/07/1957",
       "lugarNacimiento": "",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7717,6 +7750,7 @@
       "fechaNacimiento": "02/08/1966",
       "lugarNacimiento": "MAMARA, GRAU",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7905,6 +7939,7 @@
       "fechaNacimiento": "14/11/1965",
       "lugarNacimiento": "COLQUEMARCA, CHUMBIVILCAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8082,6 +8117,7 @@
       "fechaNacimiento": "08/09/1960",
       "lugarNacimiento": "YANAOCA, CANAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8205,6 +8241,7 @@
       "fechaNacimiento": "22/04/1973",
       "lugarNacimiento": "PISAC, CALCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8551,6 +8588,7 @@
       "fechaNacimiento": "06/12/1970",
       "lugarNacimiento": "HUARAZ, HUARAZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8669,6 +8707,7 @@
       "fechaNacimiento": "18/03/1966",
       "lugarNacimiento": "SICUANI, CANCHIS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8946,6 +8985,7 @@
       "fechaNacimiento": "23/02/1956",
       "lugarNacimiento": "PACCARITAMBO, PARURO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9014,6 +9054,7 @@
       "fechaNacimiento": "17/12/1971",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9202,6 +9243,7 @@
       "fechaNacimiento": "29/10/1976",
       "lugarNacimiento": "SANTIAGO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9538,6 +9580,7 @@
       "fechaNacimiento": "30/06/1978",
       "lugarNacimiento": "SANTA ANA, LA CONVENCION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9674,6 +9717,7 @@
       "fechaNacimiento": "29/07/1970",
       "lugarNacimiento": "ESPINAR, ESPINAR",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9773,6 +9817,7 @@
       "fechaNacimiento": "27/11/1977",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10054,6 +10099,7 @@
       "fechaNacimiento": "20/06/1975",
       "lugarNacimiento": "URUBAMBA, URUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10347,6 +10393,7 @@
       "fechaNacimiento": "18/02/1965",
       "lugarNacimiento": "ABANCAY, ABANCAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10606,6 +10653,7 @@
       "fechaNacimiento": "21/08/1977",
       "lugarNacimiento": "SICUANI, CANCHIS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10908,6 +10956,7 @@
       "fechaNacimiento": "27/03/1973",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11062,6 +11111,7 @@
       "fechaNacimiento": "24/07/1965",
       "lugarNacimiento": "LIMATAMBO, ANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11141,6 +11191,7 @@
       "fechaNacimiento": "04/04/1967",
       "lugarNacimiento": "HUANUCO, HUANUCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11242,6 +11293,7 @@
       "fechaNacimiento": "25/01/1962",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11518,6 +11570,7 @@
       "fechaNacimiento": "20/02/1968",
       "lugarNacimiento": "ABANCAY, ABANCAY",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11812,6 +11865,7 @@
       "fechaNacimiento": "13/06/1967",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11897,6 +11951,7 @@
       "fechaNacimiento": "12/09/1958",
       "lugarNacimiento": "CARANIA, YAUYOS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12319,6 +12374,7 @@
       "fechaNacimiento": "29/06/1961",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12381,6 +12437,7 @@
       "fechaNacimiento": "05/06/1973",
       "lugarNacimiento": "WANCHAQ, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12595,6 +12652,7 @@
       "fechaNacimiento": "15/03/1974",
       "lugarNacimiento": "CUSCO, CUSCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,

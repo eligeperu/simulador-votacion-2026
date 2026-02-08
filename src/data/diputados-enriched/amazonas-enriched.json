@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-02-07T06:54:44.697Z",
+  "fetchedAt": "2026-02-07T20:46:21.896Z",
   "idProcesoElectoral": 124,
   "count": 98,
   "data": [
@@ -15,6 +15,7 @@
       "fechaNacimiento": "27/12/1975",
       "lugarNacimiento": "NIEVA, CONDORCANQUI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -374,6 +375,7 @@
       "fechaNacimiento": "15/07/1987",
       "lugarNacimiento": "COPALLIN, BAGUA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -566,6 +568,7 @@
       "fechaNacimiento": "19/09/1963",
       "lugarNacimiento": "CHOTA, CHOTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -739,6 +742,7 @@
       "fechaNacimiento": "09/06/1983",
       "lugarNacimiento": "BUENOS AIRES, MORROPON",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -801,6 +805,7 @@
       "fechaNacimiento": "10/05/1979",
       "lugarNacimiento": "IMAZA, BAGUA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -980,6 +985,7 @@
       "fechaNacimiento": "17/12/1981",
       "lugarNacimiento": "LA PECA, BAGUA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1490,6 +1496,7 @@
       "fechaNacimiento": "02/07/1972",
       "lugarNacimiento": "LIMABAMBA, RODRIGUEZ DE MENDOZA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1739,6 +1746,7 @@
       "fechaNacimiento": "15/09/1974",
       "lugarNacimiento": "NIEVA, CONDORCANQUI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2081,6 +2089,7 @@
       "fechaNacimiento": "13/08/1968",
       "lugarNacimiento": "EL PARCO, BAGUA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2471,6 +2480,7 @@
       "fechaNacimiento": "30/11/1986",
       "lugarNacimiento": "IQUITOS, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2669,6 +2679,7 @@
       "fechaNacimiento": "07/01/1978",
       "lugarNacimiento": "SAN NICOLAS, RODRIGUEZ DE MENDOZA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3030,6 +3041,7 @@
       "fechaNacimiento": "05/08/1959",
       "lugarNacimiento": "CHANCAYBAÑOS, SANTA CRUZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3113,7 +3125,8 @@
       "fechaNacimiento": "11/10/1963",
       "lugarNacimiento": "NUEVA ARICA, CHICLAYO",
       "flags": {
-        "exCongresista": true,
+        "congresistaActual": true,
+        "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
         "exMinistro": false,
@@ -3435,6 +3448,7 @@
       "fechaNacimiento": "30/10/1950",
       "lugarNacimiento": "CAJAMARCA, CAJAMARCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3688,6 +3702,7 @@
       "fechaNacimiento": "01/11/1966",
       "lugarNacimiento": "GRANADA, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3774,6 +3789,7 @@
       "fechaNacimiento": "22/07/1976",
       "lugarNacimiento": "YAMON, UTCUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4119,6 +4135,7 @@
       "fechaNacimiento": "14/02/1993",
       "lugarNacimiento": "GRANADA, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4218,6 +4235,7 @@
       "fechaNacimiento": "27/06/1991",
       "lugarNacimiento": "IMAZA, BAGUA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4335,6 +4353,7 @@
       "fechaNacimiento": "30/01/2000",
       "lugarNacimiento": "IMAZA, BAGUA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4448,6 +4467,7 @@
       "fechaNacimiento": "27/12/1989",
       "lugarNacimiento": "CHACHAPOYAS, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4605,6 +4625,7 @@
       "fechaNacimiento": "16/07/1976",
       "lugarNacimiento": "BAGUA GRANDE, UTCUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4762,6 +4783,7 @@
       "fechaNacimiento": "19/05/1992",
       "lugarNacimiento": "BAGUA GRANDE, UTCUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4831,6 +4853,7 @@
       "fechaNacimiento": "29/03/1986",
       "lugarNacimiento": "BAGUA GRANDE, UTCUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5020,6 +5043,7 @@
       "fechaNacimiento": "24/05/1988",
       "lugarNacimiento": "SORITOR, MOYOBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5208,6 +5232,7 @@
       "fechaNacimiento": "18/06/2000",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5325,6 +5350,7 @@
       "fechaNacimiento": "06/12/1965",
       "lugarNacimiento": "LA PECA, BAGUA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5546,6 +5572,7 @@
       "fechaNacimiento": "23/01/1985",
       "lugarNacimiento": "BAGUA GRANDE, UTCUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5645,6 +5672,7 @@
       "fechaNacimiento": "09/03/1969",
       "lugarNacimiento": "BAGUA GRANDE, UTCUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5764,6 +5792,7 @@
       "fechaNacimiento": "20/06/1995",
       "lugarNacimiento": "NIEVA, CONDORCANQUI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5916,6 +5945,7 @@
       "fechaNacimiento": "15/12/1977",
       "lugarNacimiento": "MOLINOPAMPA, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6061,6 +6091,7 @@
       "fechaNacimiento": "27/04/1973",
       "lugarNacimiento": "ANDAMARCA, CONCEPCION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6162,6 +6193,7 @@
       "fechaNacimiento": "21/11/1987",
       "lugarNacimiento": "PUENTE PIEDRA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6290,6 +6322,7 @@
       "fechaNacimiento": "05/04/1994",
       "lugarNacimiento": "SAN JUAN DE LURIGANCHO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6352,6 +6385,7 @@
       "fechaNacimiento": "19/04/1967",
       "lugarNacimiento": "SAN NICOLAS, RODRIGUEZ DE MENDOZA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6644,6 +6678,7 @@
       "fechaNacimiento": "26/01/1977",
       "lugarNacimiento": "IMAZA, BAGUA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6747,6 +6782,7 @@
       "fechaNacimiento": "27/09/1975",
       "lugarNacimiento": "IMAZA, BAGUA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6830,6 +6866,7 @@
       "fechaNacimiento": "08/10/1984",
       "lugarNacimiento": "CAJARURO, UTCUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6977,6 +7014,7 @@
       "fechaNacimiento": "20/09/1998",
       "lugarNacimiento": "CAJARURO, UTCUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7208,6 +7246,7 @@
       "fechaNacimiento": "02/10/1999",
       "lugarNacimiento": "BAGUA GRANDE, UTCUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7374,6 +7413,7 @@
       "fechaNacimiento": "28/06/1996",
       "lugarNacimiento": "MIRAFLORES, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7509,6 +7549,7 @@
       "fechaNacimiento": "12/10/1986",
       "lugarNacimiento": "ARAMANGO, BAGUA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7604,6 +7645,7 @@
       "fechaNacimiento": "05/08/1978",
       "lugarNacimiento": "BELLAVISTA, CALLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7755,6 +7797,7 @@
       "fechaNacimiento": "02/04/1985",
       "lugarNacimiento": "HUAMBO, RODRIGUEZ DE MENDOZA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7817,6 +7860,7 @@
       "fechaNacimiento": "21/11/1962",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8346,6 +8390,7 @@
       "fechaNacimiento": "22/03/1960",
       "lugarNacimiento": "JESUS MARIA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8562,6 +8607,7 @@
       "fechaNacimiento": "16/11/1998",
       "lugarNacimiento": "LAREDO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8680,6 +8726,7 @@
       "fechaNacimiento": "17/10/1978",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8815,6 +8862,7 @@
       "fechaNacimiento": "10/04/1994",
       "lugarNacimiento": "LA ESPERANZA, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8916,6 +8964,7 @@
       "fechaNacimiento": "02/10/1981",
       "lugarNacimiento": "TOCACHE, TOCACHE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8978,6 +9027,7 @@
       "fechaNacimiento": "09/04/1989",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9132,6 +9182,7 @@
       "fechaNacimiento": "11/02/1992",
       "lugarNacimiento": "CHACHAPOYAS, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9382,6 +9433,7 @@
       "fechaNacimiento": "19/03/1973",
       "lugarNacimiento": "BAGUA GRANDE, UTCUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9444,6 +9496,7 @@
       "fechaNacimiento": "07/08/1986",
       "lugarNacimiento": "BELLAVISTA, JAEN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9725,6 +9778,7 @@
       "fechaNacimiento": "28/01/1998",
       "lugarNacimiento": "CHICLAYO, CHICLAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9805,6 +9859,7 @@
       "fechaNacimiento": "03/04/1991",
       "lugarNacimiento": "IMAZA, BAGUA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -9883,6 +9938,7 @@
       "fechaNacimiento": "15/11/1991",
       "lugarNacimiento": "CUMBA, UTCUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10048,6 +10104,7 @@
       "fechaNacimiento": "07/12/1987",
       "lugarNacimiento": "CUTERVO, CUTERVO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10196,6 +10253,7 @@
       "fechaNacimiento": "21/06/1998",
       "lugarNacimiento": "CONILA, LUYA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10274,6 +10332,7 @@
       "fechaNacimiento": "01/02/1988",
       "lugarNacimiento": "TROMPETEROS, LORETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10396,6 +10455,7 @@
       "fechaNacimiento": "07/01/1983",
       "lugarNacimiento": "BUENOS AIRES, MORROPON",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10473,6 +10533,7 @@
       "fechaNacimiento": "12/01/1996",
       "lugarNacimiento": "LA JALCA, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10535,6 +10596,7 @@
       "fechaNacimiento": "17/05/1987",
       "lugarNacimiento": "COLCAMAR, LUYA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10597,6 +10659,7 @@
       "fechaNacimiento": "03/07/2000",
       "lugarNacimiento": "CHACHAPOYAS, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10659,6 +10722,7 @@
       "fechaNacimiento": "25/06/1992",
       "lugarNacimiento": "BAGUA GRANDE, UTCUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10767,6 +10831,7 @@
       "fechaNacimiento": "14/07/1987",
       "lugarNacimiento": "JAMALCA, UTCUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -10924,6 +10989,7 @@
       "fechaNacimiento": "17/05/1978",
       "lugarNacimiento": "CAJARURO, UTCUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11041,6 +11107,7 @@
       "fechaNacimiento": "14/10/1984",
       "lugarNacimiento": "JAMALCA, UTCUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11214,6 +11281,7 @@
       "fechaNacimiento": "19/03/2000",
       "lugarNacimiento": "JAMALCA, UTCUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11288,6 +11356,7 @@
       "fechaNacimiento": "07/10/1947",
       "lugarNacimiento": "LUYA, LUYA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11436,6 +11505,7 @@
       "fechaNacimiento": "22/03/1945",
       "lugarNacimiento": "CHACHAPOYAS, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11734,6 +11804,7 @@
       "fechaNacimiento": "14/07/1961",
       "lugarNacimiento": "HUAYLLAY, PASCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -11905,6 +11976,7 @@
       "fechaNacimiento": "28/07/1987",
       "lugarNacimiento": "CHANCHAMAYO, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12128,6 +12200,7 @@
       "fechaNacimiento": "11/06/1993",
       "lugarNacimiento": "HUAMBO, RODRIGUEZ DE MENDOZA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12299,6 +12372,7 @@
       "fechaNacimiento": "27/02/1957",
       "lugarNacimiento": "CHOCOPE, ASCOPE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12633,6 +12707,7 @@
       "fechaNacimiento": "17/08/1975",
       "lugarNacimiento": "CHACHAPOYAS, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -12863,6 +12938,7 @@
       "fechaNacimiento": "06/03/1961",
       "lugarNacimiento": "HUAMBOS, CHOTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13054,6 +13130,7 @@
       "fechaNacimiento": "11/01/1978",
       "lugarNacimiento": "IMAZA, BAGUA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13143,6 +13220,7 @@
       "fechaNacimiento": "08/06/1998",
       "lugarNacimiento": "IMAZA, BAGUA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13254,6 +13332,7 @@
       "fechaNacimiento": "26/11/1993",
       "lugarNacimiento": "PUNCHANA, MAYNAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13355,6 +13434,7 @@
       "fechaNacimiento": "02/11/1964",
       "lugarNacimiento": "MAGDALENA DEL MAR, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13553,6 +13633,7 @@
       "fechaNacimiento": "12/10/1980",
       "lugarNacimiento": "BAGUA GRANDE, UTCUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -13941,6 +14022,7 @@
       "fechaNacimiento": "04/06/1996",
       "lugarNacimiento": "BELLAVISTA, CALLAO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14052,6 +14134,7 @@
       "fechaNacimiento": "05/07/1956",
       "lugarNacimiento": "EL CENEPA, CONDORCANQUI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14207,6 +14290,7 @@
       "fechaNacimiento": "14/02/1963",
       "lugarNacimiento": "LLAMA, CHOTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14292,6 +14376,7 @@
       "fechaNacimiento": "07/06/1982",
       "lugarNacimiento": "LA PECA, BAGUA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14387,6 +14472,7 @@
       "fechaNacimiento": "25/06/1980",
       "lugarNacimiento": "LA PECA, BAGUA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14516,6 +14602,7 @@
       "fechaNacimiento": "04/02/1999",
       "lugarNacimiento": "IMAZA, BAGUA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14595,6 +14682,7 @@
       "fechaNacimiento": "15/09/1982",
       "lugarNacimiento": "LONYA GRANDE, UTCUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14753,6 +14841,7 @@
       "fechaNacimiento": "16/10/1998",
       "lugarNacimiento": "EL CENEPA, CONDORCANQUI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -14853,6 +14942,7 @@
       "fechaNacimiento": "26/02/1980",
       "lugarNacimiento": "LAMBAYEQUE, LAMBAYEQUE",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15067,6 +15157,7 @@
       "fechaNacimiento": "04/10/1974",
       "lugarNacimiento": "CHANCAYBAÑOS, SANTA CRUZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15213,6 +15304,7 @@
       "fechaNacimiento": "07/03/1980",
       "lugarNacimiento": "JAEN, JAEN",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15348,6 +15440,7 @@
       "fechaNacimiento": "14/10/1971",
       "lugarNacimiento": "HUARAL, HUARAL",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15426,6 +15519,7 @@
       "fechaNacimiento": "12/06/1980",
       "lugarNacimiento": "EL AGUSTINO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -15811,6 +15905,7 @@
       "fechaNacimiento": "02/06/1968",
       "lugarNacimiento": "CUMBA, UTCUBAMBA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": false,
@@ -16105,6 +16200,7 @@
       "fechaNacimiento": "04/02/1970",
       "lugarNacimiento": "SOLOCO, CHACHAPOYAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16347,6 +16443,7 @@
       "fechaNacimiento": "08/01/1974",
       "lugarNacimiento": "EL CENEPA, CONDORCANQUI",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -16486,6 +16583,7 @@
       "fechaNacimiento": "30/03/1954",
       "lugarNacimiento": "CHORRILLOS, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,

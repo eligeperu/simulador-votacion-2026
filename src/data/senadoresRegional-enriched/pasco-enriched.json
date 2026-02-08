@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-02-07T06:32:10.552Z",
+  "fetchedAt": "2026-02-07T20:27:52.262Z",
   "idProcesoElectoral": 124,
   "count": 44,
   "data": [
@@ -15,6 +15,7 @@
       "fechaNacimiento": "18/02/1963",
       "lugarNacimiento": "SAN RAMON, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -285,6 +286,7 @@
       "fechaNacimiento": "29/05/1979",
       "lugarNacimiento": "PIURA, PIURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -512,6 +514,7 @@
       "fechaNacimiento": "24/07/1980",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -781,6 +784,7 @@
       "fechaNacimiento": "16/05/1973",
       "lugarNacimiento": "CHAUPIMARCA, PASCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1043,6 +1047,7 @@
       "fechaNacimiento": "22/03/1963",
       "lugarNacimiento": "CHAUPIMARCA, PASCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": true,
         "exGobernador": false,
@@ -1527,6 +1532,7 @@
       "fechaNacimiento": "30/05/1972",
       "lugarNacimiento": "YANACANCHA, PASCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1823,6 +1829,7 @@
       "fechaNacimiento": "02/02/1976",
       "lugarNacimiento": "OXAPAMPA, OXAPAMPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -1959,6 +1966,7 @@
       "fechaNacimiento": "29/08/1982",
       "lugarNacimiento": "YANACANCHA, PASCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": true,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2255,6 +2263,7 @@
       "fechaNacimiento": "03/08/1972",
       "lugarNacimiento": "CHAUPIMARCA, PASCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2463,6 +2472,7 @@
       "fechaNacimiento": "29/09/1973",
       "lugarNacimiento": "SAN RAMON, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2537,6 +2547,7 @@
       "fechaNacimiento": "02/11/1961",
       "lugarNacimiento": "HUANCAYO, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -2835,6 +2846,7 @@
       "fechaNacimiento": "02/03/1968",
       "lugarNacimiento": "VILLA MARIA DEL TRIUNFO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3009,6 +3021,7 @@
       "fechaNacimiento": "19/03/1978",
       "lugarNacimiento": "SIMON BOLIVAR, PASCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3061,6 +3074,7 @@
       "fechaNacimiento": "01/09/1974",
       "lugarNacimiento": "VILCABAMBA, DANIEL ALCIDES CARRION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3326,6 +3340,7 @@
       "fechaNacimiento": "04/11/1957",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3645,6 +3660,7 @@
       "fechaNacimiento": "13/01/1960",
       "lugarNacimiento": "CHAUPIMARCA, PASCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -3842,6 +3858,7 @@
       "fechaNacimiento": "13/02/1966",
       "lugarNacimiento": "YANACANCHA, PASCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4061,6 +4078,7 @@
       "fechaNacimiento": "11/09/1955",
       "lugarNacimiento": "CHAUPIMARCA, PASCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4210,6 +4228,7 @@
       "fechaNacimiento": "11/04/1973",
       "lugarNacimiento": "SIMON BOLIVAR, PASCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": true,
         "exGobernador": false,
@@ -4509,6 +4528,7 @@
       "fechaNacimiento": "16/05/1972",
       "lugarNacimiento": "CHAUPIMARCA, PASCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4643,6 +4663,7 @@
       "fechaNacimiento": "23/05/1958",
       "lugarNacimiento": "SAN ANTONIO DE CACHI, ANDAHUAYLAS",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4705,6 +4726,7 @@
       "fechaNacimiento": "20/08/1957",
       "lugarNacimiento": "HUANTA, HUANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4812,6 +4834,7 @@
       "fechaNacimiento": "12/01/1975",
       "lugarNacimiento": "AMBO, AMBO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -4928,6 +4951,7 @@
       "fechaNacimiento": "30/07/1964",
       "lugarNacimiento": "BARRANCA, BARRANCA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5105,6 +5129,7 @@
       "fechaNacimiento": "18/03/1951",
       "lugarNacimiento": "CHECRAS, HUAURA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5378,6 +5403,7 @@
       "fechaNacimiento": "21/12/1951",
       "lugarNacimiento": "PARIÑAS, TALARA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5463,6 +5489,7 @@
       "fechaNacimiento": "09/01/1965",
       "lugarNacimiento": "BULDIBUYO, PATAZ",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5599,6 +5626,7 @@
       "fechaNacimiento": "30/07/1967",
       "lugarNacimiento": "TRUJILLO, TRUJILLO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5674,6 +5702,7 @@
       "fechaNacimiento": "08/06/1975",
       "lugarNacimiento": "CHAUPIMARCA, PASCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -5871,6 +5900,7 @@
       "fechaNacimiento": "14/08/1968",
       "lugarNacimiento": "TORATA, MARISCAL NIETO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6050,6 +6080,7 @@
       "fechaNacimiento": "06/08/1964",
       "lugarNacimiento": "OXAPAMPA, OXAPAMPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6299,6 +6330,7 @@
       "fechaNacimiento": "10/04/1965",
       "lugarNacimiento": "COLCA, HUANCAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6555,6 +6587,7 @@
       "fechaNacimiento": "01/07/1979",
       "lugarNacimiento": "PUERTO BERMUDEZ, OXAPAMPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6617,6 +6650,7 @@
       "fechaNacimiento": "30/06/1972",
       "lugarNacimiento": "VILLA MARIA DEL TRIUNFO, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6751,6 +6785,7 @@
       "fechaNacimiento": "12/05/1970",
       "lugarNacimiento": "CHIMBOTE, SANTA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6842,6 +6877,7 @@
       "fechaNacimiento": "19/12/1979",
       "lugarNacimiento": "PAUCAR, DANIEL ALCIDES CARRION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6920,6 +6956,7 @@
       "fechaNacimiento": "22/09/1976",
       "lugarNacimiento": "YANAHUANCA, DANIEL ALCIDES CARRION",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -6998,6 +7035,7 @@
       "fechaNacimiento": "10/06/1964",
       "lugarNacimiento": "CHAUPIMARCA, PASCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7060,6 +7098,7 @@
       "fechaNacimiento": "01/06/1959",
       "lugarNacimiento": "SILLAPATA, DOS DE MAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7305,6 +7344,7 @@
       "fechaNacimiento": "07/12/1976",
       "lugarNacimiento": "SAN LUIS DE SHUARO, CHANCHAMAYO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7499,6 +7539,7 @@
       "fechaNacimiento": "19/08/1959",
       "lugarNacimiento": "LIMA, LIMA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7688,6 +7729,7 @@
       "fechaNacimiento": "02/08/1947",
       "lugarNacimiento": "AREQUIPA, AREQUIPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -7961,6 +8003,7 @@
       "fechaNacimiento": "14/03/1979",
       "lugarNacimiento": "OXAPAMPA, OXAPAMPA",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,
@@ -8221,6 +8264,7 @@
       "fechaNacimiento": "24/08/1975",
       "lugarNacimiento": "YANACANCHA, PASCO",
       "flags": {
+        "congresistaActual": false,
         "exCongresista": false,
         "exAlcalde": false,
         "exGobernador": false,

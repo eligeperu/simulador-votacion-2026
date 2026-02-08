@@ -109,7 +109,8 @@ function enrichCandidato(dni) {
 async function processFile(inputFile, outputFile, dniField = 'strDocumentoIdentidad') {
   console.log(`\nProcessing: ${inputFile}`);
   const raw = JSON.parse(fs.readFileSync(inputFile, 'utf8'));
-  const candidates = raw.data.filter(c => c.strEstadoCandidato === 'INSCRITO');
+  const validStates = ['INSCRITO', 'PUBLICADO PARA TACHAS', 'PUBLICADO'];
+  const candidates = raw.data.filter(c => validStates.includes(c.strEstadoCandidato));
   const dnis = [...new Set(candidates.map(c => c[dniField]))];
   
   console.log(`Found ${dnis.length} unique DNIs from ${candidates.length} inscribed candidates`);
@@ -141,9 +142,10 @@ async function processDirectory(inputDir, outputDir) {
 async function main() {
   const args = process.argv.slice(2);
   const type = args[0] || 'all';
+  const region = args[1] || null; // Optional region filter
   
   console.log('=== JNE Candidate Data Enrichment Script ===');
-  console.log(`Type: ${type}\n`);
+  console.log(`Type: ${type}${region ? `, Region: ${region}` : ''}\n`);
   
   if (type === 'presidenciales' || type === 'all') {
     // For presidenciales, we use existing DNI list
@@ -175,17 +177,25 @@ async function main() {
   }
   
   if (type === 'senadoresRegional' || type === 'all') {
-    await processDirectory(
-      path.join(DATA_DIR, 'senadoresRegional'),
-      path.join(DATA_DIR, 'senadoresRegional-enriched')
-    );
+    if (region) {
+      const inputFile = path.join(DATA_DIR, 'senadoresRegional', `${region}.json`);
+      const outputDir = path.join(DATA_DIR, 'senadoresRegional-enriched');
+      if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
+      await processFile(inputFile, path.join(outputDir, `${region}-enriched.json`));
+    } else {
+      await processDirectory(path.join(DATA_DIR, 'senadoresRegional'), path.join(DATA_DIR, 'senadoresRegional-enriched'));
+    }
   }
   
   if (type === 'diputados' || type === 'all') {
-    await processDirectory(
-      path.join(DATA_DIR, 'diputados'),
-      path.join(DATA_DIR, 'diputados-enriched')
-    );
+    if (region) {
+      const inputFile = path.join(DATA_DIR, 'diputados', `${region}.json`);
+      const outputDir = path.join(DATA_DIR, 'diputados-enriched');
+      if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
+      await processFile(inputFile, path.join(outputDir, `${region}-enriched.json`));
+    } else {
+      await processDirectory(path.join(DATA_DIR, 'diputados'), path.join(DATA_DIR, 'diputados-enriched'));
+    }
   }
   
   console.log('\n=== Done ===');
