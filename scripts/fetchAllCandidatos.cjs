@@ -69,7 +69,7 @@ function extractResumen(hoja) {
   };
 }
 
-function enrichCandidato(dni) {
+function enrichCandidato(dni, pos = null) {
   try {
     const candidato = buscarCandidato(dni);
     if (!candidato) return null;
@@ -83,6 +83,7 @@ function enrichCandidato(dni) {
       dni: general.numeroDocumento,
       idHojaVida: general.idHojaVida,
       idOrg: general.idOrganizacionPolitica,
+      pos: pos,
       nombre: `${general.nombres} ${general.apellidoPaterno} ${general.apellidoMaterno}`,
       partido: general.organizacionPolitica,
       cargo: general.cargo,
@@ -109,17 +110,18 @@ function enrichCandidato(dni) {
 async function processFile(inputFile, outputFile, dniField = 'strDocumentoIdentidad') {
   console.log(`\nProcessing: ${inputFile}`);
   const raw = JSON.parse(fs.readFileSync(inputFile, 'utf8'));
-  const validStates = ['INSCRITO', 'PUBLICADO PARA TACHAS', 'PUBLICADO'];
-  const candidates = raw.data.filter(c => validStates.includes(c.strEstadoCandidato));
-  const dnis = [...new Set(candidates.map(c => c[dniField]))];
+  const candidates = raw.data || [];
   
-  console.log(`Found ${dnis.length} unique DNIs from ${candidates.length} inscribed candidates`);
+  console.log(`Found ${candidates.length} candidates`);
   
+  // Enriquecer TODOS los candidatos, pasando la posición
   const enriched = [];
-  for (let i = 0; i < dnis.length; i++) {
-    const dni = dnis[i];
-    process.stdout.write(`\r  [${i + 1}/${dnis.length}] Fetching ${dni}...`);
-    const data = enrichCandidato(dni);
+  for (let i = 0; i < candidates.length; i++) {
+    const c = candidates[i];
+    const dni = c[dniField];
+    const pos = c.intPosicion;
+    process.stdout.write(`\r  [${i + 1}/${candidates.length}] Fetching ${dni}...`);
+    const data = enrichCandidato(dni, pos);
     if (data) enriched.push(data);
   }
   

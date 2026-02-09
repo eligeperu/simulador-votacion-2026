@@ -137,8 +137,8 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
 
     const candidatos = prefFiltrados.map(num => {
       const c = buscarCandidato(item?.idOrg, num, datos);
-      return c ? { ...c, hojaVida: `https://votoinformado.jne.gob.pe/hoja-vida/${item.idOrg}/${c.dni}` } : null;
-    }).filter(Boolean);
+      return c ? { ...c, hojaVida: `https://votoinformado.jne.gob.pe/hoja-vida/${item.idOrg}/${c.dni}`, numPref: num } : { noExiste: true, numPref: num };
+    });
 
     return { ...(item || { nombre: 'VOTO EN BLANCO', color: '#9CA3AF', siglas: '—' }), preferencial: prefFiltrados, candidatos };
   };

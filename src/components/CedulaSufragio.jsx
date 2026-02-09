@@ -1,31 +1,30 @@
 import { useState } from 'react';
 import { candidatosPresidenciales, partidosParlamentarios, JNE_LOGO } from '../data/candidatos';
-import senadoresNacionalRaw from '../data/senadoresNacional.json';
-import senadoresRegional from '../data/senadoresRegional';
+import senadoresNacionalOrig from '../data/senadoresNacional.json';
+import senadoresNacionalEnr from '../data/senadoresNacional-enriched.json';
+import senadoresRegional, { ESTADOS_VALIDOS } from '../data/senadoresRegional';
 import diputadosData from '../data/diputados';
-import parlamenAndinoRaw from '../data/parlamenAndino.json';
+import parlamenAndinoOrig from '../data/parlamenAndino.json';
+import parlamenAndinoEnr from '../data/parlamenAndino-enriched.json';
 
-// Procesar datos de senadores nacionales (filtrar INSCRITO y mapear campos)
-const senadoresNacional = senadoresNacionalRaw.data
-  .filter(c => c.strEstadoCandidato === 'INSCRITO')
-  .map(c => ({
-    idOrg: c.idOrganizacionPolitica,
-    pos: c.intPosicion,
-    nombre: `${c.strNombres} ${c.strApellidoPaterno} ${c.strApellidoMaterno}`.trim(),
-    dni: c.strDocumentoIdentidad,
-    foto: c.strGuidFoto
-  }));
+// Merge: datos originales (pos) + enriched (estado actualizado) por DNI
+const mergeDatos = (orig, enr) => {
+  const enrMap = new Map((enr.data || []).map(c => [c.dni, c]));
+  return (orig.data || []).map(c => {
+    const enriched = enrMap.get(c.strDocumentoIdentidad);
+    return {
+      idOrg: c.idOrganizacionPolitica,
+      pos: c.intPosicion,
+      nombre: enriched?.nombre || `${c.strNombres} ${c.strApellidoPaterno} ${c.strApellidoMaterno}`.trim(),
+      dni: c.strDocumentoIdentidad,
+      foto: enriched?.foto || c.strGuidFoto,
+      estado: enriched?.estado || c.strEstadoCandidato
+    };
+  });
+};
 
-// Procesar datos de parlamento andino
-const parlamenAndino = parlamenAndinoRaw.data
-  .filter(c => c.strEstadoCandidato === 'INSCRITO')
-  .map(c => ({
-    idOrg: c.idOrganizacionPolitica,
-    pos: c.intPosicion,
-    nombre: `${c.strNombres} ${c.strApellidoPaterno} ${c.strApellidoMaterno}`.trim(),
-    dni: c.strDocumentoIdentidad,
-    foto: c.strGuidFoto
-  }));
+const senadoresNacional = mergeDatos(senadoresNacionalOrig, senadoresNacionalEnr);
+const parlamenAndino = mergeDatos(parlamenAndinoOrig, parlamenAndinoEnr);
 
 // Función para buscar candidato por partido y número de posición
 const buscarCandidato = (idOrg, posicion, datos) => {
@@ -143,21 +142,41 @@ const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto,
         </div>
       </div>
       <div className="shrink-0 flex gap-1 items-center">
-        {voto.preferencial.slice(0, numPreferencial).map((val, i) => (
-          <div key={i} className="relative w-9 h-9 sm:w-10 sm:h-10 border border-black bg-white flex items-center justify-center">
-            {selected ? (
-              <input
-                type="text"
-                value={val}
-                onChange={(e) => onVotoPreferencial(categoria, i, e.target.value)}
-                className="w-full h-full text-center text-sm font-bold border-none focus:ring-0 p-0"
-                maxLength={3}
-              />
-            ) : (
-              <div className="w-full h-full bg-gray-100/50 cursor-not-allowed" />
-            )}
-          </div>
-        ))}
+        {voto.preferencial.slice(0, numPreferencial).map((val, i) => {
+          const candidato = selected && val ? buscarCandidato(partido.idOrg, val, getDatosCandidatos()) : null;
+          const esValido = candidato && ESTADOS_VALIDOS.includes(candidato.estado);
+          const enProceso = candidato && ['ADMITIDO', 'EN PROCESO DE TACHAS', 'PUBLICADO PARA TACHAS'].includes(candidato.estado);
+          const esRechazado = candidato && !esValido && !enProceso;
+          const getBorderClass = () => {
+            if (!selected) return 'border-black';
+            if (esValido && !enProceso) return 'border-green-500 border-2';
+            if (enProceso) return 'border-amber-500 border-2';
+            if (esRechazado) return 'border-red-500 border-2';
+            return 'border-black';
+          };
+          const getLabelClass = () => {
+            if (esValido && !enProceso) return 'bg-green-100 text-green-800';
+            if (enProceso) return 'bg-amber-100 text-amber-700';
+            return 'bg-red-100 text-red-700';
+          };
+          return (
+            <div key={i} className="relative">
+              <div className={`w-9 h-9 sm:w-10 sm:h-10 border bg-white flex items-center justify-center ${getBorderClass()}`}>
+                {selected ? (
+                  <input
+                    type="text"
+                    value={val}
+                    onChange={(e) => onVotoPreferencial(categoria, i, e.target.value)}
+                    className="w-full h-full text-center text-sm font-bold border-none focus:ring-0 p-0"
+                    maxLength={3}
+                  />
+                ) : (
+                  <div className="w-full h-full bg-gray-100/50 cursor-not-allowed" />
+                )}
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
