@@ -25,20 +25,22 @@ const normalizeName = (str) => {
 };
 
 // Helper para fusionar datos originales con enriquecidos
+const ESTADOS_VALIDOS = ['INSCRITO', 'PUBLICADO PARA TACHAS', 'PUBLICADO'];
+const ESTADOS_EN_PROCESO = ['ADMITIDO', 'EN PROCESO DE TACHAS', 'PUBLICADO PARA TACHAS', 'PUBLICADO'];
 const fusionarDatos = (raw, enrich) => {
   const data = raw.data || raw;
   const enrichList = enrich.data || enrich;
   const enrichedMap = new Map((Array.isArray(enrichList) ? enrichList : []).map(e => [e.dni, e.flags]));
 
   return (Array.isArray(data) ? data : [])
-    .filter(c => c.strEstadoCandidato === 'INSCRITO')
     .map(c => ({
       idOrg: c.idOrganizacionPolitica,
       pos: c.intPosicion,
       nombre: `${c.strNombres} ${c.strApellidoPaterno} ${c.strApellidoMaterno}`.trim(),
       dni: c.strDocumentoIdentidad,
-      foto: c.strGuidFoto,
+      foto: c.strNombre || c.strGuidFoto,
       sexo: c.strSexo,
+      estado: c.strEstadoCandidato,
       flags: enrichedMap.get(c.strDocumentoIdentidad) || {
         sentenciaPenal: false,
         sentenciaPenalDetalle: [],
@@ -109,7 +111,8 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
     return {
       ...(base || { nombre: 'VOTO EN BLANCO', color: '#9CA3AF', siglas: '—' }),
       sexo: esFemenino ? 'FEMENINO' : 'MASCULINO',
-      flags: enriched?.flags || { sentenciaPenal: false, sentenciaObliga: false }
+      flags: enriched?.flags || { sentenciaPenal: false, sentenciaObliga: false },
+      hojaVida: base?.idOrg && base?.dni ? `https://votoinformado.jne.gob.pe/hoja-vida/${base.idOrg}/${base.dni}` : null
     };
   };
 
@@ -238,7 +241,7 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
             <div key={i} className="flex flex-col gap-1">
               <div className="flex items-center gap-2">
                 <img
-                  src={c.foto?.startsWith('http') ? c.foto : `${JNE_FOTO}${c.foto}.jpg`}
+                  src={c.foto?.startsWith('http') ? c.foto : `${JNE_FOTO}${c.foto}`}
                   alt={c.nombre}
                   className="w-6 h-6 rounded-full object-cover shrink-0"
                   onError={(e) => { e.target.style.display = 'none'; }}
@@ -255,6 +258,29 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
                   </a>
                 </div>
               </div>
+              {c.estado && c.estado !== 'INSCRITO' && (() => {
+                const enProceso = ESTADOS_EN_PROCESO.includes(c.estado);
+                const esRechazado = !ESTADOS_VALIDOS.includes(c.estado) && !enProceso;
+                if (esRechazado) return (
+                  <div className="bg-red-50 border-l-4 border-red-600 p-2 rounded-r-md shadow-sm">
+                    <div className="flex items-center gap-2">
+                      <span className="text-red-600 text-xs">⚠</span>
+                      <span className="text-[10px] font-semibold text-red-800 uppercase">CANDIDATURA NO VÁLIDA</span>
+                    </div>
+                    <p className="text-[10px] text-gray-700 mt-1 ml-5">Estado: {c.estado}. Tu voto preferencial no será contado.</p>
+                  </div>
+                );
+                if (enProceso && c.estado !== 'INSCRITO') return (
+                  <div className="bg-amber-50 border-l-4 border-amber-500 p-2 rounded-r-md shadow-sm">
+                    <div className="flex items-center gap-2">
+                      <span className="text-amber-600 text-xs">⚠</span>
+                      <span className="text-[10px] font-semibold text-amber-800 uppercase">CANDIDATURA EN PROCESO</span>
+                    </div>
+                    <p className="text-[10px] text-gray-700 mt-1 ml-5">{c.estado === 'PUBLICADO PARA TACHAS' ? 'Abierto a tachas ciudadanas' : 'Pendiente de inscripción'}. Tu voto podría no contar.</p>
+                  </div>
+                );
+                return null;
+              })()}
               <JudicialAlert
                 sentenciaPenal={c.flags?.sentenciaPenal}
                 sentenciaPenalDetalle={c.flags?.sentenciaPenalDetalle}
