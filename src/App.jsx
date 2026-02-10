@@ -35,12 +35,12 @@ function App() {
         </div>
       </header>
 
-      <div className="flex gap-4 max-w-[1600px] mx-auto">
-        <div className="flex-1">
+      <div className="flex flex-col lg:flex-row gap-6 max-w-[1600px] mx-auto items-start">
+        <div className="flex-1 w-full lg:min-w-0 overflow-x-auto">
           <CedulaSufragio onVotoCompleto={handleVotoCompleto} regionSeleccionada={regionSeleccionada} />
         </div>
 
-        <div className="hidden xl:block w-80 shrink-0">
+        <div className="hidden lg:block w-80 shrink-0 sticky top-4 auto-rows-min">
           <ResumenVoto votos={votos} onReset={handleReset} regionSeleccionada={regionSeleccionada} />
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AlertTriangle = () => (
+const AlertTriangle = ({ className }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
         width="12"
@@ -11,7 +11,7 @@ const AlertTriangle = () => (
         strokeWidth="2.5"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className="text-amber-600 shrink-0"
+        className={`shrink-0 ${className}`}
     >
         <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z" />
         <path d="M12 9v4" />
@@ -64,90 +64,155 @@ const CORRECCIONES_TEXTO = {
     "CONDUCCION EN ESTA DE EBRIEDAD": "PELIGRO COMÚN",
     "CONDUCCION EN ESTADO DE EBRIEDAD": "PELIGRO COMÚN",
     "CONDUCCIÓN EN ESTADO DE EBRIEDAD": "PELIGRO COMÚN",
-    "PELIGRO COMUN - CONDUCCION EN ESTADO DE EBRIEDAD": "PELIGRO COMÚN"
+    "PELIGRO COMUN - CONDUCCION EN ESTADO DE EBRIEDAD": "PELIGRO COMÚN",
+    "MUJES": "MUJERES",
+    "AGRECIONES": "AGRESIONES",
+    "AGRESION": "AGRESIONES",
+    "FRAUDE EN LA ADM. DE LAS PERSONAS JURIDICAS": "FRAUDE EN LA ADMINISTRACIÓN DE PERSONAS JURÍDICAS",
+    "FRAUDE EN LA ADM. DE PERSONAS JURIDICAS": "FRAUDE EN LA ADMINISTRACIÓN DE PERSONAS JURÍDICAS",
+    "FRAUDE EN LA ADM": "FRAUDE EN LA ADMINISTRACIÓN DE PERSONAS JURÍDICAS"
 };
 
 const EXPLICACION_DELITOS = {
-    "PECULADO": "robar dinero o bienes del estado",
-    "COLUSIÓN": "ponerse de acuerdo con empresas para defraudar al estado",
-    "NEGOCIACIÓN INCOMPATIBLE": "usar su cargo público para beneficiar sus propios negocios",
-    "MALVERSACIÓN DE FONDOS": "gastar el dinero público en cosas distintas a las legales",
-    "COHECHO": "recibir sobornos para favorecer a terceros",
-    "TRAFICO DE INFLUENCIAS": "usar su poder para beneficiar a familiares o amigos",
-    "LAVADO DE ACTIVOS": "ocultar dinero obtenido de actividades ilegales",
-    "ESTELIONATO": "vender o empeñar propiedades que no le pertenecen (fraude)",
-    "USURPACIÓN": "quitarle tierras o casas a otras personas de forma ilegal",
-    "ENRIQUECIMIENTO ILICITO": "tener dinero que no puede justificar con su salario",
-    "CONCUSIÓN": "cobrar dinero ilegalmente abusando de su cargo",
-    "FALSEDAD GENERICA": "mentir en documentos o declaraciones oficiales",
-    "FALSEDAD IDEOLÓGICA": "poner información falsa en documentos oficiales",
-    "REBELIÓN": "levantarse en armas contra la constitución y el estado",
-    "AGRESIONES EN CONTRA DE LAS MUJERES O INTEGRANTES DEL GRUPO FAMILIAR": "golpear o violentar a su pareja o familia",
-    "OMISIÓN DE ASISTENCIA FAMILIAR": "negarse a pagar la pensión de alimentos de sus hijos",
-    "PELIGRO COMÚN": "conducir ebrio o poner en riesgo la vida de terceros",
-    "ABANDONO DE DESTINO": "abandonar su puesto de servicio militar o policial sin permiso",
-    "CONTRA LOS MEDIOS DE TRANSPORTE": "dañar o bloquear el transporte público o las carreteras",
-    "ESTAFA": "engañar a otros para quitarles su dinero o bienes",
-    "LESIONES": "causar daño físico o heridas a otra persona",
-    "DIFAMACIÓN": "inventar mentiras para dañar la reputación de alguien"
+    "PECULADO": "robar dinero de los ciudadanos (corrupción)",
+    "PECULADO DOLOSO": "robar intencionalmente dinero de los ciudadanos (corrupción)",
+    "PECULADO CULPOSO": "permitir el robo de fondos públicos por negligencia inexcusable (corrupción)",
+    "PECULADO POR EXTENSIÓN": "actuar como cómplice en el robo de fondos del estado (corrupción)",
+    "PECULADO DE EXTENSIÓN": "actuar como cómplice en el robo de fondos del estado (corrupción)",
+    "COLUSIÓN": "pactar ilegalmente con empresas para defraudar al estado (corrupción)",
+    "NEGOCIACIÓN INCOMPATIBLE": "usar su cargo para favorecer sus propios negocios (corrupción)",
+    "MALVERSACIÓN DE FONDOS": "desviar dinero público a fines ilegales (corrupción)",
+    "COHECHO": "recibir sobornos para favorecer a terceros (corrupción)",
+    "TRAFICO DE INFLUENCIAS": "vender favores para beneficiar a terceros (corrupción)",
+    "LAVADO DE ACTIVOS": "blanquear u ocultar dinero ilegal",
+    "ESTELIONATO": "vender o empeñar propiedades ajenas mediante engaño",
+    "USURPACIÓN": "arrebatar tierras o casas de forma ilegal",
+    "ENRIQUECIMIENTO ILICITO": "tener un patrimonio injustificable (corrupción)",
+    "CONCUSIÓN": "exigir cobros ilegales abusando de su cargo (corrupción)",
+    "FALSEDAD GENERICA": "mentir o engañar en declaraciones oficiales",
+    "FALSEDAD IDEOLÓGICA": "insertar información falsa en documentos públicos",
+    "REBELIÓN": "alzarse en armas contra la constitución",
+    "AGRESIONES EN CONTRA DE LAS MUJERES O INTEGRANTES DEL GRUPO FAMILIAR": "agredir a mujeres o integrantes del grupo familiar",
+    "OMISIÓN DE ASISTENCIA FAMILIAR": "no pagar la pensión de alimentos",
+    "PELIGRO COMÚN": "conducir ebrio poniendo en riesgo la vida de otros",
+    "ABANDONO DE DESTINO": "desertar de su puesto de servicio",
+    "CONTRA LOS MEDIOS DE TRANSPORTE": "atacar o bloquear el transporte público",
+    "CONTRA EL PATRIMONIO": "atentar contra la propiedad y el patrimonio",
+    "FRAUDE EN LA ADMINISTRACIÓN DE PERSONAS JURÍDICAS": "perpetrar fraude en la administración de empresas o entes jurídicos (corrupción)",
+    "ESTAFA": "ejecutar estafas para apoderarse de dinero o bienes ajenos"
 };
 
-const JudicialAlert = ({ sentenciaPenal, sentenciaPenalDetalle = [], sexo = 'MASCULINO' }) => {
-    if (!sentenciaPenal) return null;
+const EXPLICACION_CIVILES = {
+    "FAMILIA / ALIMENTARIA": "no cumplir con el deber familiar de alimentos",
+    "LABORAL": "no pagar deudas laborales a sus trabajadores",
+    "CIVIL": "incumplimiento inexcusable de deudas",
+    "CONTRACTUAL": "no respetar sus compromisos o contratos",
+    "INDEMNIZACIÓN": "negarse a pagar reparaciones económicas ordenadas por ley"
+};
+
+const JudicialAlert = ({
+    sentenciaPenal,
+    sentenciaPenalDetalle = [],
+    sentenciaObliga,
+    sentenciaObligaDetalle = [],
+    sexo = 'MASCULINO'
+}) => {
+    if (!sentenciaPenal && !sentenciaObliga) return null;
 
     const esFemenino = sexo === 'FEMENINO';
 
-    const delitosRaw = (sentenciaPenalDetalle || []).flatMap(d => {
-        const text = (d.txDelitoPenal || d.txMateriaSentencia || "").toUpperCase().trim();
-        return text.split(/[,.;]|\sY\s/).map(part => part.trim()).filter(Boolean);
-    });
+    const renderSegment = (titulo, detalles, mapping, theme, esPenal = true) => {
+        if (!detalles || detalles.length === 0) return null;
 
-    const delitosProcesados = Array.from(new Set(delitosRaw)).map(original => {
-        const corregido = CORRECCIONES_TEXTO[original] || original;
-        const explicacion = EXPLICACION_DELITOS[corregido];
+        const itemsRaw = detalles.flatMap(d => {
+            const text = (esPenal ? d.txDelitoPenal : (d.txMateriaSentencia || d.txFalloObliga) || "").toUpperCase().trim();
+            // Evitamos separar por puntos para no romper abreviaturas como "ADM."
+            return text.split(/[,;]|\sY\s/).map(part => part.trim()).filter(Boolean);
+        });
 
-        const resultado = explicacion || corregido.toLowerCase();
-        return capitalizeFirst(ajustarGenero(resultado, esFemenino));
-    }).filter(Boolean);
+        const itemsProcesados = Array.from(new Set(itemsRaw)).map(original => {
+            const corregido = CORRECCIONES_TEXTO[original] || original;
 
-    return (
-        <div className="bg-amber-50 border-l-4 border-amber-600 p-2 mt-1 rounded-r-md shadow-sm">
-            <div className="flex flex-col gap-1">
-                {/* Header: Icon + Title */}
-                <div className="flex items-center gap-2">
-                    <div className="w-3 flex justify-center shrink-0">
-                        <AlertTriangle />
-                    </div>
-                    <span className="text-[10px] font-semibold text-amber-800 uppercase leading-none">
-                        {esFemenino ? "SENTENCIADA PENALMENTE POR:" : "SENTENCIADO PENALMENTE POR:"}
-                    </span>
-                </div>
+            let explicacion = mapping[corregido];
 
-                {/* Crimes List: Bullet (aligned with icon) + Text (aligned with title) */}
+            // Fuzzy match para tipos de PECULADO y AGRESIONES
+            if (esPenal && !explicacion) {
+                const upperC = corregido.toUpperCase();
+
+                // Prioridad a peculados específicos
+                if (upperC.includes("PECULADO DOLOSO")) {
+                    explicacion = EXPLICACION_DELITOS["PECULADO DOLOSO"];
+                } else if (upperC.includes("PECULADO CULPOSO")) {
+                    explicacion = EXPLICACION_DELITOS["PECULADO CULPOSO"];
+                } else if (upperC.includes("PECULADO POR EXTENSIÓN") || upperC.includes("PECULADO DE EXTENSIÓN")) {
+                    explicacion = EXPLICACION_DELITOS["PECULADO POR EXTENSIÓN"];
+                } else if (upperC.includes("PECULADO")) {
+                    explicacion = EXPLICACION_DELITOS["PECULADO"];
+                } else if (upperC.includes("AGRESIONES") || upperC.includes("AGREDIR") || upperC.includes("MUJERES") || upperC.includes("MUJES")) {
+                    explicacion = EXPLICACION_DELITOS["AGRESIONES EN CONTRA DE LAS MUJERES O INTEGRANTES DEL GRUPO FAMILIAR"];
+                }
+            }
+
+            const resultado = explicacion || corregido.toLowerCase();
+            return capitalizeFirst(ajustarGenero(resultado, esFemenino));
+        }).filter(Boolean);
+
+        const { bg, border, text, bullet, icon } = theme;
+
+        return (
+            <div className={`${bg} border-l-4 ${border} p-2 rounded-r-md shadow-sm`}>
                 <div className="flex flex-col gap-1">
-                    {delitosProcesados.length > 0 ? (
-                        delitosProcesados.map((delito, idx) => (
+                    {/* Header: Icon + Title */}
+                    <div className="flex items-center gap-2">
+                        <div className="w-3 flex justify-center shrink-0">
+                            <AlertTriangle className={icon} />
+                        </div>
+                        <span className={`text-[8.5px] font-bold ${text} uppercase leading-none`}>
+                            {titulo}
+                        </span>
+                    </div>
+
+                    {/* List: Bullet + Text */}
+                    <div className="flex flex-col gap-1">
+                        {itemsProcesados.map((item, idx) => (
                             <div key={idx} className="flex items-start gap-2">
-                                <div className="w-3 flex justify-center shrink-0 mt-0.5">
-                                    <span className="text-[10px] text-amber-600 font-bold">•</span>
+                                <div className="w-3 flex justify-center shrink-0 mt-[1px]">
+                                    <span className={`text-[10px] ${bullet} font-bold leading-none`}>•</span>
                                 </div>
                                 <span className="text-[10px] font-medium text-gray-700 leading-tight">
-                                    {delito}
+                                    {item}
                                 </span>
                             </div>
-                        ))
-                    ) : (
-                        <div className="flex items-start gap-2">
-                            <div className="w-3 flex justify-center shrink-0 mt-0.5">
-                                <span className="text-[10px] text-amber-600 font-bold">•</span>
-                            </div>
-                            <span className="text-[10px] font-medium text-gray-700 leading-tight">
-                                {esFemenino ? "Sentencias penales registradas" : "Sentencias penales registradas"}
-                            </span>
-                        </div>
-                    )}
+                        ))}
+                    </div>
                 </div>
             </div>
+        );
+    };
+
+    const penalTheme = {
+        bg: 'bg-red-50',
+        border: 'border-red-600',
+        text: 'text-red-800',
+        bullet: 'text-red-600',
+        icon: 'text-red-600'
+    };
+
+    const civilTheme = {
+        bg: 'bg-amber-50',
+        border: 'border-amber-600',
+        text: 'text-amber-800',
+        bullet: 'text-amber-600',
+        icon: 'text-amber-600'
+    };
+
+    const tituloPenal = esFemenino ? "SENTENCIADA PENALMENTE POR:" : "SENTENCIADO PENALMENTE POR:";
+    const tituloCivil = esFemenino ? "SENTENCIADA EN DEMANDAS CIVILES POR:" : "SENTENCIADO EN DEMANDAS CIVILES POR:";
+
+    return (
+        <div className="space-y-1.5 mt-1">
+            {sentenciaPenal && renderSegment(tituloPenal, sentenciaPenalDetalle, EXPLICACION_DELITOS, penalTheme, true)}
+            {sentenciaObliga && renderSegment(tituloCivil, sentenciaObligaDetalle, EXPLICACION_CIVILES, civilTheme, false)}
         </div>
     );
 };

@@ -45,10 +45,10 @@ const TABS = [
 const CandidatoCard = ({ candidato, selected, onClick }) => (
   <div
     onClick={onClick}
-    className={`flex items-center gap-2 p-1.5 border-b border-gray-300 min-h-[50px] cursor-pointer bg-white transition-opacity hover:opacity-90 min-w-full`}
+    className={`flex items-center gap-[10px] p-[10px] border-b border-gray-300 min-h-[50px] cursor-pointer bg-white transition-opacity hover:opacity-90`}
   >
-    <div className="flex-1 text-left lg:max-w-[76px]">
-      <h3 className="font-bold text-[9px] sm:text-[10px] uppercase leading-tight text-black break-words pr-1">
+    <div className="w-[76px] text-left shrink-0">
+      <h3 className="font-bold text-[9px] sm:text-[10px] uppercase leading-tight text-black break-words">
         {candidato.partido}
       </h3>
     </div>
@@ -108,12 +108,12 @@ const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto,
   };
 
   return (
-    <div className={`flex items-center gap-2 p-1.5 border-b border-gray-300 min-h-[50px] bg-white transition-opacity hover:opacity-90 min-w-full`}>
+    <div className={`flex items-center gap-[10px] p-[10px] border-b border-gray-300 min-h-[50px] bg-white transition-opacity hover:opacity-90`}>
       <div
-        className="flex-1 text-left cursor-pointer lg:max-w-[76px]"
+        className="w-[76px] text-left cursor-pointer shrink-0"
         onClick={() => onVotoPartido(categoria, partido.id)}
       >
-        <h3 className="font-bold text-[9px] sm:text-[10px] uppercase leading-tight text-black break-words pr-2">
+        <h3 className="font-bold text-[9px] sm:text-[10px] uppercase leading-tight text-black break-words">
           {partido.nombre}
         </h3>
       </div>
@@ -141,7 +141,7 @@ const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto,
           )}
         </div>
       </div>
-      <div className="shrink-0 flex gap-1 items-center">
+      <div className="shrink-0 flex gap-[10px] items-center">
         {voto.preferencial.slice(0, numPreferencial).map((val, i) => {
           const candidato = selected && val ? buscarCandidato(partido.idOrg, val, getDatosCandidatos()) : null;
           const esValido = candidato && ESTADOS_VALIDOS.includes(candidato.estado);
@@ -153,11 +153,6 @@ const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto,
             if (enProceso) return 'border-amber-500 border-2';
             if (esRechazado) return 'border-red-500 border-2';
             return 'border-black';
-          };
-          const getLabelClass = () => {
-            if (esValido && !enProceso) return 'bg-green-100 text-green-800';
-            if (enProceso) return 'bg-amber-100 text-amber-700';
-            return 'bg-red-100 text-red-700';
           };
           return (
             <div key={i} className="relative">
@@ -232,27 +227,27 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
   };
 
   const renderColumnaContent = (categoria, titulo, subtitulo, numPref) => (
-      <div className="flex flex-col h-full">
-        <ColumnaHeader titulo={titulo} subtitulo={subtitulo} numPref={numPref} />
-        <div className="p-2 flex-1 overflow-x-auto lg:overflow-y-auto lg:max-h-[600px]">
-          <div className="flex flex-col min-w-full w-max space-y-1">
-            {categoria === 'presidente' ? (
-              candidatosPresidenciales.map((c) => (
-                <CandidatoCard key={c.id} candidato={c} selected={votos.presidente === c.id} onClick={() => handleVotoPresidente(c.id)} />
-              ))
-            ) : (
-              partidosParlamentarios.map((p) => (
-                <PartidoCardConPreferencial key={p.id} partido={p} categoria={categoria} numPreferencial={numPref ? parseInt(numPref) : 2} voto={votos[categoria]} regionSeleccionada={regionSeleccionada} onVotoPartido={handleVotoPartido} onVotoPreferencial={handleVotoPreferencial} />
-              ))
-            )}
-          </div>
+    <div className="flex flex-col h-full w-fit">
+      <ColumnaHeader titulo={titulo} subtitulo={subtitulo} />
+      <div className="flex-1 lg:overflow-y-auto lg:max-h-[600px]">
+        <div className="flex flex-col space-y-1 w-fit">
+          {categoria === 'presidente' ? (
+            candidatosPresidenciales.map((c) => (
+              <CandidatoCard key={c.id} candidato={c} selected={votos.presidente === c.id} onClick={() => handleVotoPresidente(c.id)} />
+            ))
+          ) : (
+            partidosParlamentarios.map((p) => (
+              <PartidoCardConPreferencial key={p.id} partido={p} categoria={categoria} numPreferencial={numPref ? parseInt(numPref) : 2} voto={votos[categoria]} regionSeleccionada={regionSeleccionada} onVotoPartido={handleVotoPartido} onVotoPreferencial={handleVotoPreferencial} />
+            ))
+          )}
         </div>
       </div>
+    </div>
   );
 
   return (
-    <div className="bg-white shadow-2xl rounded-lg overflow-hidden max-w-7xl mx-auto">
-      <div className="bg-slate-800 text-white p-3 text-center">
+    <div className="bg-white shadow-2xl rounded-lg mx-auto w-fit min-w-full">
+      <div className="bg-slate-800 text-white p-3 text-center rounded-t-lg">
         <h1 className="text-xl font-semibold">CÉDULA DE SUFRAGIO</h1>
         <p className="text-sm text-slate-300">Elecciones Generales 2026 • 12 de abril</p>
       </div>
@@ -281,26 +276,26 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
         </div>
       </div>
 
-      {/* Desktop: Grid con columnas proporcionales (2 cuadros vs 3 cuadros) */}
-      <div className="hidden lg:grid grid-cols-[2fr_3fr_2fr_3fr_3fr] divide-x divide-gray-300">
-        <div className="flex flex-col">
+      {/* Desktop: 5 columnas tácticas con ancho dinámico (Margen 10px, simetría perfecta inicio/final, cero scroll interno) */}
+      <div className="hidden lg:flex divide-x divide-gray-300 overflow-visible w-max">
+        <div className="flex flex-col w-fit shrink-0 border-l border-gray-300 first:border-l-0">
           {renderColumnaContent('presidente', 'PRESIDENTE', 'y Vicepresidentes', null)}
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col w-fit shrink-0">
           {renderColumnaContent('senadoresNacional', 'SENADORES', 'Distrito Nacional', '2 opcionales')}
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col w-fit shrink-0">
           {renderColumnaContent('senadoresRegional', 'SENADORES', 'Distrito Regional', '1 opcional')}
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col w-fit shrink-0">
           {renderColumnaContent('diputados', 'DIPUTADOS', 'Distrito Regional', '2 opcionales')}
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col w-fit shrink-0">
           {renderColumnaContent('parlamenAndino', 'PARLAMENTO', 'Andino', '2 opcionales')}
         </div>
       </div>
 
-      <div className="bg-gray-100 p-3 text-center border-t">
+      <div className="bg-gray-100 p-3 text-center border-t rounded-b-lg">
         <p className="text-xs text-gray-600">
           Marque con una X o ✓ el partido de su preferencia. El voto preferencial es <strong>opcional</strong>: escriba el número del candidato.
         </p>

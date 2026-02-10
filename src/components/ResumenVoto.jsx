@@ -21,7 +21,7 @@ const normalizeName = (str) => {
   // Solo normalizamos si viene todo en mayúsculas (como los datos del JNE)
   if (str !== str.toUpperCase()) return str;
 
-  return str.toLowerCase().replace(/\b\w/g, s => s.toUpperCase());
+  return str.toLowerCase().replace(/(?:^|\s)\S/g, s => s.toUpperCase());
 };
 
 // Helper para fusionar datos originales con enriquecidos
@@ -224,6 +224,8 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
             <JudicialAlert
               sentenciaPenal={seleccion.flags?.sentenciaPenal}
               sentenciaPenalDetalle={seleccion.flags?.sentenciaPenalDetalle}
+              sentenciaObliga={seleccion.flags?.sentenciaObliga}
+              sentenciaObligaDetalle={seleccion.flags?.sentenciaObligaDetalle}
               sexo={seleccion.sexo}
             />
           </div>
@@ -256,6 +258,8 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
               <JudicialAlert
                 sentenciaPenal={c.flags?.sentenciaPenal}
                 sentenciaPenalDetalle={c.flags?.sentenciaPenalDetalle}
+                sentenciaObliga={c.flags?.sentenciaObliga}
+                sentenciaObligaDetalle={c.flags?.sentenciaObligaDetalle}
                 sexo={c.sexo}
               />
             </div>
