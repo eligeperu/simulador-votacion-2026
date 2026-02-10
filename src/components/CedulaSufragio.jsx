@@ -17,8 +17,8 @@ const mergeDatos = (orig, enr) => {
       pos: c.intPosicion,
       nombre: enriched?.nombre || `${c.strNombres} ${c.strApellidoPaterno} ${c.strApellidoMaterno}`.trim(),
       dni: c.strDocumentoIdentidad,
-      foto: enriched?.foto || c.strGuidFoto,
-      estado: enriched?.estado || c.strEstadoCandidato
+      foto: enriched?.foto || c.strNombre || c.strGuidFoto,
+      estado: enriched?.estado ?? c.strEstadoCandidato
     };
   });
 };
@@ -149,15 +149,9 @@ const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto,
           const esRechazado = candidato && !esValido && !enProceso;
           const getBorderClass = () => {
             if (!selected) return 'border-black';
-            if (esValido && !enProceso) return 'border-green-500 border-2';
             if (enProceso) return 'border-amber-500 border-2';
             if (esRechazado) return 'border-red-500 border-2';
             return 'border-black';
-          };
-          const getLabelClass = () => {
-            if (esValido && !enProceso) return 'bg-green-100 text-green-800';
-            if (enProceso) return 'bg-amber-100 text-amber-700';
-            return 'bg-red-100 text-red-700';
           };
           return (
             <div key={i} className="relative">
@@ -268,7 +262,7 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
                 }`}
             >
               {tab.short}
-              {getVotoIndicator(tab.id) && <span className="ml-1 text-green-600">✓</span>}
+              {getVotoIndicator(tab.id) && <span className="ml-1 text-slate-700">✓</span>}
             </button>
           ))}
         </div>

@@ -70,8 +70,8 @@ const procesar = (orig, enr) => {
       pos: c.intPosicion,
       nombre: enriched?.nombre || `${c.strNombres} ${c.strApellidoPaterno} ${c.strApellidoMaterno}`.trim(),
       dni: c.strDocumentoIdentidad,
-      foto: enriched?.foto || c.strGuidFoto,
-      estado: enriched?.estado || c.strEstadoCandidato
+      foto: enriched?.foto || c.strNombre || c.strGuidFoto,
+      estado: enriched?.estado ?? c.strEstadoCandidato
     };
   });
 };
