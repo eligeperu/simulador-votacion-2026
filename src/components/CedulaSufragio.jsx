@@ -289,7 +289,7 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
   );
 
   return (
-    <div className="bg-white shadow-2xl rounded-lg mx-auto w-fit min-w-full">
+    <div className="bg-white shadow-2xl rounded-lg mx-auto">
       <div className="bg-slate-800 text-white p-3 text-center rounded-t-lg">
         <h1 className="text-xl font-semibold">CÉDULA DE SUFRAGIO</h1>
         <p className="text-sm text-slate-300">Elecciones Generales 2026 • 12 de abril</p>
