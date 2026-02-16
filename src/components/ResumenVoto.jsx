@@ -77,8 +77,12 @@ const diputadosData = Object.fromEntries(
   ])
 );
 
-// El procesamiento de presidencialesList ya no es necesario ya que usamos candidatosPresidenciales directamente
-const presidencialesList = [];
+// Lookup de votos pro-crimen por DNI (para cruzar con presidenciales)
+const proCrimenByDni = new Map();
+const senadoresNacEnrich = senadoresNacionalEnrich.data || senadoresNacionalEnrich;
+(Array.isArray(senadoresNacEnrich) ? senadoresNacEnrich : []).forEach(e => {
+  if (e.votosCongresoProCrimen) proCrimenByDni.set(e.dni, { votos: e.votosCongresoProCrimen, slug: e.porestosnoSlug });
+});
 
 // Buscar candidato por partido y posición
 const buscarCandidato = (idOrg, posicion, datos) => {
@@ -102,10 +106,13 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
     // Detección simple de género para presidenciales basándose en nombres comunes o Keiko
     const esFemenino = base?.nombre?.includes('KEIKO') || base?.nombre?.includes('BEATRIZ') || base?.nombre?.includes('VERONIKA') || base?.nombre?.includes('MARIA');
 
+    const proCrimen = base?.dni ? proCrimenByDni.get(base.dni) : null;
     return {
       ...(base || { nombre: 'VOTO EN BLANCO', color: '#9CA3AF', siglas: '—' }),
       sexo: esFemenino ? 'FEMENINO' : 'MASCULINO',
       flags: base?.flags || { sentenciaPenal: false, sentenciaObliga: false },
+      votosProCrimen: proCrimen?.votos || null,
+      porestosnoSlug: proCrimen?.slug || null,
       hojaVida: base?.idOrg && base?.dni ? `https://votoinformado.jne.gob.pe/hoja-vida/${base.idOrg}/${base.dni}` : null
     };
   };
@@ -169,25 +176,25 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
   };
 
   const ResumenItem = ({ titulo, seleccion, compact = false }) => (
-    <div className={`${compact ? 'p-2' : 'p-3'} bg-white rounded-lg shadow-sm border border-slate-100`}>
-      <div className="flex items-center gap-2">
+    <div className={`${compact ? 'p-2.5' : 'p-3'} bg-white rounded-lg shadow-sm border border-slate-100`}>
+      <div className="flex items-center gap-3">
         {seleccion.idOrg ? (
           <img
             src={`${JNE_LOGO}${seleccion.idOrg}`}
             alt={seleccion.siglas}
-            className={`${compact ? 'w-8 h-8' : 'w-10 h-10'} rounded-full object-contain shrink-0 bg-white border border-slate-200`}
+            className={`${compact ? 'w-9 h-9' : 'w-10 h-10'} rounded-full object-contain shrink-0 bg-white border border-slate-200`}
             onError={(e) => { e.target.style.display = 'none'; e.target.nextSibling.style.display = 'flex'; }}
           />
         ) : null}
         <div
-          className={`${compact ? 'w-8 h-8 text-[10px]' : 'w-10 h-10 text-xs'} rounded-full items-center justify-center text-white font-bold shrink-0 ${seleccion.idOrg ? 'hidden' : 'flex'}`}
+          className={`${compact ? 'w-9 h-9 text-xs' : 'w-10 h-10 text-xs'} rounded-full items-center justify-center text-white font-bold shrink-0 ${seleccion.idOrg ? 'hidden' : 'flex'}`}
           style={{ backgroundColor: seleccion.color }}
         >
           {seleccion.siglas || '—'}
         </div>
         <div className="flex-1 min-w-0">
-          <p className={`${compact ? 'text-[10px]' : 'text-xs'} text-gray-500`}>{titulo}</p>
-          <p className={`font-semibold ${compact ? 'text-xs' : 'text-sm'} truncate`}>
+          <p className={`${compact ? 'text-xs' : 'text-sm'} text-gray-500`}>{titulo}</p>
+          <p className={`font-semibold ${compact ? 'text-sm' : 'text-base'} truncate`}>
             {normalizeName(seleccion.partido || seleccion.nombre)}
           </p>
         </div>
@@ -203,16 +210,16 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
               <img
                 src={seleccion.foto}
                 alt={seleccion.nombre}
-                className="w-6 h-6 rounded-full object-cover shrink-0"
+                className="w-8 h-8 rounded-full object-cover shrink-0"
                 onError={(e) => { e.target.style.display = 'none'; }}
               />
               <div className="flex-1 min-w-0">
-                <p className="text-[10px] font-medium truncate">{normalizeName(seleccion.nombre)}</p>
+                <p className="text-xs font-medium truncate">{normalizeName(seleccion.nombre)}</p>
                 <a
                   href={seleccion.hojaVida}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[9px] text-blue-600 hover:underline"
+                  className="text-[11px] text-blue-600 hover:underline"
                 >
                   Ver hoja de vida
                 </a>
@@ -228,7 +235,7 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
               cargosAnteriores={seleccion.flags?.cargosAnteriores}
               sexo={seleccion.sexo}
             />
-            <ProCrimeAlert votos={seleccion.votosProCrimen || []} />
+            <ProCrimeAlert votos={seleccion.votosProCrimen || []} slug={seleccion.porestosnoSlug} />
           </div>
         </div>
       )}
@@ -240,26 +247,26 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
               {c.noExiste ? (
                 <div className="bg-red-50 border-l-4 border-red-600 p-2 rounded-r-md shadow-sm">
                   <div className="flex items-center gap-2">
-                    <span className="text-red-600 text-xs">⚠</span>
-                    <span className="text-[10px] font-semibold text-red-800 uppercase">NÚMERO NO EXISTE</span>
+                    <span className="text-red-600 text-sm">⚠</span>
+                    <span className="text-xs font-semibold text-red-800 uppercase">NÚMERO NO EXISTE</span>
                   </div>
-                  <p className="text-[10px] text-gray-700 mt-1 ml-5">El número {c.numPref} no corresponde a ningún candidato. Tu voto preferencial no será contado.</p>
+                  <p className="text-xs text-gray-700 mt-1 ml-5">El número {c.numPref} no corresponde a ningún candidato. Tu voto preferencial no será contado.</p>
                 </div>
               ) : (
                 <div className="flex items-center gap-2">
                   <img
                     src={c.foto?.startsWith('http') ? c.foto : `${JNE_FOTO}${c.foto}`}
                     alt={c.nombre}
-                    className="w-6 h-6 rounded-full object-cover shrink-0"
+                    className="w-8 h-8 rounded-full object-cover shrink-0"
                     onError={(e) => { e.target.style.display = 'none'; }}
                   />
                   <div className="flex-1 min-w-0">
-                    <p className="text-[10px] font-medium truncate">{normalizeName(c.nombre)}</p>
+                    <p className="text-xs font-medium truncate">{normalizeName(c.nombre)}</p>
                     <a
                       href={c.hojaVida}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-[9px] text-blue-600 hover:underline"
+                      className="text-[11px] text-blue-600 hover:underline"
                     >
                       Ver hoja de vida
                     </a>
@@ -272,19 +279,19 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
                 if (esRechazado) return (
                   <div className="bg-red-50 border-l-4 border-red-600 p-2 rounded-r-md shadow-sm">
                     <div className="flex items-center gap-2">
-                      <span className="text-red-600 text-xs">⚠</span>
-                      <span className="text-[10px] font-semibold text-red-800 uppercase">CANDIDATURA NO VÁLIDA</span>
+                      <span className="text-red-600 text-sm">⚠</span>
+                      <span className="text-xs font-semibold text-red-800 uppercase">CANDIDATURA NO VÁLIDA</span>
                     </div>
-                    <p className="text-[10px] text-gray-700 mt-1 ml-5">Estado: {c.estado}. Tu voto preferencial no será contado.</p>
+                    <p className="text-xs text-gray-700 mt-1 ml-5">Estado: {c.estado}. Tu voto preferencial no será contado.</p>
                   </div>
                 );
                 if (enProceso && c.estado !== 'INSCRITO') return (
                   <div className="bg-amber-50 border-l-4 border-amber-500 p-2 rounded-r-md shadow-sm">
                     <div className="flex items-center gap-2">
-                      <span className="text-amber-600 text-xs">⚠</span>
-                      <span className="text-[10px] font-semibold text-amber-800 uppercase">CANDIDATURA EN PROCESO</span>
+                      <span className="text-amber-600 text-sm">⚠</span>
+                      <span className="text-xs font-semibold text-amber-800 uppercase">CANDIDATURA EN PROCESO</span>
                     </div>
-                    <p className="text-[10px] text-gray-700 mt-1 ml-5">{c.estado === 'PUBLICADO PARA TACHAS' ? 'Abierto a tachas ciudadanas' : 'Pendiente de inscripción'}. Tu voto podría no contar.</p>
+                    <p className="text-xs text-gray-700 mt-1 ml-5">{c.estado === 'PUBLICADO PARA TACHAS' ? 'Abierto a tachas ciudadanas' : 'Pendiente de inscripción'}. Tu voto podría no contar.</p>
                   </div>
                 );
                 return null;
@@ -305,7 +312,7 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
         </div>
       )}
       {seleccion.preferencial?.length > 0 && !seleccion.candidatos?.length && (
-        <p className="text-[10px] text-slate-500 mt-1 ml-12">Pref: {seleccion.preferencial.join(', ')}</p>
+        <p className="text-xs text-slate-500 mt-1 ml-12">Pref: {seleccion.preferencial.join(', ')}</p>
       )}
     </div>
   );

@@ -250,7 +250,8 @@ const JudicialAlert = ({
         .filter(c => c.toUpperCase().includes("CONGRESISTA"))
         .map(c => {
             const match = c.match(/\((\d{4}-\d{4})\)/);
-            return match ? match[1] : c;
+            if (match) return match[1];
+            return c.replace(/\s*\(.*?\)\s*/g, '').trim();
         });
 
     const periodoActual = periodosCongress.find(p => p.includes("2021-2025") || p.includes("2021-2026")) || "2021-2026";
