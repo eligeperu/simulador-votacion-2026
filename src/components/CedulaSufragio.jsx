@@ -295,10 +295,10 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
         </div>
       </div>
 
-      {/* Desktop: headers fijos + body scrollable */}
-      <div className="hidden lg:block w-full">
-        {/* Headers row */}
-        <div className="flex divide-x divide-gray-300">
+      {/* Desktop: single scroll container with sticky headers */}
+      <div className="hidden lg:block w-full overflow-y-auto max-h-[700px]">
+        {/* Sticky headers */}
+        <div className="flex divide-x divide-gray-300 sticky top-0 z-10">
           <div className="min-w-[196px] flex-1">
             <div className="bg-slate-700 text-white py-1 px-2 text-center"><h3 className="font-bold text-xs uppercase tracking-wider">PRESIDENTE Y</h3></div>
             <ColumnaHeader titulo="VICEPRESIDENTES" className="bg-slate-600" tituloClassName="text-[10px]" />
@@ -319,17 +319,15 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
             <ColumnaHeader titulo="ANDINO" className="bg-slate-600" tituloClassName="text-[10px]" />
           </div>
         </div>
-        {/* Scrollable body */}
-        <div className="overflow-y-auto max-h-[600px]">
-          <div className="flex divide-x divide-gray-300">
-            <div className="min-w-[196px] flex-1">{renderColumnaContent('presidente', '', '', null, { hideHeader: true })}</div>
-            <div className="flex-[2] flex divide-x divide-gray-300">
-              <div className="min-w-[246px] flex-1">{renderColumnaContent('senadoresNacional', '', '', null, { hideHeader: true })}</div>
-              <div className="min-w-[246px] flex-1">{renderColumnaContent('senadoresRegional', '', '', null, { hideHeader: true })}</div>
-            </div>
-            <div className="min-w-[246px] flex-1">{renderColumnaContent('diputados', '', '', null, { hideHeader: true })}</div>
-            <div className="min-w-[246px] flex-1">{renderColumnaContent('parlamenAndino', '', '', null, { hideHeader: true })}</div>
+        {/* Body */}
+        <div className="flex divide-x divide-gray-300">
+          <div className="min-w-[196px] flex-1">{renderColumnaContent('presidente', '', '', null, { hideHeader: true })}</div>
+          <div className="flex-[2] flex divide-x divide-gray-300">
+            <div className="min-w-[246px] flex-1">{renderColumnaContent('senadoresNacional', '', '', null, { hideHeader: true })}</div>
+            <div className="min-w-[246px] flex-1">{renderColumnaContent('senadoresRegional', '', '', null, { hideHeader: true })}</div>
           </div>
+          <div className="min-w-[246px] flex-1">{renderColumnaContent('diputados', '', '', null, { hideHeader: true })}</div>
+          <div className="min-w-[246px] flex-1">{renderColumnaContent('parlamenAndino', '', '', null, { hideHeader: true })}</div>
         </div>
       </div>
 
