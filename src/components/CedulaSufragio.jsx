@@ -43,62 +43,71 @@ const TABS = [
   { id: 'parlamenAndino', label: 'Parl. Andino', short: 'P.AND' },
 ];
 
-const CandidatoCard = ({ candidato, selected, onClick }) => (
-  <div
-    onClick={onClick}
-    className={`flex items-center gap-[10px] p-[10px] border-b border-gray-300 min-h-[50px] cursor-pointer bg-white transition-opacity hover:opacity-90`}
-  >
-    <div className="w-[76px] text-left shrink-0">
-      <h3 className="font-bold text-[9px] sm:text-[10px] uppercase leading-tight text-black break-words">
-        {candidato.partido}
-      </h3>
-    </div>
-    <div className="shrink-0">
-      <div className="relative w-9 h-9 sm:w-10 sm:h-10 border border-black flex items-center justify-center p-0.5 bg-white">
-        {candidato.idOrg ? (
-          <img
-            src={`${JNE_LOGO}${candidato.idOrg}`}
-            alt={candidato.siglas}
-            className="w-full h-full object-contain"
-            onError={(e) => { e.target.style.display = 'none'; }}
-          />
-        ) : (
-          <div
-            className="w-full h-full flex items-center justify-center text-white font-bold text-[8px]"
-            style={{ backgroundColor: candidato.color }}
-          >
-            {candidato.siglas}
-          </div>
-        )}
-        {selected && (
-          <div className="absolute inset-0 flex items-center justify-center pointer-events-none bg-white/20">
-            <span className="text-2xl sm:text-3xl font-bold text-blue-900 leading-none" style={{ textShadow: '0 0 2px rgba(255,255,255,0.8)' }}>✕</span>
-          </div>
+const CandidatoCard = ({ partido, selected, onClick }) => {
+  const candidato = candidatosPresidenciales.find(c => c.idOrg === partido.idOrg);
+  const esRetirado = partido.retirado;
+  const skipPresidente = partido.skipPresidente;
+
+  return (
+    <div
+      onClick={!esRetirado ? onClick : undefined}
+      className={`flex items-center gap-[10px] p-[10px] border-b border-gray-300 min-h-[50px] bg-white transition-opacity ${esRetirado ? 'cursor-default' : 'cursor-pointer hover:opacity-90'}`}
+    >
+      <div className="w-[76px] text-left shrink-0">
+        {!esRetirado && !skipPresidente && (
+          <h3 className="font-bold text-[9px] sm:text-[10px] uppercase leading-tight text-black break-words">
+            {partido.nombre}
+          </h3>
         )}
       </div>
-    </div>
-    <div className="shrink-0">
-      <div className="relative w-9 h-9 sm:w-10 sm:h-10 border border-black overflow-hidden flex items-center justify-center bg-gray-50">
-        {candidato.foto ? (
-          <img
-            src={candidato.foto}
-            alt={candidato.nombre}
-            className="w-full h-full object-cover grayscale-[30%]"
-            onError={(e) => { e.target.style.display = 'none'; }}
-          />
-        ) : null}
-        {selected && (
-          <div className="absolute inset-0 flex items-center justify-center pointer-events-none bg-white/20">
-            <span className="text-2xl sm:text-3xl font-bold text-blue-900 leading-none" style={{ textShadow: '0 0 2px rgba(255,255,255,0.8)' }}>✕</span>
-          </div>
-        )}
+      <div className="shrink-0">
+        <div className="relative w-9 h-9 sm:w-10 sm:h-10 border border-black flex items-center justify-center p-0.5 bg-white">
+          {!esRetirado && !skipPresidente && partido.idOrg ? (
+            <img
+              src={`${JNE_LOGO}${partido.idOrg}`}
+              alt={partido.siglas}
+              className="w-full h-full object-contain"
+              onError={(e) => { e.target.style.display = 'none'; }}
+            />
+          ) : !esRetirado && !skipPresidente ? (
+            <div
+              className="w-full h-full flex items-center justify-center text-white font-bold text-[8px]"
+              style={{ backgroundColor: partido.color }}
+            >
+              {partido.siglas}
+            </div>
+          ) : null}
+          {selected && (
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none bg-white/20">
+              <span className="text-2xl sm:text-3xl font-bold text-blue-900 leading-none" style={{ textShadow: '0 0 2px rgba(255,255,255,0.8)' }}>✕</span>
+            </div>
+          )}
+        </div>
+      </div>
+      <div className="shrink-0">
+        <div className="relative w-9 h-9 sm:w-10 sm:h-10 border border-black overflow-hidden flex items-center justify-center bg-gray-50">
+          {!esRetirado && !skipPresidente && candidato?.foto ? (
+            <img
+              src={candidato.foto}
+              alt={candidato.nombre}
+              className="w-full h-full object-cover grayscale-[30%]"
+              onError={(e) => { e.target.style.display = 'none'; }}
+            />
+          ) : null}
+          {selected && (
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none bg-white/20">
+              <span className="text-2xl sm:text-3xl font-bold text-blue-900 leading-none" style={{ textShadow: '0 0 2px rgba(255,255,255,0.8)' }}>✕</span>
+            </div>
+          )}
+        </div>
       </div>
     </div>
-  </div>
-);
+  );
+};
 
 const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto, regionSeleccionada, onVotoPartido, onVotoPreferencial }) => {
   const selected = voto.partido === partido.id;
+  const esRetirado = partido.retirado;
 
   const getDatosCandidatos = () => {
     if (categoria === 'senadoresNacional') return senadoresNacional;
@@ -109,32 +118,34 @@ const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto,
   };
 
   return (
-    <div className={`flex items-center gap-[10px] p-[10px] border-b border-gray-300 min-h-[50px] bg-white transition-opacity hover:opacity-90`}>
+    <div className={`flex items-center gap-[10px] p-[10px] border-b border-gray-300 min-h-[50px] bg-white transition-opacity ${esRetirado ? '' : 'hover:opacity-90'}`}>
       <div
-        className="w-[76px] text-left cursor-pointer shrink-0"
-        onClick={() => onVotoPartido(categoria, partido.id)}
+        className={`w-[76px] text-left shrink-0 ${esRetirado ? 'cursor-default' : 'cursor-pointer'}`}
+        onClick={!esRetirado ? () => onVotoPartido(categoria, partido.id) : undefined}
       >
-        <h3 className="font-bold text-[9px] sm:text-[10px] uppercase leading-tight text-black break-words">
-          {partido.nombre}
-        </h3>
+        {!esRetirado && (
+          <h3 className="font-bold text-[9px] sm:text-[10px] uppercase leading-tight text-black break-words">
+            {partido.nombre}
+          </h3>
+        )}
       </div>
-      <div className="shrink-0 cursor-pointer" onClick={() => onVotoPartido(categoria, partido.id)}>
+      <div className={`shrink-0 ${esRetirado ? 'cursor-default' : 'cursor-pointer'}`} onClick={!esRetirado ? () => onVotoPartido(categoria, partido.id) : undefined}>
         <div className="relative w-9 h-9 sm:w-10 sm:h-10 border border-black flex items-center justify-center p-0.5 bg-white">
-          {partido.idOrg ? (
+          {!esRetirado && partido.idOrg ? (
             <img
               src={`${JNE_LOGO}${partido.idOrg}`}
               alt={partido.siglas}
               className="w-full h-full object-contain"
               onError={(e) => { e.target.style.display = 'none'; }}
             />
-          ) : (
+          ) : !esRetirado ? (
             <div
               className="w-full h-full flex items-center justify-center text-white font-bold text-[8px]"
               style={{ backgroundColor: partido.color }}
             >
               {partido.siglas}
             </div>
-          )}
+          ) : null}
           {selected && (
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none bg-white/20">
               <span className="text-2xl sm:text-3xl font-bold text-blue-900 leading-none" style={{ textShadow: '0 0 2px rgba(255,255,255,0.8)' }}>✕</span>
@@ -236,8 +247,8 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
       <div className="flex-1 lg:overflow-y-auto lg:max-h-[600px]">
         <div className="flex flex-col space-y-1 w-fit">
           {categoria === 'presidente' ? (
-            candidatosPresidenciales.map((c) => (
-              <CandidatoCard key={c.id} candidato={c} selected={votos.presidente === c.id} onClick={() => handleVotoPresidente(c.id)} />
+            partidosParlamentarios.map((p) => (
+              <CandidatoCard key={p.id} partido={p} selected={votos.presidente === p.idOrg} onClick={() => handleVotoPresidente(p.idOrg)} />
             ))
           ) : (
             partidosParlamentarios.map((p) => (
