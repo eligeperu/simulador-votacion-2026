@@ -9,6 +9,7 @@ import diputadosEnrichData from '../data/diputados-enriched';
 import parlamenAndinoRaw from '../data/parlamenAndino.json';
 import parlamenAndinoEnrich from '../data/parlamenAndino-enriched.json';
 import JudicialAlert from './JudicialAlert';
+import ProCrimeAlert from './ProCrimeAlert';
 
 const JNE_FOTO = "https://mpesije.jne.gob.pe/apidocs/";
 
@@ -227,6 +228,7 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
               cargosAnteriores={seleccion.flags?.cargosAnteriores}
               sexo={seleccion.sexo}
             />
+            <ProCrimeAlert votos={seleccion.votosProCrimen || []} />
           </div>
         </div>
       )}
@@ -244,25 +246,25 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
                   <p className="text-[10px] text-gray-700 mt-1 ml-5">El número {c.numPref} no corresponde a ningún candidato. Tu voto preferencial no será contado.</p>
                 </div>
               ) : (
-              <div className="flex items-center gap-2">
-                <img
-                  src={c.foto?.startsWith('http') ? c.foto : `${JNE_FOTO}${c.foto}`}
-                  alt={c.nombre}
-                  className="w-6 h-6 rounded-full object-cover shrink-0"
-                  onError={(e) => { e.target.style.display = 'none'; }}
-                />
-                <div className="flex-1 min-w-0">
-                  <p className="text-[10px] font-medium truncate">{normalizeName(c.nombre)}</p>
-                  <a
-                    href={c.hojaVida}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[9px] text-blue-600 hover:underline"
-                  >
-                    Ver hoja de vida
-                  </a>
+                <div className="flex items-center gap-2">
+                  <img
+                    src={c.foto?.startsWith('http') ? c.foto : `${JNE_FOTO}${c.foto}`}
+                    alt={c.nombre}
+                    className="w-6 h-6 rounded-full object-cover shrink-0"
+                    onError={(e) => { e.target.style.display = 'none'; }}
+                  />
+                  <div className="flex-1 min-w-0">
+                    <p className="text-[10px] font-medium truncate">{normalizeName(c.nombre)}</p>
+                    <a
+                      href={c.hojaVida}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[9px] text-blue-600 hover:underline"
+                    >
+                      Ver hoja de vida
+                    </a>
+                  </div>
                 </div>
-              </div>
               )}
               {c.estado && c.estado !== 'INSCRITO' && (() => {
                 const enProceso = ESTADOS_EN_PROCESO.includes(c.estado);
@@ -297,22 +299,7 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
                 cargosAnteriores={c.flags?.cargosAnteriores}
                 sexo={c.sexo}
               />
-              {c.votosProCrimen && (() => {
-                const aFavor = c.votosProCrimen.filter(v => v.sigla_voto === 'SI +++' || v.voto === 'A favor').length;
-                if (aFavor === 0) return null;
-                return (
-                  <div className="bg-red-50 border-l-4 border-red-700 p-2 rounded-r-md shadow-sm">
-                    <div className="flex items-center gap-2">
-                      <span className="text-red-700 text-xs">🚨</span>
-                      <span className="text-[10px] font-semibold text-red-800 uppercase">VOTÓ A FAVOR DE {aFavor} {aFavor === 1 ? 'LEY' : 'LEYES'} PRO CRIMEN</span>
-                    </div>
-                    <p className="text-[10px] text-gray-700 mt-1 ml-5">
-                      Como congresista, votó a favor de leyes que favorecen al crimen organizado.
-                      {' '}<a href={`https://porestosno.com/content/voto-de-cada-congresista?congresista=${c.porestosnoSlug}`} target="_blank" rel="noopener noreferrer" className="text-red-700 underline font-semibold">Ver detalle</a>
-                    </p>
-                  </div>
-                );
-              })()}
+              <ProCrimeAlert votos={c.votosProCrimen || []} slug={c.porestosnoSlug} />
             </div>
           ))}
         </div>
