@@ -2,6 +2,7 @@ import { useState } from 'react';
 import CedulaSufragio from './components/CedulaSufragio';
 import ResumenVoto from './components/ResumenVoto';
 import GuiaBicameralidad from './components/GuiaBicameralidad';
+import Candidatos from './components/Candidatos';
 
 function App() {
   const [votos, setVotos] = useState({
@@ -13,6 +14,7 @@ function App() {
   });
   const [regionSeleccionada, setRegionSeleccionada] = useState('lima');
   const [mostrarResumenMobile, setMostrarResumenMobile] = useState(false);
+  const [page, setPage] = useState('simulador');
   const handleVotoCompleto = (nuevosVotos) => setVotos(nuevosVotos);
 
   const handleReset = () => setVotos({
@@ -24,6 +26,8 @@ function App() {
   });
 
   const diasRestantes = Math.ceil((new Date('2026-04-12') - new Date()) / (1000 * 60 * 60 * 24));
+
+  if (page === 'candidatos') return <Candidatos onBack={() => setPage('simulador')} />;
 
   return (
     <div className="min-h-screen bg-slate-50 py-4 px-2">
@@ -47,7 +51,8 @@ function App() {
 
       <GuiaBicameralidad onRegionSeleccionada={setRegionSeleccionada} regionActual={regionSeleccionada} />
 
-      <footer className="text-center mt-6 mb-16 xl:mb-6 text-xs text-gray-500">
+      <footer className="text-center mt-6 mb-16 xl:mb-6 text-xs text-gray-500 space-y-1">
+        <p><button onClick={() => setPage('candidatos')} className="text-blue-600 hover:underline font-medium">📋 Ver todos los candidatos por partido</button></p>
         <p>Simulador educativo • Datos: <a href="https://votoinformado.jne.gob.pe" target="_blank" rel="noopener" className="text-blue-600 hover:underline">JNE Voto Informado</a></p>
       </footer>
 

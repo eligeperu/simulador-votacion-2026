@@ -51,16 +51,12 @@ const CandidatoCard = ({ partido, selected, onClick }) => {
   return (
     <div
       onClick={!esRetirado && !skipPresidente ? onClick : undefined}
-      className={`flex items-center gap-[10px] p-[10px] border-b border-gray-300 min-h-[50px] bg-white transition-opacity ${esRetirado || skipPresidente ? 'cursor-default opacity-40' : 'cursor-pointer hover:opacity-90'}`}
+      className={`flex items-center gap-[10px] p-[10px] border-b border-gray-300 min-h-[50px] bg-white transition-opacity ${esRetirado ? 'cursor-default opacity-40' : skipPresidente ? 'cursor-default' : 'cursor-pointer hover:opacity-90'}`}
     >
       <div className="w-[76px] text-left shrink-0">
-        {!esRetirado && !skipPresidente ? (
-          <h3 className="font-bold text-[9px] sm:text-[10px] uppercase leading-tight text-black break-words">
-            {partido.nombre}
-          </h3>
-        ) : skipPresidente ? (
-          <span className="text-[8px] text-gray-400 italic">Sin candidato</span>
-        ) : null}
+        <h3 className={`font-bold text-[9px] sm:text-[10px] uppercase leading-tight break-words ${skipPresidente ? 'text-white' : 'text-black'}`}>
+          {partido.nombre}
+        </h3>
       </div>
       <div className="shrink-0">
         <div className="relative w-9 h-9 sm:w-10 sm:h-10 border border-black flex items-center justify-center p-0.5 bg-white">
@@ -288,90 +284,52 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
           ))}
         </div>
         <div>
-          {activeTab === 'presidente' && (
-            <>
-              <ColumnaHeader titulo="PRESIDENTE Y" subtitulo="VICEPRESIDENTES" className="bg-slate-700" />
-
-              {renderColumnaContent('presidente', '', '', null, { hideHeader: true })}
-            </>
-          )}
-          {activeTab === 'senadoresNacional' && (
-            <>
-              <ColumnaHeader titulo="SENADORES" subtitulo="A NIVEL NACIONAL" className="bg-slate-600" />
-
-              {renderColumnaContent('senadoresNacional', '', '', null, { hideHeader: true })}
-            </>
-          )}
-          {activeTab === 'senadoresRegional' && (
-            <>
-              <ColumnaHeader titulo="SENADORES" subtitulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" />
-
-              {renderColumnaContent('senadoresRegional', '', '', null, { hideHeader: true })}
-            </>
-          )}
-          {activeTab === 'diputados' && (
-            <>
-              <ColumnaHeader titulo="DIPUTADOS" subtitulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" />
-
-              {renderColumnaContent('diputados', '', '', null, { hideHeader: true })}
-            </>
-          )}
-          {activeTab === 'parlamenAndino' && (
-            <>
-              <ColumnaHeader titulo="PARLAMENTO ANDINO" className="bg-slate-600" />
-
-              {renderColumnaContent('parlamenAndino', '', '', null, { hideHeader: true })}
-            </>
-          )}
+          {activeTab === 'presidente' && <ColumnaHeader titulo="PRESIDENTE Y" subtitulo="VICEPRESIDENTES" className="bg-slate-700" />}
+          {activeTab === 'senadoresNacional' && <ColumnaHeader titulo="SENADORES" subtitulo="A NIVEL NACIONAL" className="bg-slate-600" />}
+          {activeTab === 'senadoresRegional' && <ColumnaHeader titulo="SENADORES" subtitulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" />}
+          {activeTab === 'diputados' && <ColumnaHeader titulo="DIPUTADOS" subtitulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" />}
+          {activeTab === 'parlamenAndino' && <ColumnaHeader titulo="PARLAMENTO ANDINO" className="bg-slate-600" />}
+          <div className="overflow-y-auto max-h-[60vh]">
+            {renderColumnaContent(activeTab, '', '', null, { hideHeader: true })}
+          </div>
         </div>
       </div>
 
-      {/* Desktop: 5 columnas con headers alineados en 2 filas */}
-      <div className="hidden lg:flex divide-x divide-gray-300 w-full">
-        {/* Presidente */}
-        <div className="flex flex-col min-w-[196px] flex-1">
-          <div className="bg-slate-700 text-white py-1 px-2 text-center flex flex-col justify-center">
-            <h3 className="font-bold text-xs uppercase tracking-wider">PRESIDENTE Y</h3>
+      {/* Desktop: headers fijos + body scrollable */}
+      <div className="hidden lg:block w-full">
+        {/* Headers row */}
+        <div className="flex divide-x divide-gray-300">
+          <div className="min-w-[196px] flex-1">
+            <div className="bg-slate-700 text-white py-1 px-2 text-center"><h3 className="font-bold text-xs uppercase tracking-wider">PRESIDENTE Y</h3></div>
+            <ColumnaHeader titulo="VICEPRESIDENTES" className="bg-slate-600" tituloClassName="text-[10px]" />
           </div>
-          <ColumnaHeader titulo="VICEPRESIDENTES" className="bg-slate-600" tituloClassName="text-[10px]" />
-          {renderColumnaContent('presidente', '', '', null, { hideHeader: true })}
+          <div className="flex-[2] flex flex-col">
+            <div className="bg-slate-700 text-white py-1 px-2 text-center"><h3 className="font-bold text-xs uppercase tracking-wider">SENADORES</h3></div>
+            <div className="flex divide-x divide-gray-300">
+              <div className="min-w-[246px] flex-1"><ColumnaHeader titulo="A NIVEL NACIONAL" className="bg-slate-600" tituloClassName="text-[10px]" /></div>
+              <div className="min-w-[246px] flex-1"><ColumnaHeader titulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" tituloClassName="text-[10px]" /></div>
+            </div>
+          </div>
+          <div className="min-w-[246px] flex-1">
+            <div className="bg-slate-700 text-white py-1 px-2 text-center"><h3 className="font-bold text-xs uppercase tracking-wider">DIPUTADOS</h3></div>
+            <ColumnaHeader titulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" tituloClassName="text-[10px]" />
+          </div>
+          <div className="min-w-[246px] flex-1">
+            <div className="bg-slate-700 text-white py-1 px-2 text-center"><h3 className="font-bold text-xs uppercase tracking-wider">PARLAMENTO</h3></div>
+            <ColumnaHeader titulo="ANDINO" className="bg-slate-600" tituloClassName="text-[10px]" />
+          </div>
         </div>
-
-        {/* Grupo Senadores */}
-        <div className="flex flex-col flex-[2]">
-          <div className="bg-slate-700 text-white py-1 px-2 text-center flex flex-col justify-center">
-            <h3 className="font-bold text-xs uppercase tracking-wider">SENADORES</h3>
-          </div>
+        {/* Scrollable body */}
+        <div className="overflow-y-auto max-h-[600px]">
           <div className="flex divide-x divide-gray-300">
-            <div className="flex flex-col min-w-[246px] flex-1">
-              <ColumnaHeader titulo="A NIVEL NACIONAL" className="bg-slate-600" tituloClassName="text-[10px]" />
-
-              {renderColumnaContent('senadoresNacional', '', '', null, { hideHeader: true })}
+            <div className="min-w-[196px] flex-1">{renderColumnaContent('presidente', '', '', null, { hideHeader: true })}</div>
+            <div className="flex-[2] flex divide-x divide-gray-300">
+              <div className="min-w-[246px] flex-1">{renderColumnaContent('senadoresNacional', '', '', null, { hideHeader: true })}</div>
+              <div className="min-w-[246px] flex-1">{renderColumnaContent('senadoresRegional', '', '', null, { hideHeader: true })}</div>
             </div>
-            <div className="flex flex-col min-w-[246px] flex-1">
-              <ColumnaHeader titulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" tituloClassName="text-[10px]" />
-
-              {renderColumnaContent('senadoresRegional', '', '', null, { hideHeader: true })}
-            </div>
+            <div className="min-w-[246px] flex-1">{renderColumnaContent('diputados', '', '', null, { hideHeader: true })}</div>
+            <div className="min-w-[246px] flex-1">{renderColumnaContent('parlamenAndino', '', '', null, { hideHeader: true })}</div>
           </div>
-        </div>
-
-        {/* Diputados */}
-        <div className="flex flex-col min-w-[246px] flex-1">
-          <div className="bg-slate-700 text-white py-1 px-2 text-center flex flex-col justify-center">
-            <h3 className="font-bold text-xs uppercase tracking-wider">DIPUTADOS</h3>
-          </div>
-          <ColumnaHeader titulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" tituloClassName="text-[10px]" />
-          {renderColumnaContent('diputados', '', '', null, { hideHeader: true })}
-        </div>
-
-        {/* Parlamento Andino */}
-        <div className="flex flex-col min-w-[246px] flex-1">
-          <div className="bg-slate-700 text-white py-1 px-2 text-center flex flex-col justify-center">
-            <h3 className="font-bold text-xs uppercase tracking-wider">PARLAMENTO</h3>
-          </div>
-          <ColumnaHeader titulo="ANDINO" className="bg-slate-600" tituloClassName="text-[10px]" />
-          {renderColumnaContent('parlamenAndino', '', '', null, { hideHeader: true })}
         </div>
       </div>
 
