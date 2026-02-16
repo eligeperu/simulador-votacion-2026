@@ -21,7 +21,7 @@ export const partidosParlamentarios = [
   { id: 1, nombre: "Alianza Electoral Venceremos", siglas: "AV", color: "#991B1B", idOrg: 3025 },
   { id: 2, nombre: "Partido Patriótico del Perú", siglas: "PPP", color: "#D946EF", idOrg: 2869 },
   { id: 3, nombre: "Partido Cívico Obras", siglas: "PCO", color: "#0369A1", idOrg: 2941 },
-  { id: 4, nombre: "Frente Popular Agrícola FIA del Perú, Frepap", siglas: "FREPAP", color: "#78350F", idOrg: 2901 },
+  { id: 4, nombre: "Frente Popular Agrícola FIA del Perú, Frepap", siglas: "FREPAP", color: "#78350F", idOrg: 2901, hideLogoPresidente: true },
   { id: 5, nombre: "Partido Demócrata Verde", siglas: "PDV", color: "#22C55E", idOrg: 2895 },
   { id: 6, nombre: "Partido del Buen Gobierno", siglas: "PBG", color: "#475569", idOrg: 2961 },
   { id: 7, nombre: "Partido Político Perú Acción", siglas: "PA", color: "#EA580C", idOrg: 2932 },

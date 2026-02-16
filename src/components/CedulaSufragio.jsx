@@ -62,14 +62,14 @@ const CandidatoCard = ({ partido, selected, onClick }) => {
       </div>
       <div className="shrink-0">
         <div className="relative w-9 h-9 sm:w-10 sm:h-10 border border-black flex items-center justify-center p-0.5 bg-white">
-          {!esRetirado && !skipPresidente && partido.idOrg ? (
+          {!esRetirado && !skipPresidente && !partido.hideLogoPresidente && partido.idOrg ? (
             <img
               src={`${JNE_LOGO}${partido.idOrg}`}
               alt={partido.siglas}
               className="w-full h-full object-contain"
               onError={(e) => { e.target.style.display = 'none'; }}
             />
-          ) : !esRetirado && !skipPresidente ? (
+          ) : !esRetirado && !skipPresidente && !partido.hideLogoPresidente ? (
             <div
               className="w-full h-full flex items-center justify-center text-white font-bold text-[8px]"
               style={{ backgroundColor: partido.color }}
