@@ -192,11 +192,39 @@ const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto,
   );
 };
 
-const ColumnaHeader = ({ titulo, subtitulo }) => (
-  <div className="bg-slate-700 text-white p-2 text-center">
-    <h3 className="font-bold text-sm">{titulo}</h3>
-    {subtitulo && <p className="text-[10px] opacity-90">{subtitulo}</p>}
+const ColumnaHeader = ({ titulo, subtitulo, className = "", tituloClassName = "text-[10px] sm:text-xs", subtituloClassName = "text-[9px]" }) => (
+  <div className={`bg-slate-700 text-white p-2 text-center flex flex-col justify-center min-h-[44px] ${className}`}>
+    <h3 className={`font-bold uppercase ${tituloClassName}`}>{titulo}</h3>
+    {subtitulo && <p className={`opacity-90 ${subtituloClassName}`}>{subtitulo}</p>}
   </div>
+);
+
+const BarraInstrucciones = ({ showPreferencial = false }) => (
+  <>
+    {showPreferencial ? (
+      <div className="flex gap-[10px] p-[10px] border-b border-gray-300 bg-white">
+        {/* Bloque 1: Área de nombre + logo con instrucciones (flujo normal de texto) */}
+        <div className="shrink-0 bg-gray-200 text-center px-1 py-2 text-[7px] sm:text-[8px] leading-tight text-gray-700 font-medium" style={{ width: 'calc(76px + 10px + 36px)' }}>
+          Marque con una cruz <span className="font-bold text-[9px]">[+]</span> o un aspa <span className="font-bold text-[9px]">[x]</span> dentro del recuadro del símbolo de su preferencia
+        </div>
+        {/* Bloque 2: Área de casillas preferenciales con "Voto Preferencial" e instrucciones */}
+        <div className="flex-1 bg-gray-200 text-center px-2 py-2 text-[5.5px] sm:text-[6px] leading-tight text-gray-700 font-medium">
+          <div className="font-bold text-[6.5px] uppercase mb-1">
+            Voto Preferencial
+          </div>
+          <div>
+            Si desea coloque dentro de los recuadros uno o dos números de los candidatos de su preferencia
+          </div>
+        </div>
+      </div>
+    ) : (
+      <div className="bg-gray-200 border-b border-gray-300 flex items-center text-gray-700 font-medium min-h-[28px]">
+        <div className="flex-1 text-center px-2 py-0.5 text-[7px] sm:text-[8px] leading-tight flex items-center justify-center">
+          Marque con una cruz <span className="font-bold text-[9px]">[+]</span> o un aspa <span className="font-bold text-[9px]">[x]</span> dentro del recuadro del símbolo de su preferencia
+        </div>
+      </div>
+    )}
+  </>
 );
 
 export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'lima' }) {
@@ -241,10 +269,10 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
     return votos[tabId]?.partido ? '✓' : '';
   };
 
-  const renderColumnaContent = (categoria, titulo, subtitulo, numPref) => (
+  const renderColumnaContent = (categoria, titulo, subtitulo, numPref, options = {}) => (
     <div className="flex flex-col h-full w-fit">
-      <ColumnaHeader titulo={titulo} subtitulo={subtitulo} />
-      <div className="flex-1 lg:overflow-y-auto lg:max-h-[600px]">
+      {!options.hideHeader && <ColumnaHeader titulo={titulo} subtitulo={subtitulo} />}
+      <div className="flex-1 lg:overflow-y-auto lg:max-h-[600px] columna-scroll">
         <div className="flex flex-col space-y-1 w-fit">
           {categoria === 'presidente' ? (
             partidosParlamentarios.map((p) => (
@@ -283,30 +311,111 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
           ))}
         </div>
         <div>
-          {activeTab === 'presidente' && renderColumnaContent('presidente', 'PRESIDENTE', 'y Vicepresidentes', null)}
-          {activeTab === 'senadoresNacional' && renderColumnaContent('senadoresNacional', 'SENADORES', 'Distrito Nacional', '2 opcionales')}
-          {activeTab === 'senadoresRegional' && renderColumnaContent('senadoresRegional', 'SENADORES', 'Distrito Regional', '1 opcional')}
-          {activeTab === 'diputados' && renderColumnaContent('diputados', 'DIPUTADOS', 'Distrito Regional', '2 opcionales')}
-          {activeTab === 'parlamenAndino' && renderColumnaContent('parlamenAndino', 'PARLAMENTO', 'Andino', '2 opcionales')}
+          {activeTab === 'presidente' && (
+            <>
+              <ColumnaHeader titulo="PRESIDENTE Y" subtitulo="VICEPRESIDENTES" className="bg-slate-700" />
+              <BarraInstrucciones />
+              {renderColumnaContent('presidente', '', '', null, { hideHeader: true })}
+            </>
+          )}
+          {activeTab === 'senadoresNacional' && (
+            <>
+              <ColumnaHeader titulo="SENADORES" subtitulo="A NIVEL NACIONAL" className="bg-slate-600" />
+              <BarraInstrucciones showPreferencial={true} />
+              {renderColumnaContent('senadoresNacional', '', '', null, { hideHeader: true })}
+            </>
+          )}
+          {activeTab === 'senadoresRegional' && (
+            <>
+              <ColumnaHeader titulo="SENADORES" subtitulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" />
+              <BarraInstrucciones showPreferencial={true} />
+              {renderColumnaContent('senadoresRegional', '', '', null, { hideHeader: true })}
+            </>
+          )}
+          {activeTab === 'diputados' && (
+            <>
+              <ColumnaHeader titulo="DIPUTADOS" subtitulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" />
+              <BarraInstrucciones showPreferencial={true} />
+              {renderColumnaContent('diputados', '', '', null, { hideHeader: true })}
+            </>
+          )}
+          {activeTab === 'parlamenAndino' && (
+            <>
+              <ColumnaHeader titulo="PARLAMENTO ANDINO" className="bg-slate-600" />
+              <BarraInstrucciones showPreferencial={true} />
+              {renderColumnaContent('parlamenAndino', '', '', null, { hideHeader: true })}
+            </>
+          )}
         </div>
       </div>
 
       {/* Desktop: 5 columnas tácticas con ancho dinámico (Margen 10px, simetría perfecta inicio/final, cero scroll interno) */}
       <div className="hidden lg:flex divide-x divide-gray-300 overflow-visible w-max">
-        <div className="flex flex-col w-fit shrink-0 border-l border-gray-300 first:border-l-0">
-          {renderColumnaContent('presidente', 'PRESIDENTE', 'y Vicepresidentes', null)}
+        {/* Presidente */}
+        <div className="flex flex-col w-[196px] shrink-0 border-l border-gray-300 first:border-l-0">
+          <ColumnaHeader
+            titulo="PRESIDENTE Y"
+            subtitulo="VICEPRESIDENTES"
+            className="bg-slate-700 min-h-[77px]"
+            tituloClassName="text-xs"
+            subtituloClassName="text-xs font-bold"
+          />
+          <BarraInstrucciones />
+          {renderColumnaContent('presidente', '', '', null, { hideHeader: true })}
         </div>
-        <div className="flex flex-col w-fit shrink-0">
-          {renderColumnaContent('senadoresNacional', 'SENADORES', 'Distrito Nacional', '2 opcionales')}
+
+        {/* Grupo Senadores */}
+        <div className="flex flex-col">
+          <div className="bg-slate-700 text-white p-2 text-center border-b border-white/20 flex flex-col justify-center min-h-[32px]">
+            <h3 className="font-bold text-xs uppercase tracking-wider">SENADORES</h3>
+          </div>
+          <div className="flex divide-x divide-gray-300">
+            <div className="flex flex-col w-[246px] shrink-0">
+              <ColumnaHeader
+                titulo="A NIVEL NACIONAL"
+                className="bg-slate-600"
+                tituloClassName="text-[10px]"
+              />
+              <BarraInstrucciones showPreferencial={true} />
+              {renderColumnaContent('senadoresNacional', '', '', null, { hideHeader: true })}
+            </div>
+            <div className="flex flex-col w-[246px] shrink-0">
+              <ColumnaHeader
+                titulo={regionSeleccionada.toUpperCase()}
+                className="bg-slate-600"
+                tituloClassName="text-[10px]"
+              />
+              <BarraInstrucciones showPreferencial={true} />
+              {renderColumnaContent('senadoresRegional', '', '', null, { hideHeader: true })}
+            </div>
+          </div>
         </div>
-        <div className="flex flex-col w-fit shrink-0">
-          {renderColumnaContent('senadoresRegional', 'SENADORES', 'Distrito Regional', '1 opcional')}
+
+        {/* Diputados */}
+        <div className="flex flex-col w-[246px] shrink-0">
+          <div className="bg-slate-700 text-white p-2 text-center border-b border-white/20 flex flex-col justify-center min-h-[32px]">
+            <h3 className="font-bold text-xs uppercase tracking-wider">DIPUTADOS</h3>
+          </div>
+          <ColumnaHeader
+            titulo={regionSeleccionada.toUpperCase()}
+            className="bg-slate-600"
+            tituloClassName="text-[10px]"
+          />
+          <BarraInstrucciones showPreferencial={true} />
+          {renderColumnaContent('diputados', '', '', null, { hideHeader: true })}
         </div>
-        <div className="flex flex-col w-fit shrink-0">
-          {renderColumnaContent('diputados', 'DIPUTADOS', 'Distrito Regional', '2 opcionales')}
-        </div>
-        <div className="flex flex-col w-fit shrink-0">
-          {renderColumnaContent('parlamenAndino', 'PARLAMENTO', 'Andino', '2 opcionales')}
+
+        {/* Parlamento Andino */}
+        <div className="flex flex-col w-[246px] shrink-0">
+          <ColumnaHeader
+            titulo="PARLAMENTO"
+            subtitulo="ANDINO"
+            className="bg-slate-600 min-h-[77px]"
+            tituloClassName="text-xs"
+            subtituloClassName="text-xs font-bold"
+          />
+          <BarraInstrucciones showPreferencial={true} />
+          {renderColumnaContent('parlamenAndino', '', '', null, { hideHeader: true })}
         </div>
       </div>
 
