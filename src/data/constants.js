@@ -1,5 +1,7 @@
 // Shared constants and utilities used across components and data modules
 
+// URL para logos de partidos: https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/{idOrg}
+export const JNE_LOGO = "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/";
 export const JNE_FOTO = "https://mpesije.jne.gob.pe/apidocs/";
 
 export const REGIONES = [
@@ -50,6 +52,15 @@ export const buscarCandidato = (idOrg, posicion, datos) => {
   if (isNaN(pos) || pos < 1) return null;
   return datos.find(c => c.idOrg === idOrg && c.pos === pos);
 };
+
+// Factory for initial vote state (used by App and CedulaSufragio)
+export const createInitialVotos = () => ({
+  presidente: null,
+  senadoresNacional: { partido: null, preferencial: ['', ''] },
+  senadoresRegional: { partido: null, preferencial: [''] },
+  diputados: { partido: null, preferencial: ['', ''] },
+  parlamenAndino: { partido: null, preferencial: ['', ''] },
+});
 
 // Merge raw JNE data with enriched candidate data by DNI
 export const fusionarDatos = (raw, enrich) => {

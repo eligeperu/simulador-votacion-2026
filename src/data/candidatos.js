@@ -1,8 +1,5 @@
 import candidatosData from './candidatosPresidenciales-enriched.json';
 
-// URL para logos de partidos: https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/{idOrg}
-export const JNE_LOGO = "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/";
-
 // Candidatos presidenciales desde JSON con datos enriquecidos del JNE
 export const candidatosPresidenciales = candidatosData.data.map(c => ({
   id: c.idOrg,

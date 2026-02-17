@@ -1,9 +1,9 @@
 import { useState, useMemo } from 'react';
-import { candidatosPresidenciales, partidosParlamentarios, JNE_LOGO } from '../data/candidatos';
-import { JNE_FOTO, REGIONES, ESTADOS_VALIDOS, ESTADOS_EN_PROCESO, normalizeName } from '../data/constants';
+import { candidatosPresidenciales, partidosParlamentarios } from '../data/candidatos';
+import { JNE_LOGO, JNE_FOTO, REGIONES, ESTADOS_VALIDOS, ESTADOS_EN_PROCESO, normalizeName } from '../data/constants';
 import senadoresNacional from '../data/senadoresNacional';
 import senadoresRegional from '../data/senadoresRegional';
-import diputados from '../data/diputados';
+import diputadosData from '../data/diputados';
 import parlamenAndino from '../data/parlamenAndino';
 import JudicialAlert from './JudicialAlert';
 import ProCrimeAlert from './ProCrimeAlert';
@@ -20,7 +20,7 @@ const getCandidatos = (categoria, region) => {
   if (categoria === 'presidente') return candidatosPresidenciales.map(c => ({ ...c, pos: null, idOrg: c.idOrg }));
   if (categoria === 'senadoresNacional') return senadoresNacional;
   if (categoria === 'senadoresRegional') return senadoresRegional[region] || [];
-  if (categoria === 'diputados') return diputados[region] || [];
+  if (categoria === 'diputados') return diputadosData[region] || [];
   if (categoria === 'parlamenAndino') return parlamenAndino;
   return [];
 };
