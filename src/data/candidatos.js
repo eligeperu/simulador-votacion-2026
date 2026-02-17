@@ -58,10 +58,3 @@ export const partidosParlamentarios = [
   { id: 38, nombre: "Partido Morado", siglas: "PM", color: "#8B5CF6", idOrg: 2840 },
 ];
 
-export const regiones = [
-  "Amazonas", "Áncash", "Apurímac", "Arequipa", "Ayacucho", "Cajamarca", "Callao",
-  "Cusco", "Huancavelica", "Huánuco", "Ica", "Junín", "La Libertad", "Lambayeque",
-  "Lima Metropolitana", "Lima Provincias", "Loreto", "Madre de Dios", "Moquegua",
-  "Pasco", "Piura", "Puno", "San Martín", "Tacna", "Tumbes", "Ucayali"
-];
-

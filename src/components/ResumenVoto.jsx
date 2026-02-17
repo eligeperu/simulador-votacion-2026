@@ -1,96 +1,18 @@
 import { useState } from 'react';
 import { candidatosPresidenciales, partidosParlamentarios, JNE_LOGO } from '../data/candidatos';
-import senadoresNacionalRaw from '../data/senadoresNacional.json';
-import senadoresNacionalEnrich from '../data/senadoresNacional-enriched.json';
-import senadoresRegionalRawData from '../data/senadoresRegional/rawIndex';
-import senadoresRegionalEnrichData from '../data/senadoresRegional-enriched';
-import diputadosRawData from '../data/diputados/rawIndex';
-import diputadosEnrichData from '../data/diputados-enriched';
-import parlamenAndinoRaw from '../data/parlamenAndino.json';
-import parlamenAndinoEnrich from '../data/parlamenAndino-enriched.json';
+import { JNE_FOTO, ESTADOS_VALIDOS, ESTADOS_EN_PROCESO, normalizeName, buscarCandidato } from '../data/constants';
+import senadoresNacional from '../data/senadoresNacional';
+import senadoresRegional from '../data/senadoresRegional';
+import diputadosData from '../data/diputados';
+import parlamenAndino from '../data/parlamenAndino';
 import JudicialAlert from './JudicialAlert';
 import ProCrimeAlert from './ProCrimeAlert';
 
-const JNE_FOTO = "https://mpesije.jne.gob.pe/apidocs/";
-
-// Helper para normalizar nombres (Mayúsculas a Título)
-const normalizeName = (str) => {
-  if (!str) return '';
-  // Si es muy corto (siglas) no lo tocamos
-  if (str.length <= 4 && str === str.toUpperCase()) return str;
-  // Solo normalizamos si viene todo en mayúsculas (como los datos del JNE)
-  if (str !== str.toUpperCase()) return str;
-
-  return str.toLowerCase().replace(/(?:^|\s)\S/g, s => s.toUpperCase());
-};
-
-// Helper para fusionar datos originales con enriquecidos
-const ESTADOS_VALIDOS = ['INSCRITO', 'PUBLICADO PARA TACHAS', 'PUBLICADO'];
-const ESTADOS_EN_PROCESO = ['ADMITIDO', 'EN PROCESO DE TACHAS', 'PUBLICADO PARA TACHAS', 'PUBLICADO'];
-const fusionarDatos = (raw, enrich) => {
-  const data = raw.data || raw;
-  const enrichList = enrich.data || enrich;
-  const enrichedMap = new Map((Array.isArray(enrichList) ? enrichList : []).map(e => [e.dni, e]));
-
-  return (Array.isArray(data) ? data : [])
-    .map(c => {
-      const e = enrichedMap.get(c.strDocumentoIdentidad);
-      return {
-        idOrg: c.idOrganizacionPolitica,
-        pos: c.intPosicion,
-        nombre: e?.nombre || `${c.strNombres} ${c.strApellidoPaterno} ${c.strApellidoMaterno}`.trim(),
-        dni: c.strDocumentoIdentidad,
-        foto: e?.foto || c.strNombre || c.strGuidFoto,
-        sexo: c.strSexo,
-        estado: e?.estado ?? c.strEstadoCandidato,
-        votosProCrimen: e?.votosCongresoProCrimen || null,
-        porestosnoSlug: e?.porestosnoSlug || null,
-        flags: e?.flags || {
-          sentenciaPenal: false,
-          sentenciaPenalDetalle: [],
-          sentenciaObliga: false,
-          sentenciaObligaDetalle: []
-        }
-      };
-    });
-};
-
-// Procesar senadores nacionales (Híbrido)
-const senadoresNacional = fusionarDatos(senadoresNacionalRaw, senadoresNacionalEnrich);
-
-// Procesar parlamento andino (Híbrido)
-const parlamenAndino = fusionarDatos(parlamenAndinoRaw, parlamenAndinoEnrich);
-
-// Procesar senadores regionales (Híbrido)
-const senadoresRegional = Object.fromEntries(
-  Object.keys(senadoresRegionalRawData).map(region => [
-    region,
-    fusionarDatos(senadoresRegionalRawData[region], senadoresRegionalEnrichData[region] || [])
-  ])
-);
-
-// Procesar diputados (Híbrido)
-const diputadosData = Object.fromEntries(
-  Object.keys(diputadosRawData).map(region => [
-    region,
-    fusionarDatos(diputadosRawData[region], diputadosEnrichData[region] || [])
-  ])
-);
-
 // Lookup de votos pro-crimen por DNI (para cruzar con presidenciales)
 const proCrimenByDni = new Map();
-const senadoresNacEnrich = senadoresNacionalEnrich.data || senadoresNacionalEnrich;
-(Array.isArray(senadoresNacEnrich) ? senadoresNacEnrich : []).forEach(e => {
-  if (e.votosCongresoProCrimen) proCrimenByDni.set(e.dni, { votos: e.votosCongresoProCrimen, slug: e.porestosnoSlug });
+senadoresNacional.forEach(c => {
+  if (c.votosProCrimen) proCrimenByDni.set(c.dni, { votos: c.votosProCrimen, slug: c.porestosnoSlug });
 });
-
-// Buscar candidato por partido y posición
-const buscarCandidato = (idOrg, posicion, datos) => {
-  if (!posicion || !idOrg) return null;
-  const pos = parseInt(posicion);
-  if (isNaN(pos) || pos < 1) return null;
-  return datos.find(c => c.idOrg === idOrg && c.pos === pos);
-};
 
 export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionada = 'lima' }) {
   const [mostrarConfirmacion, setMostrarConfirmacion] = useState(false);
@@ -152,12 +74,6 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
   const senadoresReg = getSeleccionPartido('senadoresRegional');
   const diputados = getSeleccionPartido('diputados');
   const parlamento = getSeleccionPartido('parlamenAndino');
-
-  const tieneAlgunVoto = votos.presidente !== null ||
-    votos.senadoresNacional?.partido !== null ||
-    votos.senadoresRegional?.partido !== null ||
-    votos.diputados?.partido !== null ||
-    votos.parlamenAndino?.partido !== null;
 
   const votosCompletos = votos.presidente !== null &&
     votos.senadoresNacional?.partido !== null &&

@@ -1,4 +1,5 @@
-// Importar datos originales (tienen pos) y enriched (tienen estado actualizado)
+import { fusionarDatos } from '../constants';
+
 import amazonasOrig from './amazonas.json';
 import ancashOrig from './ancash.json';
 import apurimacOrig from './apurimac.json';
@@ -55,56 +56,34 @@ import tumbesEnr from '../diputados-enriched/tumbes-enriched.json';
 import ucayaliEnr from '../diputados-enriched/ucayali-enriched.json';
 import peruanosExtranjeroEnr from '../diputados-enriched/peruanos-extranjero-enriched.json';
 
-// Estados válidos para votar
-export const ESTADOS_VALIDOS = ['INSCRITO', 'PUBLICADO PARA TACHAS', 'PUBLICADO'];
-
-// Merge: datos originales (pos) + enriched (estado actualizado) por DNI
-const procesar = (orig, enr) => {
-  const origData = orig.data || orig;
-  const enrData = enr.data || enr;
-  const enrMap = new Map((enrData || []).map(c => [c.dni, c]));
-  return (Array.isArray(origData) ? origData : []).map(c => {
-    const enriched = enrMap.get(c.strDocumentoIdentidad);
-    return {
-      idOrg: c.idOrganizacionPolitica,
-      pos: c.intPosicion,
-      nombre: enriched?.nombre || `${c.strNombres} ${c.strApellidoPaterno} ${c.strApellidoMaterno}`.trim(),
-      dni: c.strDocumentoIdentidad,
-      foto: enriched?.foto || c.strNombre || c.strGuidFoto,
-      estado: enriched?.estado ?? c.strEstadoCandidato,
-      votosProCrimen: enriched?.votosCongresoProCrimen || null
-    };
-  });
-};
-
 export const diputados = {
-  amazonas: procesar(amazonasOrig, amazonasEnr),
-  ancash: procesar(ancashOrig, ancashEnr),
-  apurimac: procesar(apurimacOrig, apurimacEnr),
-  arequipa: procesar(arequipaOrig, arequipaEnr),
-  ayacucho: procesar(ayacuchoOrig, ayacuchoEnr),
-  cajamarca: procesar(cajamarcaOrig, cajamarcaEnr),
-  callao: procesar(callaoOrig, callaoEnr),
-  cusco: procesar(cuscoOrig, cuscoEnr),
-  huancavelica: procesar(huancavelicaOrig, huancavelicaEnr),
-  huanuco: procesar(huanucoOrig, huanucoEnr),
-  ica: procesar(icaOrig, icaEnr),
-  junin: procesar(juninOrig, juninEnr),
-  'la-libertad': procesar(laLibertadOrig, laLibertadEnr),
-  lambayeque: procesar(lambayequeOrig, lambayequeEnr),
-  lima: procesar(limaOrig, limaEnr),
-  'lima-provincias': procesar(limaProvinciasOrig, limaProvinciasEnr),
-  loreto: procesar(loretoOrig, loretoEnr),
-  'madre-de-dios': procesar(madreDeDiosOrig, madreDeDiosEnr),
-  moquegua: procesar(moqueguaOrig, moqueguaEnr),
-  pasco: procesar(pascoOrig, pascoEnr),
-  piura: procesar(piuraOrig, piuraEnr),
-  puno: procesar(punoOrig, punoEnr),
-  'san-martin': procesar(sanMartinOrig, sanMartinEnr),
-  tacna: procesar(tacnaOrig, tacnaEnr),
-  tumbes: procesar(tumbesOrig, tumbesEnr),
-  ucayali: procesar(ucayaliOrig, ucayaliEnr),
-  'peruanos-extranjero': procesar(peruanosExtranjeroOrig, peruanosExtranjeroEnr),
+  amazonas: fusionarDatos(amazonasOrig, amazonasEnr),
+  ancash: fusionarDatos(ancashOrig, ancashEnr),
+  apurimac: fusionarDatos(apurimacOrig, apurimacEnr),
+  arequipa: fusionarDatos(arequipaOrig, arequipaEnr),
+  ayacucho: fusionarDatos(ayacuchoOrig, ayacuchoEnr),
+  cajamarca: fusionarDatos(cajamarcaOrig, cajamarcaEnr),
+  callao: fusionarDatos(callaoOrig, callaoEnr),
+  cusco: fusionarDatos(cuscoOrig, cuscoEnr),
+  huancavelica: fusionarDatos(huancavelicaOrig, huancavelicaEnr),
+  huanuco: fusionarDatos(huanucoOrig, huanucoEnr),
+  ica: fusionarDatos(icaOrig, icaEnr),
+  junin: fusionarDatos(juninOrig, juninEnr),
+  'la-libertad': fusionarDatos(laLibertadOrig, laLibertadEnr),
+  lambayeque: fusionarDatos(lambayequeOrig, lambayequeEnr),
+  lima: fusionarDatos(limaOrig, limaEnr),
+  'lima-provincias': fusionarDatos(limaProvinciasOrig, limaProvinciasEnr),
+  loreto: fusionarDatos(loretoOrig, loretoEnr),
+  'madre-de-dios': fusionarDatos(madreDeDiosOrig, madreDeDiosEnr),
+  moquegua: fusionarDatos(moqueguaOrig, moqueguaEnr),
+  pasco: fusionarDatos(pascoOrig, pascoEnr),
+  piura: fusionarDatos(piuraOrig, piuraEnr),
+  puno: fusionarDatos(punoOrig, punoEnr),
+  'san-martin': fusionarDatos(sanMartinOrig, sanMartinEnr),
+  tacna: fusionarDatos(tacnaOrig, tacnaEnr),
+  tumbes: fusionarDatos(tumbesOrig, tumbesEnr),
+  ucayali: fusionarDatos(ucayaliOrig, ucayaliEnr),
+  'peruanos-extranjero': fusionarDatos(peruanosExtranjeroOrig, peruanosExtranjeroEnr),
 };
 
 export default diputados;
