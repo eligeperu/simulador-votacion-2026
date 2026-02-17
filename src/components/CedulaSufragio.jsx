@@ -54,7 +54,7 @@ const CandidatoCard = ({ partido, selected, onClick }) => {
       className={`flex items-center gap-[10px] p-[10px] border-b border-gray-300 min-h-[50px] bg-white transition-opacity ${esRetirado ? 'cursor-default opacity-40' : skipPresidente ? 'cursor-default' : 'cursor-pointer hover:opacity-90'}`}
     >
       <div className="w-[76px] text-left shrink-0">
-        <h3 className={`font-bold text-[9px] sm:text-[10px] uppercase leading-tight break-words ${skipPresidente ? 'text-white' : 'text-black'}`}>
+        <h3 className={`font-bold text-[9px] sm:text-[10px] uppercase leading-tight break-words ${skipPresidente || esRetirado ? 'text-white' : 'text-black'}`}>
           {partido.nombre}
         </h3>
       </div>

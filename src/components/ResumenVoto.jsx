@@ -175,7 +175,86 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
     onVotar?.();
   };
 
-  const ResumenItem = ({ titulo, seleccion, compact = false }) => (
+  if (votoRegistrado) {
+    return (
+      <div className="bg-white border border-slate-200 rounded-lg p-5 shadow text-center">
+        <div className="w-12 h-12 bg-slate-700 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-3">✓</div>
+        <h3 className="text-lg font-semibold text-slate-800 mb-1">Voto Registrado</h3>
+        <p className="text-gray-500 text-sm mb-4">Tu voto simulado ha sido registrado.</p>
+        <div className="space-y-3 text-left mb-4 overflow-y-auto max-h-[400px] pr-1">
+          <ResumenItem titulo="Presidente" seleccion={presidente} compact />
+          <ResumenItem titulo="Senadores Nac." seleccion={senadoresNac} compact />
+          <ResumenItem titulo="Senadores Reg." seleccion={senadoresReg} compact />
+          <ResumenItem titulo="Diputados" seleccion={diputados} compact />
+          <ResumenItem titulo="Parl. Andino" seleccion={parlamento} compact />
+        </div>
+        <button onClick={() => { setVotoRegistrado(false); onReset(); }} className="w-full py-2 bg-slate-700 hover:bg-slate-800 text-white rounded font-medium text-sm">
+          Votar de nuevo
+        </button>
+      </div>
+    );
+  }
+
+  return (
+    <>
+      <div className="bg-white border border-slate-200 rounded-lg p-4 shadow">
+        <h3 className="text-base font-semibold text-slate-800 mb-3 flex items-center gap-2 border-b border-slate-100 pb-2">
+          Resumen de tu Voto
+          {votosCompletos && <span className="text-green-600 text-xs font-normal">✓ Completo</span>}
+        </h3>
+
+        <div className="space-y-2 overflow-y-auto max-h-[500px] pr-1">
+          <ResumenItem titulo="Presidente" seleccion={presidente} compact />
+          <ResumenItem titulo="Senadores Nacional" seleccion={senadoresNac} compact />
+          <ResumenItem titulo="Senadores Regional" seleccion={senadoresReg} compact />
+          <ResumenItem titulo="Diputados" seleccion={diputados} compact />
+          <ResumenItem titulo="Parlamento Andino" seleccion={parlamento} compact />
+        </div>
+
+        {!votosCompletos && (
+          <p className="text-xs text-amber-600 mt-3 text-center">⚠️ Las categorías sin selección se contarán como voto en blanco</p>
+        )}
+
+        <div className="flex gap-2 mt-3">
+          <button onClick={onReset} className="flex-1 py-2 px-3 bg-slate-100 hover:bg-slate-200 border border-slate-300 rounded font-medium text-sm transition-colors text-slate-700">
+            Reiniciar
+          </button>
+          <button
+            onClick={handleVotar}
+            className="flex-1 py-2 px-3 rounded font-medium text-sm transition-colors bg-slate-700 hover:bg-slate-800 text-white"
+          >
+            VOTAR
+          </button>
+        </div>
+      </div>
+
+      {mostrarConfirmacion && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+          <div className="bg-white rounded-lg p-5 max-w-md w-full shadow-2xl">
+            <h3 className="text-lg font-semibold text-slate-800 mb-4 text-center border-b border-slate-100 pb-3">Confirmar tu voto</h3>
+            <div className="space-y-3 mb-5 max-h-[400px] overflow-y-auto pr-1">
+              <ResumenItem titulo="Presidente" seleccion={presidente} compact />
+              <ResumenItem titulo="Senadores Nac." seleccion={senadoresNac} compact />
+              <ResumenItem titulo="Senadores Reg." seleccion={senadoresReg} compact />
+              <ResumenItem titulo="Diputados" seleccion={diputados} compact />
+              <ResumenItem titulo="Parl. Andino" seleccion={parlamento} compact />
+            </div>
+            <div className="flex gap-3">
+              <button onClick={() => setMostrarConfirmacion(false)} className="flex-1 py-2 bg-slate-100 hover:bg-slate-200 border border-slate-300 rounded font-medium text-slate-700">
+                Cancelar
+              </button>
+              <button onClick={confirmarVoto} className="flex-1 py-2 bg-slate-700 hover:bg-slate-800 text-white rounded font-medium">
+                Confirmar
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
+  );
+}
+
+const ResumenItem = ({ titulo, seleccion, compact = false }) => (
     <div className={`${compact ? 'p-2.5' : 'p-3'} bg-white rounded-lg shadow-sm border border-slate-100`}>
       <div className="flex items-center gap-3">
         {seleccion.idOrg ? (
@@ -316,82 +395,3 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
       )}
     </div>
   );
-
-  if (votoRegistrado) {
-    return (
-      <div className="bg-white border border-slate-200 rounded-lg p-5 shadow text-center">
-        <div className="w-12 h-12 bg-slate-700 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-3">✓</div>
-        <h3 className="text-lg font-semibold text-slate-800 mb-1">Voto Registrado</h3>
-        <p className="text-gray-500 text-sm mb-4">Tu voto simulado ha sido registrado.</p>
-        <div className="space-y-3 text-left mb-4 overflow-y-auto max-h-[400px] pr-1">
-          <ResumenItem titulo="Presidente" seleccion={presidente} compact />
-          <ResumenItem titulo="Senadores Nac." seleccion={senadoresNac} compact />
-          <ResumenItem titulo="Senadores Reg." seleccion={senadoresReg} compact />
-          <ResumenItem titulo="Diputados" seleccion={diputados} compact />
-          <ResumenItem titulo="Parl. Andino" seleccion={parlamento} compact />
-        </div>
-        <button onClick={() => { setVotoRegistrado(false); onReset(); }} className="w-full py-2 bg-slate-700 hover:bg-slate-800 text-white rounded font-medium text-sm">
-          Votar de nuevo
-        </button>
-      </div>
-    );
-  }
-
-  return (
-    <>
-      <div className="bg-white border border-slate-200 rounded-lg p-4 shadow">
-        <h3 className="text-base font-semibold text-slate-800 mb-3 flex items-center gap-2 border-b border-slate-100 pb-2">
-          Resumen de tu Voto
-          {votosCompletos && <span className="text-green-600 text-xs font-normal">✓ Completo</span>}
-        </h3>
-
-        <div className="space-y-2 overflow-y-auto max-h-[500px] pr-1">
-          <ResumenItem titulo="Presidente" seleccion={presidente} compact />
-          <ResumenItem titulo="Senadores Nacional" seleccion={senadoresNac} compact />
-          <ResumenItem titulo="Senadores Regional" seleccion={senadoresReg} compact />
-          <ResumenItem titulo="Diputados" seleccion={diputados} compact />
-          <ResumenItem titulo="Parlamento Andino" seleccion={parlamento} compact />
-        </div>
-
-        {!votosCompletos && (
-          <p className="text-xs text-amber-600 mt-3 text-center">⚠️ Las categorías sin selección se contarán como voto en blanco</p>
-        )}
-
-        <div className="flex gap-2 mt-3">
-          <button onClick={onReset} className="flex-1 py-2 px-3 bg-slate-100 hover:bg-slate-200 border border-slate-300 rounded font-medium text-sm transition-colors text-slate-700">
-            Reiniciar
-          </button>
-          <button
-            onClick={handleVotar}
-            className="flex-1 py-2 px-3 rounded font-medium text-sm transition-colors bg-slate-700 hover:bg-slate-800 text-white"
-          >
-            VOTAR
-          </button>
-        </div>
-      </div>
-
-      {mostrarConfirmacion && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-lg p-5 max-w-md w-full shadow-2xl">
-            <h3 className="text-lg font-semibold text-slate-800 mb-4 text-center border-b border-slate-100 pb-3">Confirmar tu voto</h3>
-            <div className="space-y-3 mb-5 max-h-[400px] overflow-y-auto pr-1">
-              <ResumenItem titulo="Presidente" seleccion={presidente} compact />
-              <ResumenItem titulo="Senadores Nac." seleccion={senadoresNac} compact />
-              <ResumenItem titulo="Senadores Reg." seleccion={senadoresReg} compact />
-              <ResumenItem titulo="Diputados" seleccion={diputados} compact />
-              <ResumenItem titulo="Parl. Andino" seleccion={parlamento} compact />
-            </div>
-            <div className="flex gap-3">
-              <button onClick={() => setMostrarConfirmacion(false)} className="flex-1 py-2 bg-slate-100 hover:bg-slate-200 border border-slate-300 rounded font-medium text-slate-700">
-                Cancelar
-              </button>
-              <button onClick={confirmarVoto} className="flex-1 py-2 bg-slate-700 hover:bg-slate-800 text-white rounded font-medium">
-                Confirmar
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-    </>
-  );
-}
