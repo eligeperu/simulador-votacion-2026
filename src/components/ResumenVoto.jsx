@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { candidatosPresidenciales, partidosParlamentarios, JNE_LOGO } from '../data/candidatos';
-import { JNE_FOTO, ESTADOS_VALIDOS, ESTADOS_EN_PROCESO, normalizeName, buscarCandidato } from '../data/constants';
+import { candidatosPresidenciales, partidosParlamentarios } from '../data/candidatos';
+import { JNE_LOGO, JNE_FOTO, ESTADOS_VALIDOS, ESTADOS_EN_PROCESO, normalizeName, buscarCandidato } from '../data/constants';
 import senadoresNacional from '../data/senadoresNacional';
 import senadoresRegional from '../data/senadoresRegional';
 import diputadosData from '../data/diputados';

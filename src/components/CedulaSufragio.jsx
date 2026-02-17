@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { candidatosPresidenciales, partidosParlamentarios, JNE_LOGO } from '../data/candidatos';
-import { ESTADOS_VALIDOS, buscarCandidato } from '../data/constants';
+import { candidatosPresidenciales, partidosParlamentarios } from '../data/candidatos';
+import { JNE_LOGO, ESTADOS_VALIDOS, ESTADOS_EN_PROCESO, buscarCandidato, createInitialVotos } from '../data/constants';
 import senadoresNacional from '../data/senadoresNacional';
 import senadoresRegional from '../data/senadoresRegional';
 import diputadosData from '../data/diputados';
@@ -127,7 +127,7 @@ const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto,
           const candidato = selected && val ? buscarCandidato(partido.idOrg, val, getDatosCandidatos()) : null;
           const noExiste = selected && val && !candidato;
           const esValido = candidato && ESTADOS_VALIDOS.includes(candidato.estado);
-          const enProceso = candidato && ['ADMITIDO', 'EN PROCESO DE TACHAS', 'PUBLICADO PARA TACHAS'].includes(candidato.estado);
+          const enProceso = candidato && ESTADOS_EN_PROCESO.includes(candidato.estado);
           const esRechazado = candidato && !esValido && !enProceso;
           const tieneVotosProCrimen = candidato?.votosProCrimen?.some(v => v.sigla_voto === 'SI +++' || v.voto === 'A favor');
           const getBorderClass = () => {
@@ -168,16 +168,8 @@ const ColumnaHeader = ({ titulo, subtitulo, className = "", tituloClassName = "t
   </div>
 );
 
-
-
 export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'lima' }) {
-  const [votos, setVotos] = useState({
-    presidente: null,
-    senadoresNacional: { partido: null, preferencial: ['', ''] },
-    senadoresRegional: { partido: null, preferencial: [''] },
-    diputados: { partido: null, preferencial: ['', ''] },
-    parlamenAndino: { partido: null, preferencial: ['', ''] },
-  });
+  const [votos, setVotos] = useState(createInitialVotos);
   const [activeTab, setActiveTab] = useState('presidente');
 
   const handleVotoPresidente = (valor) => {

@@ -16,8 +16,8 @@ Incluye alertas sobre antecedentes judiciales y votos a favor de leyes pro-crime
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/TU_USUARIO/simulador-votacion.git
-cd simulador-votacion
+git clone https://github.com/eligeperu/simulador-votacion-2026.git
+cd simulador-votacion-2026
 
 # Instalar dependencias
 npm install
@@ -37,7 +37,6 @@ npm run lint
 ```
 src/
   components/          # Componentes React
-    App.jsx            # Componente principal
     CedulaSufragio.jsx # Interfaz de la cedula de votacion
     ResumenVoto.jsx    # Panel de resumen del voto
     Candidatos.jsx     # Vista de candidatos por partido
@@ -47,9 +46,11 @@ src/
   data/
     constants.js       # Constantes y utilidades compartidas
     candidatos.js      # Candidatos presidenciales y partidos
+    senadoresNacional.js  # Modulo de senadores nacionales
+    parlamenAndino.js     # Modulo de parlamento andino
     diputados/         # Datos de diputados por region (27 regiones)
     senadoresRegional/ # Datos de senadores regionales (27 regiones)
-    *-enriched/        # Datos enriquecidos con antecedentes del JNE
+    *-enriched.*       # Datos enriquecidos con antecedentes del JNE
 scripts/               # Scripts de extraccion de datos del JNE
 .github/workflows/     # CI/CD para GitHub Pages
 ```
