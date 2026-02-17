@@ -44,7 +44,7 @@ function App() {
           <CedulaSufragio onVotoCompleto={handleVotoCompleto} regionSeleccionada={regionSeleccionada} />
         </div>
 
-        <div className="hidden lg:block w-80 shrink-0 sticky top-4 auto-rows-min">
+        <div className="hidden lg:block w-80 shrink-0 sticky top-4 z-20 auto-rows-min">
           <ResumenVoto votos={votos} onReset={handleReset} regionSeleccionada={regionSeleccionada} />
         </div>
       </div>
