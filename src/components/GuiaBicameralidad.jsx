@@ -1,34 +1,5 @@
 import { useState } from 'react';
-
-const REGIONES = [
-  { id: 'amazonas', nombre: 'Amazonas' },
-  { id: 'ancash', nombre: 'Áncash' },
-  { id: 'apurimac', nombre: 'Apurímac' },
-  { id: 'arequipa', nombre: 'Arequipa' },
-  { id: 'ayacucho', nombre: 'Ayacucho' },
-  { id: 'cajamarca', nombre: 'Cajamarca' },
-  { id: 'callao', nombre: 'Callao' },
-  { id: 'cusco', nombre: 'Cusco' },
-  { id: 'huancavelica', nombre: 'Huancavelica' },
-  { id: 'huanuco', nombre: 'Huánuco' },
-  { id: 'ica', nombre: 'Ica' },
-  { id: 'junin', nombre: 'Junín' },
-  { id: 'la-libertad', nombre: 'La Libertad' },
-  { id: 'lambayeque', nombre: 'Lambayeque' },
-  { id: 'lima', nombre: 'Lima Metropolitana' },
-  { id: 'lima-provincias', nombre: 'Lima Provincias' },
-  { id: 'loreto', nombre: 'Loreto' },
-  { id: 'madre-de-dios', nombre: 'Madre de Dios' },
-  { id: 'moquegua', nombre: 'Moquegua' },
-  { id: 'pasco', nombre: 'Pasco' },
-  { id: 'piura', nombre: 'Piura' },
-  { id: 'puno', nombre: 'Puno' },
-  { id: 'san-martin', nombre: 'San Martín' },
-  { id: 'tacna', nombre: 'Tacna' },
-  { id: 'tumbes', nombre: 'Tumbes' },
-  { id: 'ucayali', nombre: 'Ucayali' },
-  { id: 'peruanos-extranjero', nombre: 'Peruanos en el Extranjero' },
-];
+import { REGIONES } from '../data/constants';
 
 export default function GuiaBicameralidad({ onRegionSeleccionada, regionActual }) {
   const [abierto, setAbierto] = useState(true);

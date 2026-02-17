@@ -1,39 +1,10 @@
 import { useState } from 'react';
 import { candidatosPresidenciales, partidosParlamentarios, JNE_LOGO } from '../data/candidatos';
-import senadoresNacionalOrig from '../data/senadoresNacional.json';
-import senadoresNacionalEnr from '../data/senadoresNacional-enriched.json';
-import senadoresRegional, { ESTADOS_VALIDOS } from '../data/senadoresRegional';
+import { ESTADOS_VALIDOS, buscarCandidato } from '../data/constants';
+import senadoresNacional from '../data/senadoresNacional';
+import senadoresRegional from '../data/senadoresRegional';
 import diputadosData from '../data/diputados';
-import parlamenAndinoOrig from '../data/parlamenAndino.json';
-import parlamenAndinoEnr from '../data/parlamenAndino-enriched.json';
-
-// Merge: datos originales (pos) + enriched (estado actualizado) por DNI
-const mergeDatos = (orig, enr) => {
-  const enrMap = new Map((enr.data || []).map(c => [c.dni, c]));
-  return (orig.data || []).map(c => {
-    const enriched = enrMap.get(c.strDocumentoIdentidad);
-    return {
-      idOrg: c.idOrganizacionPolitica,
-      pos: c.intPosicion,
-      nombre: enriched?.nombre || `${c.strNombres} ${c.strApellidoPaterno} ${c.strApellidoMaterno}`.trim(),
-      dni: c.strDocumentoIdentidad,
-      foto: enriched?.foto || c.strNombre || c.strGuidFoto,
-      estado: enriched?.estado ?? c.strEstadoCandidato,
-      votosProCrimen: enriched?.votosCongresoProCrimen || null
-    };
-  });
-};
-
-const senadoresNacional = mergeDatos(senadoresNacionalOrig, senadoresNacionalEnr);
-const parlamenAndino = mergeDatos(parlamenAndinoOrig, parlamenAndinoEnr);
-
-// Función para buscar candidato por partido y número de posición
-const buscarCandidato = (idOrg, posicion, datos) => {
-  if (!posicion || !idOrg) return null;
-  const pos = parseInt(posicion);
-  if (isNaN(pos) || pos < 1) return null;
-  return datos.find(c => c.idOrg === idOrg && c.pos === pos);
-};
+import parlamenAndino from '../data/parlamenAndino';
 
 const TABS = [
   { id: 'presidente', label: 'Presidente', short: 'PRES' },

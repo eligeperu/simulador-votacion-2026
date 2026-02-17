@@ -1,16 +1,63 @@
-# React + Vite
+# Simulador de Votacion 2026
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Simulador educativo de votacion para las Elecciones Generales de Peru 2026. Permite practicar el voto en las 5 categorias del nuevo sistema bicameral: Presidente, Senadores Nacionales, Senadores Regionales, Diputados y Parlamento Andino.
 
-Currently, two official plugins are available:
+Incluye alertas sobre antecedentes judiciales y votos a favor de leyes pro-crimen de cada candidato, con datos oficiales del JNE.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Demo:** Desplegado en GitHub Pages
 
-## React Compiler
+## Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 19** + **Vite 7** - Framework y bundler
+- **Tailwind CSS 3** - Estilos
+- **GitHub Actions** - CI/CD a GitHub Pages
 
-## Expanding the ESLint configuration
+## Inicio rapido
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Clonar el repositorio
+git clone https://github.com/TU_USUARIO/simulador-votacion.git
+cd simulador-votacion
+
+# Instalar dependencias
+npm install
+
+# Iniciar en modo desarrollo
+npm run dev
+
+# Build de produccion
+npm run build
+
+# Lint
+npm run lint
+```
+
+## Estructura del proyecto
+
+```
+src/
+  components/          # Componentes React
+    App.jsx            # Componente principal
+    CedulaSufragio.jsx # Interfaz de la cedula de votacion
+    ResumenVoto.jsx    # Panel de resumen del voto
+    Candidatos.jsx     # Vista de candidatos por partido
+    GuiaBicameralidad.jsx # Guia de uso y selector de region
+    JudicialAlert.jsx  # Alertas de antecedentes judiciales
+    ProCrimeAlert.jsx  # Alertas de votos pro-crimen
+  data/
+    constants.js       # Constantes y utilidades compartidas
+    candidatos.js      # Candidatos presidenciales y partidos
+    diputados/         # Datos de diputados por region (27 regiones)
+    senadoresRegional/ # Datos de senadores regionales (27 regiones)
+    *-enriched/        # Datos enriquecidos con antecedentes del JNE
+scripts/               # Scripts de extraccion de datos del JNE
+.github/workflows/     # CI/CD para GitHub Pages
+```
+
+## Fuentes de datos
+
+Todos los datos de candidatos provienen del [JNE - Voto Informado](https://votoinformado.jne.gob.pe). Los scripts en `scripts/` se usaron para extraer y enriquecer los datos.
+
+## Contribuir
+
+Lee [CONTRIBUTING.md](CONTRIBUTING.md) para conocer el proceso de contribucion.
