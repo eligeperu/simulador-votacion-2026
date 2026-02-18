@@ -130,56 +130,95 @@ const JudicialAlert = ({
     const renderSegment = (titulo, detalles, mapping, theme, esPenal = true) => {
         if (!detalles || detalles.length === 0) return null;
 
+        const { bg, border, text, bullet, icon } = theme;
+
+        if (esPenal) {
+            const sortedDetalles = [...detalles].sort((a, b) => {
+                const dateA = (a.feSentenciaPenal || "").split('/');
+                const dateB = (b.feSentenciaPenal || "").split('/');
+                if (dateA.length === 3 && dateB.length === 3) {
+                    const dA = new Date(dateA[2], dateA[1] - 1, dateA[0]);
+                    const dB = new Date(dateB[2], dateB[1] - 1, dateB[0]);
+                    return dB - dA;
+                }
+                return 0;
+            });
+
+            return (
+                <div className={`${bg} border-l-4 ${border} py-2 pr-2 pl-2 rounded-r-md shadow-sm`}>
+                    <div className="flex flex-col gap-1">
+                        {/* Header: Icon + Title */}
+                        <div className="flex items-center gap-2">
+                            <div className="flex items-center justify-center shrink-0">
+                                <AlertTriangle className={icon} size={11} />
+                            </div>
+                            <span className={`text-[8.5px] font-bold ${text} uppercase`}>
+                                {titulo}
+                            </span>
+                        </div>
+
+                        {/* Cards List */}
+                        <div className="flex flex-col gap-2">
+                            {sortedDetalles.map((d, idx) => {
+                                const fechaSplit = d.feSentenciaPenal ? d.feSentenciaPenal.split('/') : [];
+                                const anio = fechaSplit.length === 3 ? fechaSplit[2] : "";
+
+                                return (
+                                    <div key={idx} className="bg-white border border-red-100 p-2.5 rounded-md shadow-sm flex flex-col gap-2">
+                                        {/* Top Row: Year + Sentence (Side by Side) */}
+                                        <div className="flex items-center gap-0.5 flex-nowrap overflow-hidden">
+                                            {anio && (
+                                                <div className="bg-[#1e293b] text-white text-[7.5px] font-bold px-1.5 py-0.5 rounded-full whitespace-nowrap shrink-0 h-fit">
+                                                    {anio}
+                                                </div>
+                                            )}
+                                            {d.txFalloPenal && (
+                                                <div className="bg-[#b91c1c] text-white text-[7.5px] font-bold px-2 py-0.5 rounded-full uppercase whitespace-nowrap shrink-0 h-fit">
+                                                    {d.txFalloPenal}
+                                                </div>
+                                            )}
+                                        </div>
+
+                                        {/* Bottom Row: Crime */}
+                                        <div className="text-[8.5px] font-bold text-[#111827] uppercase leading-tight">
+                                            {d.txDelitoPenal}
+                                        </div>
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    </div>
+                </div>
+            );
+        }
+
         const itemsRaw = detalles.flatMap(d => {
-            const text = (esPenal ? d.txDelitoPenal : (d.txMateriaSentencia || d.txFalloObliga) || "").toUpperCase().trim();
-            // Evitamos separar por puntos para no romper abreviaturas como "ADM."
-            return text.split(/[,;]|\sY\s/).map(part => part.trim()).filter(Boolean);
+            const text = (d.txMateriaSentencia || d.txFalloObliga) || "";
+            return text.toUpperCase().trim().split(/[,;]|\sY\s/).map(part => part.trim()).filter(Boolean);
         });
 
         const itemsProcesados = Array.from(new Set(itemsRaw)).map(original => {
             const corregido = CORRECCIONES_TEXTO[original] || original;
-
             let explicacion = mapping[corregido];
 
-            // Fuzzy match para tipos de PECULADO y AGRESIONES
-            if (esPenal && !explicacion) {
-                const upperC = corregido.toUpperCase();
-
-                // Prioridad a peculados específicos
-                if (upperC.includes("PECULADO DOLOSO")) {
-                    explicacion = EXPLICACION_DELITOS["PECULADO DOLOSO"];
-                } else if (upperC.includes("PECULADO CULPOSO")) {
-                    explicacion = EXPLICACION_DELITOS["PECULADO CULPOSO"];
-                } else if (upperC.includes("PECULADO POR EXTENSIÓN") || upperC.includes("PECULADO DE EXTENSIÓN")) {
-                    explicacion = EXPLICACION_DELITOS["PECULADO POR EXTENSIÓN"];
-                } else if (upperC.includes("PECULADO")) {
-                    explicacion = EXPLICACION_DELITOS["PECULADO"];
-                } else if (upperC.includes("AGRESIONES") || upperC.includes("AGREDIR") || upperC.includes("MUJERES") || upperC.includes("MUJES")) {
-                    explicacion = EXPLICACION_DELITOS["AGRESIONES EN CONTRA DE LAS MUJERES O INTEGRANTES DEL GRUPO FAMILIAR"];
-                }
-            } else if (!esPenal && !explicacion) {
-                const upperC = corregido.toUpperCase();
-                if (upperC.includes("AUMENTO") && (upperC.includes("ALIMENT") || upperC.includes("PENSION"))) {
-                    explicacion = EXPLICACION_CIVILES["AUMENTO DE ALIMENTOS"];
-                } else if (upperC.includes("FILIACI") || upperC.includes("RECONOCIMIENTO") || upperC.includes("PARTIDA")) {
-                    explicacion = upperC.includes("EXTRAMATRIMONIAL")
-                        ? EXPLICACION_CIVILES["FILIACIÓN EXTRAMATRIMONIAL"]
-                        : EXPLICACION_CIVILES["FILIACIÓN"];
-                } else if (upperC.includes("ALIMENT")) {
-                    explicacion = EXPLICACION_CIVILES["FAMILIA / ALIMENTARIA"];
-                }
+            const upperC = corregido.toUpperCase();
+            if (upperC.includes("AUMENTO") && (upperC.includes("ALIMENT") || upperC.includes("PENSION"))) {
+                explicacion = EXPLICACION_CIVILES["AUMENTO DE ALIMENTOS"];
+            } else if (upperC.includes("FILIACI") || upperC.includes("RECONOCIMIENTO") || upperC.includes("PARTIDA")) {
+                explicacion = upperC.includes("EXTRAMATRIMONIAL")
+                    ? EXPLICACION_CIVILES["FILIACIÓN EXTRAMATRIMONIAL"]
+                    : EXPLICACION_CIVILES["FILIACIÓN"];
+            } else if (upperC.includes("ALIMENT")) {
+                explicacion = EXPLICACION_CIVILES["FAMILIA / ALIMENTARIA"];
             }
 
             const resultado = explicacion || corregido.toLowerCase();
             return capitalizeFirst(ajustarGenero(resultado, esFemenino));
         }).filter(Boolean);
 
-        const { bg, border, text, bullet, icon } = theme;
-
         return (
             <div className={`${bg} border-l-4 ${border} p-2 rounded-r-md shadow-sm`}>
                 <div className="flex flex-col gap-1">
-                    {/* Header: Icon + Title */}
                     <div className="flex items-center gap-2">
                         <div className="w-3 flex justify-center shrink-0">
                             <AlertTriangle className={icon} />
@@ -189,7 +228,6 @@ const JudicialAlert = ({
                         </span>
                     </div>
 
-                    {/* List: Bullet + Text */}
                     <div className="flex flex-col gap-1">
                         {itemsProcesados.map((item, idx) => (
                             <div key={idx} className="flex items-start gap-2">
