@@ -1,96 +1,18 @@
 import { useState } from 'react';
-import { candidatosPresidenciales, partidosParlamentarios, JNE_LOGO } from '../data/candidatos';
-import senadoresNacionalRaw from '../data/senadoresNacional.json';
-import senadoresNacionalEnrich from '../data/senadoresNacional-enriched.json';
-import senadoresRegionalRawData from '../data/senadoresRegional/rawIndex';
-import senadoresRegionalEnrichData from '../data/senadoresRegional-enriched';
-import diputadosRawData from '../data/diputados/rawIndex';
-import diputadosEnrichData from '../data/diputados-enriched';
-import parlamenAndinoRaw from '../data/parlamenAndino.json';
-import parlamenAndinoEnrich from '../data/parlamenAndino-enriched.json';
+import { candidatosPresidenciales, partidosParlamentarios } from '../data/candidatos';
+import { JNE_LOGO, JNE_FOTO, ESTADOS_VALIDOS, ESTADOS_EN_PROCESO, normalizeName, buscarCandidato } from '../data/constants';
+import senadoresNacional from '../data/senadoresNacional';
+import senadoresRegional from '../data/senadoresRegional';
+import diputadosData from '../data/diputados';
+import parlamenAndino from '../data/parlamenAndino';
 import JudicialAlert from './JudicialAlert';
 import ProCrimeAlert from './ProCrimeAlert';
 
-const JNE_FOTO = "https://mpesije.jne.gob.pe/apidocs/";
-
-// Helper para normalizar nombres (Mayúsculas a Título)
-const normalizeName = (str) => {
-  if (!str) return '';
-  // Si es muy corto (siglas) no lo tocamos
-  if (str.length <= 4 && str === str.toUpperCase()) return str;
-  // Solo normalizamos si viene todo en mayúsculas (como los datos del JNE)
-  if (str !== str.toUpperCase()) return str;
-
-  return str.toLowerCase().replace(/(?:^|\s)\S/g, s => s.toUpperCase());
-};
-
-// Helper para fusionar datos originales con enriquecidos
-const ESTADOS_VALIDOS = ['INSCRITO', 'PUBLICADO PARA TACHAS', 'PUBLICADO'];
-const ESTADOS_EN_PROCESO = ['ADMITIDO', 'EN PROCESO DE TACHAS', 'PUBLICADO PARA TACHAS', 'PUBLICADO'];
-const fusionarDatos = (raw, enrich) => {
-  const data = raw.data || raw;
-  const enrichList = enrich.data || enrich;
-  const enrichedMap = new Map((Array.isArray(enrichList) ? enrichList : []).map(e => [e.dni, e]));
-
-  return (Array.isArray(data) ? data : [])
-    .map(c => {
-      const e = enrichedMap.get(c.strDocumentoIdentidad);
-      return {
-        idOrg: c.idOrganizacionPolitica,
-        pos: c.intPosicion,
-        nombre: e?.nombre || `${c.strNombres} ${c.strApellidoPaterno} ${c.strApellidoMaterno}`.trim(),
-        dni: c.strDocumentoIdentidad,
-        foto: e?.foto || c.strNombre || c.strGuidFoto,
-        sexo: c.strSexo,
-        estado: e?.estado ?? c.strEstadoCandidato,
-        votosProCrimen: e?.votosCongresoProCrimen || null,
-        porestosnoSlug: e?.porestosnoSlug || null,
-        flags: e?.flags || {
-          sentenciaPenal: false,
-          sentenciaPenalDetalle: [],
-          sentenciaObliga: false,
-          sentenciaObligaDetalle: []
-        }
-      };
-    });
-};
-
-// Procesar senadores nacionales (Híbrido)
-const senadoresNacional = fusionarDatos(senadoresNacionalRaw, senadoresNacionalEnrich);
-
-// Procesar parlamento andino (Híbrido)
-const parlamenAndino = fusionarDatos(parlamenAndinoRaw, parlamenAndinoEnrich);
-
-// Procesar senadores regionales (Híbrido)
-const senadoresRegional = Object.fromEntries(
-  Object.keys(senadoresRegionalRawData).map(region => [
-    region,
-    fusionarDatos(senadoresRegionalRawData[region], senadoresRegionalEnrichData[region] || [])
-  ])
-);
-
-// Procesar diputados (Híbrido)
-const diputadosData = Object.fromEntries(
-  Object.keys(diputadosRawData).map(region => [
-    region,
-    fusionarDatos(diputadosRawData[region], diputadosEnrichData[region] || [])
-  ])
-);
-
 // Lookup de votos pro-crimen por DNI (para cruzar con presidenciales)
 const proCrimenByDni = new Map();
-const senadoresNacEnrich = senadoresNacionalEnrich.data || senadoresNacionalEnrich;
-(Array.isArray(senadoresNacEnrich) ? senadoresNacEnrich : []).forEach(e => {
-  if (e.votosCongresoProCrimen) proCrimenByDni.set(e.dni, { votos: e.votosCongresoProCrimen, slug: e.porestosnoSlug });
+senadoresNacional.forEach(c => {
+  if (c.votosProCrimen) proCrimenByDni.set(c.dni, { votos: c.votosProCrimen, slug: c.porestosnoSlug });
 });
-
-// Buscar candidato por partido y posición
-const buscarCandidato = (idOrg, posicion, datos) => {
-  if (!posicion || !idOrg) return null;
-  const pos = parseInt(posicion);
-  if (isNaN(pos) || pos < 1) return null;
-  return datos.find(c => c.idOrg === idOrg && c.pos === pos);
-};
 
 export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionada = 'lima' }) {
   const [mostrarConfirmacion, setMostrarConfirmacion] = useState(false);
@@ -153,12 +75,6 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
   const diputados = getSeleccionPartido('diputados');
   const parlamento = getSeleccionPartido('parlamenAndino');
 
-  const tieneAlgunVoto = votos.presidente !== null ||
-    votos.senadoresNacional?.partido !== null ||
-    votos.senadoresRegional?.partido !== null ||
-    votos.diputados?.partido !== null ||
-    votos.parlamenAndino?.partido !== null;
-
   const votosCompletos = votos.presidente !== null &&
     votos.senadoresNacional?.partido !== null &&
     votos.senadoresRegional?.partido !== null &&
@@ -175,7 +91,86 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
     onVotar?.();
   };
 
-  const ResumenItem = ({ titulo, seleccion, compact = false }) => (
+  if (votoRegistrado) {
+    return (
+      <div className="bg-white border border-slate-200 rounded-lg p-5 shadow text-center">
+        <div className="w-12 h-12 bg-slate-700 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-3">✓</div>
+        <h3 className="text-lg font-semibold text-slate-800 mb-1">Voto Registrado</h3>
+        <p className="text-gray-500 text-sm mb-4">Tu voto simulado ha sido registrado.</p>
+        <div className="space-y-3 text-left mb-4 overflow-y-auto max-h-[400px] pr-1">
+          <ResumenItem titulo="Presidente" seleccion={presidente} compact />
+          <ResumenItem titulo="Senadores Nac." seleccion={senadoresNac} compact />
+          <ResumenItem titulo="Senadores Reg." seleccion={senadoresReg} compact />
+          <ResumenItem titulo="Diputados" seleccion={diputados} compact />
+          <ResumenItem titulo="Parl. Andino" seleccion={parlamento} compact />
+        </div>
+        <button onClick={() => { setVotoRegistrado(false); onReset(); }} className="w-full py-2 bg-slate-700 hover:bg-slate-800 text-white rounded font-medium text-sm">
+          Votar de nuevo
+        </button>
+      </div>
+    );
+  }
+
+  return (
+    <>
+      <div className="bg-white border border-slate-200 rounded-lg p-4 shadow">
+        <h3 className="text-base font-semibold text-slate-800 mb-3 flex items-center gap-2 border-b border-slate-100 pb-2">
+          Resumen de tu Voto
+          {votosCompletos && <span className="text-green-600 text-xs font-normal">✓ Completo</span>}
+        </h3>
+
+        <div className="space-y-2 overflow-y-auto max-h-[500px] pr-1">
+          <ResumenItem titulo="Presidente" seleccion={presidente} compact />
+          <ResumenItem titulo="Senadores Nacional" seleccion={senadoresNac} compact />
+          <ResumenItem titulo="Senadores Regional" seleccion={senadoresReg} compact />
+          <ResumenItem titulo="Diputados" seleccion={diputados} compact />
+          <ResumenItem titulo="Parlamento Andino" seleccion={parlamento} compact />
+        </div>
+
+        {!votosCompletos && (
+          <p className="text-xs text-amber-600 mt-3 text-center">⚠️ Las categorías sin selección se contarán como voto en blanco</p>
+        )}
+
+        <div className="flex gap-2 mt-3">
+          <button onClick={onReset} className="flex-1 py-2 px-3 bg-slate-100 hover:bg-slate-200 border border-slate-300 rounded font-medium text-sm transition-colors text-slate-700">
+            Reiniciar
+          </button>
+          <button
+            onClick={handleVotar}
+            className="flex-1 py-2 px-3 rounded font-medium text-sm transition-colors bg-slate-700 hover:bg-slate-800 text-white"
+          >
+            VOTAR
+          </button>
+        </div>
+      </div>
+
+      {mostrarConfirmacion && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+          <div className="bg-white rounded-lg p-5 max-w-md w-full shadow-2xl">
+            <h3 className="text-lg font-semibold text-slate-800 mb-4 text-center border-b border-slate-100 pb-3">Confirmar tu voto</h3>
+            <div className="space-y-3 mb-5 max-h-[400px] overflow-y-auto pr-1">
+              <ResumenItem titulo="Presidente" seleccion={presidente} compact />
+              <ResumenItem titulo="Senadores Nac." seleccion={senadoresNac} compact />
+              <ResumenItem titulo="Senadores Reg." seleccion={senadoresReg} compact />
+              <ResumenItem titulo="Diputados" seleccion={diputados} compact />
+              <ResumenItem titulo="Parl. Andino" seleccion={parlamento} compact />
+            </div>
+            <div className="flex gap-3">
+              <button onClick={() => setMostrarConfirmacion(false)} className="flex-1 py-2 bg-slate-100 hover:bg-slate-200 border border-slate-300 rounded font-medium text-slate-700">
+                Cancelar
+              </button>
+              <button onClick={confirmarVoto} className="flex-1 py-2 bg-slate-700 hover:bg-slate-800 text-white rounded font-medium">
+                Confirmar
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
+  );
+}
+
+const ResumenItem = ({ titulo, seleccion, compact = false }) => (
     <div className={`${compact ? 'p-2.5' : 'p-3'} bg-white rounded-lg shadow-sm border border-slate-100`}>
       <div className="flex items-center gap-3">
         {seleccion.idOrg ? (
@@ -316,82 +311,3 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
       )}
     </div>
   );
-
-  if (votoRegistrado) {
-    return (
-      <div className="bg-white border border-slate-200 rounded-lg p-5 shadow text-center">
-        <div className="w-12 h-12 bg-slate-700 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-3">✓</div>
-        <h3 className="text-lg font-semibold text-slate-800 mb-1">Voto Registrado</h3>
-        <p className="text-gray-500 text-sm mb-4">Tu voto simulado ha sido registrado.</p>
-        <div className="space-y-3 text-left mb-4 overflow-y-auto max-h-[400px] pr-1">
-          <ResumenItem titulo="Presidente" seleccion={presidente} compact />
-          <ResumenItem titulo="Senadores Nac." seleccion={senadoresNac} compact />
-          <ResumenItem titulo="Senadores Reg." seleccion={senadoresReg} compact />
-          <ResumenItem titulo="Diputados" seleccion={diputados} compact />
-          <ResumenItem titulo="Parl. Andino" seleccion={parlamento} compact />
-        </div>
-        <button onClick={() => { setVotoRegistrado(false); onReset(); }} className="w-full py-2 bg-slate-700 hover:bg-slate-800 text-white rounded font-medium text-sm">
-          Votar de nuevo
-        </button>
-      </div>
-    );
-  }
-
-  return (
-    <>
-      <div className="bg-white border border-slate-200 rounded-lg p-4 shadow">
-        <h3 className="text-base font-semibold text-slate-800 mb-3 flex items-center gap-2 border-b border-slate-100 pb-2">
-          Resumen de tu Voto
-          {votosCompletos && <span className="text-green-600 text-xs font-normal">✓ Completo</span>}
-        </h3>
-
-        <div className="space-y-2 overflow-y-auto max-h-[500px] pr-1">
-          <ResumenItem titulo="Presidente" seleccion={presidente} compact />
-          <ResumenItem titulo="Senadores Nacional" seleccion={senadoresNac} compact />
-          <ResumenItem titulo="Senadores Regional" seleccion={senadoresReg} compact />
-          <ResumenItem titulo="Diputados" seleccion={diputados} compact />
-          <ResumenItem titulo="Parlamento Andino" seleccion={parlamento} compact />
-        </div>
-
-        {!votosCompletos && (
-          <p className="text-xs text-amber-600 mt-3 text-center">⚠️ Las categorías sin selección se contarán como voto en blanco</p>
-        )}
-
-        <div className="flex gap-2 mt-3">
-          <button onClick={onReset} className="flex-1 py-2 px-3 bg-slate-100 hover:bg-slate-200 border border-slate-300 rounded font-medium text-sm transition-colors text-slate-700">
-            Reiniciar
-          </button>
-          <button
-            onClick={handleVotar}
-            className="flex-1 py-2 px-3 rounded font-medium text-sm transition-colors bg-slate-700 hover:bg-slate-800 text-white"
-          >
-            VOTAR
-          </button>
-        </div>
-      </div>
-
-      {mostrarConfirmacion && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-lg p-5 max-w-md w-full shadow-2xl">
-            <h3 className="text-lg font-semibold text-slate-800 mb-4 text-center border-b border-slate-100 pb-3">Confirmar tu voto</h3>
-            <div className="space-y-3 mb-5 max-h-[400px] overflow-y-auto pr-1">
-              <ResumenItem titulo="Presidente" seleccion={presidente} compact />
-              <ResumenItem titulo="Senadores Nac." seleccion={senadoresNac} compact />
-              <ResumenItem titulo="Senadores Reg." seleccion={senadoresReg} compact />
-              <ResumenItem titulo="Diputados" seleccion={diputados} compact />
-              <ResumenItem titulo="Parl. Andino" seleccion={parlamento} compact />
-            </div>
-            <div className="flex gap-3">
-              <button onClick={() => setMostrarConfirmacion(false)} className="flex-1 py-2 bg-slate-100 hover:bg-slate-200 border border-slate-300 rounded font-medium text-slate-700">
-                Cancelar
-              </button>
-              <button onClick={confirmarVoto} className="flex-1 py-2 bg-slate-700 hover:bg-slate-800 text-white rounded font-medium">
-                Confirmar
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-    </>
-  );
-}

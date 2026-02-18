@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import rawVotesData from '../data/porestosno.json';
 
 const LEYES_PRO_CRIMEN_IDS = ["31751", "31989", "31990", "32054", "32104", "32108", "32130", "32181", "32326"];

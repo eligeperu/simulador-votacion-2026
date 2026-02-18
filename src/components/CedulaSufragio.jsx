@@ -1,39 +1,10 @@
 import { useState } from 'react';
-import { candidatosPresidenciales, partidosParlamentarios, JNE_LOGO } from '../data/candidatos';
-import senadoresNacionalOrig from '../data/senadoresNacional.json';
-import senadoresNacionalEnr from '../data/senadoresNacional-enriched.json';
-import senadoresRegional, { ESTADOS_VALIDOS } from '../data/senadoresRegional';
+import { candidatosPresidenciales, partidosParlamentarios } from '../data/candidatos';
+import { JNE_LOGO, ESTADOS_VALIDOS, ESTADOS_EN_PROCESO, buscarCandidato, createInitialVotos } from '../data/constants';
+import senadoresNacional from '../data/senadoresNacional';
+import senadoresRegional from '../data/senadoresRegional';
 import diputadosData from '../data/diputados';
-import parlamenAndinoOrig from '../data/parlamenAndino.json';
-import parlamenAndinoEnr from '../data/parlamenAndino-enriched.json';
-
-// Merge: datos originales (pos) + enriched (estado actualizado) por DNI
-const mergeDatos = (orig, enr) => {
-  const enrMap = new Map((enr.data || []).map(c => [c.dni, c]));
-  return (orig.data || []).map(c => {
-    const enriched = enrMap.get(c.strDocumentoIdentidad);
-    return {
-      idOrg: c.idOrganizacionPolitica,
-      pos: c.intPosicion,
-      nombre: enriched?.nombre || `${c.strNombres} ${c.strApellidoPaterno} ${c.strApellidoMaterno}`.trim(),
-      dni: c.strDocumentoIdentidad,
-      foto: enriched?.foto || c.strNombre || c.strGuidFoto,
-      estado: enriched?.estado ?? c.strEstadoCandidato,
-      votosProCrimen: enriched?.votosCongresoProCrimen || null
-    };
-  });
-};
-
-const senadoresNacional = mergeDatos(senadoresNacionalOrig, senadoresNacionalEnr);
-const parlamenAndino = mergeDatos(parlamenAndinoOrig, parlamenAndinoEnr);
-
-// Función para buscar candidato por partido y número de posición
-const buscarCandidato = (idOrg, posicion, datos) => {
-  if (!posicion || !idOrg) return null;
-  const pos = parseInt(posicion);
-  if (isNaN(pos) || pos < 1) return null;
-  return datos.find(c => c.idOrg === idOrg && c.pos === pos);
-};
+import parlamenAndino from '../data/parlamenAndino';
 
 const TABS = [
   { id: 'presidente', label: 'Presidente', short: 'PRES' },
@@ -54,7 +25,7 @@ const CandidatoCard = ({ partido, selected, onClick }) => {
       className={`flex items-center gap-[10px] p-[10px] border-b border-gray-300 min-h-[50px] bg-white transition-opacity ${esRetirado ? 'cursor-default opacity-40' : skipPresidente ? 'cursor-default' : 'cursor-pointer hover:opacity-90'}`}
     >
       <div className="w-[76px] text-left shrink-0">
-        <h3 className={`font-bold text-[9px] sm:text-[10px] uppercase leading-tight break-words ${skipPresidente ? 'text-white' : 'text-black'}`}>
+        <h3 className={`font-bold text-[9px] sm:text-[10px] uppercase leading-tight break-words ${skipPresidente || esRetirado ? 'text-white' : 'text-black'}`}>
           {partido.nombre}
         </h3>
       </div>
@@ -156,7 +127,7 @@ const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto,
           const candidato = selected && val ? buscarCandidato(partido.idOrg, val, getDatosCandidatos()) : null;
           const noExiste = selected && val && !candidato;
           const esValido = candidato && ESTADOS_VALIDOS.includes(candidato.estado);
-          const enProceso = candidato && ['ADMITIDO', 'EN PROCESO DE TACHAS', 'PUBLICADO PARA TACHAS'].includes(candidato.estado);
+          const enProceso = candidato && ESTADOS_EN_PROCESO.includes(candidato.estado);
           const esRechazado = candidato && !esValido && !enProceso;
           const tieneVotosProCrimen = candidato?.votosProCrimen?.some(v => v.sigla_voto === 'SI +++' || v.voto === 'A favor');
           const getBorderClass = () => {
@@ -197,16 +168,8 @@ const ColumnaHeader = ({ titulo, subtitulo, className = "", tituloClassName = "t
   </div>
 );
 
-
-
 export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'lima' }) {
-  const [votos, setVotos] = useState({
-    presidente: null,
-    senadoresNacional: { partido: null, preferencial: ['', ''] },
-    senadoresRegional: { partido: null, preferencial: [''] },
-    diputados: { partido: null, preferencial: ['', ''] },
-    parlamenAndino: { partido: null, preferencial: ['', ''] },
-  });
+  const [votos, setVotos] = useState(createInitialVotos);
   const [activeTab, setActiveTab] = useState('presidente');
 
   const handleVotoPresidente = (valor) => {
@@ -261,8 +224,8 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
   );
 
   return (
-    <div className="overflow-x-auto mx-auto rounded-lg shadow-2xl">
-    <div className="bg-white min-w-fit">
+    <div className="mx-auto rounded-lg shadow-2xl">
+    <div className="bg-white">
       <div className="bg-slate-800 text-white p-3 text-center rounded-t-lg">
         <h1 className="text-xl font-semibold">CÉDULA DE SUFRAGIO</h1>
         <p className="text-sm text-slate-300">Marque con una X o ✓ el partido de su preferencia. El voto preferencial es <strong>opcional</strong>: escriba el número del candidato.</p>

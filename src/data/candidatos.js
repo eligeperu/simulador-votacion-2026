@@ -1,8 +1,5 @@
 import candidatosData from './candidatosPresidenciales-enriched.json';
 
-// URL para logos de partidos: https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/{idOrg}
-export const JNE_LOGO = "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/";
-
 // Candidatos presidenciales desde JSON con datos enriquecidos del JNE
 export const candidatosPresidenciales = candidatosData.data.map(c => ({
   id: c.idOrg,
@@ -56,12 +53,5 @@ export const partidosParlamentarios = [
   { id: 36, nombre: "Partido de los Trabajadores y Emprendedores - PTE", siglas: "PTE", color: "#CA8A04", idOrg: 2939 },
   { id: 37, nombre: "Unidad Nacional", siglas: "UN", color: "#1D4ED8", idOrg: 3023 },
   { id: 38, nombre: "Partido Morado", siglas: "PM", color: "#8B5CF6", idOrg: 2840 },
-];
-
-export const regiones = [
-  "Amazonas", "Áncash", "Apurímac", "Arequipa", "Ayacucho", "Cajamarca", "Callao",
-  "Cusco", "Huancavelica", "Huánuco", "Ica", "Junín", "La Libertad", "Lambayeque",
-  "Lima Metropolitana", "Lima Provincias", "Loreto", "Madre de Dios", "Moquegua",
-  "Pasco", "Piura", "Puno", "San Martín", "Tacna", "Tumbes", "Ucayali"
 ];
 

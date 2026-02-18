@@ -3,27 +3,20 @@ import CedulaSufragio from './components/CedulaSufragio';
 import ResumenVoto from './components/ResumenVoto';
 import GuiaBicameralidad from './components/GuiaBicameralidad';
 import Candidatos from './components/Candidatos';
+import { createInitialVotos } from './data/constants';
 
 function App() {
-  const [votos, setVotos] = useState({
-    presidente: null,
-    senadoresNacional: { partido: null, preferencial: ['', ''] },
-    senadoresRegional: { partido: null, preferencial: [''] },
-    diputados: { partido: null, preferencial: ['', ''] },
-    parlamenAndino: { partido: null, preferencial: ['', ''] },
-  });
+  const [votos, setVotos] = useState(createInitialVotos);
+  const [resetKey, setResetKey] = useState(0);
   const [regionSeleccionada, setRegionSeleccionada] = useState('lima');
   const [mostrarResumenMobile, setMostrarResumenMobile] = useState(false);
   const [page, setPage] = useState('simulador');
   const handleVotoCompleto = (nuevosVotos) => setVotos(nuevosVotos);
 
-  const handleReset = () => setVotos({
-    presidente: null,
-    senadoresNacional: { partido: null, preferencial: ['', ''] },
-    senadoresRegional: { partido: null, preferencial: [''] },
-    diputados: { partido: null, preferencial: ['', ''] },
-    parlamenAndino: { partido: null, preferencial: ['', ''] },
-  });
+  const handleReset = () => {
+    setVotos(createInitialVotos());
+    setResetKey(k => k + 1);
+  };
 
   const diasRestantes = Math.ceil((new Date('2026-04-12') - new Date()) / (1000 * 60 * 60 * 24));
 
@@ -41,10 +34,10 @@ function App() {
 
       <div className="flex flex-col lg:flex-row gap-6 max-w-[1600px] mx-auto items-start">
         <div className="flex-1 w-full lg:min-w-0 overflow-x-auto">
-          <CedulaSufragio onVotoCompleto={handleVotoCompleto} regionSeleccionada={regionSeleccionada} />
+          <CedulaSufragio key={resetKey} onVotoCompleto={handleVotoCompleto} regionSeleccionada={regionSeleccionada} />
         </div>
 
-        <div className="hidden lg:block w-80 shrink-0 sticky top-4 auto-rows-min">
+        <div className="hidden lg:block w-80 shrink-0 sticky top-4 z-20 auto-rows-min">
           <ResumenVoto votos={votos} onReset={handleReset} regionSeleccionada={regionSeleccionada} />
         </div>
       </div>
