@@ -1,0 +1,788 @@
+{
+  "fetchedAt": "2026-02-20T00:00:00.000Z",
+  "source": "https://www.congreso.gob.pe/integrantes-grupos-parlamentarios",
+  "periodo": "2021-2026",
+  "count": 130,
+  "data": [
+    {
+      "nombre": "ALVA PRIETO, MARIA DEL CARMEN",
+      "distrito": "LIMA",
+      "email": "malva@congreso.gob.pe",
+      "grupoParlamentario": "ACCION POPULAR"
+    },
+    {
+      "nombre": "ALVA ROJAS, CARLOS ENRIQUE",
+      "distrito": "LA LIBERTAD",
+      "email": "calva@congreso.gob.pe",
+      "grupoParlamentario": "ACCION POPULAR"
+    },
+    {
+      "nombre": "ARAGON CARRENO, LUIS ANGEL",
+      "distrito": "CUSCO",
+      "email": "laragon@congreso.gob.pe",
+      "grupoParlamentario": "ACCION POPULAR"
+    },
+    {
+      "nombre": "LOPEZ URENA, ILICH FREDY",
+      "distrito": "JUNIN",
+      "email": "ilopezu@congreso.gob.pe",
+      "grupoParlamentario": "ACCION POPULAR"
+    },
+    {
+      "nombre": "MARTINEZ TALAVERA, PEDRO EDWIN",
+      "distrito": "AREQUIPA",
+      "email": "pmartinezt@congreso.gob.pe",
+      "grupoParlamentario": "ACCION POPULAR"
+    },
+    {
+      "nombre": "MONTEZA FACHO, SILVIA MARIA",
+      "distrito": "CAJAMARCA",
+      "email": "smonteza@congreso.gob.pe",
+      "grupoParlamentario": "ACCION POPULAR"
+    },
+    {
+      "nombre": "MORI CELIS, JUAN CARLOS",
+      "distrito": "LORETO",
+      "email": "jmoric@congreso.gob.pe",
+      "grupoParlamentario": "ACCION POPULAR"
+    },
+    {
+      "nombre": "PORTERO LOPEZ, HILDA MARLENY",
+      "distrito": "LAMBAYEQUE",
+      "email": "hportero@congreso.gob.pe",
+      "grupoParlamentario": "ACCION POPULAR"
+    },
+    {
+      "nombre": "SOTO PALACIOS, WILSON",
+      "distrito": "HUANCAVELICA",
+      "email": "wsoto@congreso.gob.pe",
+      "grupoParlamentario": "ACCION POPULAR"
+    },
+    {
+      "nombre": "VERGARA MENDOZA, ELVIS HERNAN",
+      "distrito": "UCAYALI",
+      "email": "evergaram@congreso.gob.pe",
+      "grupoParlamentario": "ACCION POPULAR"
+    },
+    {
+      "nombre": "ACUNA PERALTA, MARIA GRIMANEZA",
+      "distrito": "LAMBAYEQUE",
+      "email": "gacuna@congreso.gob.pe",
+      "grupoParlamentario": "ALIANZA PARA EL PROGRESO"
+    },
+    {
+      "nombre": "CAMONES SORIANO, LADY MERCEDES",
+      "distrito": "ANCASH",
+      "email": "lcamones@congreso.gob.pe",
+      "grupoParlamentario": "ALIANZA PARA EL PROGRESO"
+    },
+    {
+      "nombre": "CHIABRA LEON, ROBERTO ENRIQUE",
+      "distrito": "LIMA",
+      "email": "rchiabra@congreso.gob.pe",
+      "grupoParlamentario": "ALIANZA PARA EL PROGRESO"
+    },
+    {
+      "nombre": "CORDERO JON TAY, LUIS GUSTAVO",
+      "distrito": "LIMA PROVINCIAS",
+      "email": "lcordero@congreso.gob.pe",
+      "grupoParlamentario": "ALIANZA PARA EL PROGRESO"
+    },
+    {
+      "nombre": "ELIAS AVALOS, JOSE LUIS",
+      "distrito": "ICA",
+      "email": "jelias@congreso.gob.pe",
+      "grupoParlamentario": "ALIANZA PARA EL PROGRESO"
+    },
+    {
+      "nombre": "FLORES ANCACHI, JORGE LUIS",
+      "distrito": "PUNO",
+      "email": "jfloresa@congreso.gob.pe",
+      "grupoParlamentario": "ALIANZA PARA EL PROGRESO"
+    },
+    {
+      "nombre": "GARCIA CORREA, IDELSO MANUEL",
+      "distrito": "PIURA",
+      "email": "igarcia@congreso.gob.pe",
+      "grupoParlamentario": "ALIANZA PARA EL PROGRESO"
+    },
+    {
+      "nombre": "HEIDINGER BALLESTEROS, NELCY LIDIA",
+      "distrito": "PASCO",
+      "email": "nheidinger@congreso.gob.pe",
+      "grupoParlamentario": "ALIANZA PARA EL PROGRESO"
+    },
+    {
+      "nombre": "JULON IRIGOÍN, ELVA EDHIT",
+      "distrito": "CAJAMARCA",
+      "email": "ejulon@congreso.gob.pe",
+      "grupoParlamentario": "ALIANZA PARA EL PROGRESO"
+    },
+    {
+      "nombre": "KAMICHE MORANTE, LUIS ROBERTO",
+      "distrito": "LA LIBERTAD",
+      "email": "lkamiche@congreso.gob.pe",
+      "grupoParlamentario": "ALIANZA PARA EL PROGRESO"
+    },
+    {
+      "nombre": "LIZARZABURU LIZARZABURU, JUAN CARLOS MARTIN",
+      "distrito": "PERUANOS RESIDENTES EN EL EXTRANJERO",
+      "email": "jlizarzaburu@congreso.gob.pe",
+      "grupoParlamentario": "ALIANZA PARA EL PROGRESO"
+    },
+    {
+      "nombre": "MARTICORENA MENDOZA, JORGE ALFONSO",
+      "distrito": "ICA",
+      "email": "jmarticorena@congreso.gob.pe",
+      "grupoParlamentario": "ALIANZA PARA EL PROGRESO"
+    },
+    {
+      "nombre": "QUIROZ BARBOZA, SEGUNDO TEODOMIRO",
+      "distrito": "CAJAMARCA",
+      "email": "squiroz@congreso.gob.pe",
+      "grupoParlamentario": "ALIANZA PARA EL PROGRESO"
+    },
+    {
+      "nombre": "RUIZ RODRIGUEZ, MAGALY ROSMERY",
+      "distrito": "LA LIBERTAD",
+      "email": "mruizr@congreso.gob.pe",
+      "grupoParlamentario": "ALIANZA PARA EL PROGRESO"
+    },
+    {
+      "nombre": "SALHUANA CAVIDES, EDUARDO",
+      "distrito": "MADRE DE DIOS",
+      "email": "esalhuana@congreso.gob.pe",
+      "grupoParlamentario": "ALIANZA PARA EL PROGRESO"
+    },
+    {
+      "nombre": "SOTO REYES, ALEJANDRO",
+      "distrito": "CUSCO",
+      "email": "asotor@congreso.gob.pe",
+      "grupoParlamentario": "ALIANZA PARA EL PROGRESO"
+    },
+    {
+      "nombre": "TORRES SALINAS, ROSIO",
+      "distrito": "LORETO",
+      "email": "rtorress@congreso.gob.pe",
+      "grupoParlamentario": "ALIANZA PARA EL PROGRESO"
+    },
+    {
+      "nombre": "AMURUZ DULANTO, YESSICA ROSSELLI",
+      "distrito": "LIMA",
+      "email": "yamuruz@congreso.gob.pe",
+      "grupoParlamentario": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL"
+    },
+    {
+      "nombre": "CAVERO ALVA, ALEJANDRO ENRIQUE",
+      "distrito": "LIMA",
+      "email": "acavero@congreso.gob.pe",
+      "grupoParlamentario": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL"
+    },
+    {
+      "nombre": "GONZALES DELGADO, DIANA CAROLINA",
+      "distrito": "AREQUIPA",
+      "email": "dgonzales@congreso.gob.pe",
+      "grupoParlamentario": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL"
+    },
+    {
+      "nombre": "PAREDES FONSECA, KAROL IVETT",
+      "distrito": "SAN MARTIN",
+      "email": "kparedes@congreso.gob.pe",
+      "grupoParlamentario": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL"
+    },
+    {
+      "nombre": "TUDELA GUTIERREZ, ADRIANA JOSEFINA",
+      "distrito": "LIMA",
+      "email": "atudela@congreso.gob.pe",
+      "grupoParlamentario": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL"
+    },
+    {
+      "nombre": "WILLIAMS ZAPATA, JOSE DANIEL",
+      "distrito": "LIMA",
+      "email": "jwilliams@congreso.gob.pe",
+      "grupoParlamentario": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL"
+    },
+    {
+      "nombre": "DAVILA ATANACIO, PASION NEOMIAS",
+      "distrito": "PASCO",
+      "email": "pdavila@congreso.gob.pe",
+      "grupoParlamentario": "BANCADA SOCIALISTA"
+    },
+    {
+      "nombre": "FLORES RAMIREZ, ALEX RANDU",
+      "distrito": "AYACUCHO",
+      "email": "afloresra@congreso.gob.pe",
+      "grupoParlamentario": "BANCADA SOCIALISTA"
+    },
+    {
+      "nombre": "PARIONA SINCHE, ALFREDO",
+      "distrito": "HUANCAVELICA",
+      "email": "apariona@congreso.gob.pe",
+      "grupoParlamentario": "BANCADA SOCIALISTA"
+    },
+    {
+      "nombre": "QUITO SARMIENTO, BERNARDO JAIME",
+      "distrito": "AREQUIPA",
+      "email": "bquito@congreso.gob.pe",
+      "grupoParlamentario": "BANCADA SOCIALISTA"
+    },
+    {
+      "nombre": "ROBLES ARAUJO, SILVANA EMPERATRIZ",
+      "distrito": "JUNIN",
+      "email": "srobles@congreso.gob.pe",
+      "grupoParlamentario": "BANCADA SOCIALISTA"
+    },
+    {
+      "nombre": "BAZAN NARRO, SIGRID TESORO",
+      "distrito": "LIMA",
+      "email": "sbazan@congreso.gob.pe",
+      "grupoParlamentario": "BLOQUE DEMOCRATICO POPULAR"
+    },
+    {
+      "nombre": "LUQUE IBARRA, RUTH",
+      "distrito": "CUSCO",
+      "email": "rluque@congreso.gob.pe",
+      "grupoParlamentario": "BLOQUE DEMOCRATICO POPULAR"
+    },
+    {
+      "nombre": "PAREDES PIQUE, SUSEL ANA MARIA",
+      "distrito": "LIMA",
+      "email": "sparedesp@congreso.gob.pe",
+      "grupoParlamentario": "BLOQUE DEMOCRATICO POPULAR"
+    },
+    {
+      "nombre": "REYMUNDO MERCADO, EDGARD CORNELIO",
+      "distrito": "JUNIN",
+      "email": "ereymundo@congreso.gob.pe",
+      "grupoParlamentario": "BLOQUE DEMOCRATICO POPULAR"
+    },
+    {
+      "nombre": "ZEBALLOS MADARIAGA, CARLOS JAVIER",
+      "distrito": "PUNO",
+      "email": "czeballos@congreso.gob.pe",
+      "grupoParlamentario": "BLOQUE DEMOCRATICO POPULAR"
+    },
+    {
+      "nombre": "AGUINAGA RECUENCO, ALEJANDRO AURELIO",
+      "distrito": "LAMBAYEQUE",
+      "email": "aaguinaga@congreso.gob.pe",
+      "grupoParlamentario": "FUERZA POPULAR"
+    },
+    {
+      "nombre": "ALEGRIA GARCIA, ARTURO",
+      "distrito": "SAN MARTIN",
+      "email": "aalegria@congreso.gob.pe",
+      "grupoParlamentario": "FUERZA POPULAR"
+    },
+    {
+      "nombre": "BARBARAN REYES, ROSANGELLA ANDREA",
+      "distrito": "LIMA",
+      "email": "rbarbaran@congreso.gob.pe",
+      "grupoParlamentario": "FUERZA POPULAR"
+    },
+    {
+      "nombre": "BUSTAMANTE DONAYRE, ERNESTO",
+      "distrito": "LIMA",
+      "email": "ebustamante@congreso.gob.pe",
+      "grupoParlamentario": "FUERZA POPULAR"
+    },
+    {
+      "nombre": "CASTILLO RIVAS, EDUARDO ENRIQUE",
+      "distrito": "PIURA",
+      "email": "ecastillor@congreso.gob.pe",
+      "grupoParlamentario": "FUERZA POPULAR"
+    },
+    {
+      "nombre": "CHACON TRUJILLO, NILZA MERLY",
+      "distrito": "ANCASH",
+      "email": "nchacon@congreso.gob.pe",
+      "grupoParlamentario": "FUERZA POPULAR"
+    },
+    {
+      "nombre": "FLORES RUIZ, VICTOR SEFERINO",
+      "distrito": "LA LIBERTAD",
+      "email": "vflores@congreso.gob.pe",
+      "grupoParlamentario": "FUERZA POPULAR"
+    },
+    {
+      "nombre": "HUAMAN CORONADO, RAUL",
+      "distrito": "ICA",
+      "email": "rhuamanc@congreso.gob.pe",
+      "grupoParlamentario": "FUERZA POPULAR"
+    },
+    {
+      "nombre": "INFANTES CASTANEDA, MERY ELIANA",
+      "distrito": "AMAZONAS",
+      "email": "minfantes@congreso.gob.pe",
+      "grupoParlamentario": "FUERZA POPULAR"
+    },
+    {
+      "nombre": "JIMENEZ HEREDIA, DAVID JULIO",
+      "distrito": "JUNIN",
+      "email": "djimenez@congreso.gob.pe",
+      "grupoParlamentario": "FUERZA POPULAR"
+    },
+    {
+      "nombre": "JUAREZ GALLEGOS, CARMEN PATRICIA",
+      "distrito": "LIMA",
+      "email": "pjuarez@congreso.gob.pe",
+      "grupoParlamentario": "FUERZA POPULAR"
+    },
+    {
+      "nombre": "LOPEZ MORALES, JENY LUZ",
+      "distrito": "UCAYALI",
+      "email": "jlopezm@congreso.gob.pe",
+      "grupoParlamentario": "FUERZA POPULAR"
+    },
+    {
+      "nombre": "MOYANO DELGADO, MARTHA LUPE",
+      "distrito": "LIMA",
+      "email": "mmoyano@congreso.gob.pe",
+      "grupoParlamentario": "FUERZA POPULAR"
+    },
+    {
+      "nombre": "OBANDO MORGAN, AURISTELA ANA",
+      "distrito": "CALLAO",
+      "email": "aobando@congreso.gob.pe",
+      "grupoParlamentario": "FUERZA POPULAR"
+    },
+    {
+      "nombre": "RAMIREZ GARCIA, TANIA ESTEFANY",
+      "distrito": "CAJAMARCA",
+      "email": "tramirez@congreso.gob.pe",
+      "grupoParlamentario": "FUERZA POPULAR"
+    },
+    {
+      "nombre": "REVILLA VILLANUEVA, CESAR MANUEL",
+      "distrito": "PIURA",
+      "email": "crevilla@congreso.gob.pe",
+      "grupoParlamentario": "FUERZA POPULAR"
+    },
+    {
+      "nombre": "ROSPIGLIOSI CAPURRO, FERNANDO MIGUEL",
+      "distrito": "LIMA",
+      "email": "frospigliosi@congreso.gob.pe",
+      "grupoParlamentario": "FUERZA POPULAR"
+    },
+    {
+      "nombre": "SANTISTEBAN SUCLUPE, MAGALLY",
+      "distrito": "TUMBES",
+      "email": "msantisteban@congreso.gob.pe",
+      "grupoParlamentario": "FUERZA POPULAR"
+    },
+    {
+      "nombre": "VENTURA ANGEL, HECTOR JOSE",
+      "distrito": "TUMBES",
+      "email": "hventura@congreso.gob.pe",
+      "grupoParlamentario": "FUERZA POPULAR"
+    },
+    {
+      "nombre": "ZETA CHUNGA, CRUZ MARIA",
+      "distrito": "PIURA",
+      "email": "czeta@congreso.gob.pe",
+      "grupoParlamentario": "FUERZA POPULAR"
+    },
+    {
+      "nombre": "ACUNA PERALTA, SEGUNDO HECTOR",
+      "distrito": "LA LIBERTAD",
+      "email": "sacunap@congreso.gob.pe",
+      "grupoParlamentario": "HONOR Y DEMOCRACIA"
+    },
+    {
+      "nombre": "CUETO ASERVI, JOSE ERNESTO",
+      "distrito": "LIMA",
+      "email": "jcueto@congreso.gob.pe",
+      "grupoParlamentario": "HONOR Y DEMOCRACIA"
+    },
+    {
+      "nombre": "ECHAIZ RAMOS VDA DE NUNEZ, GLADYS MARGOT",
+      "distrito": "LIMA",
+      "email": "gechaiz@congreso.gob.pe",
+      "grupoParlamentario": "HONOR Y DEMOCRACIA"
+    },
+    {
+      "nombre": "MONTOYA MANRIQUE, JORGE CARLOS",
+      "distrito": "LIMA",
+      "email": "jmontoya@congreso.gob.pe",
+      "grupoParlamentario": "HONOR Y DEMOCRACIA"
+    },
+    {
+      "nombre": "PADILLA ROMERO, JAVIER ROMMEL",
+      "distrito": "LIMA PROVINCIAS",
+      "email": "jpadilla@congreso.gob.pe",
+      "grupoParlamentario": "HONOR Y DEMOCRACIA"
+    },
+    {
+      "nombre": "BERMEJO ROJAS, GUILLERMO",
+      "distrito": "LIMA",
+      "email": "gbermejo@congreso.gob.pe",
+      "grupoParlamentario": "JUNTOS POR EL PERU - VOCES DEL PUEBLO - BLOQUE MAGISTERIAL"
+    },
+    {
+      "nombre": "COAYLA JUAREZ, JORGE SAMUEL",
+      "distrito": "MOQUEGUA",
+      "email": "jcoayla@congreso.gob.pe",
+      "grupoParlamentario": "JUNTOS POR EL PERU - VOCES DEL PUEBLO - BLOQUE MAGISTERIAL"
+    },
+    {
+      "nombre": "CUTIPA CCAMA, VICTOR RAUL",
+      "distrito": "MOQUEGUA",
+      "email": "vcutipa@congreso.gob.pe",
+      "grupoParlamentario": "JUNTOS POR EL PERU - VOCES DEL PUEBLO - BLOQUE MAGISTERIAL"
+    },
+    {
+      "nombre": "ECHEVERRIA RODRIGUEZ, HAMLET",
+      "distrito": "CAJAMARCA",
+      "email": "hecheverria@congreso.gob.pe",
+      "grupoParlamentario": "JUNTOS POR EL PERU - VOCES DEL PUEBLO - BLOQUE MAGISTERIAL"
+    },
+    {
+      "nombre": "LIMACHI QUISPE, NIEVES ESMERALDA",
+      "distrito": "TACNA",
+      "email": "nlimachi@congreso.gob.pe",
+      "grupoParlamentario": "JUNTOS POR EL PERU - VOCES DEL PUEBLO - BLOQUE MAGISTERIAL"
+    },
+    {
+      "nombre": "QUISPE MAMANI, WILSON RUSBEL",
+      "distrito": "PUNO",
+      "email": "wquispem@congreso.gob.pe",
+      "grupoParlamentario": "JUNTOS POR EL PERU - VOCES DEL PUEBLO - BLOQUE MAGISTERIAL"
+    },
+    {
+      "nombre": "SANCHEZ PALOMINO, ROBERTO HELBERT",
+      "distrito": "LIMA",
+      "email": "rsanchezp@congreso.gob.pe",
+      "grupoParlamentario": "JUNTOS POR EL PERU - VOCES DEL PUEBLO - BLOQUE MAGISTERIAL"
+    },
+    {
+      "nombre": "TACURI VALDIVIA, GERMAN ADOLFO",
+      "distrito": "AYACUCHO",
+      "email": "gtacuri@congreso.gob.pe",
+      "grupoParlamentario": "JUNTOS POR EL PERU - VOCES DEL PUEBLO - BLOQUE MAGISTERIAL"
+    },
+    {
+      "nombre": "UGARTE MAMANI, JHAKELINE KATY",
+      "distrito": "CUSCO",
+      "email": "jugartem@congreso.gob.pe",
+      "grupoParlamentario": "JUNTOS POR EL PERU - VOCES DEL PUEBLO - BLOQUE MAGISTERIAL"
+    },
+    {
+      "nombre": "VARAS MELENDEZ, ELIAS MARCIAL",
+      "distrito": "ANCASH",
+      "email": "evaras@congreso.gob.pe",
+      "grupoParlamentario": "JUNTOS POR EL PERU - VOCES DEL PUEBLO - BLOQUE MAGISTERIAL"
+    },
+    {
+      "nombre": "VASQUEZ VELA, LUCINDA",
+      "distrito": "SAN MARTIN",
+      "email": "lvasquezv@congreso.gob.pe",
+      "grupoParlamentario": "JUNTOS POR EL PERU - VOCES DEL PUEBLO - BLOQUE MAGISTERIAL"
+    },
+    {
+      "nombre": "AGUERO GUTIERREZ, MARIA ANTONIETA",
+      "distrito": "AREQUIPA",
+      "email": "maguero@congreso.gob.pe",
+      "grupoParlamentario": "PERU LIBRE"
+    },
+    {
+      "nombre": "BALCAZAR ZELADA, JOSE MARIA",
+      "distrito": "LAMBAYEQUE",
+      "email": "jbalcazar@congreso.gob.pe",
+      "grupoParlamentario": "PERU LIBRE"
+    },
+    {
+      "nombre": "CERRON ROJAS, WALDEMAR JOSE",
+      "distrito": "JUNIN",
+      "email": "wcerron@congreso.gob.pe",
+      "grupoParlamentario": "PERU LIBRE"
+    },
+    {
+      "nombre": "CRUZ MAMANI, FLAVIO",
+      "distrito": "PUNO",
+      "email": "fcruz@congreso.gob.pe",
+      "grupoParlamentario": "PERU LIBRE"
+    },
+    {
+      "nombre": "GONZA CASTILLO, AMERICO",
+      "distrito": "CAJAMARCA",
+      "email": "agonza@congreso.gob.pe",
+      "grupoParlamentario": "PERU LIBRE"
+    },
+    {
+      "nombre": "MITA ALANOCA, ISAAC",
+      "distrito": "TACNA",
+      "email": "imita@congreso.gob.pe",
+      "grupoParlamentario": "PERU LIBRE"
+    },
+    {
+      "nombre": "MONTALVO CUBAS, SEGUNDO TORIBIO",
+      "distrito": "AMAZONAS",
+      "email": "smontalvo@congreso.gob.pe",
+      "grupoParlamentario": "PERU LIBRE"
+    },
+    {
+      "nombre": "PORTALATINO AVALOS, KELLY ROXANA",
+      "distrito": "ANCASH",
+      "email": "kportalatino@congreso.gob.pe",
+      "grupoParlamentario": "PERU LIBRE"
+    },
+    {
+      "nombre": "REYES CAM, ABEL AUGUSTO",
+      "distrito": "HUANUCO",
+      "email": "areyes@congreso.gob.pe",
+      "grupoParlamentario": "PERU LIBRE"
+    },
+    {
+      "nombre": "RIVAS CHACARA, JANET MILAGROS",
+      "distrito": "LIMA PROVINCIAS",
+      "email": "jrivasch@congreso.gob.pe",
+      "grupoParlamentario": "PERU LIBRE"
+    },
+    {
+      "nombre": "TAIPE CORONADO, MARIA ELIZABETH",
+      "distrito": "APURIMAC",
+      "email": "mtaipe@congreso.gob.pe",
+      "grupoParlamentario": "PERU LIBRE"
+    },
+    {
+      "nombre": "ARRIOLA TUEROS, JOSE ALBERTO",
+      "distrito": "LIMA",
+      "email": "jarriolat@congreso.gob.pe",
+      "grupoParlamentario": "PODEMOS PERU"
+    },
+    {
+      "nombre": "BELLIDO UGARTE, GUIDO",
+      "distrito": "CUSCO",
+      "email": "gbellido@congreso.gob.pe",
+      "grupoParlamentario": "PODEMOS PERU"
+    },
+    {
+      "nombre": "BURGOS OLIVEROS, JUAN BARTOLOME",
+      "distrito": "LA LIBERTAD",
+      "email": "jburgos@congreso.gob.pe",
+      "grupoParlamentario": "PODEMOS PERU"
+    },
+    {
+      "nombre": "CALLE LOBATON, DIGNA",
+      "distrito": "LIMA",
+      "email": "dcalle@congreso.gob.pe",
+      "grupoParlamentario": "PODEMOS PERU"
+    },
+    {
+      "nombre": "ESPINOZA VARGAS, JHAEC DARWIN",
+      "distrito": "ANCASH",
+      "email": "despinoza@congreso.gob.pe",
+      "grupoParlamentario": "PODEMOS PERU"
+    },
+    {
+      "nombre": "JUAREZ CALLE, HEIDY LISBETH",
+      "distrito": "PIURA",
+      "email": "hjuarez@congreso.gob.pe",
+      "grupoParlamentario": "PODEMOS PERU"
+    },
+    {
+      "nombre": "LAURA ROJAS, JUDITH",
+      "distrito": "LIMA",
+      "email": "jlaura@congreso.gob.pe",
+      "grupoParlamentario": "PODEMOS PERU"
+    },
+    {
+      "nombre": "LUNA GALVEZ, JOSE LEON",
+      "distrito": "LIMA",
+      "email": "jluna@congreso.gob.pe",
+      "grupoParlamentario": "PODEMOS PERU"
+    },
+    {
+      "nombre": "ORUE MEDINA, ARIANA MAYBEE",
+      "distrito": "CALLAO",
+      "email": "aorue@congreso.gob.pe",
+      "grupoParlamentario": "PODEMOS PERU"
+    },
+    {
+      "nombre": "PAREDES CASTRO, FRANCIS JHASMINA",
+      "distrito": "UCAYALI",
+      "email": "fparedesc@congreso.gob.pe",
+      "grupoParlamentario": "PODEMOS PERU"
+    },
+    {
+      "nombre": "PICON QUEDO, LUIS RAUL",
+      "distrito": "HUANUCO",
+      "email": "lpicon@congreso.gob.pe",
+      "grupoParlamentario": "PODEMOS PERU"
+    },
+    {
+      "nombre": "TELLO MONTES, NIVARDO EDGAR",
+      "distrito": "LIMA",
+      "email": "ntellom@congreso.gob.pe",
+      "grupoParlamentario": "PODEMOS PERU"
+    },
+    {
+      "nombre": "BAZAN CALDERON, DIEGO ALONSO FERNANDO",
+      "distrito": "LA LIBERTAD",
+      "email": "dbazan@congreso.gob.pe",
+      "grupoParlamentario": "RENOVACION POPULAR"
+    },
+    {
+      "nombre": "CHIRINOS VENEGAS, PATRICIA ROSA",
+      "distrito": "CALLAO",
+      "email": "pchirinos@congreso.gob.pe",
+      "grupoParlamentario": "RENOVACION POPULAR"
+    },
+    {
+      "nombre": "CICCIA VASQUEZ, MIGUEL ANGEL",
+      "distrito": "PIURA",
+      "email": "mciccia@congreso.gob.pe",
+      "grupoParlamentario": "RENOVACION POPULAR"
+    },
+    {
+      "nombre": "CORDOVA LOBATON, MARIA JESSICA",
+      "distrito": "LAMBAYEQUE",
+      "email": "mcordoval@congreso.gob.pe",
+      "grupoParlamentario": "RENOVACION POPULAR"
+    },
+    {
+      "nombre": "HERRERA MEDINA, NOELIA ROSSVITH",
+      "distrito": "CALLAO",
+      "email": "nherrera@congreso.gob.pe",
+      "grupoParlamentario": "RENOVACION POPULAR"
+    },
+    {
+      "nombre": "JAUREGUI MARTINEZ DE AGUAYO, MARIA DE LOS MILAGROS JACKELINE",
+      "distrito": "LIMA",
+      "email": "mjauregui@congreso.gob.pe",
+      "grupoParlamentario": "RENOVACION POPULAR"
+    },
+    {
+      "nombre": "MEDINA MINAYA, ESDRAS RICARDO",
+      "distrito": "AREQUIPA",
+      "email": "emedinam@congreso.gob.pe",
+      "grupoParlamentario": "RENOVACION POPULAR"
+    },
+    {
+      "nombre": "MUNANTE BARRIOS, ALEJANDRO",
+      "distrito": "LIMA",
+      "email": "amunante@congreso.gob.pe",
+      "grupoParlamentario": "RENOVACION POPULAR"
+    },
+    {
+      "nombre": "TRIGOZO REATEGUI, CHERYL",
+      "distrito": "SAN MARTIN",
+      "email": "chtrigozo@congreso.gob.pe",
+      "grupoParlamentario": "RENOVACION POPULAR"
+    },
+    {
+      "nombre": "YARROW LUMBRERAS, NORMA MARTINA",
+      "distrito": "LIMA",
+      "email": "nyarrow@congreso.gob.pe",
+      "grupoParlamentario": "RENOVACION POPULAR"
+    },
+    {
+      "nombre": "ZEBALLOS APONTE, JORGE ARTURO",
+      "distrito": "PERUANOS RESIDENTES EN EL EXTRANJERO",
+      "email": "jzeballos@congreso.gob.pe",
+      "grupoParlamentario": "RENOVACION POPULAR"
+    },
+    {
+      "nombre": "AZURIN LOAYZA, ALFREDO",
+      "distrito": "LIMA",
+      "email": "aazurin@congreso.gob.pe",
+      "grupoParlamentario": "SOMOS PERU"
+    },
+    {
+      "nombre": "GUTIERREZ TICONA, PAUL SILVIO",
+      "distrito": "APURIMAC",
+      "email": "pgutierrez@congreso.gob.pe",
+      "grupoParlamentario": "SOMOS PERU"
+    },
+    {
+      "nombre": "JERI ORE, JOSE ENRIQUE",
+      "distrito": "LIMA",
+      "email": "jjeri@congreso.gob.pe",
+      "grupoParlamentario": "SOMOS PERU"
+    },
+    {
+      "nombre": "MEDINA HERMOSILLA, ELIZABETH SARA",
+      "distrito": "HUANUCO",
+      "email": "emedina@congreso.gob.pe",
+      "grupoParlamentario": "SOMOS PERU"
+    },
+    {
+      "nombre": "MORANTE FIGARI, JORGE ALBERTO",
+      "distrito": "LORETO",
+      "email": "jmorante@congreso.gob.pe",
+      "grupoParlamentario": "SOMOS PERU"
+    },
+    {
+      "nombre": "PAREDES GONZALES, ALEX ANTONIO",
+      "distrito": "AREQUIPA",
+      "email": "aparedesg@congreso.gob.pe",
+      "grupoParlamentario": "SOMOS PERU"
+    },
+    {
+      "nombre": "PAZO NUNURA, JOSE BERNARDO",
+      "distrito": "PIURA",
+      "email": "jpazo@congreso.gob.pe",
+      "grupoParlamentario": "SOMOS PERU"
+    },
+    {
+      "nombre": "VALER PINTO, HECTOR",
+      "distrito": "LIMA",
+      "email": "hvaler@congreso.gob.pe",
+      "grupoParlamentario": "SOMOS PERU"
+    },
+    {
+      "nombre": "ZEA CHOQUECHAMBI, OSCAR",
+      "distrito": "PUNO",
+      "email": "ozea@congreso.gob.pe",
+      "grupoParlamentario": "SOMOS PERU"
+    },
+    {
+      "nombre": "ZEGARRA SABOYA, ANA ZADITH",
+      "distrito": "LORETO",
+      "email": "azegarras@congreso.gob.pe",
+      "grupoParlamentario": "SOMOS PERU"
+    },
+    {
+      "nombre": "ALCARRAZ AGUERO, YOREL KIRA",
+      "distrito": "LIMA",
+      "email": "yalcarraz@congreso.gob.pe",
+      "grupoParlamentario": "NO AGRUPADO"
+    },
+    {
+      "nombre": "CORTEZ AGUIRRE, ISABEL",
+      "distrito": "LIMA",
+      "email": "icortez@congreso.gob.pe",
+      "grupoParlamentario": "NO AGRUPADO"
+    },
+    {
+      "nombre": "DOROTEO CARBAJO, RAUL FELIPE",
+      "distrito": "ICA",
+      "email": "rdoroteo@congreso.gob.pe",
+      "grupoParlamentario": "NO AGRUPADO"
+    },
+    {
+      "nombre": "MALAGA TRILLO, GEORGE EDWARD",
+      "distrito": "LIMA",
+      "email": "gmalaga@congreso.gob.pe",
+      "grupoParlamentario": "NO AGRUPADO"
+    },
+    {
+      "nombre": "OLIVOS MARTINEZ, VIVIAN",
+      "distrito": "LIMA PROVINCIAS",
+      "email": "lolivosm@congreso.gob.pe",
+      "grupoParlamentario": "NO AGRUPADO"
+    },
+    {
+      "nombre": "PABLO MEDINA, FLOR AIDEE",
+      "distrito": "LIMA",
+      "email": "fpablo@congreso.gob.pe",
+      "grupoParlamentario": "NO AGRUPADO"
+    },
+    {
+      "nombre": "PALACIOS HUAMAN, MARGOT",
+      "distrito": "AYACUCHO",
+      "email": "mpalaciosh@congreso.gob.pe",
+      "grupoParlamentario": "NO AGRUPADO"
+    }
+  ]
+}
