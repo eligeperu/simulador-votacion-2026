@@ -6,22 +6,31 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
-  merge:
+  auto-pr:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Configure git
+      - name: Create and auto-merge PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Check if a PR from dev to main already exists
+          EXISTING_PR=$(gh pr list --head dev --base main --state open --json number --jq '.[0].number')
 
-      - name: Merge dev into main
-        run: |
-          git checkout main
-          git merge origin/dev --ff-only
-          git push origin main
+          if [ -z "$EXISTING_PR" ]; then
+            gh pr create \
+              --title "Auto-merge dev → main" \
+              --body "Automated PR from push to dev branch." \
+              --head dev \
+              --base main
+          fi
+
+          # Get the PR number (new or existing)
+          PR_NUMBER=$(gh pr list --head dev --base main --state open --json number --jq '.[0].number')
+
+          # Auto-merge the PR
+          gh pr merge "$PR_NUMBER" --merge --auto
