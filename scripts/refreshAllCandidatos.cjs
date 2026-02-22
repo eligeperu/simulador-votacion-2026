@@ -9,6 +9,7 @@ const DATA_DIR = path.join(__dirname, '..', 'src', 'data');
 const DELAY_MS = 1000; // Delay between batches to avoid rate limiting
 const DELAY_JITTER = 500; // Random extra delay (0-0.5s)
 const BATCH_SIZE = 10; // Process 10 candidates concurrently
+const REFRESH_INTERVAL_DAYS = 7; // Only refresh if data is older than 7 days
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 const randomDelay = () => DELAY_MS + Math.floor(Math.random() * DELAY_JITTER);
@@ -23,41 +24,11 @@ function curlGet(url) {
   } catch (e) { return null; }
 }
 
-async function curlPost(url, body, retries = 3) {
-  for (let i = 0; i < retries; i++) {
-    try {
-      fs.writeFileSync('/tmp/jne-body.json', JSON.stringify(body));
-      const result = execSync(`curl -sk -X POST "${url}" ${BROWSER_HEADERS} -H "Content-Type: application/json" -H "Accept: application/json" -d @/tmp/jne-body.json --max-time 30 --retry 2`, { encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 });
-      if (!result.trim()) {
-        console.error(`  POST error: Empty response (attempt ${i + 1}/${retries})`);
-        if (i < retries - 1) {
-          await sleep(5000); // Wait 5s before retry
-          continue;
-        }
-        return null;
-      }
-      return JSON.parse(result);
-    } catch (e) {
-      console.error(`  POST error: ${e.message} (attempt ${i + 1}/${retries})`);
-      if (i < retries - 1) {
-        await sleep(5000); // Wait 5s before retry
-        continue;
-      }
-      return null;
-    }
-  }
-  return null;
-}
-
-async function buscarCandidato(dni) {
-  return await curlPost(`https://apiplataformaelectoral8.jne.gob.pe/api/v1/candidato/buscar-candidato`, { numeroDocumento: dni });
-}
-
-function fetchHojaVida(idHojaVida) {
+async function fetchHojaVida(idHojaVida) {
   return curlGet(`https://apiplataformaelectoral8.jne.gob.pe/api/v1/candidato/hoja-vida?IdHojaVida=${idHojaVida}`);
 }
 
-function fetchResoluciones(idHojaVida) {
+async function fetchResoluciones(idHojaVida) {
   return curlGet(`https://apiplataformaelectoral8.jne.gob.pe/api/v1/candidato/resoluciones?IdHojaVida=${idHojaVida}`);
 }
 
@@ -94,12 +65,12 @@ function extractResumen(hoja) {
 async function refreshCandidato(existingData) {
   try {
     // Use existing idHojaVida to fetch fresh data
-    const hoja = fetchHojaVida(existingData.idHojaVida);
+    const hoja = await fetchHojaVida(existingData.idHojaVida);
     if (!hoja?.datoGeneral) {
       console.error(` [SKIP] No hoja de vida found for idHojaVida ${existingData.idHojaVida}`);
       return null;
     }
-    const resoluciones = fetchResoluciones(existingData.idHojaVida);
+    const resoluciones = await fetchResoluciones(existingData.idHojaVida);
     const general = hoja.datoGeneral;
     
     // Return existing data with updated estado and fresh flags
@@ -133,8 +104,24 @@ async function refreshFile(inputFile, outputFile, dniField = 'strDocumentoIdenti
     return;
   }
   
+  // Filter candidates that need refreshing (older than REFRESH_INTERVAL_DAYS)
+  const now = new Date();
+  const cutoffDate = new Date(now.getTime() - REFRESH_INTERVAL_DAYS * 24 * 60 * 60 * 1000);
+  
+  const candidatesToRefresh = existing.filter(candidate => {
+    const lastFetched = new Date(candidate.fetchedAt || candidate.fetchedAt || '1970-01-01');
+    return lastFetched < cutoffDate;
+  });
+  
+  if (candidatesToRefresh.length === 0) {
+    console.log(`  All ${existing.length - candidatesToRefresh.length} candidates are recent (within ${REFRESH_INTERVAL_DAYS} days), skipping refresh.`);
+    return;
+  }
+  
+  console.log(`  Refreshing ${candidatesToRefresh.length} candidates (data older than ${REFRESH_INTERVAL_DAYS} days)...`);
+  
   // Sort candidates by idHojaVida for better distribution
-  const sortedCandidates = existing.sort((a, b) => a.idHojaVida - b.idHojaVida);
+  const sortedCandidates = candidatesToRefresh.sort((a, b) => a.idHojaVida - b.idHojaVida);
   
   // Process candidates in batches for speed
   const refreshed = [];
@@ -149,7 +136,7 @@ async function refreshFile(inputFile, outputFile, dniField = 'strDocumentoIdenti
     const batchPromises = batch.map(async (candidate, idx) => {
       const data = await refreshCandidato(candidate);
       if (data) {
-        console.log(`    ✓ ${candidate.dni} - ${candidate.estado}`);
+        console.log(`    ✓ ${candidate.dni} - ${data.estado}`);
         return data;
       } else {
         console.log(`    ✗ ${candidate.dni} - failed`);
@@ -166,14 +153,24 @@ async function refreshFile(inputFile, outputFile, dniField = 'strDocumentoIdenti
     }
   }
   
+  // Merge refreshed candidates with existing ones that didn't need refresh
+  const finalData = [
+    ...existing.filter(c => {
+      const lastFetched = new Date(c.fetchedAt || c.fetchedAt || '1970-01-01');
+      return lastFetched >= cutoffDate;
+    }),
+    ...refreshed
+  ];
+  
   const output = { 
     fetchedAt: new Date().toISOString(), 
     idProcesoElectoral: ID_PROCESO_ELECTORAL, 
-    count: refreshed.length, 
-    data: refreshed 
+    count: finalData.length, 
+    data: finalData 
   };
   fs.writeFileSync(outputFile, JSON.stringify(output, null, 2));
   console.log(`\n  Refreshed ${refreshed.length} candidates to ${outputFile}`);
+  console.log(`  ${existing.length - refreshed.length} candidates were up to date`);
 }
 
 async function refreshDirectory(inputDir, outputDir) {
@@ -192,8 +189,8 @@ async function main() {
   const type = args[0] || 'all';
   const region = args.find(arg => arg.startsWith('--region='))?.split('=')[1];
 
-  console.log(`=== Refresh Candidate Statuses ===`);
-  console.log(`Type: ${type}, Region: ${region || 'all'}\n`);
+  console.log(`=== Smart Candidate Status Refresh ===`);
+  console.log(`Type: ${type}, Region: ${region || 'all'}, Refresh Interval: ${REFRESH_INTERVAL_DAYS} days\n`);
   
   if (type === 'parlamenAndino' || type === 'all') {
     await refreshFile(

@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-02-19T02:04:18.508Z",
+  "fetchedAt": "2026-02-20T18:06:57.310Z",
   "idProcesoElectoral": 124,
   "count": 528,
   "data": [
@@ -154,7 +154,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:30:32.594Z"
+      "fetchedAt": "2026-02-20T17:44:01.146Z"
     },
     {
       "dni": "09926423",
@@ -235,7 +235,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:30:37.235Z"
+      "fetchedAt": "2026-02-20T17:44:03.653Z"
     },
     {
       "dni": "25595079",
@@ -385,7 +385,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:30:40.678Z"
+      "fetchedAt": "2026-02-20T17:44:06.702Z"
     },
     {
       "dni": "41272190",
@@ -439,7 +439,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:30:43.387Z"
+      "fetchedAt": "2026-02-20T17:44:09.219Z"
     },
     {
       "dni": "43686065",
@@ -569,7 +569,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:30:46.587Z"
+      "fetchedAt": "2026-02-20T17:44:11.598Z"
     },
     {
       "dni": "10142772",
@@ -760,7 +760,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:30:49.750Z"
+      "fetchedAt": "2026-02-20T17:44:13.905Z"
     },
     {
       "dni": "73311439",
@@ -859,7 +859,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:30:52.789Z"
+      "fetchedAt": "2026-02-20T17:44:16.208Z"
     },
     {
       "dni": "09445404",
@@ -1055,7 +1055,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:30:55.512Z"
+      "fetchedAt": "2026-02-20T17:44:19.119Z"
     },
     {
       "dni": "43145088",
@@ -1159,7 +1159,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:30:58.576Z"
+      "fetchedAt": "2026-02-20T17:44:21.279Z"
     },
     {
       "dni": "06945509",
@@ -1499,7 +1499,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:31:01.539Z"
+      "fetchedAt": "2026-02-20T17:44:23.861Z"
     },
     {
       "dni": "43730044",
@@ -1600,7 +1600,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:31:05.500Z"
+      "fetchedAt": "2026-02-20T17:44:27.279Z"
     },
     {
       "dni": "32124344",
@@ -1681,7 +1681,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:31:09.373Z"
+      "fetchedAt": "2026-02-20T17:44:29.641Z"
     },
     {
       "dni": "00239897",
@@ -1831,7 +1831,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:31:12.792Z"
+      "fetchedAt": "2026-02-20T17:44:32.384Z"
     },
     {
       "dni": "70176496",
@@ -2063,7 +2063,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:31:16.727Z"
+      "fetchedAt": "2026-02-20T17:44:35.645Z"
     },
     {
       "dni": "41223476",
@@ -2143,7 +2143,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:31:20.408Z"
+      "fetchedAt": "2026-02-20T17:44:37.880Z"
     },
     {
       "dni": "45785668",
@@ -2296,7 +2296,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:31:23.932Z"
+      "fetchedAt": "2026-02-20T17:44:40.708Z"
     },
     {
       "dni": "76661076",
@@ -2415,7 +2415,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:31:27.764Z"
+      "fetchedAt": "2026-02-20T17:44:42.879Z"
     },
     {
       "dni": "09757524",
@@ -7381,7 +7381,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:31:31.572Z"
+      "fetchedAt": "2026-02-20T17:44:45.316Z"
     },
     {
       "dni": "41875843",
@@ -7494,7 +7494,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:31:35.050Z"
+      "fetchedAt": "2026-02-20T17:44:47.456Z"
     },
     {
       "dni": "09152000",
@@ -7782,7 +7782,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:31:39.637Z"
+      "fetchedAt": "2026-02-20T17:44:50.129Z"
     },
     {
       "dni": "42062928",
@@ -7862,7 +7862,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:31:44.526Z"
+      "fetchedAt": "2026-02-20T17:44:54.151Z"
     },
     {
       "dni": "71134251",
@@ -8049,7 +8049,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:31:47.855Z"
+      "fetchedAt": "2026-02-20T17:44:56.939Z"
     },
     {
       "dni": "78108650",
@@ -8182,7 +8182,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:31:50.911Z"
+      "fetchedAt": "2026-02-20T17:44:59.528Z"
     },
     {
       "dni": "25821335",
@@ -8484,7 +8484,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:31:53.607Z"
+      "fetchedAt": "2026-02-20T17:45:01.880Z"
     },
     {
       "dni": "07701399",
@@ -8795,7 +8795,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:31:56.658Z"
+      "fetchedAt": "2026-02-20T17:45:04.532Z"
     },
     {
       "dni": "45328186",
@@ -8849,7 +8849,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:31:59.627Z"
+      "fetchedAt": "2026-02-20T17:45:07.649Z"
     },
     {
       "dni": "45494024",
@@ -8951,7 +8951,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:32:02.299Z"
+      "fetchedAt": "2026-02-20T17:45:09.952Z"
     },
     {
       "dni": "06279125",
@@ -9123,7 +9123,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:32:06.235Z"
+      "fetchedAt": "2026-02-20T17:45:12.365Z"
     },
     {
       "dni": "41561227",
@@ -9204,7 +9204,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:32:09.282Z"
+      "fetchedAt": "2026-02-20T17:45:14.729Z"
     },
     {
       "dni": "42091794",
@@ -9303,7 +9303,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:32:12.826Z"
+      "fetchedAt": "2026-02-20T17:45:17.527Z"
     },
     {
       "dni": "75566524",
@@ -9457,7 +9457,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:32:17.065Z"
+      "fetchedAt": "2026-02-20T17:45:21.061Z"
     },
     {
       "dni": "77674891",
@@ -9571,7 +9571,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:32:20.774Z"
+      "fetchedAt": "2026-02-20T17:45:23.540Z"
     },
     {
       "dni": "43927849",
@@ -9791,7 +9791,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:32:25.487Z"
+      "fetchedAt": "2026-02-20T17:45:25.840Z"
     },
     {
       "dni": "46166603",
@@ -9871,7 +9871,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:32:28.912Z"
+      "fetchedAt": "2026-02-20T17:45:28.173Z"
     },
     {
       "dni": "46312394",
@@ -10146,7 +10146,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:32:32.854Z"
+      "fetchedAt": "2026-02-20T17:45:30.626Z"
     },
     {
       "dni": "10683474",
@@ -10261,7 +10261,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:32:37.742Z"
+      "fetchedAt": "2026-02-20T17:45:32.708Z"
     },
     {
       "dni": "70401783",
@@ -10397,7 +10397,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:32:41.702Z"
+      "fetchedAt": "2026-02-20T17:45:35.624Z"
     },
     {
       "dni": "72815380",
@@ -10516,7 +10516,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:32:45.216Z"
+      "fetchedAt": "2026-02-20T17:45:38.092Z"
     },
     {
       "dni": "72798677",
@@ -10743,7 +10743,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:32:49.489Z"
+      "fetchedAt": "2026-02-20T17:45:40.547Z"
     },
     {
       "dni": "26702815",
@@ -10976,7 +10976,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:32:52.877Z"
+      "fetchedAt": "2026-02-20T17:45:42.986Z"
     },
     {
       "dni": "07966200",
@@ -11096,7 +11096,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:32:57.069Z"
+      "fetchedAt": "2026-02-20T17:45:46.474Z"
     },
     {
       "dni": "77235933",
@@ -11361,7 +11361,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:33:00.272Z"
+      "fetchedAt": "2026-02-20T17:45:48.368Z"
     },
     {
       "dni": "72906740",
@@ -11503,7 +11503,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:33:03.222Z"
+      "fetchedAt": "2026-02-20T17:45:50.908Z"
     },
     {
       "dni": "18045866",
@@ -11627,7 +11627,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:33:06.923Z"
+      "fetchedAt": "2026-02-20T17:45:53.529Z"
     },
     {
       "dni": "07644405",
@@ -11681,7 +11681,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:33:11.336Z"
+      "fetchedAt": "2026-02-20T17:45:56.274Z"
     },
     {
       "dni": "09427370",
@@ -11915,7 +11915,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:33:15.796Z"
+      "fetchedAt": "2026-02-20T17:45:58.720Z"
     },
     {
       "dni": "09157438",
@@ -12219,7 +12219,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:33:18.971Z"
+      "fetchedAt": "2026-02-20T17:46:01.873Z"
     },
     {
       "dni": "07217203",
@@ -12457,7 +12457,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:33:21.883Z"
+      "fetchedAt": "2026-02-20T17:46:04.241Z"
     },
     {
       "dni": "76615458",
@@ -12576,7 +12576,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:33:25.083Z"
+      "fetchedAt": "2026-02-20T17:46:06.950Z"
     },
     {
       "dni": "73935270",
@@ -12630,7 +12630,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:33:27.654Z"
+      "fetchedAt": "2026-02-20T17:46:09.853Z"
     },
     {
       "dni": "23974985",
@@ -12750,7 +12750,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:33:31.642Z"
+      "fetchedAt": "2026-02-20T17:46:13.530Z"
     },
     {
       "dni": "76974219",
@@ -12909,7 +12909,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:33:35.220Z"
+      "fetchedAt": "2026-02-20T17:46:15.966Z"
     },
     {
       "dni": "09795166",
@@ -13151,7 +13151,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:33:38.742Z"
+      "fetchedAt": "2026-02-20T17:46:18.443Z"
     },
     {
       "dni": "07629789",
@@ -13222,7 +13222,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:33:41.437Z"
+      "fetchedAt": "2026-02-20T17:46:20.975Z"
     },
     {
       "dni": "40909806",
@@ -13355,7 +13355,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:33:44.321Z"
+      "fetchedAt": "2026-02-20T17:46:23.185Z"
     },
     {
       "dni": "41532854",
@@ -13474,7 +13474,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:33:47.571Z"
+      "fetchedAt": "2026-02-20T17:46:25.420Z"
     },
     {
       "dni": "07261863",
@@ -13627,7 +13627,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:33:51.054Z"
+      "fetchedAt": "2026-02-20T17:46:27.886Z"
     },
     {
       "dni": "41114495",
@@ -13802,7 +13802,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:33:54.752Z"
+      "fetchedAt": "2026-02-20T17:46:30.122Z"
     },
     {
       "dni": "47748926",
@@ -14035,7 +14035,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:33:57.963Z"
+      "fetchedAt": "2026-02-20T17:46:32.186Z"
     },
     {
       "dni": "48122474",
@@ -14248,7 +14248,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:34:00.842Z"
+      "fetchedAt": "2026-02-20T17:46:34.641Z"
     },
     {
       "dni": "09240885",
@@ -14302,7 +14302,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:34:05.318Z"
+      "fetchedAt": "2026-02-20T17:46:39.083Z"
     },
     {
       "dni": "32119591",
@@ -14406,7 +14406,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:34:08.766Z"
+      "fetchedAt": "2026-02-20T17:46:41.617Z"
     },
     {
       "dni": "72604132",
@@ -14505,7 +14505,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:34:13.018Z"
+      "fetchedAt": "2026-02-20T17:46:43.940Z"
     },
     {
       "dni": "42374070",
@@ -14679,7 +14679,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:34:16.684Z"
+      "fetchedAt": "2026-02-20T17:46:46.382Z"
     },
     {
       "dni": "08753377",
@@ -14952,7 +14952,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:34:19.749Z"
+      "fetchedAt": "2026-02-20T17:46:49.557Z"
     },
     {
       "dni": "72650805",
@@ -15068,7 +15068,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:34:22.498Z"
+      "fetchedAt": "2026-02-20T17:46:53.384Z"
     },
     {
       "dni": "60269912",
@@ -15305,7 +15305,7 @@
         }
       ],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:34:25.351Z"
+      "fetchedAt": "2026-02-20T17:46:56.076Z"
     },
     {
       "dni": "41524940",
@@ -15481,7 +15481,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:34:28.145Z"
+      "fetchedAt": "2026-02-20T17:46:58.059Z"
     },
     {
       "dni": "47288587",
@@ -15617,7 +15617,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:34:30.911Z"
+      "fetchedAt": "2026-02-20T17:47:00.710Z"
     },
     {
       "dni": "76411665",
@@ -15813,7 +15813,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:34:34.273Z"
+      "fetchedAt": "2026-02-20T17:47:03.268Z"
     },
     {
       "dni": "74621795",
@@ -15889,7 +15889,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:34:37.977Z"
+      "fetchedAt": "2026-02-20T17:47:07.556Z"
     },
     {
       "dni": "47483766",
@@ -16060,7 +16060,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:34:41.154Z"
+      "fetchedAt": "2026-02-20T17:47:10.027Z"
     },
     {
       "dni": "07012977",
@@ -16114,7 +16114,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:34:44.214Z"
+      "fetchedAt": "2026-02-20T17:47:13.240Z"
     },
     {
       "dni": "76573303",
@@ -16227,7 +16227,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:34:47.431Z"
+      "fetchedAt": "2026-02-20T17:47:15.895Z"
     },
     {
       "dni": "09882068",
@@ -16314,7 +16314,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:34:50.146Z"
+      "fetchedAt": "2026-02-20T17:47:18.446Z"
     },
     {
       "dni": "07995739",
@@ -16482,7 +16482,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:34:52.955Z"
+      "fetchedAt": "2026-02-20T17:47:20.819Z"
     },
     {
       "dni": "45262452",
@@ -16702,7 +16702,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:34:55.508Z"
+      "fetchedAt": "2026-02-20T17:47:23.691Z"
     },
     {
       "dni": "71298048",
@@ -16804,7 +16804,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:34:58.221Z"
+      "fetchedAt": "2026-02-20T17:47:26.559Z"
     },
     {
       "dni": "70663564",
@@ -17065,7 +17065,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:35:01.037Z"
+      "fetchedAt": "2026-02-20T17:47:29.003Z"
     },
     {
       "dni": "23569460",
@@ -17245,7 +17245,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:35:03.711Z"
+      "fetchedAt": "2026-02-20T17:47:31.527Z"
     },
     {
       "dni": "40613116",
@@ -17342,7 +17342,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:35:08.822Z"
+      "fetchedAt": "2026-02-20T17:47:35.935Z"
     },
     {
       "dni": "74619013",
@@ -17444,7 +17444,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:35:11.265Z"
+      "fetchedAt": "2026-02-20T17:47:38.760Z"
     },
     {
       "dni": "40752089",
@@ -17696,7 +17696,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:35:14.213Z"
+      "fetchedAt": "2026-02-20T17:47:41.082Z"
     },
     {
       "dni": "08631337",
@@ -17869,7 +17869,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:35:17.107Z"
+      "fetchedAt": "2026-02-20T17:47:43.139Z"
     },
     {
       "dni": "00126585",
@@ -17982,7 +17982,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:35:25.149Z"
+      "fetchedAt": "2026-02-20T17:47:46.424Z"
     },
     {
       "dni": "07607324",
@@ -18243,7 +18243,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:35:28.855Z"
+      "fetchedAt": "2026-02-20T17:47:49.147Z"
     },
     {
       "dni": "08674382",
@@ -18619,7 +18619,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:35:32.577Z"
+      "fetchedAt": "2026-02-20T17:47:51.501Z"
     },
     {
       "dni": "10247483",
@@ -18789,7 +18789,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:35:36.087Z"
+      "fetchedAt": "2026-02-20T17:47:53.728Z"
     },
     {
       "dni": "07892757",
@@ -18954,7 +18954,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:35:39.053Z"
+      "fetchedAt": "2026-02-20T17:47:56.209Z"
     },
     {
       "dni": "40293946",
@@ -19290,7 +19290,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:35:42.438Z"
+      "fetchedAt": "2026-02-20T17:47:58.242Z"
     },
     {
       "dni": "72731351",
@@ -19469,7 +19469,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:35:47.442Z"
+      "fetchedAt": "2026-02-20T17:48:02.586Z"
     },
     {
       "dni": "20074895",
@@ -19533,7 +19533,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:35:50.921Z"
+      "fetchedAt": "2026-02-20T17:48:04.946Z"
     },
     {
       "dni": "44220191",
@@ -19743,7 +19743,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:35:57.491Z"
+      "fetchedAt": "2026-02-20T17:48:07.470Z"
     },
     {
       "dni": "45780660",
@@ -19876,7 +19876,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:36:00.295Z"
+      "fetchedAt": "2026-02-20T17:48:10.218Z"
     },
     {
       "dni": "41559268",
@@ -20220,7 +20220,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:36:02.963Z"
+      "fetchedAt": "2026-02-20T17:48:12.881Z"
     },
     {
       "dni": "17856271",
@@ -20659,7 +20659,7 @@
         }
       ],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:36:06.228Z"
+      "fetchedAt": "2026-02-20T17:48:15.431Z"
     },
     {
       "dni": "48365611",
@@ -20723,7 +20723,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:36:09.028Z"
+      "fetchedAt": "2026-02-20T17:48:17.828Z"
     },
     {
       "dni": "09561697",
@@ -21160,7 +21160,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:36:11.990Z"
+      "fetchedAt": "2026-02-20T17:48:19.798Z"
     },
     {
       "dni": "70225128",
@@ -21353,7 +21353,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:36:15.131Z"
+      "fetchedAt": "2026-02-20T17:48:22.161Z"
     },
     {
       "dni": "04743541",
@@ -21550,7 +21550,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:36:17.778Z"
+      "fetchedAt": "2026-02-20T17:48:24.857Z"
     },
     {
       "dni": "73147633",
@@ -21712,7 +21712,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:36:23.667Z"
+      "fetchedAt": "2026-02-20T17:48:29.562Z"
     },
     {
       "dni": "10548467",
@@ -21984,7 +21984,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:36:27.744Z"
+      "fetchedAt": "2026-02-20T17:48:32.439Z"
     },
     {
       "dni": "15754714",
@@ -22065,7 +22065,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:36:31.174Z"
+      "fetchedAt": "2026-02-20T17:48:34.915Z"
     },
     {
       "dni": "09900100",
@@ -22375,7 +22375,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:36:34.203Z"
+      "fetchedAt": "2026-02-20T17:48:37.543Z"
     },
     {
       "dni": "47975433",
@@ -22524,7 +22524,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:36:37.254Z"
+      "fetchedAt": "2026-02-20T17:48:40.131Z"
     },
     {
       "dni": "10867311",
@@ -22819,7 +22819,7 @@
         }
       ],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:36:40.286Z"
+      "fetchedAt": "2026-02-20T17:48:43.143Z"
     },
     {
       "dni": "10882501",
@@ -22873,7 +22873,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:36:44.067Z"
+      "fetchedAt": "2026-02-20T17:48:46.167Z"
     },
     {
       "dni": "80332285",
@@ -22960,7 +22960,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:36:47.902Z"
+      "fetchedAt": "2026-02-20T17:48:49.270Z"
     },
     {
       "dni": "07967347",
@@ -23115,7 +23115,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:36:51.477Z"
+      "fetchedAt": "2026-02-20T17:48:51.761Z"
     },
     {
       "dni": "44071826",
@@ -23282,7 +23282,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:36:54.636Z"
+      "fetchedAt": "2026-02-20T17:48:55.311Z"
     },
     {
       "dni": "40661018",
@@ -23441,7 +23441,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:36:58.512Z"
+      "fetchedAt": "2026-02-20T17:48:59.573Z"
     },
     {
       "dni": "47512506",
@@ -23522,7 +23522,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:37:01.693Z"
+      "fetchedAt": "2026-02-20T17:49:02.109Z"
     },
     {
       "dni": "43375837",
@@ -23576,7 +23576,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:37:04.449Z"
+      "fetchedAt": "2026-02-20T17:49:04.708Z"
     },
     {
       "dni": "45389288",
@@ -23791,7 +23791,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:37:07.327Z"
+      "fetchedAt": "2026-02-20T17:49:07.271Z"
     },
     {
       "dni": "42843822",
@@ -23845,7 +23845,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:37:10.242Z"
+      "fetchedAt": "2026-02-20T17:49:09.966Z"
     },
     {
       "dni": "08682232",
@@ -23948,7 +23948,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:37:13.151Z"
+      "fetchedAt": "2026-02-20T17:49:12.034Z"
     },
     {
       "dni": "09863271",
@@ -24162,7 +24162,7 @@
         }
       ],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:37:16.343Z"
+      "fetchedAt": "2026-02-20T17:49:14.320Z"
     },
     {
       "dni": "48099482",
@@ -24263,7 +24263,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:37:19.539Z"
+      "fetchedAt": "2026-02-20T17:49:16.546Z"
     },
     {
       "dni": "41207742",
@@ -24396,7 +24396,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:37:22.357Z"
+      "fetchedAt": "2026-02-20T17:49:19.381Z"
     },
     {
       "dni": "48519808",
@@ -24481,7 +24481,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:37:25.724Z"
+      "fetchedAt": "2026-02-20T17:49:21.572Z"
     },
     {
       "dni": "48216240",
@@ -24647,7 +24647,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:37:30.740Z"
+      "fetchedAt": "2026-02-20T17:49:24.968Z"
     },
     {
       "dni": "18121757",
@@ -24808,7 +24808,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:37:35.300Z"
+      "fetchedAt": "2026-02-20T17:49:27.499Z"
     },
     {
       "dni": "02810258",
@@ -24969,7 +24969,7 @@
         }
       ],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:37:38.981Z"
+      "fetchedAt": "2026-02-20T17:49:29.997Z"
     },
     {
       "dni": "73349583",
@@ -25088,7 +25088,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:37:43.255Z"
+      "fetchedAt": "2026-02-20T17:49:33.057Z"
     },
     {
       "dni": "07952059",
@@ -25218,7 +25218,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:37:47.772Z"
+      "fetchedAt": "2026-02-20T17:49:35.306Z"
     },
     {
       "dni": "19811609",
@@ -25499,7 +25499,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:37:51.494Z"
+      "fetchedAt": "2026-02-20T17:49:37.386Z"
     },
     {
       "dni": "40216680",
@@ -25600,7 +25600,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:37:54.931Z"
+      "fetchedAt": "2026-02-20T17:49:39.466Z"
     },
     {
       "dni": "23267473",
@@ -25715,7 +25715,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:37:58.100Z"
+      "fetchedAt": "2026-02-20T17:49:42.005Z"
     },
     {
       "dni": "45674518",
@@ -26009,7 +26009,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:38:02.560Z"
+      "fetchedAt": "2026-02-20T17:49:44.186Z"
     },
     {
       "dni": "45144116",
@@ -26139,7 +26139,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:38:05.726Z"
+      "fetchedAt": "2026-02-20T17:49:46.374Z"
     },
     {
       "dni": "29687077",
@@ -26509,7 +26509,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:38:10.224Z"
+      "fetchedAt": "2026-02-20T17:49:51.500Z"
     },
     {
       "dni": "44376274",
@@ -26770,7 +26770,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:38:13.640Z"
+      "fetchedAt": "2026-02-20T17:49:54.108Z"
     },
     {
       "dni": "43238163",
@@ -26911,7 +26911,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:38:17.594Z"
+      "fetchedAt": "2026-02-20T17:49:56.508Z"
     },
     {
       "dni": "45972650",
@@ -27127,7 +27127,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:38:21.773Z"
+      "fetchedAt": "2026-02-20T17:49:58.814Z"
     },
     {
       "dni": "09537000",
@@ -27614,7 +27614,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:38:25.849Z"
+      "fetchedAt": "2026-02-20T17:50:01.703Z"
     },
     {
       "dni": "32122755",
@@ -27678,7 +27678,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:38:29.807Z"
+      "fetchedAt": "2026-02-20T17:50:04.164Z"
     },
     {
       "dni": "42710414",
@@ -27779,7 +27779,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:38:33.426Z"
+      "fetchedAt": "2026-02-20T17:50:06.619Z"
     },
     {
       "dni": "40250442",
@@ -27866,7 +27866,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:38:37.582Z"
+      "fetchedAt": "2026-02-20T17:50:08.812Z"
     },
     {
       "dni": "43411614",
@@ -28116,7 +28116,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:38:42.129Z"
+      "fetchedAt": "2026-02-20T17:50:11.210Z"
     },
     {
       "dni": "44895821",
@@ -28277,7 +28277,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:38:46.925Z"
+      "fetchedAt": "2026-02-20T17:50:13.765Z"
     },
     {
       "dni": "46170718",
@@ -28331,7 +28331,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:38:53.425Z"
+      "fetchedAt": "2026-02-20T17:50:17.144Z"
     },
     {
       "dni": "47104111",
@@ -28395,7 +28395,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:38:56.027Z"
+      "fetchedAt": "2026-02-20T17:50:19.769Z"
     },
     {
       "dni": "45930290",
@@ -28486,7 +28486,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:38:58.486Z"
+      "fetchedAt": "2026-02-20T17:50:21.807Z"
     },
     {
       "dni": "44427580",
@@ -28540,7 +28540,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:39:01.458Z"
+      "fetchedAt": "2026-02-20T17:50:24.270Z"
     },
     {
       "dni": "43838416",
@@ -28656,7 +28656,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:39:04.771Z"
+      "fetchedAt": "2026-02-20T17:50:27.561Z"
     },
     {
       "dni": "42679239",
@@ -28757,7 +28757,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:39:09.124Z"
+      "fetchedAt": "2026-02-20T17:50:30.119Z"
     },
     {
       "dni": "42208085",
@@ -28874,7 +28874,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:39:13.143Z"
+      "fetchedAt": "2026-02-20T17:50:32.127Z"
     },
     {
       "dni": "43348683",
@@ -28938,7 +28938,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:39:17.051Z"
+      "fetchedAt": "2026-02-20T17:50:34.551Z"
     },
     {
       "dni": "41281333",
@@ -29062,7 +29062,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:39:20.910Z"
+      "fetchedAt": "2026-02-20T17:50:36.886Z"
     },
     {
       "dni": "10722272",
@@ -29298,7 +29298,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:39:24.329Z"
+      "fetchedAt": "2026-02-20T17:50:39.368Z"
     },
     {
       "dni": "74733524",
@@ -29457,7 +29457,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:39:29.068Z"
+      "fetchedAt": "2026-02-20T17:50:42.842Z"
     },
     {
       "dni": "76698989",
@@ -29570,7 +29570,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:39:33.753Z"
+      "fetchedAt": "2026-02-20T17:50:45.799Z"
     },
     {
       "dni": "42550326",
@@ -29671,7 +29671,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:39:38.712Z"
+      "fetchedAt": "2026-02-20T17:50:48.261Z"
     },
     {
       "dni": "09141563",
@@ -29769,7 +29769,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:39:42.466Z"
+      "fetchedAt": "2026-02-20T17:50:50.491Z"
     },
     {
       "dni": "40368172",
@@ -29958,7 +29958,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:39:45.243Z"
+      "fetchedAt": "2026-02-20T17:50:52.837Z"
     },
     {
       "dni": "23943030",
@@ -30161,7 +30161,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:39:47.581Z"
+      "fetchedAt": "2026-02-20T17:50:55.119Z"
     },
     {
       "dni": "10162751",
@@ -30368,7 +30368,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:39:51.131Z"
+      "fetchedAt": "2026-02-20T17:50:57.153Z"
     },
     {
       "dni": "75896755",
@@ -30481,7 +30481,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:39:54.903Z"
+      "fetchedAt": "2026-02-20T17:50:59.640Z"
     },
     {
       "dni": "41474216",
@@ -30614,7 +30614,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:39:58.548Z"
+      "fetchedAt": "2026-02-20T17:51:02.202Z"
     },
     {
       "dni": "43010509",
@@ -30678,7 +30678,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:40:02.053Z"
+      "fetchedAt": "2026-02-20T17:51:04.703Z"
     },
     {
       "dni": "48320090",
@@ -30957,7 +30957,7 @@
         }
       ],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:40:06.561Z"
+      "fetchedAt": "2026-02-20T17:51:07.904Z"
     },
     {
       "dni": "44603000",
@@ -31021,7 +31021,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:40:10.075Z"
+      "fetchedAt": "2026-02-20T17:51:10.364Z"
     },
     {
       "dni": "75050392",
@@ -31231,7 +31231,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:40:13.006Z"
+      "fetchedAt": "2026-02-20T17:51:12.852Z"
     },
     {
       "dni": "10477022",
@@ -31784,7 +31784,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:40:16.212Z"
+      "fetchedAt": "2026-02-20T17:51:15.820Z"
     },
     {
       "dni": "08778400",
@@ -32100,7 +32100,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:40:19.141Z"
+      "fetchedAt": "2026-02-20T17:51:18.690Z"
     },
     {
       "dni": "25542661",
@@ -32510,7 +32510,7 @@
         }
       ],
       "porestosnoSlug": "arriola-tueros-jose-alberto",
-      "fetchedAt": "2026-02-19T01:40:22.394Z"
+      "fetchedAt": "2026-02-20T17:51:21.347Z"
     },
     {
       "dni": "09669572",
@@ -32611,7 +32611,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:40:25.565Z"
+      "fetchedAt": "2026-02-20T17:51:23.584Z"
     },
     {
       "dni": "40416230",
@@ -32887,7 +32887,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:40:28.902Z"
+      "fetchedAt": "2026-02-20T17:51:26.346Z"
     },
     {
       "dni": "48040318",
@@ -32984,7 +32984,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:40:31.327Z"
+      "fetchedAt": "2026-02-20T17:51:28.521Z"
     },
     {
       "dni": "09541915",
@@ -33218,7 +33218,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:40:34.843Z"
+      "fetchedAt": "2026-02-20T17:51:31.255Z"
     },
     {
       "dni": "74958158",
@@ -33442,7 +33442,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:40:39.598Z"
+      "fetchedAt": "2026-02-20T17:51:36.508Z"
     },
     {
       "dni": "70826291",
@@ -33524,7 +33524,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:40:42.780Z"
+      "fetchedAt": "2026-02-20T17:51:39.014Z"
     },
     {
       "dni": "42505216",
@@ -33600,7 +33600,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:40:46.063Z"
+      "fetchedAt": "2026-02-20T17:51:41.882Z"
     },
     {
       "dni": "04416459",
@@ -33692,7 +33692,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:40:49.432Z"
+      "fetchedAt": "2026-02-20T17:51:44.007Z"
     },
     {
       "dni": "73121808",
@@ -33756,7 +33756,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:40:54.339Z"
+      "fetchedAt": "2026-02-20T17:51:46.314Z"
     },
     {
       "dni": "41013986",
@@ -34124,7 +34124,7 @@
         }
       ],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:40:57.776Z"
+      "fetchedAt": "2026-02-20T17:51:48.797Z"
     },
     {
       "dni": "48666169",
@@ -34237,7 +34237,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:41:00.866Z"
+      "fetchedAt": "2026-02-20T17:51:51.043Z"
     },
     {
       "dni": "40119724",
@@ -34646,7 +34646,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:41:04.091Z"
+      "fetchedAt": "2026-02-20T17:51:53.477Z"
     },
     {
       "dni": "00374522",
@@ -34787,7 +34787,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:41:07.247Z"
+      "fetchedAt": "2026-02-20T17:51:55.585Z"
     },
     {
       "dni": "15996724",
@@ -34851,7 +34851,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:41:10.139Z"
+      "fetchedAt": "2026-02-20T17:51:57.971Z"
     },
     {
       "dni": "40126427",
@@ -35002,7 +35002,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:41:14.575Z"
+      "fetchedAt": "2026-02-20T17:52:01.489Z"
     },
     {
       "dni": "20022089",
@@ -35317,7 +35317,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:41:17.496Z"
+      "fetchedAt": "2026-02-20T17:52:03.860Z"
     },
     {
       "dni": "45963813",
@@ -35397,7 +35397,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:41:20.918Z"
+      "fetchedAt": "2026-02-20T17:52:05.989Z"
     },
     {
       "dni": "75716165",
@@ -35526,7 +35526,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:41:24.562Z"
+      "fetchedAt": "2026-02-20T17:52:08.442Z"
     },
     {
       "dni": "47408998",
@@ -35739,7 +35739,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:41:27.436Z"
+      "fetchedAt": "2026-02-20T17:52:10.670Z"
     },
     {
       "dni": "43478206",
@@ -35856,7 +35856,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:41:30.885Z"
+      "fetchedAt": "2026-02-20T17:52:12.999Z"
     },
     {
       "dni": "61522033",
@@ -36085,7 +36085,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:41:34.897Z"
+      "fetchedAt": "2026-02-20T17:52:15.371Z"
     },
     {
       "dni": "44652507",
@@ -36165,7 +36165,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:41:37.905Z"
+      "fetchedAt": "2026-02-20T17:52:17.774Z"
     },
     {
       "dni": "08666578",
@@ -36356,7 +36356,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:41:41.407Z"
+      "fetchedAt": "2026-02-20T17:52:20.605Z"
     },
     {
       "dni": "01289888",
@@ -36629,7 +36629,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:41:49.806Z"
+      "fetchedAt": "2026-02-20T17:52:22.725Z"
     },
     {
       "dni": "75662467",
@@ -36693,7 +36693,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:41:54.116Z"
+      "fetchedAt": "2026-02-20T17:52:26.109Z"
     },
     {
       "dni": "44930794",
@@ -36757,7 +36757,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:41:56.847Z"
+      "fetchedAt": "2026-02-20T17:52:28.328Z"
     },
     {
       "dni": "23982621",
@@ -36837,7 +36837,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:42:00.094Z"
+      "fetchedAt": "2026-02-20T17:52:30.519Z"
     },
     {
       "dni": "42606282",
@@ -36979,7 +36979,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:42:04.083Z"
+      "fetchedAt": "2026-02-20T17:52:32.647Z"
     },
     {
       "dni": "73270466",
@@ -37132,7 +37132,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:42:07.254Z"
+      "fetchedAt": "2026-02-20T17:52:34.946Z"
     },
     {
       "dni": "73069579",
@@ -37186,7 +37186,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:42:10.792Z"
+      "fetchedAt": "2026-02-20T17:52:37.448Z"
     },
     {
       "dni": "32945738",
@@ -37371,7 +37371,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:42:14.370Z"
+      "fetchedAt": "2026-02-20T17:52:39.742Z"
     },
     {
       "dni": "25572708",
@@ -37474,7 +37474,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:42:18.260Z"
+      "fetchedAt": "2026-02-20T17:52:42.040Z"
     },
     {
       "dni": "47605156",
@@ -37612,7 +37612,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:42:23.075Z"
+      "fetchedAt": "2026-02-20T17:52:44.350Z"
     },
     {
       "dni": "46732102",
@@ -37797,7 +37797,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:42:27.701Z"
+      "fetchedAt": "2026-02-20T17:52:46.771Z"
     },
     {
       "dni": "46713971",
@@ -37878,7 +37878,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:42:32.900Z"
+      "fetchedAt": "2026-02-20T17:52:50.748Z"
     },
     {
       "dni": "70556253",
@@ -37979,7 +37979,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:42:35.940Z"
+      "fetchedAt": "2026-02-20T17:52:53.642Z"
     },
     {
       "dni": "71061905",
@@ -38061,7 +38061,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:42:39.209Z"
+      "fetchedAt": "2026-02-20T17:52:56.609Z"
     },
     {
       "dni": "07356402",
@@ -38299,7 +38299,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:42:42.293Z"
+      "fetchedAt": "2026-02-20T17:52:58.676Z"
     },
     {
       "dni": "71336768",
@@ -38510,7 +38510,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:42:45.244Z"
+      "fetchedAt": "2026-02-20T17:53:00.870Z"
     },
     {
       "dni": "07721629",
@@ -38809,7 +38809,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:42:48.139Z"
+      "fetchedAt": "2026-02-20T17:53:03.404Z"
     },
     {
       "dni": "45134566",
@@ -38980,7 +38980,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:42:51.139Z"
+      "fetchedAt": "2026-02-20T17:53:05.736Z"
     },
     {
       "dni": "75083212",
@@ -39072,7 +39072,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:42:53.800Z"
+      "fetchedAt": "2026-02-20T17:53:08.501Z"
     },
     {
       "dni": "45239690",
@@ -39269,7 +39269,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:42:56.467Z"
+      "fetchedAt": "2026-02-20T17:53:10.739Z"
     },
     {
       "dni": "24972578",
@@ -39356,7 +39356,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:42:59.330Z"
+      "fetchedAt": "2026-02-20T17:53:12.891Z"
     },
     {
       "dni": "75147906",
@@ -39420,7 +39420,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:43:04.214Z"
+      "fetchedAt": "2026-02-20T17:53:16.447Z"
     },
     {
       "dni": "07087349",
@@ -39597,7 +39597,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:43:07.001Z"
+      "fetchedAt": "2026-02-20T17:53:18.500Z"
     },
     {
       "dni": "47380873",
@@ -39661,7 +39661,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:43:10.173Z"
+      "fetchedAt": "2026-02-20T17:53:20.718Z"
     },
     {
       "dni": "40163811",
@@ -39813,7 +39813,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:43:13.092Z"
+      "fetchedAt": "2026-02-20T17:53:23.307Z"
     },
     {
       "dni": "43875368",
@@ -40048,7 +40048,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:43:15.746Z"
+      "fetchedAt": "2026-02-20T17:53:26.257Z"
     },
     {
       "dni": "06639224",
@@ -40213,7 +40213,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:43:19.627Z"
+      "fetchedAt": "2026-02-20T17:53:28.430Z"
     },
     {
       "dni": "40408408",
@@ -40392,7 +40392,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:43:22.967Z"
+      "fetchedAt": "2026-02-20T17:53:30.993Z"
     },
     {
       "dni": "40633070",
@@ -40456,7 +40456,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:43:26.051Z"
+      "fetchedAt": "2026-02-20T17:53:33.198Z"
     },
     {
       "dni": "43090606",
@@ -40618,7 +40618,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:43:29.220Z"
+      "fetchedAt": "2026-02-20T17:53:35.743Z"
     },
     {
       "dni": "45873827",
@@ -40749,7 +40749,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:43:32.406Z"
+      "fetchedAt": "2026-02-20T17:53:39.497Z"
     },
     {
       "dni": "42522370",
@@ -40813,7 +40813,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:43:36.975Z"
+      "fetchedAt": "2026-02-20T17:53:43.889Z"
     },
     {
       "dni": "10553440",
@@ -41047,7 +41047,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:43:40.533Z"
+      "fetchedAt": "2026-02-20T17:53:47.015Z"
     },
     {
       "dni": "45568472",
@@ -41263,7 +41263,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:43:43.618Z"
+      "fetchedAt": "2026-02-20T17:53:49.725Z"
     },
     {
       "dni": "23685393",
@@ -41417,7 +41417,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:43:48.150Z"
+      "fetchedAt": "2026-02-20T17:53:52.338Z"
     },
     {
       "dni": "43066412",
@@ -41552,7 +41552,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:43:51.184Z"
+      "fetchedAt": "2026-02-20T17:53:54.784Z"
     },
     {
       "dni": "15669423",
@@ -41616,7 +41616,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:43:55.172Z"
+      "fetchedAt": "2026-02-20T17:53:58.088Z"
     },
     {
       "dni": "73035371",
@@ -41769,7 +41769,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:43:58.653Z"
+      "fetchedAt": "2026-02-20T17:54:01.126Z"
     },
     {
       "dni": "07452236",
@@ -41890,7 +41890,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:44:01.970Z"
+      "fetchedAt": "2026-02-20T17:54:04.598Z"
     },
     {
       "dni": "17432740",
@@ -42165,7 +42165,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:44:05.695Z"
+      "fetchedAt": "2026-02-20T17:54:06.839Z"
     },
     {
       "dni": "70853410",
@@ -42245,7 +42245,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:44:09.070Z"
+      "fetchedAt": "2026-02-20T17:54:09.165Z"
     },
     {
       "dni": "06663976",
@@ -43100,7 +43100,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:44:12.548Z"
+      "fetchedAt": "2026-02-20T17:54:12.370Z"
     },
     {
       "dni": "01080741",
@@ -43452,7 +43452,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:44:16.919Z"
+      "fetchedAt": "2026-02-20T17:54:14.878Z"
     },
     {
       "dni": "41237668",
@@ -43747,7 +43747,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:44:20.556Z"
+      "fetchedAt": "2026-02-20T17:54:17.160Z"
     },
     {
       "dni": "48003397",
@@ -43883,7 +43883,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:44:24.010Z"
+      "fetchedAt": "2026-02-20T17:54:19.737Z"
     },
     {
       "dni": "29277424",
@@ -44007,7 +44007,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:44:27.693Z"
+      "fetchedAt": "2026-02-20T17:54:21.868Z"
     },
     {
       "dni": "07794913",
@@ -44160,7 +44160,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:44:30.943Z"
+      "fetchedAt": "2026-02-20T17:54:23.959Z"
     },
     {
       "dni": "07134084",
@@ -44354,7 +44354,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:44:35.374Z"
+      "fetchedAt": "2026-02-20T17:54:26.939Z"
     },
     {
       "dni": "10720191",
@@ -44605,7 +44605,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:44:38.877Z"
+      "fetchedAt": "2026-02-20T17:54:28.934Z"
     },
     {
       "dni": "41148127",
@@ -44876,7 +44876,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:44:42.594Z"
+      "fetchedAt": "2026-02-20T17:54:31.110Z"
     },
     {
       "dni": "16020938",
@@ -44998,7 +44998,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:44:45.531Z"
+      "fetchedAt": "2026-02-20T17:54:33.681Z"
     },
     {
       "dni": "62853925",
@@ -45052,7 +45052,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:44:51.428Z"
+      "fetchedAt": "2026-02-20T17:54:37.696Z"
     },
     {
       "dni": "08010271",
@@ -45423,7 +45423,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:44:54.439Z"
+      "fetchedAt": "2026-02-20T17:54:43.899Z"
     },
     {
       "dni": "10778568",
@@ -45508,7 +45508,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:44:57.965Z"
+      "fetchedAt": "2026-02-20T17:54:47.107Z"
     },
     {
       "dni": "40106079",
@@ -45676,7 +45676,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:45:01.303Z"
+      "fetchedAt": "2026-02-20T17:54:49.492Z"
     },
     {
       "dni": "71012387",
@@ -45835,7 +45835,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:45:05.157Z"
+      "fetchedAt": "2026-02-20T17:54:51.656Z"
     },
     {
       "dni": "42861086",
@@ -46082,7 +46082,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:45:08.409Z"
+      "fetchedAt": "2026-02-20T17:54:54.463Z"
     },
     {
       "dni": "48266264",
@@ -46220,7 +46220,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:45:11.322Z"
+      "fetchedAt": "2026-02-20T17:54:56.710Z"
     },
     {
       "dni": "32975183",
@@ -46321,7 +46321,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:45:14.515Z"
+      "fetchedAt": "2026-02-20T17:54:59.317Z"
     },
     {
       "dni": "10220869",
@@ -46486,7 +46486,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:45:17.768Z"
+      "fetchedAt": "2026-02-20T17:55:01.457Z"
     },
     {
       "dni": "07793374",
@@ -46878,7 +46878,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:45:21.902Z"
+      "fetchedAt": "2026-02-20T17:55:04.519Z"
     },
     {
       "dni": "16008840",
@@ -46942,7 +46942,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:45:27.669Z"
+      "fetchedAt": "2026-02-20T17:55:08.195Z"
     },
     {
       "dni": "77227930",
@@ -47081,7 +47081,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:45:31.769Z"
+      "fetchedAt": "2026-02-20T17:55:10.413Z"
     },
     {
       "dni": "19908529",
@@ -47300,7 +47300,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:45:35.237Z"
+      "fetchedAt": "2026-02-20T17:55:12.891Z"
     },
     {
       "dni": "02615397",
@@ -47485,7 +47485,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:45:39.718Z"
+      "fetchedAt": "2026-02-20T17:55:14.906Z"
     },
     {
       "dni": "72910809",
@@ -47635,7 +47635,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:45:42.900Z"
+      "fetchedAt": "2026-02-20T17:55:17.445Z"
     },
     {
       "dni": "07881916",
@@ -47802,7 +47802,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:45:47.664Z"
+      "fetchedAt": "2026-02-20T17:55:19.549Z"
     },
     {
       "dni": "43258330",
@@ -47997,7 +47997,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:45:52.728Z"
+      "fetchedAt": "2026-02-20T17:55:21.890Z"
     },
     {
       "dni": "41505390",
@@ -48151,7 +48151,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:45:55.509Z"
+      "fetchedAt": "2026-02-20T17:55:24.168Z"
     },
     {
       "dni": "70030625",
@@ -48346,7 +48346,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:45:58.621Z"
+      "fetchedAt": "2026-02-20T17:55:26.259Z"
     },
     {
       "dni": "15755246",
@@ -48410,7 +48410,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:46:02.385Z"
+      "fetchedAt": "2026-02-20T17:55:28.309Z"
     },
     {
       "dni": "41050816",
@@ -48507,7 +48507,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:46:06.456Z"
+      "fetchedAt": "2026-02-20T17:55:32.023Z"
     },
     {
       "dni": "70420868",
@@ -48604,7 +48604,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:46:09.513Z"
+      "fetchedAt": "2026-02-20T17:55:34.341Z"
     },
     {
       "dni": "32916215",
@@ -48757,7 +48757,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:46:12.737Z"
+      "fetchedAt": "2026-02-20T17:55:36.501Z"
     },
     {
       "dni": "08410340",
@@ -48866,7 +48866,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:46:15.813Z"
+      "fetchedAt": "2026-02-20T17:55:39.113Z"
     },
     {
       "dni": "02401989",
@@ -49263,7 +49263,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:46:19.585Z"
+      "fetchedAt": "2026-02-20T17:55:41.431Z"
     },
     {
       "dni": "42869876",
@@ -49547,7 +49547,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:46:23.012Z"
+      "fetchedAt": "2026-02-20T17:55:43.608Z"
     },
     {
       "dni": "42054157",
@@ -49680,7 +49680,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:46:27.332Z"
+      "fetchedAt": "2026-02-20T17:55:45.742Z"
     },
     {
       "dni": "43554686",
@@ -49936,7 +49936,7 @@
         }
       ],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:46:30.375Z"
+      "fetchedAt": "2026-02-20T17:55:47.862Z"
     },
     {
       "dni": "42928489",
@@ -50201,7 +50201,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:46:33.933Z"
+      "fetchedAt": "2026-02-20T17:55:50.055Z"
     },
     {
       "dni": "07613575",
@@ -50362,7 +50362,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:46:37.143Z"
+      "fetchedAt": "2026-02-20T17:55:52.112Z"
     },
     {
       "dni": "45122717",
@@ -50465,7 +50465,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:46:41.455Z"
+      "fetchedAt": "2026-02-20T17:55:56.474Z"
     },
     {
       "dni": "40311188",
@@ -50578,7 +50578,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:46:44.671Z"
+      "fetchedAt": "2026-02-20T17:55:58.677Z"
     },
     {
       "dni": "43751028",
@@ -50691,7 +50691,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:46:48.014Z"
+      "fetchedAt": "2026-02-20T17:56:01.209Z"
     },
     {
       "dni": "07706157",
@@ -50796,7 +50796,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:46:51.198Z"
+      "fetchedAt": "2026-02-20T17:56:04.381Z"
     },
     {
       "dni": "16617694",
@@ -51047,7 +51047,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:46:54.939Z"
+      "fetchedAt": "2026-02-20T17:56:06.905Z"
     },
     {
       "dni": "22505301",
@@ -51283,7 +51283,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:46:59.061Z"
+      "fetchedAt": "2026-02-20T17:56:09.200Z"
     },
     {
       "dni": "06279791",
@@ -51605,7 +51605,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:47:03.287Z"
+      "fetchedAt": "2026-02-20T17:56:11.272Z"
     },
     {
       "dni": "31153136",
@@ -51895,7 +51895,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:47:06.550Z"
+      "fetchedAt": "2026-02-20T17:56:13.771Z"
     },
     {
       "dni": "47480471",
@@ -52045,7 +52045,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:47:12.246Z"
+      "fetchedAt": "2026-02-20T17:56:16.240Z"
     },
     {
       "dni": "32922466",
@@ -52186,7 +52186,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:47:16.497Z"
+      "fetchedAt": "2026-02-20T17:56:19.475Z"
     },
     {
       "dni": "08178460",
@@ -52550,7 +52550,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:47:21.037Z"
+      "fetchedAt": "2026-02-20T17:56:23.003Z"
     },
     {
       "dni": "09505098",
@@ -52725,7 +52725,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:47:24.432Z"
+      "fetchedAt": "2026-02-20T17:56:25.201Z"
     },
     {
       "dni": "46793718",
@@ -52838,7 +52838,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:47:28.067Z"
+      "fetchedAt": "2026-02-20T17:56:27.453Z"
     },
     {
       "dni": "42575080",
@@ -53022,7 +53022,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:47:31.631Z"
+      "fetchedAt": "2026-02-20T17:56:29.771Z"
     },
     {
       "dni": "80567538",
@@ -53260,7 +53260,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:47:34.685Z"
+      "fetchedAt": "2026-02-20T17:56:32.017Z"
     },
     {
       "dni": "47946831",
@@ -53391,7 +53391,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:47:37.624Z"
+      "fetchedAt": "2026-02-20T17:56:34.196Z"
     },
     {
       "dni": "43690141",
@@ -53472,7 +53472,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:47:40.222Z"
+      "fetchedAt": "2026-02-20T17:56:36.812Z"
     },
     {
       "dni": "07847517",
@@ -53673,7 +53673,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:47:43.315Z"
+      "fetchedAt": "2026-02-20T17:56:39.077Z"
     },
     {
       "dni": "08271794",
@@ -53825,7 +53825,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:47:46.419Z"
+      "fetchedAt": "2026-02-20T17:56:41.980Z"
     },
     {
       "dni": "47089784",
@@ -53944,7 +53944,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:47:49.613Z"
+      "fetchedAt": "2026-02-20T17:56:44.374Z"
     },
     {
       "dni": "47609064",
@@ -54143,7 +54143,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:47:53.781Z"
+      "fetchedAt": "2026-02-20T17:56:49.335Z"
     },
     {
       "dni": "04416134",
@@ -54323,7 +54323,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:47:57.077Z"
+      "fetchedAt": "2026-02-20T17:56:51.768Z"
     },
     {
       "dni": "09636411",
@@ -54469,7 +54469,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:48:00.789Z"
+      "fetchedAt": "2026-02-20T17:56:54.071Z"
     },
     {
       "dni": "46908519",
@@ -54630,7 +54630,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:48:04.824Z"
+      "fetchedAt": "2026-02-20T17:56:56.233Z"
     },
     {
       "dni": "41408462",
@@ -54766,7 +54766,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:48:08.146Z"
+      "fetchedAt": "2026-02-20T17:56:58.644Z"
     },
     {
       "dni": "75806859",
@@ -54820,7 +54820,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:48:10.959Z"
+      "fetchedAt": "2026-02-20T17:57:01.213Z"
     },
     {
       "dni": "07630412",
@@ -54907,7 +54907,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:48:14.732Z"
+      "fetchedAt": "2026-02-20T17:57:03.816Z"
     },
     {
       "dni": "09749788",
@@ -55008,7 +55008,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:48:17.930Z"
+      "fetchedAt": "2026-02-20T17:57:06.050Z"
     },
     {
       "dni": "42385974",
@@ -55263,7 +55263,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:48:21.042Z"
+      "fetchedAt": "2026-02-20T17:57:08.172Z"
     },
     {
       "dni": "41189907",
@@ -55446,7 +55446,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:48:24.640Z"
+      "fetchedAt": "2026-02-20T17:57:10.202Z"
     },
     {
       "dni": "75145166",
@@ -55583,7 +55583,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:48:28.712Z"
+      "fetchedAt": "2026-02-20T17:57:14.504Z"
     },
     {
       "dni": "09995884",
@@ -55974,7 +55974,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:48:32.039Z"
+      "fetchedAt": "2026-02-20T17:57:17.190Z"
     },
     {
       "dni": "44377065",
@@ -56038,7 +56038,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:48:35.109Z"
+      "fetchedAt": "2026-02-20T17:57:19.612Z"
     },
     {
       "dni": "03569270",
@@ -56184,7 +56184,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:48:38.960Z"
+      "fetchedAt": "2026-02-20T17:57:22.752Z"
     },
     {
       "dni": "07502036",
@@ -56325,7 +56325,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:48:42.466Z"
+      "fetchedAt": "2026-02-20T17:57:25.118Z"
     },
     {
       "dni": "76764692",
@@ -56379,7 +56379,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:48:46.424Z"
+      "fetchedAt": "2026-02-20T17:57:27.276Z"
     },
     {
       "dni": "42593410",
@@ -56480,7 +56480,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:48:51.085Z"
+      "fetchedAt": "2026-02-20T17:57:29.533Z"
     },
     {
       "dni": "42149899",
@@ -56656,7 +56656,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:48:54.350Z"
+      "fetchedAt": "2026-02-20T17:57:31.701Z"
     },
     {
       "dni": "75662914",
@@ -56732,7 +56732,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:48:57.892Z"
+      "fetchedAt": "2026-02-20T17:57:34.217Z"
     },
     {
       "dni": "40962039",
@@ -56902,7 +56902,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:49:03.679Z"
+      "fetchedAt": "2026-02-20T17:57:37.051Z"
     },
     {
       "dni": "09344386",
@@ -57163,7 +57163,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:49:09.185Z"
+      "fetchedAt": "2026-02-20T17:57:40.636Z"
     },
     {
       "dni": "07479102",
@@ -57250,7 +57250,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:49:13.390Z"
+      "fetchedAt": "2026-02-20T17:57:42.881Z"
     },
     {
       "dni": "76302284",
@@ -57409,7 +57409,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:49:17.149Z"
+      "fetchedAt": "2026-02-20T17:57:45.167Z"
     },
     {
       "dni": "15760871",
@@ -57528,7 +57528,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:49:21.570Z"
+      "fetchedAt": "2026-02-20T17:57:47.200Z"
     },
     {
       "dni": "44756974",
@@ -58108,7 +58108,7 @@
         }
       ],
       "porestosnoSlug": "amuruz-dulanto-yessica-rosselli",
-      "fetchedAt": "2026-02-19T01:49:25.961Z"
+      "fetchedAt": "2026-02-20T17:57:49.293Z"
     },
     {
       "dni": "44342868",
@@ -58368,7 +58368,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:49:29.411Z"
+      "fetchedAt": "2026-02-20T17:57:51.468Z"
     },
     {
       "dni": "29636657",
@@ -58677,7 +58677,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:49:33.962Z"
+      "fetchedAt": "2026-02-20T17:57:53.837Z"
     },
     {
       "dni": "42030438",
@@ -58906,7 +58906,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:49:37.767Z"
+      "fetchedAt": "2026-02-20T17:57:56.211Z"
     },
     {
       "dni": "46821719",
@@ -59005,7 +59005,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:49:41.348Z"
+      "fetchedAt": "2026-02-20T17:57:58.411Z"
     },
     {
       "dni": "73681642",
@@ -59143,7 +59143,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:49:46.253Z"
+      "fetchedAt": "2026-02-20T17:58:00.909Z"
     },
     {
       "dni": "10358709",
@@ -59197,7 +59197,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:49:51.225Z"
+      "fetchedAt": "2026-02-20T17:58:04.418Z"
     },
     {
       "dni": "04436187",
@@ -59473,7 +59473,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:49:56.049Z"
+      "fetchedAt": "2026-02-20T17:58:06.658Z"
     },
     {
       "dni": "72708966",
@@ -59621,7 +59621,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:49:59.420Z"
+      "fetchedAt": "2026-02-20T17:58:08.663Z"
     },
     {
       "dni": "16470621",
@@ -59734,7 +59734,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:50:02.063Z"
+      "fetchedAt": "2026-02-20T17:58:10.577Z"
     },
     {
       "dni": "47011502",
@@ -59852,7 +59852,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:50:05.718Z"
+      "fetchedAt": "2026-02-20T17:58:12.658Z"
     },
     {
       "dni": "47445932",
@@ -59977,7 +59977,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:50:08.427Z"
+      "fetchedAt": "2026-02-20T17:58:14.794Z"
     },
     {
       "dni": "41885274",
@@ -60246,7 +60246,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:50:11.325Z"
+      "fetchedAt": "2026-02-20T17:58:16.894Z"
     },
     {
       "dni": "73805382",
@@ -60328,7 +60328,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:50:15.339Z"
+      "fetchedAt": "2026-02-20T17:58:19.753Z"
     },
     {
       "dni": "42426992",
@@ -60474,7 +60474,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:50:18.564Z"
+      "fetchedAt": "2026-02-20T17:58:22.229Z"
     },
     {
       "dni": "10582157",
@@ -60590,7 +60590,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:50:22.813Z"
+      "fetchedAt": "2026-02-20T17:58:24.688Z"
     },
     {
       "dni": "43747096",
@@ -60661,7 +60661,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:50:27.760Z"
+      "fetchedAt": "2026-02-20T17:58:28.561Z"
     },
     {
       "dni": "47165871",
@@ -60789,7 +60789,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:50:30.234Z"
+      "fetchedAt": "2026-02-20T17:58:30.659Z"
     },
     {
       "dni": "09245263",
@@ -60888,7 +60888,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:50:33.512Z"
+      "fetchedAt": "2026-02-20T17:58:32.684Z"
     },
     {
       "dni": "46213257",
@@ -61024,7 +61024,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:50:36.867Z"
+      "fetchedAt": "2026-02-20T17:58:35.213Z"
     },
     {
       "dni": "70746001",
@@ -61328,7 +61328,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:50:40.261Z"
+      "fetchedAt": "2026-02-20T17:58:37.470Z"
     },
     {
       "dni": "19192401",
@@ -61470,7 +61470,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:50:43.967Z"
+      "fetchedAt": "2026-02-20T17:58:39.721Z"
     },
     {
       "dni": "76579398",
@@ -61589,7 +61589,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:50:48.446Z"
+      "fetchedAt": "2026-02-20T17:58:41.796Z"
     },
     {
       "dni": "71917537",
@@ -61847,7 +61847,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:50:53.060Z"
+      "fetchedAt": "2026-02-20T17:58:44.368Z"
     },
     {
       "dni": "70863995",
@@ -61977,7 +61977,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:50:57.988Z"
+      "fetchedAt": "2026-02-20T17:58:46.820Z"
     },
     {
       "dni": "41948294",
@@ -62132,7 +62132,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:51:01.443Z"
+      "fetchedAt": "2026-02-20T17:58:49.206Z"
     },
     {
       "dni": "22463160",
@@ -62262,7 +62262,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:51:06.665Z"
+      "fetchedAt": "2026-02-20T17:58:52.725Z"
     },
     {
       "dni": "09603758",
@@ -62338,7 +62338,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:51:10.776Z"
+      "fetchedAt": "2026-02-20T17:58:55.158Z"
     },
     {
       "dni": "41522409",
@@ -62575,7 +62575,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:51:15.321Z"
+      "fetchedAt": "2026-02-20T17:58:57.540Z"
     },
     {
       "dni": "47641525",
@@ -62694,7 +62694,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:51:19.703Z"
+      "fetchedAt": "2026-02-20T17:58:59.741Z"
     },
     {
       "dni": "72289816",
@@ -62848,7 +62848,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:51:22.715Z"
+      "fetchedAt": "2026-02-20T17:59:02.345Z"
     },
     {
       "dni": "45568993",
@@ -63027,7 +63027,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:51:26.608Z"
+      "fetchedAt": "2026-02-20T17:59:04.659Z"
     },
     {
       "dni": "16721329",
@@ -63355,7 +63355,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:51:29.776Z"
+      "fetchedAt": "2026-02-20T17:59:06.735Z"
     },
     {
       "dni": "48118979",
@@ -63532,7 +63532,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:51:34.252Z"
+      "fetchedAt": "2026-02-20T17:59:09.003Z"
     },
     {
       "dni": "71732278",
@@ -63728,7 +63728,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:51:37.971Z"
+      "fetchedAt": "2026-02-20T17:59:11.422Z"
     },
     {
       "dni": "45950828",
@@ -63915,7 +63915,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:51:42.414Z"
+      "fetchedAt": "2026-02-20T17:59:13.746Z"
     },
     {
       "dni": "10226327",
@@ -64241,7 +64241,7 @@
         }
       ],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:51:47.811Z"
+      "fetchedAt": "2026-02-20T17:59:17.615Z"
     },
     {
       "dni": "70539901",
@@ -64354,7 +64354,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:51:51.709Z"
+      "fetchedAt": "2026-02-20T17:59:20.118Z"
     },
     {
       "dni": "08554409",
@@ -64469,7 +64469,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:51:55.601Z"
+      "fetchedAt": "2026-02-20T17:59:22.478Z"
     },
     {
       "dni": "09584175",
@@ -64605,7 +64605,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:51:59.629Z"
+      "fetchedAt": "2026-02-20T17:59:25.635Z"
     },
     {
       "dni": "27991196",
@@ -65019,7 +65019,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:52:03.204Z"
+      "fetchedAt": "2026-02-20T17:59:27.973Z"
     },
     {
       "dni": "07816137",
@@ -65133,7 +65133,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:52:07.380Z"
+      "fetchedAt": "2026-02-20T17:59:30.493Z"
     },
     {
       "dni": "06262866",
@@ -65218,7 +65218,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:52:11.786Z"
+      "fetchedAt": "2026-02-20T17:59:32.555Z"
     },
     {
       "dni": "45594850",
@@ -65329,7 +65329,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:52:16.266Z"
+      "fetchedAt": "2026-02-20T17:59:34.852Z"
     },
     {
       "dni": "07626592",
@@ -65406,7 +65406,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:52:21.504Z"
+      "fetchedAt": "2026-02-20T17:59:37.097Z"
     },
     {
       "dni": "47240407",
@@ -65499,7 +65499,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:52:24.404Z"
+      "fetchedAt": "2026-02-20T17:59:39.240Z"
     },
     {
       "dni": "43430366",
@@ -65797,7 +65797,7 @@
         }
       ],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:52:28.727Z"
+      "fetchedAt": "2026-02-20T17:59:43.146Z"
     },
     {
       "dni": "10581238",
@@ -65928,7 +65928,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:52:31.374Z"
+      "fetchedAt": "2026-02-20T17:59:45.840Z"
     },
     {
       "dni": "74741537",
@@ -66046,7 +66046,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:52:35.189Z"
+      "fetchedAt": "2026-02-20T17:59:47.939Z"
     },
     {
       "dni": "08116967",
@@ -66205,7 +66205,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:52:38.337Z"
+      "fetchedAt": "2026-02-20T17:59:50.604Z"
     },
     {
       "dni": "46809126",
@@ -66344,7 +66344,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:52:41.100Z"
+      "fetchedAt": "2026-02-20T17:59:53.758Z"
     },
     {
       "dni": "44946620",
@@ -66458,7 +66458,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:52:45.245Z"
+      "fetchedAt": "2026-02-20T17:59:56.104Z"
     },
     {
       "dni": "41598950",
@@ -66651,7 +66651,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:52:49.883Z"
+      "fetchedAt": "2026-02-20T18:00:00.209Z"
     },
     {
       "dni": "46426789",
@@ -66820,7 +66820,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:52:55.205Z"
+      "fetchedAt": "2026-02-20T18:00:02.989Z"
     },
     {
       "dni": "08646667",
@@ -66968,7 +66968,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:53:00.237Z"
+      "fetchedAt": "2026-02-20T18:00:05.190Z"
     },
     {
       "dni": "07864846",
@@ -67086,7 +67086,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:53:04.698Z"
+      "fetchedAt": "2026-02-20T18:00:07.265Z"
     },
     {
       "dni": "44300636",
@@ -67168,7 +67168,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:53:09.690Z"
+      "fetchedAt": "2026-02-20T18:00:10.729Z"
     },
     {
       "dni": "47163913",
@@ -67413,7 +67413,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:53:13.198Z"
+      "fetchedAt": "2026-02-20T18:00:13.609Z"
     },
     {
       "dni": "15961604",
@@ -67477,7 +67477,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:53:17.446Z"
+      "fetchedAt": "2026-02-20T18:00:15.852Z"
     },
     {
       "dni": "08363046",
@@ -67706,7 +67706,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:53:22.025Z"
+      "fetchedAt": "2026-02-20T18:00:19.073Z"
     },
     {
       "dni": "08078044",
@@ -68040,7 +68040,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:53:25.484Z"
+      "fetchedAt": "2026-02-20T18:00:21.424Z"
     },
     {
       "dni": "05339494",
@@ -68158,7 +68158,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:53:29.429Z"
+      "fetchedAt": "2026-02-20T18:00:23.894Z"
     },
     {
       "dni": "00820834",
@@ -68348,7 +68348,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:53:33.357Z"
+      "fetchedAt": "2026-02-20T18:00:26.389Z"
     },
     {
       "dni": "46379470",
@@ -68457,7 +68457,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:53:37.283Z"
+      "fetchedAt": "2026-02-20T18:00:28.597Z"
     },
     {
       "dni": "26714722",
@@ -68641,7 +68641,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:53:41.444Z"
+      "fetchedAt": "2026-02-20T18:00:30.890Z"
     },
     {
       "dni": "40197365",
@@ -68786,7 +68786,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:53:45.897Z"
+      "fetchedAt": "2026-02-20T18:00:33.116Z"
     },
     {
       "dni": "09311521",
@@ -68928,7 +68928,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:53:51.917Z"
+      "fetchedAt": "2026-02-20T18:00:38.301Z"
     },
     {
       "dni": "75744241",
@@ -69010,7 +69010,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:53:56.813Z"
+      "fetchedAt": "2026-02-20T18:00:40.785Z"
     },
     {
       "dni": "41691632",
@@ -69217,7 +69217,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:54:01.151Z"
+      "fetchedAt": "2026-02-20T18:00:43.154Z"
     },
     {
       "dni": "02438593",
@@ -69371,7 +69371,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:54:06.715Z"
+      "fetchedAt": "2026-02-20T18:00:45.717Z"
     },
     {
       "dni": "40768988",
@@ -69655,7 +69655,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:54:11.484Z"
+      "fetchedAt": "2026-02-20T18:00:48.439Z"
     },
     {
       "dni": "07578124",
@@ -69840,7 +69840,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:54:15.486Z"
+      "fetchedAt": "2026-02-20T18:00:50.583Z"
     },
     {
       "dni": "32117358",
@@ -69927,7 +69927,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:54:19.673Z"
+      "fetchedAt": "2026-02-20T18:00:53.453Z"
     },
     {
       "dni": "41005446",
@@ -70236,7 +70236,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:54:25.127Z"
+      "fetchedAt": "2026-02-20T18:00:55.874Z"
     },
     {
       "dni": "10507208",
@@ -70290,7 +70290,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:54:30.693Z"
+      "fetchedAt": "2026-02-20T18:00:58.311Z"
     },
     {
       "dni": "41898497",
@@ -70464,7 +70464,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:54:35.817Z"
+      "fetchedAt": "2026-02-20T18:01:00.996Z"
     },
     {
       "dni": "45657438",
@@ -70613,7 +70613,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:54:43.662Z"
+      "fetchedAt": "2026-02-20T18:01:04.776Z"
     },
     {
       "dni": "75074068",
@@ -70789,7 +70789,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:54:49.836Z"
+      "fetchedAt": "2026-02-20T18:01:07.210Z"
     },
     {
       "dni": "45145628",
@@ -70951,7 +70951,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:54:54.148Z"
+      "fetchedAt": "2026-02-20T18:01:09.748Z"
     },
     {
       "dni": "72953968",
@@ -71050,7 +71050,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:54:58.720Z"
+      "fetchedAt": "2026-02-20T18:01:12.095Z"
     },
     {
       "dni": "41220531",
@@ -71127,7 +71127,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:55:03.087Z"
+      "fetchedAt": "2026-02-20T18:01:14.805Z"
     },
     {
       "dni": "77691261",
@@ -71300,7 +71300,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:55:09.118Z"
+      "fetchedAt": "2026-02-20T18:01:17.126Z"
     },
     {
       "dni": "47727528",
@@ -71419,7 +71419,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:55:14.126Z"
+      "fetchedAt": "2026-02-20T18:01:19.542Z"
     },
     {
       "dni": "70046343",
@@ -71535,7 +71535,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:55:17.514Z"
+      "fetchedAt": "2026-02-20T18:01:22.443Z"
     },
     {
       "dni": "16011422",
@@ -71599,7 +71599,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:55:21.711Z"
+      "fetchedAt": "2026-02-20T18:01:25.630Z"
     },
     {
       "dni": "00097352",
@@ -71864,7 +71864,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:55:24.641Z"
+      "fetchedAt": "2026-02-20T18:01:28.007Z"
     },
     {
       "dni": "74426739",
@@ -72003,7 +72003,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:55:29.153Z"
+      "fetchedAt": "2026-02-20T18:01:31.443Z"
     },
     {
       "dni": "46791122",
@@ -72196,7 +72196,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:55:32.016Z"
+      "fetchedAt": "2026-02-20T18:01:33.725Z"
     },
     {
       "dni": "46018218",
@@ -72395,7 +72395,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:55:35.991Z"
+      "fetchedAt": "2026-02-20T18:01:36.069Z"
     },
     {
       "dni": "07415434",
@@ -72580,7 +72580,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:55:40.367Z"
+      "fetchedAt": "2026-02-20T18:01:38.169Z"
     },
     {
       "dni": "41112579",
@@ -72744,7 +72744,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:55:45.595Z"
+      "fetchedAt": "2026-02-20T18:01:40.623Z"
     },
     {
       "dni": "06200136",
@@ -72996,7 +72996,7 @@
         }
       ],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:55:49.253Z"
+      "fetchedAt": "2026-02-20T18:01:42.923Z"
     },
     {
       "dni": "72464347",
@@ -73060,7 +73060,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:55:53.395Z"
+      "fetchedAt": "2026-02-20T18:01:45.033Z"
     },
     {
       "dni": "08670954",
@@ -73303,7 +73303,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:55:57.646Z"
+      "fetchedAt": "2026-02-20T18:01:47.599Z"
     },
     {
       "dni": "42298969",
@@ -73474,7 +73474,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:56:03.018Z"
+      "fetchedAt": "2026-02-20T18:01:50.622Z"
     },
     {
       "dni": "41609199",
@@ -73610,7 +73610,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:56:08.140Z"
+      "fetchedAt": "2026-02-20T18:01:53.561Z"
     },
     {
       "dni": "73568210",
@@ -73725,7 +73725,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:56:13.125Z"
+      "fetchedAt": "2026-02-20T18:01:58.579Z"
     },
     {
       "dni": "18122752",
@@ -73824,7 +73824,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:56:17.498Z"
+      "fetchedAt": "2026-02-20T18:02:03.596Z"
     },
     {
       "dni": "41185187",
@@ -73979,7 +73979,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:56:20.634Z"
+      "fetchedAt": "2026-02-20T18:02:06.674Z"
     },
     {
       "dni": "10285039",
@@ -74222,7 +74222,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:56:23.608Z"
+      "fetchedAt": "2026-02-20T18:02:10.531Z"
     },
     {
       "dni": "43464593",
@@ -74353,7 +74353,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:56:27.015Z"
+      "fetchedAt": "2026-02-20T18:02:12.942Z"
     },
     {
       "dni": "07615670",
@@ -74424,7 +74424,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:56:30.474Z"
+      "fetchedAt": "2026-02-20T18:02:15.402Z"
     },
     {
       "dni": "45616624",
@@ -74619,7 +74619,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:56:33.944Z"
+      "fetchedAt": "2026-02-20T18:02:17.535Z"
     },
     {
       "dni": "45484726",
@@ -74962,7 +74962,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:56:37.358Z"
+      "fetchedAt": "2026-02-20T18:02:19.861Z"
     },
     {
       "dni": "15374102",
@@ -75141,7 +75141,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:56:40.669Z"
+      "fetchedAt": "2026-02-20T18:02:22.376Z"
     },
     {
       "dni": "46126404",
@@ -75259,7 +75259,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:56:44.163Z"
+      "fetchedAt": "2026-02-20T18:02:24.777Z"
     },
     {
       "dni": "77386914",
@@ -75392,7 +75392,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:56:48.220Z"
+      "fetchedAt": "2026-02-20T18:02:28.278Z"
     },
     {
       "dni": "41991387",
@@ -75456,7 +75456,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:56:50.618Z"
+      "fetchedAt": "2026-02-20T18:02:30.303Z"
     },
     {
       "dni": "30831710",
@@ -75574,7 +75574,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:56:53.708Z"
+      "fetchedAt": "2026-02-20T18:02:32.459Z"
     },
     {
       "dni": "42731955",
@@ -75837,7 +75837,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:56:57.276Z"
+      "fetchedAt": "2026-02-20T18:02:34.743Z"
     },
     {
       "dni": "75477263",
@@ -75847,7 +75847,7 @@
       "partido": "PARTIDO POLITICO COOPERACION POPULAR",
       "cargo": "REPRESENTANTE ANTE EL PARLAMENTO ANDINO",
       "foto": "https://mpesije.jne.gob.pe/apidocs/60826ace-c716-4224-8c03-6359c70c717e.jpg",
-      "estado": "INSCRITO",
+      "estado": "IMPROCEDENTE",
       "fechaNacimiento": "16/12/1995",
       "lugarNacimiento": "CURA MORI, PIURA",
       "flags": {
@@ -75955,7 +75955,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:57:00.805Z"
+      "fetchedAt": "2026-02-20T18:02:37.519Z"
     },
     {
       "dni": "09258999",
@@ -76146,7 +76146,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:57:03.322Z"
+      "fetchedAt": "2026-02-20T18:02:40.014Z"
     },
     {
       "dni": "40003272",
@@ -76321,7 +76321,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:57:06.872Z"
+      "fetchedAt": "2026-02-20T18:02:42.425Z"
     },
     {
       "dni": "06098107",
@@ -76514,7 +76514,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:57:10.558Z"
+      "fetchedAt": "2026-02-20T18:02:44.755Z"
     },
     {
       "dni": "43584919",
@@ -76776,7 +76776,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:57:13.535Z"
+      "fetchedAt": "2026-02-20T18:02:47.027Z"
     },
     {
       "dni": "09465853",
@@ -76830,7 +76830,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:57:16.319Z"
+      "fetchedAt": "2026-02-20T18:02:49.379Z"
     },
     {
       "dni": "41087994",
@@ -77002,7 +77002,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:57:21.945Z"
+      "fetchedAt": "2026-02-20T18:02:52.440Z"
     },
     {
       "dni": "41150261",
@@ -77120,7 +77120,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:57:25.052Z"
+      "fetchedAt": "2026-02-20T18:02:54.780Z"
     },
     {
       "dni": "42592751",
@@ -77415,7 +77415,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:57:28.813Z"
+      "fetchedAt": "2026-02-20T18:02:57.290Z"
     },
     {
       "dni": "47325333",
@@ -77674,7 +77674,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:57:32.764Z"
+      "fetchedAt": "2026-02-20T18:03:00.146Z"
     },
     {
       "dni": "20740244",
@@ -77775,7 +77775,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:57:36.244Z"
+      "fetchedAt": "2026-02-20T18:03:02.175Z"
     },
     {
       "dni": "41749278",
@@ -77899,7 +77899,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:57:39.446Z"
+      "fetchedAt": "2026-02-20T18:03:04.757Z"
     },
     {
       "dni": "41042850",
@@ -78080,7 +78080,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:57:42.634Z"
+      "fetchedAt": "2026-02-20T18:03:07.117Z"
     },
     {
       "dni": "45501476",
@@ -78245,7 +78245,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:57:46.333Z"
+      "fetchedAt": "2026-02-20T18:03:09.397Z"
     },
     {
       "dni": "45713404",
@@ -78358,7 +78358,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:57:51.430Z"
+      "fetchedAt": "2026-02-20T18:03:11.531Z"
     },
     {
       "dni": "41749216",
@@ -78602,7 +78602,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:57:55.614Z"
+      "fetchedAt": "2026-02-20T18:03:14.070Z"
     },
     {
       "dni": "48075755",
@@ -78881,7 +78881,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:58:01.613Z"
+      "fetchedAt": "2026-02-20T18:03:17.551Z"
     },
     {
       "dni": "15349128",
@@ -79152,7 +79152,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:58:05.229Z"
+      "fetchedAt": "2026-02-20T18:03:20.209Z"
     },
     {
       "dni": "44081577",
@@ -79365,7 +79365,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:58:08.991Z"
+      "fetchedAt": "2026-02-20T18:03:24.230Z"
     },
     {
       "dni": "22490635",
@@ -79483,7 +79483,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:58:12.163Z"
+      "fetchedAt": "2026-02-20T18:03:27.400Z"
     },
     {
       "dni": "21543182",
@@ -79563,7 +79563,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:58:15.162Z"
+      "fetchedAt": "2026-02-20T18:03:32.206Z"
     },
     {
       "dni": "15709469",
@@ -79627,7 +79627,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:58:19.927Z"
+      "fetchedAt": "2026-02-20T18:03:34.336Z"
     },
     {
       "dni": "74291942",
@@ -79763,7 +79763,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:58:23.614Z"
+      "fetchedAt": "2026-02-20T18:03:36.586Z"
     },
     {
       "dni": "08780596",
@@ -79902,7 +79902,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:58:27.642Z"
+      "fetchedAt": "2026-02-20T18:03:38.929Z"
     },
     {
       "dni": "09461677",
@@ -80115,7 +80115,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:58:30.630Z"
+      "fetchedAt": "2026-02-20T18:03:41.412Z"
     },
     {
       "dni": "07550292",
@@ -80450,7 +80450,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:58:35.038Z"
+      "fetchedAt": "2026-02-20T18:03:43.797Z"
     },
     {
       "dni": "40016975",
@@ -80598,7 +80598,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:58:40.407Z"
+      "fetchedAt": "2026-02-20T18:03:47.939Z"
     },
     {
       "dni": "41027649",
@@ -80804,7 +80804,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:58:44.199Z"
+      "fetchedAt": "2026-02-20T18:03:50.109Z"
     },
     {
       "dni": "06934971",
@@ -80903,7 +80903,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:58:48.529Z"
+      "fetchedAt": "2026-02-20T18:03:52.224Z"
     },
     {
       "dni": "08476907",
@@ -81374,7 +81374,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:58:57.500Z"
+      "fetchedAt": "2026-02-20T18:03:54.945Z"
     },
     {
       "dni": "09064705",
@@ -81705,7 +81705,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:59:01.203Z"
+      "fetchedAt": "2026-02-20T18:03:57.705Z"
     },
     {
       "dni": "10027760",
@@ -81992,7 +81992,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:59:05.021Z"
+      "fetchedAt": "2026-02-20T18:04:00.456Z"
     },
     {
       "dni": "27365269",
@@ -82235,7 +82235,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:59:08.709Z"
+      "fetchedAt": "2026-02-20T18:04:03.236Z"
     },
     {
       "dni": "40673593",
@@ -82490,7 +82490,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:59:11.861Z"
+      "fetchedAt": "2026-02-20T18:04:05.886Z"
     },
     {
       "dni": "46667093",
@@ -82645,7 +82645,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:59:15.243Z"
+      "fetchedAt": "2026-02-20T18:04:07.985Z"
     },
     {
       "dni": "73321077",
@@ -82838,7 +82838,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:59:18.643Z"
+      "fetchedAt": "2026-02-20T18:04:10.664Z"
     },
     {
       "dni": "46226260",
@@ -82959,7 +82959,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:59:23.883Z"
+      "fetchedAt": "2026-02-20T18:04:14.567Z"
     },
     {
       "dni": "23986837",
@@ -83118,7 +83118,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:59:27.895Z"
+      "fetchedAt": "2026-02-20T18:04:17.672Z"
     },
     {
       "dni": "45573724",
@@ -83417,7 +83417,7 @@
         }
       ],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:59:30.709Z"
+      "fetchedAt": "2026-02-20T18:04:19.791Z"
     },
     {
       "dni": "09693800",
@@ -83613,7 +83613,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:59:33.386Z"
+      "fetchedAt": "2026-02-20T18:04:22.039Z"
     },
     {
       "dni": "15967007",
@@ -83764,7 +83764,7 @@
       ],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:59:36.832Z"
+      "fetchedAt": "2026-02-20T18:04:24.466Z"
     },
     {
       "dni": "41535209",
@@ -84106,7 +84106,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:59:40.925Z"
+      "fetchedAt": "2026-02-20T18:04:26.862Z"
     },
     {
       "dni": "09038462",
@@ -84236,7 +84236,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:59:45.321Z"
+      "fetchedAt": "2026-02-20T18:04:28.952Z"
     },
     {
       "dni": "72266645",
@@ -84415,7 +84415,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:59:50.443Z"
+      "fetchedAt": "2026-02-20T18:04:31.105Z"
     },
     {
       "dni": "43854661",
@@ -84849,7 +84849,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T01:59:56.489Z"
+      "fetchedAt": "2026-02-20T18:04:33.407Z"
     },
     {
       "dni": "09811204",
@@ -85032,7 +85032,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:00:02.282Z"
+      "fetchedAt": "2026-02-20T18:04:35.700Z"
     },
     {
       "dni": "10710093",
@@ -85278,7 +85278,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:00:07.856Z"
+      "fetchedAt": "2026-02-20T18:04:39.883Z"
     },
     {
       "dni": "43291208",
@@ -85623,7 +85623,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:00:13.699Z"
+      "fetchedAt": "2026-02-20T18:04:42.142Z"
     },
     {
       "dni": "75389913",
@@ -85806,7 +85806,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:00:18.345Z"
+      "fetchedAt": "2026-02-20T18:04:44.465Z"
     },
     {
       "dni": "09490861",
@@ -85980,7 +85980,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:00:22.089Z"
+      "fetchedAt": "2026-02-20T18:04:46.820Z"
     },
     {
       "dni": "44201014",
@@ -86149,7 +86149,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:00:26.798Z"
+      "fetchedAt": "2026-02-20T18:04:49.444Z"
     },
     {
       "dni": "19938037",
@@ -86336,7 +86336,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:00:31.308Z"
+      "fetchedAt": "2026-02-20T18:04:51.719Z"
     },
     {
       "dni": "10156981",
@@ -86583,7 +86583,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:00:35.261Z"
+      "fetchedAt": "2026-02-20T18:04:53.853Z"
     },
     {
       "dni": "10707539",
@@ -86770,7 +86770,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:00:40.610Z"
+      "fetchedAt": "2026-02-20T18:04:56.084Z"
     },
     {
       "dni": "15283853",
@@ -86906,7 +86906,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:00:44.708Z"
+      "fetchedAt": "2026-02-20T18:04:58.448Z"
     },
     {
       "dni": "45645148",
@@ -87065,7 +87065,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:00:47.688Z"
+      "fetchedAt": "2026-02-20T18:05:00.931Z"
     },
     {
       "dni": "40344859",
@@ -87284,7 +87284,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:00:54.297Z"
+      "fetchedAt": "2026-02-20T18:05:04.176Z"
     },
     {
       "dni": "44277311",
@@ -87756,7 +87756,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:01:00.496Z"
+      "fetchedAt": "2026-02-20T18:05:06.600Z"
     },
     {
       "dni": "19092121",
@@ -87864,7 +87864,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:01:05.614Z"
+      "fetchedAt": "2026-02-20T18:05:08.702Z"
     },
     {
       "dni": "06995571",
@@ -87928,7 +87928,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:01:09.645Z"
+      "fetchedAt": "2026-02-20T18:05:12.152Z"
     },
     {
       "dni": "18131138",
@@ -88015,7 +88015,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:01:14.986Z"
+      "fetchedAt": "2026-02-20T18:05:14.361Z"
     },
     {
       "dni": "15439579",
@@ -88133,7 +88133,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:01:19.621Z"
+      "fetchedAt": "2026-02-20T18:05:16.783Z"
     },
     {
       "dni": "06492357",
@@ -88258,7 +88258,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:01:25.431Z"
+      "fetchedAt": "2026-02-20T18:05:18.795Z"
     },
     {
       "dni": "06800841",
@@ -88498,7 +88498,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:01:30.573Z"
+      "fetchedAt": "2026-02-20T18:05:20.894Z"
     },
     {
       "dni": "09296803",
@@ -88712,7 +88712,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:01:34.691Z"
+      "fetchedAt": "2026-02-20T18:05:22.980Z"
     },
     {
       "dni": "73417671",
@@ -88815,7 +88815,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:01:38.478Z"
+      "fetchedAt": "2026-02-20T18:05:25.057Z"
     },
     {
       "dni": "23943283",
@@ -89001,7 +89001,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:01:48.907Z"
+      "fetchedAt": "2026-02-20T18:05:28.470Z"
     },
     {
       "dni": "10658460",
@@ -89102,7 +89102,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:01:52.824Z"
+      "fetchedAt": "2026-02-20T18:05:31.268Z"
     },
     {
       "dni": "07963962",
@@ -89200,7 +89200,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:01:56.406Z"
+      "fetchedAt": "2026-02-20T18:05:33.632Z"
     },
     {
       "dni": "77136065",
@@ -89264,7 +89264,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:02:01.118Z"
+      "fetchedAt": "2026-02-20T18:05:35.895Z"
     },
     {
       "dni": "44497787",
@@ -89318,7 +89318,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:02:05.769Z"
+      "fetchedAt": "2026-02-20T18:05:38.179Z"
     },
     {
       "dni": "74587654",
@@ -89372,7 +89372,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:02:11.089Z"
+      "fetchedAt": "2026-02-20T18:05:40.141Z"
     },
     {
       "dni": "09480815",
@@ -89612,7 +89612,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:02:15.570Z"
+      "fetchedAt": "2026-02-20T18:05:42.191Z"
     },
     {
       "dni": "10276060",
@@ -89906,7 +89906,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:02:18.406Z"
+      "fetchedAt": "2026-02-20T18:05:44.500Z"
     },
     {
       "dni": "20683665",
@@ -90042,7 +90042,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:02:21.171Z"
+      "fetchedAt": "2026-02-20T18:05:47.347Z"
     },
     {
       "dni": "40516868",
@@ -90209,7 +90209,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:02:23.774Z"
+      "fetchedAt": "2026-02-20T18:05:50.557Z"
     },
     {
       "dni": "07260941",
@@ -90379,7 +90379,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:02:28.144Z"
+      "fetchedAt": "2026-02-20T18:05:53.963Z"
     },
     {
       "dni": "22997028",
@@ -90480,7 +90480,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:02:31.206Z"
+      "fetchedAt": "2026-02-20T18:05:56.383Z"
     },
     {
       "dni": "02418105",
@@ -90622,7 +90622,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:02:35.411Z"
+      "fetchedAt": "2026-02-20T18:05:58.505Z"
     },
     {
       "dni": "08288029",
@@ -90702,7 +90702,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:02:41.991Z"
+      "fetchedAt": "2026-02-20T18:06:00.670Z"
     },
     {
       "dni": "03356452",
@@ -90882,7 +90882,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:02:45.577Z"
+      "fetchedAt": "2026-02-20T18:06:02.888Z"
     },
     {
       "dni": "03469769",
@@ -90979,7 +90979,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:02:48.532Z"
+      "fetchedAt": "2026-02-20T18:06:04.875Z"
     },
     {
       "dni": "41648484",
@@ -91043,7 +91043,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:02:52.489Z"
+      "fetchedAt": "2026-02-20T18:06:07.010Z"
     },
     {
       "dni": "47371631",
@@ -91163,7 +91163,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:02:56.612Z"
+      "fetchedAt": "2026-02-20T18:06:09.264Z"
     },
     {
       "dni": "32389926",
@@ -91331,7 +91331,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:03:01.124Z"
+      "fetchedAt": "2026-02-20T18:06:11.675Z"
     },
     {
       "dni": "72534792",
@@ -91496,7 +91496,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:03:04.473Z"
+      "fetchedAt": "2026-02-20T18:06:14.571Z"
     },
     {
       "dni": "77031732",
@@ -91693,7 +91693,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:03:09.208Z"
+      "fetchedAt": "2026-02-20T18:06:17.976Z"
     },
     {
       "dni": "08687242",
@@ -91842,7 +91842,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:03:13.670Z"
+      "fetchedAt": "2026-02-20T18:06:20.125Z"
     },
     {
       "dni": "09881604",
@@ -92025,7 +92025,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:03:17.553Z"
+      "fetchedAt": "2026-02-20T18:06:22.131Z"
     },
     {
       "dni": "06039724",
@@ -92340,7 +92340,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:03:21.698Z"
+      "fetchedAt": "2026-02-20T18:06:24.543Z"
     },
     {
       "dni": "23271760",
@@ -92488,7 +92488,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:03:25.989Z"
+      "fetchedAt": "2026-02-20T18:06:26.847Z"
     },
     {
       "dni": "21814594",
@@ -92803,7 +92803,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:03:29.298Z"
+      "fetchedAt": "2026-02-20T18:06:29.220Z"
     },
     {
       "dni": "00369672",
@@ -93074,7 +93074,7 @@
       ],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:03:32.736Z"
+      "fetchedAt": "2026-02-20T18:06:31.211Z"
     },
     {
       "dni": "47148278",
@@ -93206,7 +93206,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:03:36.455Z"
+      "fetchedAt": "2026-02-20T18:06:33.443Z"
     },
     {
       "dni": "43280585",
@@ -93354,7 +93354,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:03:40.084Z"
+      "fetchedAt": "2026-02-20T18:06:35.581Z"
     },
     {
       "dni": "07149201",
@@ -93559,7 +93559,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:03:43.689Z"
+      "fetchedAt": "2026-02-20T18:06:37.702Z"
     },
     {
       "dni": "44577533",
@@ -93737,7 +93737,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:03:48.600Z"
+      "fetchedAt": "2026-02-20T18:06:41.432Z"
     },
     {
       "dni": "23973056",
@@ -93922,7 +93922,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:03:51.325Z"
+      "fetchedAt": "2026-02-20T18:06:43.872Z"
     },
     {
       "dni": "09597536",
@@ -94058,7 +94058,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:03:55.205Z"
+      "fetchedAt": "2026-02-20T18:06:46.041Z"
     },
     {
       "dni": "08367006",
@@ -94256,7 +94256,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:04:00.332Z"
+      "fetchedAt": "2026-02-20T18:06:48.052Z"
     },
     {
       "dni": "74922825",
@@ -94354,7 +94354,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:04:06.439Z"
+      "fetchedAt": "2026-02-20T18:06:50.290Z"
     },
     {
       "dni": "06245041",
@@ -94551,7 +94551,7 @@
       ],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:04:11.300Z"
+      "fetchedAt": "2026-02-20T18:06:52.640Z"
     },
     {
       "dni": "23946994",
@@ -94786,7 +94786,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:04:14.569Z"
+      "fetchedAt": "2026-02-20T18:06:55.149Z"
     },
     {
       "dni": "31665194",
@@ -94947,7 +94947,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T02:04:18.508Z"
+      "fetchedAt": "2026-02-20T18:06:57.300Z"
     }
   ]
 }
