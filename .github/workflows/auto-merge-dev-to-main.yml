@@ -1,0 +1,36 @@
+name: Auto-merge dev to main
+
+on:
+  push:
+    branches: [dev]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  auto-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create and auto-merge PR
+        env:
+          GH_TOKEN: ${{ secrets.AUTO_MERGE_TOKEN }}
+        run: |
+          # Check if a PR from dev to main already exists
+          EXISTING_PR=$(gh pr list --head dev --base main --state open --json number --jq '.[0].number')
+
+          if [ -z "$EXISTING_PR" ]; then
+            gh pr create \
+              --title "Auto-merge dev → main" \
+              --body "Automated PR from push to dev branch." \
+              --head dev \
+              --base main
+          fi
+
+          # Get the PR number (new or existing)
+          PR_NUMBER=$(gh pr list --head dev --base main --state open --json number --jq '.[0].number')
+
+          # Merge the PR immediately
+          gh pr merge "$PR_NUMBER" --merge --admin
