@@ -32,5 +32,5 @@ jobs:
           # Get the PR number (new or existing)
           PR_NUMBER=$(gh pr list --head dev --base main --state open --json number --jq '.[0].number')
 
-          # Auto-merge the PR
-          gh pr merge "$PR_NUMBER" --merge --auto
+          # Merge the PR immediately
+          gh pr merge "$PR_NUMBER" --merge --admin
