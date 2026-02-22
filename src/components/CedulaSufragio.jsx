@@ -14,7 +14,9 @@ const TABS = [
   { id: 'parlamenAndino', label: 'Parl. Andino', short: 'P.AND' },
 ];
 
-const CandidatoCard = ({ partido, selected, onClick }) => {
+const PARTIDOS_CONGRESO_IDS = [1257, 2173, 1366, 1264, 2218, 2731, 22, 14, 4]; // idOrg de partidos en el Congreso actual
+
+const CandidatoCard = ({ partido, selected, onClick, showCongressHighlight = false }) => {
   const candidato = candidatosPresidenciales.find(c => c.idOrg === partido.idOrg);
   const esRetirado = partido.retirado;
   const skipPresidente = partido.skipPresidente;
@@ -22,7 +24,7 @@ const CandidatoCard = ({ partido, selected, onClick }) => {
   return (
     <div
       onClick={!esRetirado && !skipPresidente ? onClick : undefined}
-      className={`flex items-center gap-[10px] p-[10px] border-b border-gray-300 min-h-[50px] bg-white transition-opacity ${esRetirado ? 'cursor-default opacity-40' : skipPresidente ? 'cursor-default' : 'cursor-pointer hover:opacity-90'}`}
+      className={`flex items-center gap-[10px] p-[10px] min-h-[50px] transition-opacity ${esRetirado ? 'cursor-default opacity-40' : skipPresidente ? 'cursor-default' : 'cursor-pointer hover:opacity-90'} border-l-4 ${showCongressHighlight ? 'border-red-600' : 'border-transparent'}`}
     >
       <div className="w-[76px] text-left shrink-0">
         <h3 className={`font-bold text-[9px] sm:text-[10px] uppercase leading-tight break-words ${skipPresidente || esRetirado ? 'text-white' : 'text-black'}`}>
@@ -87,7 +89,7 @@ const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto,
   };
 
   return (
-    <div className={`flex items-center gap-[10px] p-[10px] border-b border-gray-300 min-h-[50px] bg-white transition-opacity ${esRetirado ? '' : 'hover:opacity-90'}`}>
+    <div className={`flex items-center gap-[10px] p-[10px] min-h-[50px] transition-opacity ${esRetirado ? '' : 'hover:opacity-90'}`}>
       <div
         className={`w-[76px] text-left shrink-0 ${esRetirado ? 'cursor-default' : 'cursor-pointer'}`}
         onClick={!esRetirado ? () => onVotoPartido(categoria, partido.id) : undefined}
@@ -168,7 +170,7 @@ const ColumnaHeader = ({ titulo, subtitulo, className = "", tituloClassName = "t
   </div>
 );
 
-export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'lima' }) {
+export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'lima', showCongressionalHighlights = false }) {
   const [votos, setVotos] = useState(createInitialVotos);
   const [activeTab, setActiveTab] = useState('presidente');
 
@@ -205,18 +207,35 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
   };
 
   const renderColumnaContent = (categoria, titulo, subtitulo, numPref, options = {}) => (
-    <div className="flex flex-col h-full w-fit">
+    <div className="flex flex-col h-full w-full">
       {!options.hideHeader && <ColumnaHeader titulo={titulo} subtitulo={subtitulo} />}
       <div className="flex-1">
-        <div className="flex flex-col space-y-1 w-fit">
+        <div className="flex flex-col w-full">
           {categoria === 'presidente' ? (
-            partidosParlamentarios.map((p) => (
-              <CandidatoCard key={p.id} partido={p} selected={votos.presidente === p.idOrg} onClick={() => handleVotoPresidente(p.idOrg)} />
-            ))
+            partidosParlamentarios.map((p) => {
+              const esCongreso = PARTIDOS_CONGRESO_IDS.includes(p.idOrg);
+              const highlight = showCongressionalHighlights && esCongreso;
+              return (
+                <div key={p.id} className={`${highlight ? 'bg-[#fee2e2]' : 'bg-white border-b border-gray-300'}`}>
+                  <CandidatoCard
+                    partido={p}
+                    selected={votos.presidente === p.idOrg}
+                    onClick={() => handleVotoPresidente(p.idOrg)}
+                    showCongressHighlight={highlight}
+                  />
+                </div>
+              );
+            })
           ) : (
-            partidosParlamentarios.map((p) => (
-              <PartidoCardConPreferencial key={p.id} partido={p} categoria={categoria} numPreferencial={numPref ? parseInt(numPref) : 2} voto={votos[categoria]} regionSeleccionada={regionSeleccionada} onVotoPartido={handleVotoPartido} onVotoPreferencial={handleVotoPreferencial} />
-            ))
+            partidosParlamentarios.map((p) => {
+              const esCongreso = PARTIDOS_CONGRESO_IDS.includes(p.idOrg);
+              const highlight = showCongressionalHighlights && esCongreso;
+              return (
+                <div key={p.id} className={`${highlight ? 'bg-[#fee2e2]' : 'bg-white border-b border-gray-300'}`}>
+                  <PartidoCardConPreferencial partido={p} categoria={categoria} numPreferencial={numPref ? parseInt(numPref) : 2} voto={votos[categoria]} regionSeleccionada={regionSeleccionada} onVotoPartido={handleVotoPartido} onVotoPreferencial={handleVotoPreferencial} />
+                </div>
+              );
+            })
           )}
         </div>
       </div>
@@ -225,81 +244,105 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
 
   return (
     <div className="mx-auto rounded-lg shadow-2xl">
-    <div className="bg-white">
-      <div className="bg-slate-800 text-white p-3 text-center rounded-t-lg">
-        <h1 className="text-xl font-semibold">CÉDULA DE SUFRAGIO</h1>
-        <p className="text-sm text-slate-300">Marque con una X o ✓ el partido de su preferencia. El voto preferencial es <strong>opcional</strong>: escriba el número del candidato.</p>
-      </div>
-
-      {/* Mobile: Tabs */}
-      <div className="lg:hidden">
-        <div className="flex border-b border-slate-300 bg-slate-100 overflow-x-auto">
-          {TABS.map((tab) => (
-            <button
-              key={tab.id}
-              onClick={() => setActiveTab(tab.id)}
-              className={`flex-1 min-w-[70px] py-2 px-1 text-[10px] font-medium transition-colors relative ${activeTab === tab.id ? 'bg-white text-slate-800 border-b-2 border-slate-700' : 'text-slate-600 hover:bg-slate-200'
-                }`}
-            >
-              {tab.short}
-              {getVotoIndicator(tab.id) && <span className="ml-1 text-slate-700">✓</span>}
-            </button>
-          ))}
+      <div className="bg-white">
+        <div className="bg-slate-800 text-white p-3 text-center rounded-t-lg">
+          <h1 className="text-xl font-semibold">CÉDULA DE SUFRAGIO</h1>
+          <p className="text-sm text-slate-300">Marque con una X o ✓ el partido de su preferencia. El voto preferencial es <strong>opcional</strong>: escriba el número del candidato.</p>
         </div>
-        <div>
-          {activeTab === 'presidente' && <ColumnaHeader titulo="PRESIDENTE Y" subtitulo="VICEPRESIDENTES" className="bg-slate-700" />}
-          {activeTab === 'senadoresNacional' && <ColumnaHeader titulo="SENADORES" subtitulo="A NIVEL NACIONAL" className="bg-slate-600" />}
-          {activeTab === 'senadoresRegional' && <ColumnaHeader titulo="SENADORES" subtitulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" />}
-          {activeTab === 'diputados' && <ColumnaHeader titulo="DIPUTADOS" subtitulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" />}
-          {activeTab === 'parlamenAndino' && <ColumnaHeader titulo="PARLAMENTO ANDINO" className="bg-slate-600" />}
-          <div className="overflow-y-auto max-h-[60vh]">
-            {renderColumnaContent(activeTab, '', '', null, { hideHeader: true })}
-          </div>
-        </div>
-      </div>
 
-      {/* Desktop: single scroll container with sticky headers */}
-      <div className="hidden lg:block w-full overflow-y-auto max-h-[700px]">
-        {/* Sticky headers */}
-        <div className="flex divide-x divide-gray-300 sticky top-0 z-10">
-          <div className="min-w-[196px] flex-1">
-            <div className="bg-slate-700 text-white py-1 px-2 text-center"><h3 className="font-bold text-xs uppercase tracking-wider">PRESIDENTE Y</h3></div>
-            <ColumnaHeader titulo="VICEPRESIDENTES" className="bg-slate-600" tituloClassName="text-[10px]" />
+        {/* Mobile: Tabs */}
+        <div className="lg:hidden">
+          <div className="flex border-b border-slate-300 bg-slate-100 overflow-x-auto">
+            {TABS.map((tab) => (
+              <button
+                key={tab.id}
+                onClick={() => setActiveTab(tab.id)}
+                className={`flex-1 min-w-[70px] py-2 px-1 text-[10px] font-medium transition-colors relative ${activeTab === tab.id ? 'bg-white text-slate-800 border-b-2 border-slate-700' : 'text-slate-600 hover:bg-slate-200'
+                  }`}
+              >
+                {tab.short}
+                {getVotoIndicator(tab.id) && <span className="ml-1 text-slate-700">✓</span>}
+              </button>
+            ))}
           </div>
-          <div className="flex-[2] flex flex-col">
-            <div className="bg-slate-700 text-white py-1 px-2 text-center"><h3 className="font-bold text-xs uppercase tracking-wider">SENADORES</h3></div>
-            <div className="flex divide-x divide-gray-300">
-              <div className="min-w-[246px] flex-1"><ColumnaHeader titulo="A NIVEL NACIONAL" className="bg-slate-600" tituloClassName="text-[10px]" /></div>
-              <div className="min-w-[246px] flex-1"><ColumnaHeader titulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" tituloClassName="text-[10px]" /></div>
+          <div>
+            {activeTab === 'presidente' && <ColumnaHeader titulo="PRESIDENTE Y" subtitulo="VICEPRESIDENTES" className="bg-slate-700" />}
+            {activeTab === 'senadoresNacional' && <ColumnaHeader titulo="SENADORES" subtitulo="A NIVEL NACIONAL" className="bg-slate-600" />}
+            {activeTab === 'senadoresRegional' && <ColumnaHeader titulo="SENADORES" subtitulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" />}
+            {activeTab === 'diputados' && <ColumnaHeader titulo="DIPUTADOS" subtitulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" />}
+            {activeTab === 'parlamenAndino' && <ColumnaHeader titulo="PARLAMENTO ANDINO" className="bg-slate-600" />}
+            <div className="overflow-y-auto max-h-[60vh]">
+              {renderColumnaContent(activeTab, '', '', null, { hideHeader: true })}
             </div>
           </div>
-          <div className="min-w-[246px] flex-1">
-            <div className="bg-slate-700 text-white py-1 px-2 text-center"><h3 className="font-bold text-xs uppercase tracking-wider">DIPUTADOS</h3></div>
-            <ColumnaHeader titulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" tituloClassName="text-[10px]" />
-          </div>
-          <div className="min-w-[246px] flex-1">
-            <div className="bg-slate-700 text-white py-1 px-2 text-center"><h3 className="font-bold text-xs uppercase tracking-wider">PARLAMENTO</h3></div>
-            <ColumnaHeader titulo="ANDINO" className="bg-slate-600" tituloClassName="text-[10px]" />
-          </div>
         </div>
-        {/* Body */}
-        <div className="flex divide-x divide-gray-300">
-          <div className="min-w-[196px] flex-1">{renderColumnaContent('presidente', '', '', null, { hideHeader: true })}</div>
-          <div className="flex-[2] flex divide-x divide-gray-300">
-            <div className="min-w-[246px] flex-1">{renderColumnaContent('senadoresNacional', '', '', null, { hideHeader: true })}</div>
-            <div className="min-w-[246px] flex-1">{renderColumnaContent('senadoresRegional', '', '', null, { hideHeader: true })}</div>
-          </div>
-          <div className="min-w-[246px] flex-1">{renderColumnaContent('diputados', '', '', null, { hideHeader: true })}</div>
-          <div className="min-w-[246px] flex-1">{renderColumnaContent('parlamenAndino', '', '', null, { hideHeader: true })}</div>
-        </div>
-      </div>
 
-      <div className="bg-amber-50 border-t border-amber-200 p-2 text-center rounded-b-lg">
-        <p className="text-[11px] text-amber-700">
-          ⚠️ Los espacios vacíos corresponden a partidos sin candidatos, tal como aparecerá en la cédula oficial.
-        </p>
+        {/* Desktop: single scroll container with sticky headers */}
+        <div className="hidden lg:block w-full overflow-x-auto overflow-y-auto max-h-[700px]">
+          {/* Sticky headers */}
+          <div className="flex divide-x divide-gray-300 sticky top-0 z-10 w-fit min-w-full">
+            <div className="min-w-[196px] flex-1">
+              <div className="bg-slate-700 text-white py-1 px-2 text-center"><h3 className="font-bold text-xs uppercase tracking-wider">PRESIDENTE Y</h3></div>
+              <ColumnaHeader titulo="VICEPRESIDENTES" className="bg-slate-600" tituloClassName="text-[10px]" />
+            </div>
+            <div className="flex-[2] flex flex-col">
+              <div className="bg-slate-700 text-white py-1 px-2 text-center"><h3 className="font-bold text-xs uppercase tracking-wider">SENADORES</h3></div>
+              <div className="flex divide-x divide-gray-300">
+                <div className="min-w-[246px] flex-1"><ColumnaHeader titulo="A NIVEL NACIONAL" className="bg-slate-600" tituloClassName="text-[10px]" /></div>
+                <div className="min-w-[246px] flex-1"><ColumnaHeader titulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" tituloClassName="text-[10px]" /></div>
+              </div>
+            </div>
+            <div className="min-w-[246px] flex-1">
+              <div className="bg-slate-700 text-white py-1 px-2 text-center"><h3 className="font-bold text-xs uppercase tracking-wider">DIPUTADOS</h3></div>
+              <ColumnaHeader titulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" tituloClassName="text-[10px]" />
+            </div>
+            <div className="min-w-[246px] flex-1">
+              <div className="bg-slate-700 text-white py-1 px-2 text-center"><h3 className="font-bold text-xs uppercase tracking-wider">PARLAMENTO</h3></div>
+              <ColumnaHeader titulo="ANDINO" className="bg-slate-600" tituloClassName="text-[10px]" />
+            </div>
+          </div>
+          {/* Body: Row-based for horizontal shading continuity */}
+          <div className="flex flex-col w-fit min-w-full">
+            {partidosParlamentarios.map((p) => {
+              const esCongreso = PARTIDOS_CONGRESO_IDS.includes(p.idOrg);
+              const highlight = showCongressionalHighlights && esCongreso;
+              return (
+                <div
+                  key={p.id}
+                  className={`flex border-b ${highlight ? 'bg-[#fee2e2] divide-x divide-red-200 border-red-200' : 'bg-white divide-x divide-gray-300 border-gray-300'}`}
+                >
+                  <div className="min-w-[196px] flex-1">
+                    <CandidatoCard
+                      partido={p}
+                      selected={votos.presidente === p.idOrg}
+                      onClick={() => handleVotoPresidente(p.idOrg)}
+                      showCongressHighlight={highlight}
+                    />
+                  </div>
+                  <div className="min-w-[246px] flex-1">
+                    <PartidoCardConPreferencial partido={p} categoria="senadoresNacional" numPreferencial={2} voto={votos.senadoresNacional} regionSeleccionada={regionSeleccionada} onVotoPartido={handleVotoPartido} onVotoPreferencial={handleVotoPreferencial} />
+                  </div>
+                  <div className="min-w-[246px] flex-1">
+                    <PartidoCardConPreferencial partido={p} categoria="senadoresRegional" numPreferencial={1} voto={votos.senadoresRegional} regionSeleccionada={regionSeleccionada} onVotoPartido={handleVotoPartido} onVotoPreferencial={handleVotoPreferencial} />
+                  </div>
+                  <div className="min-w-[246px] flex-1">
+                    <PartidoCardConPreferencial partido={p} categoria="diputados" numPreferencial={2} voto={votos.diputados} regionSeleccionada={regionSeleccionada} onVotoPartido={handleVotoPartido} onVotoPreferencial={handleVotoPreferencial} />
+                  </div>
+                  <div className="min-w-[246px] flex-1">
+                    <PartidoCardConPreferencial partido={p} categoria="parlamenAndino" numPreferencial={2} voto={votos.parlamenAndino} regionSeleccionada={regionSeleccionada} onVotoPartido={handleVotoPartido} onVotoPreferencial={handleVotoPreferencial} />
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        <div className="bg-amber-50 border-t border-amber-200 p-2 text-center rounded-b-lg">
+          <p className="text-[11px] text-amber-700">
+            ⚠️ Los espacios vacíos corresponden a partidos sin candidatos, tal como aparecerá en la cédula oficial.
+          </p>
+        </div>
       </div>
-    </div>
     </div>
   );
 }
