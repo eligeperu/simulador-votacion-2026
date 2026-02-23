@@ -34,6 +34,37 @@ export const REGIONES = [
   { id: 'peruanos-extranjero', nombre: 'Peruanos en el Extranjero' },
 ];
 
+// Maps region slug to JNE department name(s) for domicile comparison
+// Some regions share a department (lima / lima-provincias both map to LIMA)
+export const REGION_DEPARTAMENTOS = {
+  'amazonas': ['AMAZONAS'],
+  'ancash': ['ANCASH'],
+  'apurimac': ['APURIMAC'],
+  'arequipa': ['AREQUIPA'],
+  'ayacucho': ['AYACUCHO'],
+  'cajamarca': ['CAJAMARCA'],
+  'callao': ['CALLAO', 'PROV. CONST. DEL CALLAO'],
+  'cusco': ['CUSCO'],
+  'huancavelica': ['HUANCAVELICA'],
+  'huanuco': ['HUANUCO'],
+  'ica': ['ICA'],
+  'junin': ['JUNIN'],
+  'la-libertad': ['LA LIBERTAD'],
+  'lambayeque': ['LAMBAYEQUE'],
+  'lima': ['LIMA'],
+  'lima-provincias': ['LIMA'],
+  'loreto': ['LORETO'],
+  'madre-de-dios': ['MADRE DE DIOS'],
+  'moquegua': ['MOQUEGUA'],
+  'pasco': ['PASCO'],
+  'piura': ['PIURA'],
+  'puno': ['PUNO'],
+  'san-martin': ['SAN MARTIN'],
+  'tacna': ['TACNA'],
+  'tumbes': ['TUMBES'],
+  'ucayali': ['UCAYALI'],
+};
+
 export const ESTADOS_VALIDOS = ['INSCRITO', 'PUBLICADO PARA TACHAS', 'PUBLICADO'];
 export const ESTADOS_EN_PROCESO = ['ADMITIDO', 'EN PROCESO DE TACHAS', 'PUBLICADO PARA TACHAS', 'PUBLICADO'];
 
@@ -77,6 +108,7 @@ export const fusionarDatos = (raw, enrich) => {
       foto: e?.foto || c.strNombre || c.strGuidFoto,
       sexo: c.strSexo,
       estado: e?.estado ?? c.strEstadoCandidato,
+      domicilio: e?.domicilio || null,
       votosProCrimen: e?.votosCongresoProCrimen || null,
       porestosnoSlug: e?.porestosnoSlug || null,
       flags: e?.flags || {

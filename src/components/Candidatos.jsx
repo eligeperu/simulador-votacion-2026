@@ -7,6 +7,7 @@ import diputadosData from '../data/diputados';
 import parlamenAndino from '../data/parlamenAndino';
 import JudicialAlert from './JudicialAlert';
 import ProCrimeAlert from './ProCrimeAlert';
+import NoViveAquiAlert from './NoViveAquiAlert';
 
 const CATEGORIAS = [
   { id: 'presidente', nombre: 'Presidente' },
@@ -181,6 +182,7 @@ export default function Candidatos({ onBack }) {
                           cargosAnteriores={c.flags?.cargosAnteriores}
                           sexo={c.sexo}
                         />
+                        {needsRegion && <NoViveAquiAlert domicilio={c.domicilio} region={region} />}
                         <ProCrimeAlert votos={c.votosProCrimen || []} slug={c.porestosnoSlug} />
                       </div>
                     </div>
