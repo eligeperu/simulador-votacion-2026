@@ -255,7 +255,7 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
       <div className="bg-white">
         <div className="bg-slate-800 text-white p-3 text-center rounded-t-lg">
           <h1 className="text-xl font-semibold">CÉDULA DE SUFRAGIO</h1>
-          <p className="text-sm text-slate-300">Marque con una X o ✓ el partido de su preferencia. El voto preferencial es <strong>opcional</strong>: escriba el número del candidato.</p>
+          <p className="text-sm text-slate-300">Marque con una cruz + o un aspa x el partido de su preferencia. El voto preferencial es <strong>opcional</strong>: escriba el número del candidato.</p>
         </div>
         <div className="bg-amber-50 border-b border-amber-200 p-2 text-center">
           <p className="text-[11px] text-amber-700">

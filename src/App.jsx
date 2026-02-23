@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import CedulaSufragio from './components/CedulaSufragio';
 import ResumenVoto from './components/ResumenVoto';
 import GuiaBicameralidad from './components/GuiaBicameralidad';
@@ -13,6 +13,8 @@ function App() {
   const [mostrarResumenMobile, setMostrarResumenMobile] = useState(false);
   const [page, setPage] = useState('simulador');
   const [showCongressionalHighlights, setShowCongressionalHighlights] = useState(false);
+  const [timeLeft, setTimeLeft] = useState({ months: 0, days: 0, hours: 0, minutes: 0 });
+
   const handleVotoCompleto = (nuevosVotos) => setVotos(nuevosVotos);
 
   const handleReset = () => {
@@ -20,21 +22,66 @@ function App() {
     setResetKey(k => k + 1);
   };
 
-  const diasRestantes = Math.ceil((new Date('2026-04-12') - new Date()) / (1000 * 60 * 60 * 24));
+  useEffect(() => {
+    const targetDate = new Date('2026-04-12T00:00:00');
+
+    const calculateTimeLeft = () => {
+      const now = new Date();
+      const difference = targetDate - now;
+
+      if (difference > 0) {
+        // Calculate total days
+        const totalDays = Math.floor(difference / (1000 * 60 * 60 * 24));
+        setTimeLeft({ days: totalDays });
+      }
+    };
+
+    calculateTimeLeft();
+    const timer = setInterval(calculateTimeLeft, 60000 * 60); // Update every hour is enough for just days
+
+    return () => clearInterval(timer);
+  }, []);
+
+  const formatNumber = (num) => num.toString().padStart(2, '0');
 
   if (page === 'candidatos') return <Candidatos onBack={() => setPage('simulador')} />;
 
   return (
-    <div className="min-h-screen bg-slate-50 py-4 px-2">
-      <header className="text-center mb-4">
-        <h1 className="text-2xl font-semibold text-slate-800">Simulador de Votación</h1>
-        <p className="text-sm text-slate-500">Elecciones Generales 2026 • 12 de abril</p>
-        <div className="inline-flex items-center gap-2 mt-2 bg-slate-700 text-white px-4 py-1 rounded text-sm">
-          Faltan {diasRestantes} días para las elecciones
+    <div className="min-h-screen bg-slate-50 pb-4">
+      <header className="w-full bg-black px-4 py-4 md:px-8 border-b border-slate-800 mb-6">
+        <div className="max-w-[1600px] mx-auto flex flex-col md:flex-row items-center justify-between">
+          <div className="flex items-center gap-4 mb-4 md:mb-0">
+            <div className="flex flex-col items-start">
+              <div className="font-bold text-[23px] text-white tracking-tighter flex items-center gap-2">
+                <span className="flex h-[18px] w-[28px] rounded-[2px] overflow-hidden shadow-sm shrink-0">
+                  <span className="w-1/3 h-full bg-[#D91023]"></span>
+                  <span className="w-1/3 h-full bg-white"></span>
+                  <span className="w-1/3 h-full bg-[#D91023]"></span>
+                </span>
+                EligePeru
+              </div>
+              <span className="text-[9px] text-white font-bold tracking-[0.14em] mt-0.5">SIMULADOR DE VOTACIÓN</span>
+            </div>
+
+            <div className="border-l-[1px] border-white pl-4 py-1 flex flex-col justify-center translate-y-[3px]">
+              <h1 className="text-xl font-bold text-white leading-none">Elecciones Generales</h1>
+              <div className="inline-block px-2 py-0.5 border border-white text-white text-[10px] font-bold rounded bg-slate-800/40 w-fit mt-[6px]">
+                12 de abril de 2026
+              </div>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <span className="text-[12px] font-bold text-white capitalize tracking-wide drop-shadow-sm">Faltan:</span>
+            <div className="flex flex-col items-center bg-white rounded-[8px] w-12 h-12 justify-center shadow-[0_2px_8px_rgba(0,0,0,0.3)]">
+              <span className="text-[22px] font-black text-slate-900 leading-none tracking-tighter">{timeLeft.days || 0}</span>
+              <span className="text-[9px] text-slate-500 capitalize font-semibold tracking-wide">Días</span>
+            </div>
+          </div>
         </div>
       </header>
 
-      <div className="max-w-[1600px] mx-auto">
+      <div className="max-w-[1600px] mx-auto px-2">
         <LeyendaCongreso active={showCongressionalHighlights} onToggle={setShowCongressionalHighlights} />
 
         <div className="flex flex-col lg:flex-row gap-6 items-start">
