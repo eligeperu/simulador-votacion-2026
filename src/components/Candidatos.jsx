@@ -6,6 +6,7 @@ import senadoresRegional from '../data/senadoresRegional';
 import diputadosData from '../data/diputados';
 import parlamenAndino from '../data/parlamenAndino';
 import JudicialAlert from './JudicialAlert';
+import EducacionAlert from './EducacionAlert';
 import ProCrimeAlert from './ProCrimeAlert';
 import NoViveAquiAlert from './NoViveAquiAlert';
 
@@ -181,6 +182,11 @@ export default function Candidatos({ onBack }) {
                           exCongresista={c.flags?.exCongresista}
                           cargosAnteriores={c.flags?.cargosAnteriores}
                           sexo={c.sexo}
+                        />
+                        <EducacionAlert
+                          educacionMax={c.resumen?.educacionMax}
+                          institucion={c.resumen?.institucion}
+                          formacion={c.formacionAcademica}
                         />
                         {needsRegion && <NoViveAquiAlert domicilio={c.domicilio} region={region} />}
                         <ProCrimeAlert votos={c.votosProCrimen || []} slug={c.porestosnoSlug} />

@@ -11,7 +11,8 @@ export const candidatosPresidenciales = candidatosData.data.map(c => ({
   dni: c.dni,
   idHojaVida: c.idHojaVida,
   flags: c.flags,
-  resumen: c.resumen
+  resumen: c.resumen,
+  formacionAcademica: c.formacionAcademica
 }));
 
 export const partidosParlamentarios = [
@@ -48,7 +49,6 @@ export const partidosParlamentarios = [
   { id: 31, nombre: "Partido Democrático Somos Perú", siglas: "SP", color: "#F59E0B", idOrg: 14 },
   { id: 32, nombre: "Partido Aprista Peruano", siglas: "APRA", color: "#DC2626", idOrg: 2930 },
   { id: 33, nombre: "Renovación Popular", siglas: "RP", color: "#1E3A8A", idOrg: 22 },
-  { id: 39, nombre: "Acción Popular", siglas: "AP", color: "#db4335", idOrg: 4 },
   { id: 34, nombre: "Partido Demócrata Unido Perú", siglas: "DUP", color: "#0891B2", idOrg: 2867 },
   { id: 35, nombre: "Fuerza y Libertad", siglas: "AFL", color: "#0EA5E9", idOrg: 3024 },
   { id: 36, nombre: "Partido de los Trabajadores y Emprendedores - PTE", siglas: "PTE", color: "#CA8A04", idOrg: 2939 },
