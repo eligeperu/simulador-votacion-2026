@@ -1,6 +1,5 @@
 import { useState, useEffect, useMemo } from 'react';
-
-const JNE_LOGO = "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/";
+import { JNE_LOGO, JNE_LOGO_REMOTE } from '../data/constants';
 
 const PARTY_COLORS = {
     "FUERZA POPULAR": "#e9511b",
@@ -185,9 +184,10 @@ const HemicycleDiagram = ({ parties }) => {
                                 </div>
                                 <div className={`w-8 h-8 bg-white rounded-[6px] shadow-sm p-[2px] flex items-center justify-center shrink-0 transition-all duration-300 ${isSelected ? 'scale-110 shadow-md' : ''}`}>
                                     <img
-                                        src={`${JNE_LOGO}${partyId}`}
+                                        src={`${JNE_LOGO}${partyId}.jpg`}
                                         alt={label.nombre}
                                         className="w-full h-full object-contain"
+                                        onError={e => { e.target.src = `${JNE_LOGO_REMOTE}${partyId}`; e.target.onerror = null; }}
                                     />
                                 </div>
                             </div>
@@ -204,9 +204,10 @@ const HemicycleDiagram = ({ parties }) => {
                             {selectedPartyData.idOrg && (
                                 <div className="w-[52px] h-[52px] bg-white rounded-[6px] p-[3px] shadow-sm flex items-center justify-center shrink-0">
                                     <img
-                                        src={`${JNE_LOGO}${selectedPartyData.idOrg}`}
+                                        src={`${JNE_LOGO}${selectedPartyData.idOrg}.jpg`}
                                         alt={selectedPartyData.nombre}
                                         className="w-full h-full object-contain"
+                                        onError={e => { e.target.src = `${JNE_LOGO_REMOTE}${selectedPartyData.idOrg}`; e.target.onerror = null; }}
                                     />
                                 </div>
                             )}
@@ -233,11 +234,11 @@ export default function LeyendaCongreso({ active, onToggle }) {
     const [showModal, setShowModal] = useState(false);
 
     useEffect(() => {
-        // Preload logos
+        // Preload logos (local files, fast)
         CONGRESO_PARTIES.forEach(party => {
             if (party.idOrg) {
                 const img = new Image();
-                img.src = `${JNE_LOGO}${party.idOrg}`;
+                img.src = `${JNE_LOGO}${party.idOrg}.jpg`;
             }
         });
     }, []);

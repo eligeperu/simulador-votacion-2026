@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
 import { candidatosPresidenciales, partidosParlamentarios } from '../data/candidatos';
-import { JNE_LOGO, JNE_FOTO, REGIONES, ESTADOS_VALIDOS, ESTADOS_EN_PROCESO, normalizeName } from '../data/constants';
+import { JNE_LOGO, JNE_LOGO_REMOTE, JNE_FOTO, REGIONES, ESTADOS_VALIDOS, ESTADOS_EN_PROCESO, normalizeName } from '../data/constants';
 import senadoresNacional from '../data/senadoresNacional';
 import senadoresRegional from '../data/senadoresRegional';
 import diputadosData from '../data/diputados';
@@ -103,10 +103,10 @@ export default function Candidatos({ onBack }) {
                 className={`flex items-center gap-2 p-2 rounded-lg border text-left transition-all ${isSelected ? 'border-slate-700 bg-slate-50 ring-2 ring-slate-700' : 'border-slate-200 bg-white hover:border-slate-400'} ${p.retirado ? 'opacity-50' : ''}`}
               >
                 <img
-                  src={`${JNE_LOGO}${p.idOrg}`}
+                  src={`${JNE_LOGO}${p.idOrg}.jpg`}
                   alt={p.siglas}
                   className="w-8 h-8 rounded-full object-contain shrink-0 bg-white border border-slate-200"
-                  onError={e => { e.target.style.display = 'none'; }}
+                  onError={e => { e.target.src = `${JNE_LOGO_REMOTE}${p.idOrg}`; e.target.onerror = () => { e.target.style.display = 'none'; }; }}
                 />
                 <div className="min-w-0 flex-1">
                   <p className="text-xs font-semibold truncate">{p.siglas}</p>
@@ -122,10 +122,10 @@ export default function Candidatos({ onBack }) {
           <div className="bg-white rounded-lg shadow-sm border border-slate-200 overflow-hidden">
             <div className="p-4 border-b border-slate-100 flex items-center gap-3" style={{ borderLeft: `4px solid ${partidoSeleccionado.color}` }}>
               <img
-                src={`${JNE_LOGO}${partidoSeleccionado.idOrg}`}
+                src={`${JNE_LOGO}${partidoSeleccionado.idOrg}.jpg`}
                 alt={partidoSeleccionado.siglas}
                 className="w-10 h-10 rounded-full object-contain bg-white border border-slate-200"
-                onError={e => { e.target.style.display = 'none'; }}
+                onError={e => { e.target.src = `${JNE_LOGO_REMOTE}${partidoSeleccionado.idOrg}`; e.target.onerror = () => { e.target.style.display = 'none'; }; }}
               />
               <div>
                 <h2 className="font-semibold text-base">{partidoSeleccionado.nombre}</h2>
@@ -151,7 +151,7 @@ export default function Candidatos({ onBack }) {
                           src={c.foto?.startsWith('http') ? c.foto : `${JNE_FOTO}${c.foto}`}
                           alt={c.nombre}
                           className="w-10 h-10 rounded-full object-cover mt-0.5"
-                          onError={e => { e.target.src = `${JNE_LOGO}${c.idOrg}`; e.target.onerror = null; }}
+                          onError={e => { e.target.src = `${JNE_LOGO}${c.idOrg}.jpg`; e.target.onerror = null; }}
                         />
                       </div>
                       <div className="flex-1 min-w-0">

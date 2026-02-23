@@ -46,7 +46,7 @@ const NoViveAquiAlert = ({ domicilio, region }) => {
             <MapPinIcon className="text-blue-600" />
           </div>
           <span className="text-[8.5px] font-bold text-blue-800 uppercase leading-none">
-            NO DOMICILIA EN ESTA REGIÓN
+            NO RESIDE EN ESTA REGIÓN
           </span>
         </div>
         <div className="flex items-start gap-2">

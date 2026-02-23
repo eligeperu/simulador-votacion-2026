@@ -1,7 +1,10 @@
 // Shared constants and utilities used across components and data modules
 
-// URL para logos de partidos: https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/{idOrg}
-export const JNE_LOGO = "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/";
+// Logos de partidos: servidos localmente (descargados con scripts/downloadLogos.cjs)
+// Fallback remoto: https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/{idOrg}
+const BASE = import.meta.env.BASE_URL || '/';
+export const JNE_LOGO = `${BASE}logos/`;
+export const JNE_LOGO_REMOTE = "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/";
 export const JNE_FOTO = "https://mpesije.jne.gob.pe/apidocs/";
 
 export const REGIONES = [
