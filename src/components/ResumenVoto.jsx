@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { candidatosPresidenciales, partidosParlamentarios } from '../data/candidatos';
-import { JNE_LOGO, JNE_FOTO, ESTADOS_VALIDOS, ESTADOS_EN_PROCESO, normalizeName, buscarCandidato } from '../data/constants';
+import { JNE_LOGO, JNE_LOGO_REMOTE, JNE_FOTO, ESTADOS_VALIDOS, ESTADOS_EN_PROCESO, normalizeName, buscarCandidato } from '../data/constants';
 import senadoresNacional from '../data/senadoresNacional';
 import senadoresRegional from '../data/senadoresRegional';
 import diputadosData from '../data/diputados';
@@ -176,10 +176,10 @@ const ResumenItem = ({ titulo, seleccion, compact = false, region = null }) => (
       <div className="flex items-center gap-3">
         {seleccion.idOrg ? (
           <img
-            src={`${JNE_LOGO}${seleccion.idOrg}`}
+            src={`${JNE_LOGO}${seleccion.idOrg}.jpg`}
             alt={seleccion.siglas}
             className={`${compact ? 'w-9 h-9' : 'w-10 h-10'} rounded-full object-contain shrink-0 bg-white border border-slate-200`}
-            onError={(e) => { e.target.style.display = 'none'; e.target.nextSibling.style.display = 'flex'; }}
+            onError={(e) => { e.target.src = `${JNE_LOGO_REMOTE}${seleccion.idOrg}`; e.target.onerror = () => { e.target.style.display = 'none'; e.target.nextSibling.style.display = 'flex'; }; }}
           />
         ) : null}
         <div

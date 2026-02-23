@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { candidatosPresidenciales, partidosParlamentarios } from '../data/candidatos';
-import { JNE_LOGO, ESTADOS_VALIDOS, ESTADOS_EN_PROCESO, buscarCandidato, createInitialVotos } from '../data/constants';
+import { JNE_LOGO, JNE_LOGO_REMOTE, ESTADOS_VALIDOS, ESTADOS_EN_PROCESO, buscarCandidato, createInitialVotos } from '../data/constants';
 import senadoresNacional from '../data/senadoresNacional';
 import senadoresRegional from '../data/senadoresRegional';
 import diputadosData from '../data/diputados';
@@ -37,10 +37,10 @@ const CandidatoCard = ({ partido, selected, onClick, showCongressHighlight = fal
             <div className="relative w-9 h-9 sm:w-10 sm:h-10 border border-black flex items-center justify-center p-0.5 bg-white">
               {!partido.hideLogoPresidente && partido.idOrg ? (
                 <img
-                  src={`${JNE_LOGO}${partido.idOrg}`}
+                  src={`${JNE_LOGO}${partido.idOrg}.jpg`}
                   alt={partido.siglas}
                   className="w-full h-full object-contain"
-                  onError={(e) => { e.target.style.display = 'none'; }}
+                  onError={(e) => { e.target.src = `${JNE_LOGO_REMOTE}${partido.idOrg}`; e.target.onerror = () => { e.target.style.display = 'none'; }; }}
                 />
               ) : !partido.hideLogoPresidente ? (
                 <div
@@ -110,10 +110,10 @@ const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto,
             <div className="relative w-9 h-9 sm:w-10 sm:h-10 border border-black flex items-center justify-center p-0.5 bg-white">
               {partido.idOrg ? (
                 <img
-                  src={`${JNE_LOGO}${partido.idOrg}`}
+                  src={`${JNE_LOGO}${partido.idOrg}.jpg`}
                   alt={partido.siglas}
                   className="w-full h-full object-contain"
-                  onError={(e) => { e.target.style.display = 'none'; }}
+                  onError={(e) => { e.target.src = `${JNE_LOGO_REMOTE}${partido.idOrg}`; e.target.onerror = () => { e.target.style.display = 'none'; }; }}
                 />
               ) : (
                 <div
