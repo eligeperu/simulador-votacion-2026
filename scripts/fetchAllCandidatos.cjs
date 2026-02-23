@@ -94,6 +94,7 @@ function enrichCandidato(dni, pos = null) {
     const general = hoja.datoGeneral;
     
     return {
+      // Backwards-compatible aliases (used by app components)
       dni: general.numeroDocumento,
       idHojaVida: general.idHojaVida,
       idOrg: general.idOrganizacionPolitica,
@@ -105,12 +106,21 @@ function enrichCandidato(dni, pos = null) {
       estado: general.estado,
       fechaNacimiento: general.feNacimiento,
       lugarNacimiento: `${general.naciDistrito || ''}, ${general.naciProvincia || ''}`.replace(/^, |, $/g, ''),
+      domicilio: {
+        departamento: general.domiDepartamento || null,
+        provincia: general.domiProvincia || null,
+        distrito: general.domiDistrito || null,
+      },
+      // Full JNE data
+      datoGeneral: general,
       flags: extractFlags(hoja),
       resumen: extractResumen(hoja),
       trayectoria: hoja.trayectoria,
       formacionAcademica: hoja.formacionAcademica,
       experienciaLaboral: hoja.experienciaLaboral,
       declaracionJurada: hoja.declaracionJurada,
+      renunciaEfectuada: hoja.renunciaEfectuada,
+      informacionAdicional: hoja.informacionAdicional,
       sentenciaPenal: hoja.sentenciaPenal,
       sentenciaObliga: hoja.sentenciaObliga,
       resoluciones: resoluciones?.data || []

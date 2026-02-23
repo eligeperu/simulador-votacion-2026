@@ -73,13 +73,21 @@ async function refreshCandidato(existingData) {
     const resoluciones = await fetchResoluciones(existingData.idHojaVida);
     const general = hoja.datoGeneral;
     
-    // Return existing data with updated estado and fresh flags
+    // Return existing data with updated fields
     return {
       ...existingData, // Preserve all existing data
-      estado: general.estado, // Update only the status
-      flags: extractFlags(hoja), // Update flags in case they changed
-      resoluciones: resoluciones?.data || [], // Update resolutions
-      fetchedAt: new Date().toISOString() // Track when this was refreshed
+      estado: general.estado,
+      domicilio: {
+        departamento: general.domiDepartamento || null,
+        provincia: general.domiProvincia || null,
+        distrito: general.domiDistrito || null,
+      },
+      datoGeneral: general,
+      flags: extractFlags(hoja),
+      renunciaEfectuada: hoja.renunciaEfectuada,
+      informacionAdicional: hoja.informacionAdicional,
+      resoluciones: resoluciones?.data || [],
+      fetchedAt: new Date().toISOString()
     };
   } catch (err) {
     console.error(`Error refreshing ${existingData.dni}:`, err.message);

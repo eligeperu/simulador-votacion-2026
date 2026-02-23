@@ -7,6 +7,7 @@ import diputadosData from '../data/diputados';
 import parlamenAndino from '../data/parlamenAndino';
 import JudicialAlert from './JudicialAlert';
 import ProCrimeAlert from './ProCrimeAlert';
+import NoViveAquiAlert from './NoViveAquiAlert';
 
 // Lookup de votos pro-crimen por DNI (para cruzar con presidenciales)
 const proCrimenByDni = new Map();
@@ -100,8 +101,8 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
         <div className="space-y-3 text-left mb-4 overflow-y-auto max-h-[400px] pr-1">
           <ResumenItem titulo="Presidente" seleccion={presidente} compact />
           <ResumenItem titulo="Senadores Nac." seleccion={senadoresNac} compact />
-          <ResumenItem titulo="Senadores Reg." seleccion={senadoresReg} compact />
-          <ResumenItem titulo="Diputados" seleccion={diputados} compact />
+          <ResumenItem titulo="Senadores Reg." seleccion={senadoresReg} compact region={regionSeleccionada} />
+          <ResumenItem titulo="Diputados" seleccion={diputados} compact region={regionSeleccionada} />
           <ResumenItem titulo="Parl. Andino" seleccion={parlamento} compact />
         </div>
         <button onClick={() => { setVotoRegistrado(false); onReset(); }} className="w-full py-2 bg-slate-700 hover:bg-slate-800 text-white rounded font-medium text-sm">
@@ -122,8 +123,8 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
         <div className="space-y-2 overflow-y-auto max-h-[500px] pr-1">
           <ResumenItem titulo="Presidente" seleccion={presidente} compact />
           <ResumenItem titulo="Senadores Nacional" seleccion={senadoresNac} compact />
-          <ResumenItem titulo="Senadores Regional" seleccion={senadoresReg} compact />
-          <ResumenItem titulo="Diputados" seleccion={diputados} compact />
+          <ResumenItem titulo="Senadores Regional" seleccion={senadoresReg} compact region={regionSeleccionada} />
+          <ResumenItem titulo="Diputados" seleccion={diputados} compact region={regionSeleccionada} />
           <ResumenItem titulo="Parlamento Andino" seleccion={parlamento} compact />
         </div>
 
@@ -151,8 +152,8 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
             <div className="space-y-3 mb-5 max-h-[400px] overflow-y-auto pr-1">
               <ResumenItem titulo="Presidente" seleccion={presidente} compact />
               <ResumenItem titulo="Senadores Nac." seleccion={senadoresNac} compact />
-              <ResumenItem titulo="Senadores Reg." seleccion={senadoresReg} compact />
-              <ResumenItem titulo="Diputados" seleccion={diputados} compact />
+              <ResumenItem titulo="Senadores Reg." seleccion={senadoresReg} compact region={regionSeleccionada} />
+              <ResumenItem titulo="Diputados" seleccion={diputados} compact region={regionSeleccionada} />
               <ResumenItem titulo="Parl. Andino" seleccion={parlamento} compact />
             </div>
             <div className="flex gap-3">
@@ -170,7 +171,7 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
   );
 }
 
-const ResumenItem = ({ titulo, seleccion, compact = false }) => (
+const ResumenItem = ({ titulo, seleccion, compact = false, region = null }) => (
     <div className={`${compact ? 'p-2.5' : 'p-3'} bg-white rounded-lg shadow-sm border border-slate-100`}>
       <div className="flex items-center gap-3">
         {seleccion.idOrg ? (
@@ -301,6 +302,7 @@ const ResumenItem = ({ titulo, seleccion, compact = false }) => (
                 cargosAnteriores={c.flags?.cargosAnteriores}
                 sexo={c.sexo}
               />
+              {region && <NoViveAquiAlert domicilio={c.domicilio} region={region} />}
               <ProCrimeAlert votos={c.votosProCrimen || []} slug={c.porestosnoSlug} />
             </div>
           ))}
