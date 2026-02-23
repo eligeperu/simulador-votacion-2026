@@ -49,8 +49,8 @@ function App() {
   return (
     <div className="min-h-screen bg-slate-50 pb-4">
       <header className="w-full bg-black px-4 py-4 md:px-8 border-b border-slate-800 mb-6">
-        <div className="max-w-[1600px] mx-auto flex flex-col md:flex-row items-center justify-between">
-          <div className="flex items-center gap-4 mb-4 md:mb-0">
+        <div className="max-w-[1600px] mx-auto flex flex-row items-center justify-between">
+          <div className="flex items-center gap-4">
             <div className="flex flex-col items-start">
               <div className="font-bold text-[23px] text-white tracking-tighter flex items-center gap-2">
                 <span className="flex h-[18px] w-[28px] rounded-[2px] overflow-hidden shadow-sm shrink-0">
@@ -63,7 +63,7 @@ function App() {
               <span className="text-[9px] text-white font-bold tracking-[0.14em] mt-0.5">SIMULADOR DE VOTACIÓN</span>
             </div>
 
-            <div className="border-l-[1px] border-white pl-4 py-1 flex flex-col justify-center translate-y-[3px]">
+            <div className="hidden md:flex border-l-[1px] border-white pl-4 py-1 flex-col justify-center translate-y-[3px]">
               <h1 className="text-xl font-bold text-white leading-none">Elecciones Generales</h1>
               <div className="inline-block px-2 py-0.5 border border-white text-white text-[10px] font-bold rounded bg-slate-800/40 w-fit mt-[6px]">
                 12 de abril de 2026
