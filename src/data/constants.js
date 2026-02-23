@@ -119,7 +119,9 @@ export const fusionarDatos = (raw, enrich) => {
         sentenciaPenalDetalle: [],
         sentenciaObliga: false,
         sentenciaObligaDetalle: []
-      }
+      },
+      resumen: e?.resumen || null,
+      formacionAcademica: e?.formacionAcademica || null
     };
   });
 };

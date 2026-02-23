@@ -26,7 +26,7 @@ const CONGRESO_PARTIES = [
     { nombre: "JUNTOS POR EL PERU", idOrg: 1264, congresistas: 11 },
     { nombre: "SOMOS PERU", idOrg: 14, congresistas: 10 },
     { nombre: "ACCION POPULAR", idOrg: 4, congresistas: 10 },
-    { nombre: "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL", idOrg: 2173, congresistas: 6 },
+    { nombre: "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL", nombreCorto: "AVANZA PAÍS", idOrg: 2173, congresistas: 6 },
     { nombre: "BLOQUE DEMOCRATICO POPULAR", idOrg: null, congresistas: 5 },
     { nombre: "BANCADA SOCIALISTA", idOrg: null, congresistas: 5 },
     { nombre: "HONOR Y DEMOCRACIA", idOrg: null, congresistas: 5 }
@@ -79,6 +79,7 @@ const HemicycleDiagram = ({ parties }) => {
             if (p.congresistas > 0) {
                 labelsData.push({
                     nombre: p.nombre,
+                    nombreCorto: p.nombreCorto,
                     idOrg: p.idOrg,
                     count: p.congresistas,
                     angle: avgAngle
@@ -214,7 +215,7 @@ const HemicycleDiagram = ({ parties }) => {
                             <div className="flex flex-col items-start pt-[2px] flex-1 min-w-0 pr-2">
                                 <span className="text-[10px] text-[#64748b] font-bold uppercase tracking-widest leading-none mb-1.5">Grupo Parlamentario</span>
                                 <span className="text-[14px] sm:text-[15px] font-black text-[#1e293b] uppercase leading-none truncate w-full">
-                                    {selectedPartyData.nombre}
+                                    {selectedPartyData.nombreCorto || selectedPartyData.nombre}
                                 </span>
                             </div>
                         </div>
