@@ -9,7 +9,7 @@ const DATA_DIR = path.join(__dirname, '..', 'src', 'data');
 const DELAY_MS = 1000; // Delay between batches to avoid rate limiting
 const DELAY_JITTER = 500; // Random extra delay (0-0.5s)
 const BATCH_SIZE = 10; // Process 10 candidates concurrently
-const REFRESH_INTERVAL_DAYS = 7; // Only refresh if data is older than 7 days
+const REFRESH_INTERVAL_DAYS = 0; // Only refresh if data is older than 7 days
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 const randomDelay = () => DELAY_MS + Math.floor(Math.random() * DELAY_JITTER);

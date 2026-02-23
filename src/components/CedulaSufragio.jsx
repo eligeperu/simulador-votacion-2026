@@ -31,47 +31,51 @@ const CandidatoCard = ({ partido, selected, onClick, showCongressHighlight = fal
           {partido.nombre}
         </h3>
       </div>
-      <div className="shrink-0">
-        <div className="relative w-9 h-9 sm:w-10 sm:h-10 border border-black flex items-center justify-center p-0.5 bg-white">
-          {!esRetirado && !skipPresidente && !partido.hideLogoPresidente && partido.idOrg ? (
-            <img
-              src={`${JNE_LOGO}${partido.idOrg}`}
-              alt={partido.siglas}
-              className="w-full h-full object-contain"
-              onError={(e) => { e.target.style.display = 'none'; }}
-            />
-          ) : !esRetirado && !skipPresidente && !partido.hideLogoPresidente ? (
-            <div
-              className="w-full h-full flex items-center justify-center text-white font-bold text-[8px]"
-              style={{ backgroundColor: partido.color }}
-            >
-              {partido.siglas}
+      {!esRetirado && !skipPresidente && (
+        <>
+          <div className="shrink-0">
+            <div className="relative w-9 h-9 sm:w-10 sm:h-10 border border-black flex items-center justify-center p-0.5 bg-white">
+              {!partido.hideLogoPresidente && partido.idOrg ? (
+                <img
+                  src={`${JNE_LOGO}${partido.idOrg}`}
+                  alt={partido.siglas}
+                  className="w-full h-full object-contain"
+                  onError={(e) => { e.target.style.display = 'none'; }}
+                />
+              ) : !partido.hideLogoPresidente ? (
+                <div
+                  className="w-full h-full flex items-center justify-center text-white font-bold text-[8px]"
+                  style={{ backgroundColor: partido.color }}
+                >
+                  {partido.siglas}
+                </div>
+              ) : null}
+              {selected && (
+                <div className="absolute inset-0 flex items-center justify-center pointer-events-none bg-white/20">
+                  <span className="text-2xl sm:text-3xl font-bold text-blue-900 leading-none" style={{ textShadow: '0 0 2px rgba(255,255,255,0.8)' }}>✕</span>
+                </div>
+              )}
             </div>
-          ) : null}
-          {selected && (
-            <div className="absolute inset-0 flex items-center justify-center pointer-events-none bg-white/20">
-              <span className="text-2xl sm:text-3xl font-bold text-blue-900 leading-none" style={{ textShadow: '0 0 2px rgba(255,255,255,0.8)' }}>✕</span>
+          </div>
+          <div className="shrink-0">
+            <div className="relative w-9 h-9 sm:w-10 sm:h-10 border border-black overflow-hidden flex items-center justify-center bg-gray-50">
+              {candidato?.foto ? (
+                <img
+                  src={candidato.foto}
+                  alt={candidato.nombre}
+                  className="w-full h-full object-cover grayscale-[30%]"
+                  onError={(e) => { e.target.style.display = 'none'; }}
+                />
+              ) : null}
+              {selected && (
+                <div className="absolute inset-0 flex items-center justify-center pointer-events-none bg-white/20">
+                  <span className="text-2xl sm:text-3xl font-bold text-blue-900 leading-none" style={{ textShadow: '0 0 2px rgba(255,255,255,0.8)' }}>✕</span>
+                </div>
+              )}
             </div>
-          )}
-        </div>
-      </div>
-      <div className="shrink-0">
-        <div className="relative w-9 h-9 sm:w-10 sm:h-10 border border-black overflow-hidden flex items-center justify-center bg-gray-50">
-          {!esRetirado && !skipPresidente && candidato?.foto ? (
-            <img
-              src={candidato.foto}
-              alt={candidato.nombre}
-              className="w-full h-full object-cover grayscale-[30%]"
-              onError={(e) => { e.target.style.display = 'none'; }}
-            />
-          ) : null}
-          {selected && (
-            <div className="absolute inset-0 flex items-center justify-center pointer-events-none bg-white/20">
-              <span className="text-2xl sm:text-3xl font-bold text-blue-900 leading-none" style={{ textShadow: '0 0 2px rgba(255,255,255,0.8)' }}>✕</span>
-            </div>
-          )}
-        </div>
-      </div>
+          </div>
+        </>
+      )}
     </div>
   );
 };
@@ -100,65 +104,69 @@ const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto,
           </h3>
         )}
       </div>
-      <div className={`shrink-0 ${esRetirado ? 'cursor-default' : 'cursor-pointer'}`} onClick={!esRetirado ? () => onVotoPartido(categoria, partido.id) : undefined}>
-        <div className="relative w-9 h-9 sm:w-10 sm:h-10 border border-black flex items-center justify-center p-0.5 bg-white">
-          {!esRetirado && partido.idOrg ? (
-            <img
-              src={`${JNE_LOGO}${partido.idOrg}`}
-              alt={partido.siglas}
-              className="w-full h-full object-contain"
-              onError={(e) => { e.target.style.display = 'none'; }}
-            />
-          ) : !esRetirado ? (
-            <div
-              className="w-full h-full flex items-center justify-center text-white font-bold text-[8px]"
-              style={{ backgroundColor: partido.color }}
-            >
-              {partido.siglas}
+      {!esRetirado && (
+        <>
+          <div className="shrink-0 cursor-pointer" onClick={() => onVotoPartido(categoria, partido.id)}>
+            <div className="relative w-9 h-9 sm:w-10 sm:h-10 border border-black flex items-center justify-center p-0.5 bg-white">
+              {partido.idOrg ? (
+                <img
+                  src={`${JNE_LOGO}${partido.idOrg}`}
+                  alt={partido.siglas}
+                  className="w-full h-full object-contain"
+                  onError={(e) => { e.target.style.display = 'none'; }}
+                />
+              ) : (
+                <div
+                  className="w-full h-full flex items-center justify-center text-white font-bold text-[8px]"
+                  style={{ backgroundColor: partido.color }}
+                >
+                  {partido.siglas}
+                </div>
+              )}
+              {selected && (
+                <div className="absolute inset-0 flex items-center justify-center pointer-events-none bg-white/20">
+                  <span className="text-2xl sm:text-3xl font-bold text-blue-900 leading-none" style={{ textShadow: '0 0 2px rgba(255,255,255,0.8)' }}>✕</span>
+                </div>
+              )}
             </div>
-          ) : null}
-          {selected && (
-            <div className="absolute inset-0 flex items-center justify-center pointer-events-none bg-white/20">
-              <span className="text-2xl sm:text-3xl font-bold text-blue-900 leading-none" style={{ textShadow: '0 0 2px rgba(255,255,255,0.8)' }}>✕</span>
-            </div>
-          )}
-        </div>
-      </div>
-      <div className="shrink-0 flex gap-[10px] items-center">
-        {voto.preferencial.slice(0, numPreferencial).map((val, i) => {
-          const candidato = selected && val ? buscarCandidato(partido.idOrg, val, getDatosCandidatos()) : null;
-          const noExiste = selected && val && !candidato;
-          const esValido = candidato && ESTADOS_VALIDOS.includes(candidato.estado);
-          const enProceso = candidato && ESTADOS_EN_PROCESO.includes(candidato.estado);
-          const esRechazado = candidato && !esValido && !enProceso;
-          const tieneVotosProCrimen = candidato?.votosProCrimen?.some(v => v.sigla_voto === 'SI +++' || v.voto === 'A favor');
-          const getBorderClass = () => {
-            if (!selected) return 'border-black';
-            if (noExiste) return 'border-red-500 border-2';
-            if (enProceso) return 'border-amber-500 border-2';
-            if (esRechazado) return 'border-red-500 border-2';
-            if (tieneVotosProCrimen) return 'border-red-500 border-2';
-            return 'border-black';
-          };
-          return (
-            <div key={i} className="relative">
-              <div className={`w-9 h-9 sm:w-10 sm:h-10 border bg-white flex items-center justify-center ${getBorderClass()}`}>
-                {selected ? (
-                  <input
-                    type="text"
-                    value={val}
-                    onChange={(e) => onVotoPreferencial(categoria, i, e.target.value)}
-                    className="w-full h-full text-center text-sm font-bold border-none focus:ring-0 p-0"
-                    maxLength={3}
-                  />
-                ) : (
-                  <div className="w-full h-full bg-gray-100/50 cursor-not-allowed" />
-                )}
-              </div>
-            </div>
-          );
-        })}
-      </div>
+          </div>
+          <div className="shrink-0 flex gap-[10px] items-center">
+            {voto.preferencial.slice(0, numPreferencial).map((val, i) => {
+              const candidato = selected && val ? buscarCandidato(partido.idOrg, val, getDatosCandidatos()) : null;
+              const noExiste = selected && val && !candidato;
+              const esValido = candidato && ESTADOS_VALIDOS.includes(candidato.estado);
+              const enProceso = candidato && ESTADOS_EN_PROCESO.includes(candidato.estado);
+              const esRechazado = candidato && !esValido && !enProceso;
+              const tieneVotosProCrimen = candidato?.votosProCrimen?.some(v => v.sigla_voto === 'SI +++' || v.voto === 'A favor');
+              const getBorderClass = () => {
+                if (!selected) return 'border-black';
+                if (noExiste) return 'border-red-500 border-2';
+                if (enProceso) return 'border-amber-500 border-2';
+                if (esRechazado) return 'border-red-500 border-2';
+                if (tieneVotosProCrimen) return 'border-red-500 border-2';
+                return 'border-black';
+              };
+              return (
+                <div key={i} className="relative">
+                  <div className={`w-9 h-9 sm:w-10 sm:h-10 border bg-white flex items-center justify-center ${getBorderClass()}`}>
+                    {selected ? (
+                      <input
+                        type="text"
+                        value={val}
+                        onChange={(e) => onVotoPreferencial(categoria, i, e.target.value)}
+                        className="w-full h-full text-center text-sm font-bold border-none focus:ring-0 p-0"
+                        maxLength={3}
+                      />
+                    ) : (
+                      <div className="w-full h-full bg-gray-100/50 cursor-not-allowed" />
+                    )}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </>
+      )}
     </div>
   );
 };
@@ -249,6 +257,11 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
           <h1 className="text-xl font-semibold">CÉDULA DE SUFRAGIO</h1>
           <p className="text-sm text-slate-300">Marque con una X o ✓ el partido de su preferencia. El voto preferencial es <strong>opcional</strong>: escriba el número del candidato.</p>
         </div>
+        <div className="bg-amber-50 border-b border-amber-200 p-2 text-center">
+          <p className="text-[11px] text-amber-700">
+            ⚠️ Los espacios vacíos corresponden a partidos sin candidatos, tal como aparecerá en la cédula oficial.
+          </p>
+        </div>
 
         {/* Mobile: Tabs */}
         <div className="lg:hidden">
@@ -337,11 +350,6 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
           </div>
         </div>
 
-        <div className="bg-amber-50 border-t border-amber-200 p-2 text-center rounded-b-lg">
-          <p className="text-[11px] text-amber-700">
-            ⚠️ Los espacios vacíos corresponden a partidos sin candidatos, tal como aparecerá en la cédula oficial.
-          </p>
-        </div>
       </div>
     </div>
   );
