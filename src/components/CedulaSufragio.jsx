@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { candidatosPresidenciales, partidosParlamentarios } from '../data/candidatos';
 import { JNE_LOGO, JNE_LOGO_REMOTE, JNE_FOTO, ESTADOS_VALIDOS, ESTADOS_EN_PROCESO, buscarCandidato, createInitialVotos, normalizeName } from '../data/constants';
 import JudicialAlert from './JudicialAlert';
+import EducacionAlert from './EducacionAlert';
 import ProCrimeAlert from './ProCrimeAlert';
 import NoViveAquiAlert from './NoViveAquiAlert';
 import senadoresNacional from '../data/senadoresNacional';
@@ -256,6 +257,11 @@ const MobileCandidateDetails = ({ candidatos, region }) => {
                 cargosAnteriores={c.flags?.cargosAnteriores}
                 sexo={c.sexo}
               />
+              <EducacionAlert
+                educacionMax={c.resumen?.educacionMax}
+                institucion={c.resumen?.institucion}
+                formacion={c.formacionAcademica}
+              />
               {region && <NoViveAquiAlert domicilio={c.domicilio} region={region} />}
               <ProCrimeAlert votos={c.votosProCrimen || []} slug={c.porestosnoSlug} />
             </>
@@ -436,6 +442,8 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
                         flags: pres.flags || { sentenciaPenal: false, sentenciaObliga: false },
                         votosProCrimen: proCrimen?.votos || null,
                         porestosnoSlug: proCrimen?.slug || null,
+                        resumen: pres.resumen || null,
+                        formacionAcademica: pres.formacionAcademica || null,
                         hojaVida: pres.idOrg && pres.dni ? `https://votoinformado.jne.gob.pe/hoja-vida/${pres.idOrg}/${pres.dni}` : null,
                       }];
                     }
