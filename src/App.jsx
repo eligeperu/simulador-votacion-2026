@@ -44,6 +44,14 @@ function App() {
 
   const formatNumber = (num) => num.toString().padStart(2, '0');
 
+  const votosCompletados = [
+    votos.presidente !== null,
+    votos.senadoresNacional?.partido !== null,
+    votos.senadoresRegional?.partido !== null,
+    votos.diputados?.partido !== null,
+    votos.parlamenAndino?.partido !== null,
+  ].filter(Boolean).length;
+
   if (page === 'candidatos') return <Candidatos onBack={() => setPage('simulador')} />;
 
   return (
@@ -110,29 +118,55 @@ function App() {
       </footer>
 
       {/* Mobile: Botón fijo para votar */}
-      <div className="xl:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 p-3 shadow-lg">
+      <div className="xl:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 p-3 shadow-lg z-30">
         <button
           onClick={() => setMostrarResumenMobile(true)}
-          className="w-full bg-slate-700 text-white py-3 rounded-lg font-semibold hover:bg-slate-800 transition-colors"
+          className="w-full bg-slate-700 text-white py-3 rounded-lg font-semibold hover:bg-slate-800 transition-colors flex items-center justify-center gap-2"
         >
           Ver Resumen y Votar
+          {votosCompletados > 0 && (
+            <span className="bg-white/20 px-2 py-0.5 rounded text-xs">{votosCompletados}/5</span>
+          )}
         </button>
       </div>
 
-      {/* Mobile: Modal de resumen */}
-      {mostrarResumenMobile && (
-        <div className="xl:hidden fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
-          <div className="bg-white rounded-lg max-w-md w-full max-h-[90vh] overflow-y-auto">
-            <div className="sticky top-0 bg-white border-b p-3 flex justify-between items-center">
-              <h2 className="font-semibold text-lg">Resumen de tu Voto</h2>
-              <button onClick={() => setMostrarResumenMobile(false)} className="text-slate-500 hover:text-slate-700 text-2xl">&times;</button>
-            </div>
-            <div className="p-3">
-              <ResumenVoto votos={votos} onReset={() => { handleReset(); setMostrarResumenMobile(false); }} regionSeleccionada={regionSeleccionada} />
-            </div>
+      {/* Mobile: Bottom sheet de resumen */}
+      <div
+        className={`xl:hidden fixed inset-0 z-50 transition-opacity duration-300 ${
+          mostrarResumenMobile ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+        }`}
+      >
+        {/* Backdrop */}
+        <div
+          className="absolute inset-0 bg-black/50"
+          onClick={() => setMostrarResumenMobile(false)}
+        />
+        {/* Bottom sheet */}
+        <div className={`absolute bottom-0 left-0 right-0 bg-white rounded-t-2xl max-h-[90vh] overflow-hidden flex flex-col transition-transform duration-300 ease-out ${
+          mostrarResumenMobile ? 'translate-y-0' : 'translate-y-full'
+        }`}>
+          {/* Drag handle */}
+          <div className="flex justify-center pt-3 pb-1">
+            <div className="w-10 h-1 bg-slate-300 rounded-full" />
+          </div>
+          {/* Header */}
+          <div className="px-4 pb-3 flex justify-between items-center border-b border-slate-200">
+            <h2 className="font-semibold text-lg text-slate-800">Resumen de tu Voto</h2>
+            <button
+              onClick={() => setMostrarResumenMobile(false)}
+              className="text-slate-400 hover:text-slate-600 p-1 rounded-full hover:bg-slate-100"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+          {/* Content */}
+          <div className="flex-1 overflow-y-auto p-3">
+            <ResumenVoto votos={votos} onReset={() => { handleReset(); setMostrarResumenMobile(false); }} regionSeleccionada={regionSeleccionada} />
           </div>
         </div>
-      )}
+      </div>
     </div>
   );
 }
