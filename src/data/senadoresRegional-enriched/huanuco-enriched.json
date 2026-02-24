@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-02-19T03:53:00.701Z",
+  "fetchedAt": "2026-02-24T03:27:41.421Z",
   "idProcesoElectoral": 124,
   "count": 68,
   "data": [
@@ -689,7 +689,72 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:49:09.970Z"
+      "fetchedAt": "2026-02-24T03:25:01.909Z",
+      "domicilio": {
+        "departamento": "HUANUCO",
+        "provincia": "HUANUCO",
+        "distrito": "HUANUCO"
+      },
+      "datoGeneral": {
+        "idHojaVida": 243352,
+        "idProcesoElectoral": 124,
+        "idEstadoDatosPersonales": 2,
+        "idTipoEleccion": 21,
+        "carneExtranjeria": null,
+        "numeroDocumento": "10688380",
+        "nombres": "CLARA LUISA",
+        "apellidoPaterno": "CONTRERAS",
+        "apellidoMaterno": "ARRIETA",
+        "sexo": "2",
+        "feNacimiento": "08/04/1978",
+        "paisNacimiento": "PERÚ",
+        "ubigeoNacimiento": "090601",
+        "naciDepartamento": "HUANUCO",
+        "naciProvincia": "LEONCIO PRADO",
+        "naciDistrito": "RUPA-RUPA",
+        "ubigeoDomicilio": "090101",
+        "domiDepartamento": "HUANUCO",
+        "domiProvincia": "HUANUCO",
+        "domiDistrito": "HUANUCO",
+        "domicilioDirecc": "*** *** *** ***",
+        "ubigeoPostula": "090000",
+        "postulaDepartamento": " ",
+        "postulaProvincia": " ",
+        "postulaDistrito": "HUANUCO",
+        "rutaArchivo": null,
+        "txGuidFoto": "bbf47403-c9ed-4106-b880-2a126ddc7e68",
+        "estado": "INSCRITO",
+        "idOrganizacionPolitica": 22,
+        "organizacionPolitica": "RENOVACION POPULAR",
+        "numeroCandidato": 2,
+        "cargo": "SENADOR",
+        "cargoOtro": null,
+        "cargoObj": [
+          "SENADOR"
+        ],
+        "txFeTerminoRegistro": "19/12/2025 13:28:09",
+        "txGuidFormatoHojaVida": "52124f60-51b5-4dca-a51c-49e0b808f223",
+        "idSolicitudLista": 36464,
+        "txComentario": null,
+        "txGuidArchivoOrigen": "d5631bfc-45b0-4cc8-89e7-0edb1eacecf9",
+        "txNombreArchivo": "bbf47403-c9ed-4106-b880-2a126ddc7e68.jpg",
+        "txNombreArchivoPdf": "d5631bfc-45b0-4cc8-89e7-0edb1eacecf9.pdf",
+        "txNombreArchivoPdfFirmado": "52124f60-51b5-4dca-a51c-49e0b808f223.pdf"
+      },
+      "renunciaEfectuada": [
+        {
+          "idHvRenunciaOp": 172883,
+          "tengoRenunciaOp": "SI",
+          "itemRenunciaop": 1,
+          "idOrgPolRenunciaOp": 4,
+          "orgPolRenunciaOp": "ACCION POPULAR",
+          "anioRenunciaOp": "2024",
+          "idHojaVida": 243352,
+          "idEstado": 1,
+          "txComentario": null
+        }
+      ],
+      "informacionAdicional": []
     },
     {
       "dni": "23019019",
@@ -786,7 +851,60 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:49:12.468Z"
+      "fetchedAt": "2026-02-24T03:25:01.909Z",
+      "domicilio": {
+        "departamento": "HUANUCO",
+        "provincia": "LEONCIO PRADO",
+        "distrito": "RUPA-RUPA"
+      },
+      "datoGeneral": {
+        "idHojaVida": 243414,
+        "idProcesoElectoral": 124,
+        "idEstadoDatosPersonales": 2,
+        "idTipoEleccion": 21,
+        "carneExtranjeria": null,
+        "numeroDocumento": "23019019",
+        "nombres": "MARCELINO PEDRO",
+        "apellidoPaterno": "ADRIAN",
+        "apellidoMaterno": "ORTIZ",
+        "sexo": "1",
+        "feNacimiento": "18/12/1976",
+        "paisNacimiento": "PERÚ",
+        "ubigeoNacimiento": "090407",
+        "naciDepartamento": "HUANUCO",
+        "naciProvincia": "HUAMALIES",
+        "naciDistrito": "MONZON",
+        "ubigeoDomicilio": "090601",
+        "domiDepartamento": "HUANUCO",
+        "domiProvincia": "LEONCIO PRADO",
+        "domiDistrito": "RUPA-RUPA",
+        "domicilioDirecc": "*** *** *** ***",
+        "ubigeoPostula": "090000",
+        "postulaDepartamento": " ",
+        "postulaProvincia": " ",
+        "postulaDistrito": "HUANUCO",
+        "rutaArchivo": null,
+        "txGuidFoto": "841779ce-dd35-41b7-8213-58b473fd2fd9",
+        "estado": "INSCRITO",
+        "idOrganizacionPolitica": 2901,
+        "organizacionPolitica": "FRENTE POPULAR AGRICOLA FIA DEL PERU",
+        "numeroCandidato": 1,
+        "cargo": "SENADOR",
+        "cargoOtro": null,
+        "cargoObj": [
+          "SENADOR"
+        ],
+        "txFeTerminoRegistro": "22/12/2025 23:50:48",
+        "txGuidFormatoHojaVida": "733df3dc-7dcf-4962-9a71-551614ab8faf",
+        "idSolicitudLista": 36982,
+        "txComentario": null,
+        "txGuidArchivoOrigen": "edd7b546-9344-4e98-bf3d-0d97fc00c110",
+        "txNombreArchivo": "841779ce-dd35-41b7-8213-58b473fd2fd9.jpg",
+        "txNombreArchivoPdf": "edd7b546-9344-4e98-bf3d-0d97fc00c110.pdf",
+        "txNombreArchivoPdfFirmado": "733df3dc-7dcf-4962-9a71-551614ab8faf.pdf"
+      },
+      "renunciaEfectuada": [],
+      "informacionAdicional": []
     },
     {
       "dni": "22665708",
@@ -849,7 +967,60 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:49:15.716Z"
+      "fetchedAt": "2026-02-24T03:25:01.909Z",
+      "domicilio": {
+        "departamento": "HUANUCO",
+        "provincia": "AMBO",
+        "distrito": "AMBO"
+      },
+      "datoGeneral": {
+        "idHojaVida": 243456,
+        "idProcesoElectoral": 124,
+        "idEstadoDatosPersonales": 2,
+        "idTipoEleccion": 21,
+        "carneExtranjeria": null,
+        "numeroDocumento": "22665708",
+        "nombres": "ROSA ELENA",
+        "apellidoPaterno": "MARTINEZ",
+        "apellidoMaterno": "MURGUIA",
+        "sexo": "2",
+        "feNacimiento": "30/08/1970",
+        "paisNacimiento": "PERÚ",
+        "ubigeoNacimiento": "140101",
+        "naciDepartamento": "LIMA",
+        "naciProvincia": "LIMA",
+        "naciDistrito": "LIMA",
+        "ubigeoDomicilio": "090201",
+        "domiDepartamento": "HUANUCO",
+        "domiProvincia": "AMBO",
+        "domiDistrito": "AMBO",
+        "domicilioDirecc": "*** *** *** ***",
+        "ubigeoPostula": "090000",
+        "postulaDepartamento": " ",
+        "postulaProvincia": " ",
+        "postulaDistrito": "HUANUCO",
+        "rutaArchivo": null,
+        "txGuidFoto": "0cad7013-9a8d-4327-a3cc-714f9980e12a",
+        "estado": "IMPROCEDENTE",
+        "idOrganizacionPolitica": 2932,
+        "organizacionPolitica": "PARTIDO POLITICO PERU ACCION",
+        "numeroCandidato": 1,
+        "cargo": "SENADOR",
+        "cargoOtro": null,
+        "cargoObj": [
+          "SENADOR"
+        ],
+        "txFeTerminoRegistro": "24/12/2025 01:17:20",
+        "txGuidFormatoHojaVida": "bf910bec-c862-41c9-97d7-f1110e5b47d4",
+        "idSolicitudLista": 37278,
+        "txComentario": null,
+        "txGuidArchivoOrigen": "3e42cfa8-0356-4c5a-a062-2228e6b229e6",
+        "txNombreArchivo": "0cad7013-9a8d-4327-a3cc-714f9980e12a.jpg",
+        "txNombreArchivoPdf": "3e42cfa8-0356-4c5a-a062-2228e6b229e6.pdf",
+        "txNombreArchivoPdfFirmado": "bf910bec-c862-41c9-97d7-f1110e5b47d4.pdf"
+      },
+      "renunciaEfectuada": [],
+      "informacionAdicional": []
     },
     {
       "dni": "22411029",
@@ -1196,7 +1367,72 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:49:19.640Z"
+      "fetchedAt": "2026-02-24T03:25:01.909Z",
+      "domicilio": {
+        "departamento": "HUANUCO",
+        "provincia": "HUANUCO",
+        "distrito": "HUANUCO"
+      },
+      "datoGeneral": {
+        "idHojaVida": 243638,
+        "idProcesoElectoral": 124,
+        "idEstadoDatosPersonales": 2,
+        "idTipoEleccion": 21,
+        "carneExtranjeria": null,
+        "numeroDocumento": "22411029",
+        "nombres": "FELIX CAMILO",
+        "apellidoPaterno": "RONCAL",
+        "apellidoMaterno": "MONTOYA",
+        "sexo": "1",
+        "feNacimiento": "21/11/1944",
+        "paisNacimiento": "PERÚ",
+        "ubigeoNacimiento": "060401",
+        "naciDepartamento": "CAJAMARCA",
+        "naciProvincia": "CONTUMAZA",
+        "naciDistrito": "CONTUMAZA",
+        "ubigeoDomicilio": "090101",
+        "domiDepartamento": "HUANUCO",
+        "domiProvincia": "HUANUCO",
+        "domiDistrito": "HUANUCO",
+        "domicilioDirecc": "*** *** *** ***",
+        "ubigeoPostula": "090000",
+        "postulaDepartamento": " ",
+        "postulaProvincia": " ",
+        "postulaDistrito": "HUANUCO",
+        "rutaArchivo": null,
+        "txGuidFoto": "f3ded421-4431-456c-b904-e825ae07e8b4",
+        "estado": "INSCRITO",
+        "idOrganizacionPolitica": 2930,
+        "organizacionPolitica": "PARTIDO APRISTA PERUANO",
+        "numeroCandidato": 1,
+        "cargo": "SENADOR",
+        "cargoOtro": null,
+        "cargoObj": [
+          "SENADOR"
+        ],
+        "txFeTerminoRegistro": "22/12/2025 13:51:40",
+        "txGuidFormatoHojaVida": "799987c3-4553-48be-929c-5ec766b59d02",
+        "idSolicitudLista": 38013,
+        "txComentario": null,
+        "txGuidArchivoOrigen": "987bc14c-4bc6-45cb-8fd5-df17b76670c3",
+        "txNombreArchivo": "f3ded421-4431-456c-b904-e825ae07e8b4.jpg",
+        "txNombreArchivoPdf": "987bc14c-4bc6-45cb-8fd5-df17b76670c3.pdf",
+        "txNombreArchivoPdfFirmado": "799987c3-4553-48be-929c-5ec766b59d02.pdf"
+      },
+      "renunciaEfectuada": [
+        {
+          "idHvRenunciaOp": 172522,
+          "tengoRenunciaOp": "SI",
+          "itemRenunciaop": 1,
+          "idOrgPolRenunciaOp": 32,
+          "orgPolRenunciaOp": "PARTIDO APRISTA PERUANO",
+          "anioRenunciaOp": "2009",
+          "idHojaVida": 243638,
+          "idEstado": 1,
+          "txComentario": null
+        }
+      ],
+      "informacionAdicional": []
     },
     {
       "dni": "22480882",
@@ -1459,7 +1695,72 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:49:24.112Z"
+      "fetchedAt": "2026-02-24T03:25:01.909Z",
+      "domicilio": {
+        "departamento": "HUANUCO",
+        "provincia": "HUANUCO",
+        "distrito": "AMARILIS"
+      },
+      "datoGeneral": {
+        "idHojaVida": 244067,
+        "idProcesoElectoral": 124,
+        "idEstadoDatosPersonales": 2,
+        "idTipoEleccion": 21,
+        "carneExtranjeria": null,
+        "numeroDocumento": "22480882",
+        "nombres": "ENNIS SEGUNDO",
+        "apellidoPaterno": "JARAMILLO",
+        "apellidoMaterno": "FALCON",
+        "sexo": "1",
+        "feNacimiento": "08/09/1968",
+        "paisNacimiento": "PERÚ",
+        "ubigeoNacimiento": "091006",
+        "naciDepartamento": "HUANUCO",
+        "naciProvincia": "LAURICOCHA",
+        "naciDistrito": "RONDOS",
+        "ubigeoDomicilio": "090110",
+        "domiDepartamento": "HUANUCO",
+        "domiProvincia": "HUANUCO",
+        "domiDistrito": "AMARILIS",
+        "domicilioDirecc": "*** *** *** ***",
+        "ubigeoPostula": "090000",
+        "postulaDepartamento": " ",
+        "postulaProvincia": " ",
+        "postulaDistrito": "HUANUCO",
+        "rutaArchivo": null,
+        "txGuidFoto": "b894f64e-32d2-447b-85dc-7851cddf192d",
+        "estado": "INSCRITO",
+        "idOrganizacionPolitica": 14,
+        "organizacionPolitica": "PARTIDO DEMOCRATICO SOMOS PERU",
+        "numeroCandidato": 1,
+        "cargo": "SENADOR",
+        "cargoOtro": null,
+        "cargoObj": [
+          "SENADOR"
+        ],
+        "txFeTerminoRegistro": "18/12/2025 09:38:28",
+        "txGuidFormatoHojaVida": "cd50bfae-bd27-4a61-84d6-e60f4c435dca",
+        "idSolicitudLista": 36416,
+        "txComentario": null,
+        "txGuidArchivoOrigen": "426c4ff4-cad0-407f-9126-380fa7a31e78",
+        "txNombreArchivo": "b894f64e-32d2-447b-85dc-7851cddf192d.jpg",
+        "txNombreArchivoPdf": "426c4ff4-cad0-407f-9126-380fa7a31e78.pdf",
+        "txNombreArchivoPdfFirmado": "cd50bfae-bd27-4a61-84d6-e60f4c435dca.pdf"
+      },
+      "renunciaEfectuada": [
+        {
+          "idHvRenunciaOp": 172160,
+          "tengoRenunciaOp": "SI",
+          "itemRenunciaop": 1,
+          "idOrgPolRenunciaOp": 179,
+          "orgPolRenunciaOp": "PARTIDO NACIONALISTA PERUANO",
+          "anioRenunciaOp": "2021",
+          "idHojaVida": 244067,
+          "idEstado": 1,
+          "txComentario": null
+        }
+      ],
+      "informacionAdicional": []
     },
     {
       "dni": "22483356",
@@ -1589,7 +1890,60 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:49:27.285Z"
+      "fetchedAt": "2026-02-24T03:25:01.909Z",
+      "domicilio": {
+        "departamento": "HUANUCO",
+        "provincia": "HUANUCO",
+        "distrito": "HUANUCO"
+      },
+      "datoGeneral": {
+        "idHojaVida": 244077,
+        "idProcesoElectoral": 124,
+        "idEstadoDatosPersonales": 2,
+        "idTipoEleccion": 21,
+        "carneExtranjeria": null,
+        "numeroDocumento": "22483356",
+        "nombres": "MAURA",
+        "apellidoPaterno": "ALVAREZ",
+        "apellidoMaterno": "SANTILLAN",
+        "sexo": "2",
+        "feNacimiento": "11/11/1961",
+        "paisNacimiento": "PERÚ",
+        "ubigeoNacimiento": "090101",
+        "naciDepartamento": "HUANUCO",
+        "naciProvincia": "HUANUCO",
+        "naciDistrito": "HUANUCO",
+        "ubigeoDomicilio": "090101",
+        "domiDepartamento": "HUANUCO",
+        "domiProvincia": "HUANUCO",
+        "domiDistrito": "HUANUCO",
+        "domicilioDirecc": "*** *** *** ***",
+        "ubigeoPostula": "090000",
+        "postulaDepartamento": " ",
+        "postulaProvincia": " ",
+        "postulaDistrito": "HUANUCO",
+        "rutaArchivo": null,
+        "txGuidFoto": "d2ee1ed9-0474-4ce3-9216-f714f308a484",
+        "estado": "INSCRITO",
+        "idOrganizacionPolitica": 2956,
+        "organizacionPolitica": "PARTIDO PAIS PARA TODOS",
+        "numeroCandidato": 2,
+        "cargo": "SENADOR",
+        "cargoOtro": null,
+        "cargoObj": [
+          "SENADOR"
+        ],
+        "txFeTerminoRegistro": "19/12/2025 16:19:26",
+        "txGuidFormatoHojaVida": "46bbb760-b6ae-419d-9ac3-5beb721d35b3",
+        "idSolicitudLista": 37439,
+        "txComentario": null,
+        "txGuidArchivoOrigen": "6174be3d-57d1-4c53-a694-80d5bafce971",
+        "txNombreArchivo": "d2ee1ed9-0474-4ce3-9216-f714f308a484.jpg",
+        "txNombreArchivoPdf": "6174be3d-57d1-4c53-a694-80d5bafce971.pdf",
+        "txNombreArchivoPdfFirmado": "46bbb760-b6ae-419d-9ac3-5beb721d35b3.pdf"
+      },
+      "renunciaEfectuada": [],
+      "informacionAdicional": []
     },
     {
       "dni": "22435578",
@@ -1850,7 +2204,72 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:49:31.110Z"
+      "fetchedAt": "2026-02-24T03:25:01.909Z",
+      "domicilio": {
+        "departamento": "HUANUCO",
+        "provincia": "HUANUCO",
+        "distrito": "AMARILIS"
+      },
+      "datoGeneral": {
+        "idHojaVida": 244799,
+        "idProcesoElectoral": 124,
+        "idEstadoDatosPersonales": 2,
+        "idTipoEleccion": 21,
+        "carneExtranjeria": null,
+        "numeroDocumento": "22435578",
+        "nombres": "JUANA ADELAIDA",
+        "apellidoPaterno": "COTRINA",
+        "apellidoMaterno": "TRUJILLO",
+        "sexo": "2",
+        "feNacimiento": "18/04/1955",
+        "paisNacimiento": "PERÚ",
+        "ubigeoNacimiento": "090201",
+        "naciDepartamento": "HUANUCO",
+        "naciProvincia": "AMBO",
+        "naciDistrito": "AMBO",
+        "ubigeoDomicilio": "090110",
+        "domiDepartamento": "HUANUCO",
+        "domiProvincia": "HUANUCO",
+        "domiDistrito": "AMARILIS",
+        "domicilioDirecc": "*** *** *** ***",
+        "ubigeoPostula": "090000",
+        "postulaDepartamento": " ",
+        "postulaProvincia": " ",
+        "postulaDistrito": "HUANUCO",
+        "rutaArchivo": null,
+        "txGuidFoto": "b0ca6479-191d-4b53-a2c0-25bda4e8977a",
+        "estado": "INSCRITO",
+        "idOrganizacionPolitica": 2967,
+        "organizacionPolitica": "PROGRESEMOS",
+        "numeroCandidato": 1,
+        "cargo": "SENADOR",
+        "cargoOtro": null,
+        "cargoObj": [
+          "SENADOR"
+        ],
+        "txFeTerminoRegistro": "20/12/2025 23:02:54",
+        "txGuidFormatoHojaVida": "c18068e4-fe6e-4558-b14c-c74ed807490b",
+        "idSolicitudLista": 37899,
+        "txComentario": null,
+        "txGuidArchivoOrigen": "d27367e6-6c7e-440d-a0fe-2d5aa8adbde9",
+        "txNombreArchivo": "b0ca6479-191d-4b53-a2c0-25bda4e8977a.jpg",
+        "txNombreArchivoPdf": "d27367e6-6c7e-440d-a0fe-2d5aa8adbde9.pdf",
+        "txNombreArchivoPdfFirmado": "c18068e4-fe6e-4558-b14c-c74ed807490b.pdf"
+      },
+      "renunciaEfectuada": [
+        {
+          "idHvRenunciaOp": 174214,
+          "tengoRenunciaOp": "SI",
+          "itemRenunciaop": 1,
+          "idOrgPolRenunciaOp": 179,
+          "orgPolRenunciaOp": "PARTIDO NACIONALISTA PERUANO",
+          "anioRenunciaOp": "2016",
+          "idHojaVida": 244799,
+          "idEstado": 1,
+          "txComentario": "DESAFILIADA DE MANERA VOLUNTARIA"
+        }
+      ],
+      "informacionAdicional": []
     },
     {
       "dni": "22516710",
@@ -2008,7 +2427,60 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:49:33.617Z"
+      "fetchedAt": "2026-02-24T03:25:01.909Z",
+      "domicilio": {
+        "departamento": "HUANUCO",
+        "provincia": "HUANUCO",
+        "distrito": "AMARILIS"
+      },
+      "datoGeneral": {
+        "idHojaVida": 244816,
+        "idProcesoElectoral": 124,
+        "idEstadoDatosPersonales": 2,
+        "idTipoEleccion": 21,
+        "carneExtranjeria": null,
+        "numeroDocumento": "22516710",
+        "nombres": "YSABEL",
+        "apellidoPaterno": "AGÜERO",
+        "apellidoMaterno": "VARA DE CORDOVA",
+        "sexo": "2",
+        "feNacimiento": "04/12/1976",
+        "paisNacimiento": "PERÚ",
+        "ubigeoNacimiento": "090101",
+        "naciDepartamento": "HUANUCO",
+        "naciProvincia": "HUANUCO",
+        "naciDistrito": "HUANUCO",
+        "ubigeoDomicilio": "090110",
+        "domiDepartamento": "HUANUCO",
+        "domiProvincia": "HUANUCO",
+        "domiDistrito": "AMARILIS",
+        "domicilioDirecc": "*** *** *** ***",
+        "ubigeoPostula": "090000",
+        "postulaDepartamento": " ",
+        "postulaProvincia": " ",
+        "postulaDistrito": "HUANUCO",
+        "rutaArchivo": null,
+        "txGuidFoto": "da7cdace-db81-4711-acd3-992c4279928b",
+        "estado": "INSCRITO",
+        "idOrganizacionPolitica": 2941,
+        "organizacionPolitica": "PARTIDO CIVICO OBRAS",
+        "numeroCandidato": 2,
+        "cargo": "SENADOR",
+        "cargoOtro": null,
+        "cargoObj": [
+          "SENADOR"
+        ],
+        "txFeTerminoRegistro": "21/12/2025 13:15:19",
+        "txGuidFormatoHojaVida": "d7978538-68be-46d9-9fc4-1a95cba07119",
+        "idSolicitudLista": 37397,
+        "txComentario": null,
+        "txGuidArchivoOrigen": "ecbdc030-c2e4-4a0a-a4ce-57d8183af05f",
+        "txNombreArchivo": "da7cdace-db81-4711-acd3-992c4279928b.jpg",
+        "txNombreArchivoPdf": "ecbdc030-c2e4-4a0a-a4ce-57d8183af05f.pdf",
+        "txNombreArchivoPdfFirmado": "d7978538-68be-46d9-9fc4-1a95cba07119.pdf"
+      },
+      "renunciaEfectuada": [],
+      "informacionAdicional": []
     },
     {
       "dni": "22510053",
@@ -2150,7 +2622,60 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:49:36.895Z"
+      "fetchedAt": "2026-02-24T03:25:01.909Z",
+      "domicilio": {
+        "departamento": "HUANUCO",
+        "provincia": "HUANUCO",
+        "distrito": "HUANUCO"
+      },
+      "datoGeneral": {
+        "idHojaVida": 244870,
+        "idProcesoElectoral": 124,
+        "idEstadoDatosPersonales": 2,
+        "idTipoEleccion": 21,
+        "carneExtranjeria": null,
+        "numeroDocumento": "22510053",
+        "nombres": "AMANDA",
+        "apellidoPaterno": "ARMILLON",
+        "apellidoMaterno": "ROQUE",
+        "sexo": "2",
+        "feNacimiento": "19/06/1975",
+        "paisNacimiento": "PERÚ",
+        "ubigeoNacimiento": "091105",
+        "naciDepartamento": "HUANUCO",
+        "naciProvincia": "YAROWILCA",
+        "naciDistrito": "JACAS CHICO",
+        "ubigeoDomicilio": "090101",
+        "domiDepartamento": "HUANUCO",
+        "domiProvincia": "HUANUCO",
+        "domiDistrito": "HUANUCO",
+        "domicilioDirecc": "*** *** *** ***",
+        "ubigeoPostula": "090000",
+        "postulaDepartamento": " ",
+        "postulaProvincia": " ",
+        "postulaDistrito": "HUANUCO",
+        "rutaArchivo": null,
+        "txGuidFoto": "3d29ce2c-8bcb-4a6d-91aa-e2807083d9b8",
+        "estado": "INSCRITO",
+        "idOrganizacionPolitica": 2925,
+        "organizacionPolitica": "PARTIDO POLITICO PERU PRIMERO",
+        "numeroCandidato": 2,
+        "cargo": "SENADOR",
+        "cargoOtro": null,
+        "cargoObj": [
+          "SENADOR"
+        ],
+        "txFeTerminoRegistro": "22/12/2025 21:12:36",
+        "txGuidFormatoHojaVida": "796a75ab-4bb8-4250-922c-d1ae05d73d40",
+        "idSolicitudLista": 37108,
+        "txComentario": null,
+        "txGuidArchivoOrigen": "881a679f-de5f-49c9-a6df-651f4da6f9f4",
+        "txNombreArchivo": "3d29ce2c-8bcb-4a6d-91aa-e2807083d9b8.jpg",
+        "txNombreArchivoPdf": "881a679f-de5f-49c9-a6df-651f4da6f9f4.pdf",
+        "txNombreArchivoPdfFirmado": "796a75ab-4bb8-4250-922c-d1ae05d73d40.pdf"
+      },
+      "renunciaEfectuada": [],
+      "informacionAdicional": []
     },
     {
       "dni": "06008148",
@@ -2528,7 +3053,72 @@
         }
       ],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:49:40.453Z"
+      "fetchedAt": "2026-02-24T03:25:01.909Z",
+      "domicilio": {
+        "departamento": "HUANUCO",
+        "provincia": "HUANUCO",
+        "distrito": "HUANUCO"
+      },
+      "datoGeneral": {
+        "idHojaVida": 244893,
+        "idProcesoElectoral": 124,
+        "idEstadoDatosPersonales": 2,
+        "idTipoEleccion": 21,
+        "carneExtranjeria": null,
+        "numeroDocumento": "06008148",
+        "nombres": "ALBERTO EBER",
+        "apellidoPaterno": "CONTRERAS",
+        "apellidoMaterno": "MARIÑO",
+        "sexo": "1",
+        "feNacimiento": "22/07/1959",
+        "paisNacimiento": "PERÚ",
+        "ubigeoNacimiento": "090401",
+        "naciDepartamento": "HUANUCO",
+        "naciProvincia": "HUAMALIES",
+        "naciDistrito": "LLATA",
+        "ubigeoDomicilio": "090101",
+        "domiDepartamento": "HUANUCO",
+        "domiProvincia": "HUANUCO",
+        "domiDistrito": "HUANUCO",
+        "domicilioDirecc": "*** *** *** ***",
+        "ubigeoPostula": "090000",
+        "postulaDepartamento": " ",
+        "postulaProvincia": " ",
+        "postulaDistrito": "HUANUCO",
+        "rutaArchivo": null,
+        "txGuidFoto": "d74a7e8b-b19b-4e51-93f7-3c99eec10124",
+        "estado": "INSCRITO",
+        "idOrganizacionPolitica": 1257,
+        "organizacionPolitica": "ALIANZA PARA EL PROGRESO",
+        "numeroCandidato": 1,
+        "cargo": "SENADOR",
+        "cargoOtro": null,
+        "cargoObj": [
+          "SENADOR"
+        ],
+        "txFeTerminoRegistro": "22/12/2025 19:39:48",
+        "txGuidFormatoHojaVida": "8535407b-a68f-4238-8ea4-29afa585a8d6",
+        "idSolicitudLista": 36405,
+        "txComentario": null,
+        "txGuidArchivoOrigen": "b4fc0bd2-63ac-4323-80ef-b8bf61d75470",
+        "txNombreArchivo": "d74a7e8b-b19b-4e51-93f7-3c99eec10124.jpg",
+        "txNombreArchivoPdf": "b4fc0bd2-63ac-4323-80ef-b8bf61d75470.pdf",
+        "txNombreArchivoPdfFirmado": "8535407b-a68f-4238-8ea4-29afa585a8d6.pdf"
+      },
+      "renunciaEfectuada": [
+        {
+          "idHvRenunciaOp": 170956,
+          "tengoRenunciaOp": "SI",
+          "itemRenunciaop": 1,
+          "idOrgPolRenunciaOp": 32,
+          "orgPolRenunciaOp": "PARTIDO APRISTA PERUANO",
+          "anioRenunciaOp": "2010",
+          "idHojaVida": 244893,
+          "idEstado": 1,
+          "txComentario": null
+        }
+      ],
+      "informacionAdicional": []
     },
     {
       "dni": "22493343",
@@ -2746,7 +3336,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:49:44.829Z",
+      "fetchedAt": "2026-02-24T03:25:26.892Z",
       "datoGeneral": {
         "idHojaVida": 245033,
         "idProcesoElectoral": 124,
@@ -3434,7 +4024,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:49:48.847Z",
+      "fetchedAt": "2026-02-24T03:25:26.892Z",
       "datoGeneral": {
         "idHojaVida": 245086,
         "idProcesoElectoral": 124,
@@ -3992,7 +4582,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:49:51.928Z",
+      "fetchedAt": "2026-02-24T03:25:26.892Z",
       "datoGeneral": {
         "idHojaVida": 245198,
         "idProcesoElectoral": 124,
@@ -4182,7 +4772,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:49:55.086Z",
+      "fetchedAt": "2026-02-24T03:25:26.892Z",
       "datoGeneral": {
         "idHojaVida": 245403,
         "idProcesoElectoral": 124,
@@ -4392,7 +4982,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:49:59.499Z",
+      "fetchedAt": "2026-02-24T03:25:26.892Z",
       "datoGeneral": {
         "idHojaVida": 245570,
         "idProcesoElectoral": 124,
@@ -4765,7 +5355,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:50:03.186Z",
+      "fetchedAt": "2026-02-24T03:25:26.892Z",
       "datoGeneral": {
         "idHojaVida": 245692,
         "idProcesoElectoral": 124,
@@ -5036,7 +5626,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:50:07.178Z",
+      "fetchedAt": "2026-02-24T03:25:26.892Z",
       "datoGeneral": {
         "idHojaVida": 245878,
         "idProcesoElectoral": 124,
@@ -5262,7 +5852,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:50:10.767Z",
+      "fetchedAt": "2026-02-24T03:25:26.892Z",
       "datoGeneral": {
         "idHojaVida": 246145,
         "idProcesoElectoral": 124,
@@ -5457,7 +6047,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:50:13.344Z",
+      "fetchedAt": "2026-02-24T03:25:26.892Z",
       "datoGeneral": {
         "idHojaVida": 246389,
         "idProcesoElectoral": 124,
@@ -5793,7 +6383,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:50:17.178Z",
+      "fetchedAt": "2026-02-24T03:25:26.892Z",
       "datoGeneral": {
         "idHojaVida": 246554,
         "idProcesoElectoral": 124,
@@ -6344,7 +6934,7 @@
         }
       ],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:50:22.322Z",
+      "fetchedAt": "2026-02-24T03:25:52.487Z",
       "datoGeneral": {
         "idHojaVida": 246590,
         "idProcesoElectoral": 124,
@@ -6460,7 +7050,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:50:25.837Z",
+      "fetchedAt": "2026-02-24T03:25:52.487Z",
       "datoGeneral": {
         "idHojaVida": 246873,
         "idProcesoElectoral": 124,
@@ -6588,7 +7178,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:50:28.594Z",
+      "fetchedAt": "2026-02-24T03:25:52.487Z",
       "datoGeneral": {
         "idHojaVida": 247152,
         "idProcesoElectoral": 124,
@@ -6770,7 +7360,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:50:31.075Z",
+      "fetchedAt": "2026-02-24T03:25:52.487Z",
       "datoGeneral": {
         "idHojaVida": 247345,
         "idProcesoElectoral": 124,
@@ -7121,7 +7711,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:50:34.572Z",
+      "fetchedAt": "2026-02-24T03:25:52.487Z",
       "datoGeneral": {
         "idHojaVida": 247484,
         "idProcesoElectoral": 124,
@@ -7329,7 +7919,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:50:38.617Z",
+      "fetchedAt": "2026-02-24T03:25:52.487Z",
       "datoGeneral": {
         "idHojaVida": 247515,
         "idProcesoElectoral": 124,
@@ -7727,7 +8317,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:50:41.253Z",
+      "fetchedAt": "2026-02-24T03:25:52.487Z",
       "datoGeneral": {
         "idHojaVida": 247680,
         "idProcesoElectoral": 124,
@@ -7905,7 +8495,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:50:44.074Z",
+      "fetchedAt": "2026-02-24T03:25:52.487Z",
       "datoGeneral": {
         "idHojaVida": 247966,
         "idProcesoElectoral": 124,
@@ -8062,7 +8652,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:50:46.651Z",
+      "fetchedAt": "2026-02-24T03:25:52.487Z",
       "datoGeneral": {
         "idHojaVida": 248011,
         "idProcesoElectoral": 124,
@@ -8201,7 +8791,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:50:49.773Z",
+      "fetchedAt": "2026-02-24T03:25:52.487Z",
       "datoGeneral": {
         "idHojaVida": 248474,
         "idProcesoElectoral": 124,
@@ -8597,7 +9187,7 @@
       ],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:50:55.114Z",
+      "fetchedAt": "2026-02-24T03:26:21.244Z",
       "datoGeneral": {
         "idHojaVida": 248640,
         "idProcesoElectoral": 124,
@@ -8865,7 +9455,7 @@
       ],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:50:59.472Z",
+      "fetchedAt": "2026-02-24T03:26:21.244Z",
       "datoGeneral": {
         "idHojaVida": 248732,
         "idProcesoElectoral": 124,
@@ -9052,7 +9642,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:51:02.480Z",
+      "fetchedAt": "2026-02-24T03:26:21.244Z",
       "datoGeneral": {
         "idHojaVida": 248742,
         "idProcesoElectoral": 124,
@@ -9295,7 +9885,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:51:05.919Z",
+      "fetchedAt": "2026-02-24T03:26:21.244Z",
       "datoGeneral": {
         "idHojaVida": 248983,
         "idProcesoElectoral": 124,
@@ -9617,7 +10207,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:51:09.823Z",
+      "fetchedAt": "2026-02-24T03:26:21.244Z",
       "datoGeneral": {
         "idHojaVida": 249282,
         "idProcesoElectoral": 124,
@@ -9761,7 +10351,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:51:13.225Z",
+      "fetchedAt": "2026-02-24T03:26:21.244Z",
       "datoGeneral": {
         "idHojaVida": 249355,
         "idProcesoElectoral": 124,
@@ -10124,7 +10714,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:51:17.614Z",
+      "fetchedAt": "2026-02-24T03:26:21.244Z",
       "datoGeneral": {
         "idHojaVida": 249670,
         "idProcesoElectoral": 124,
@@ -10690,7 +11280,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:51:20.919Z",
+      "fetchedAt": "2026-02-24T03:26:21.244Z",
       "datoGeneral": {
         "idHojaVida": 249687,
         "idProcesoElectoral": 124,
@@ -10822,7 +11412,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:51:24.750Z",
+      "fetchedAt": "2026-02-24T03:26:21.244Z",
       "datoGeneral": {
         "idHojaVida": 249732,
         "idProcesoElectoral": 124,
@@ -11052,7 +11642,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:51:27.536Z",
+      "fetchedAt": "2026-02-24T03:26:21.244Z",
       "datoGeneral": {
         "idHojaVida": 249760,
         "idProcesoElectoral": 124,
@@ -11269,7 +11859,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:51:31.901Z",
+      "fetchedAt": "2026-02-24T03:26:48.277Z",
       "datoGeneral": {
         "idHojaVida": 249766,
         "idProcesoElectoral": 124,
@@ -11452,7 +12042,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:51:36.012Z",
+      "fetchedAt": "2026-02-24T03:26:48.277Z",
       "datoGeneral": {
         "idHojaVida": 249828,
         "idProcesoElectoral": 124,
@@ -11650,7 +12240,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:51:38.859Z",
+      "fetchedAt": "2026-02-24T03:26:48.277Z",
       "datoGeneral": {
         "idHojaVida": 249940,
         "idProcesoElectoral": 124,
@@ -12033,7 +12623,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:51:41.456Z",
+      "fetchedAt": "2026-02-24T03:26:48.277Z",
       "datoGeneral": {
         "idHojaVida": 250072,
         "idProcesoElectoral": 124,
@@ -12307,7 +12897,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:51:44.813Z",
+      "fetchedAt": "2026-02-24T03:26:48.277Z",
       "datoGeneral": {
         "idHojaVida": 250196,
         "idProcesoElectoral": 124,
@@ -12493,7 +13083,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:51:47.649Z",
+      "fetchedAt": "2026-02-24T03:26:48.277Z",
       "datoGeneral": {
         "idHojaVida": 250290,
         "idProcesoElectoral": 124,
@@ -12813,7 +13403,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:51:51.272Z",
+      "fetchedAt": "2026-02-24T03:26:48.277Z",
       "datoGeneral": {
         "idHojaVida": 250577,
         "idProcesoElectoral": 124,
@@ -13024,7 +13614,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:51:54.109Z",
+      "fetchedAt": "2026-02-24T03:26:48.277Z",
       "datoGeneral": {
         "idHojaVida": 251314,
         "idProcesoElectoral": 124,
@@ -13130,7 +13720,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:51:57.100Z",
+      "fetchedAt": "2026-02-24T03:26:48.277Z",
       "datoGeneral": {
         "idHojaVida": 251375,
         "idProcesoElectoral": 124,
@@ -13772,7 +14362,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:52:01.109Z",
+      "fetchedAt": "2026-02-24T03:26:48.277Z",
       "datoGeneral": {
         "idHojaVida": 251409,
         "idProcesoElectoral": 124,
@@ -14008,7 +14598,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:52:06.273Z",
+      "fetchedAt": "2026-02-24T03:27:18.523Z",
       "datoGeneral": {
         "idHojaVida": 251588,
         "idProcesoElectoral": 124,
@@ -14245,7 +14835,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:52:10.799Z",
+      "fetchedAt": "2026-02-24T03:27:18.523Z",
       "datoGeneral": {
         "idHojaVida": 251863,
         "idProcesoElectoral": 124,
@@ -14402,7 +14992,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:52:14.028Z",
+      "fetchedAt": "2026-02-24T03:27:18.523Z",
       "datoGeneral": {
         "idHojaVida": 252022,
         "idProcesoElectoral": 124,
@@ -14690,7 +15280,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:52:16.814Z",
+      "fetchedAt": "2026-02-24T03:27:18.523Z",
       "datoGeneral": {
         "idHojaVida": 252397,
         "idProcesoElectoral": 124,
@@ -15010,7 +15600,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:52:20.787Z",
+      "fetchedAt": "2026-02-24T03:27:18.523Z",
       "datoGeneral": {
         "idHojaVida": 252669,
         "idProcesoElectoral": 124,
@@ -15337,7 +15927,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:52:23.605Z",
+      "fetchedAt": "2026-02-24T03:27:18.523Z",
       "datoGeneral": {
         "idHojaVida": 252837,
         "idProcesoElectoral": 124,
@@ -15587,7 +16177,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:52:26.495Z",
+      "fetchedAt": "2026-02-24T03:27:18.523Z",
       "datoGeneral": {
         "idHojaVida": 253092,
         "idProcesoElectoral": 124,
@@ -15970,7 +16560,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:52:29.248Z",
+      "fetchedAt": "2026-02-24T03:27:18.523Z",
       "datoGeneral": {
         "idHojaVida": 253094,
         "idProcesoElectoral": 124,
@@ -16210,7 +16800,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:52:31.820Z",
+      "fetchedAt": "2026-02-24T03:27:18.523Z",
       "datoGeneral": {
         "idHojaVida": 253343,
         "idProcesoElectoral": 124,
@@ -16591,7 +17181,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:52:34.539Z",
+      "fetchedAt": "2026-02-24T03:27:18.523Z",
       "datoGeneral": {
         "idHojaVida": 253379,
         "idProcesoElectoral": 124,
@@ -16816,7 +17406,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:52:38.920Z",
+      "fetchedAt": "2026-02-24T03:27:41.420Z",
       "datoGeneral": {
         "idHojaVida": 253610,
         "idProcesoElectoral": 124,
@@ -17067,7 +17657,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:52:41.411Z",
+      "fetchedAt": "2026-02-24T03:27:41.420Z",
       "datoGeneral": {
         "idHojaVida": 253745,
         "idProcesoElectoral": 124,
@@ -17347,7 +17937,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:52:44.730Z",
+      "fetchedAt": "2026-02-24T03:27:41.420Z",
       "datoGeneral": {
         "idHojaVida": 253994,
         "idProcesoElectoral": 124,
@@ -17606,7 +18196,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:52:47.366Z",
+      "fetchedAt": "2026-02-24T03:27:41.420Z",
       "datoGeneral": {
         "idHojaVida": 254119,
         "idProcesoElectoral": 124,
@@ -18006,7 +18596,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:52:50.711Z",
+      "fetchedAt": "2026-02-24T03:27:41.420Z",
       "datoGeneral": {
         "idHojaVida": 254169,
         "idProcesoElectoral": 124,
@@ -18069,7 +18659,7 @@
       "partido": "PARTIDO MORADO",
       "cargo": "SENADOR",
       "foto": "https://mpesije.jne.gob.pe/apidocs/1ac0dbc3-c9d3-4f60-ba13-2e74ac6f815d.jpg",
-      "estado": "INSCRITO",
+      "estado": "EXCLUSION",
       "fechaNacimiento": "17/05/1979",
       "lugarNacimiento": "QUISQUI, HUANUCO",
       "flags": {
@@ -18251,7 +18841,7 @@
         }
       ],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:52:53.993Z",
+      "fetchedAt": "2026-02-24T03:27:41.420Z",
       "datoGeneral": {
         "idHojaVida": 255232,
         "idProcesoElectoral": 124,
@@ -18499,7 +19089,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:52:57.413Z",
+      "fetchedAt": "2026-02-24T03:27:41.420Z",
       "datoGeneral": {
         "idHojaVida": 255564,
         "idProcesoElectoral": 124,
@@ -18698,7 +19288,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-19T03:53:00.700Z",
+      "fetchedAt": "2026-02-24T03:27:41.420Z",
       "datoGeneral": {
         "idHojaVida": 255591,
         "idProcesoElectoral": 124,

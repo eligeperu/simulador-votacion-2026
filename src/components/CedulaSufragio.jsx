@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import { candidatosPresidenciales, partidosParlamentarios } from '../data/candidatos';
-import { JNE_LOGO, JNE_LOGO_REMOTE, ESTADOS_VALIDOS, ESTADOS_EN_PROCESO, buscarCandidato, createInitialVotos } from '../data/constants';
+import { JNE_LOGO, JNE_LOGO_REMOTE, JNE_FOTO, ESTADOS_VALIDOS, ESTADOS_EN_PROCESO, buscarCandidato, createInitialVotos, normalizeName } from '../data/constants';
+import JudicialAlert from './JudicialAlert';
+import ProCrimeAlert from './ProCrimeAlert';
+import NoViveAquiAlert from './NoViveAquiAlert';
 import senadoresNacional from '../data/senadoresNacional';
 import senadoresRegional from '../data/senadoresRegional';
 import diputadosData from '../data/diputados';
@@ -24,7 +27,7 @@ const CandidatoCard = ({ partido, selected, onClick, showCongressHighlight = fal
   return (
     <div
       onClick={!esRetirado && !skipPresidente ? onClick : undefined}
-      className={`flex items-center gap-[10px] p-[10px] min-h-[50px] transition-opacity ${esRetirado ? 'cursor-default opacity-40' : skipPresidente ? 'cursor-default' : 'cursor-pointer hover:opacity-90'} border-l-4 ${showCongressHighlight ? 'border-red-600' : 'border-transparent'}`}
+      className={`flex items-center gap-[10px] p-[10px] min-h-[56px] lg:min-h-[50px] transition-opacity ${esRetirado ? 'cursor-default opacity-40' : skipPresidente ? 'cursor-default' : 'cursor-pointer hover:opacity-90'} border-l-4 ${showCongressHighlight ? 'border-red-600' : 'border-transparent'}`}
     >
       <div className="w-[76px] text-left shrink-0">
         <h3 className={`font-bold text-[9px] sm:text-[10px] uppercase leading-tight break-words ${skipPresidente || esRetirado ? 'text-white' : 'text-black'}`}>
@@ -93,7 +96,7 @@ const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto,
   };
 
   return (
-    <div className={`flex items-center gap-[10px] p-[10px] min-h-[50px] transition-opacity ${esRetirado ? '' : 'hover:opacity-90'}`}>
+    <div className={`flex items-center gap-[10px] p-[10px] min-h-[56px] lg:min-h-[50px] transition-opacity ${esRetirado ? '' : 'hover:opacity-90'}`}>
       <div
         className={`w-[76px] text-left shrink-0 ${esRetirado ? 'cursor-default' : 'cursor-pointer'}`}
         onClick={!esRetirado ? () => onVotoPartido(categoria, partido.id) : undefined}
@@ -130,7 +133,7 @@ const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto,
               )}
             </div>
           </div>
-          <div className="shrink-0 flex gap-[10px] items-center">
+          <div className="shrink-0 flex gap-[10px] items-start">
             {voto.preferencial.slice(0, numPreferencial).map((val, i) => {
               const candidato = selected && val ? buscarCandidato(partido.idOrg, val, getDatosCandidatos()) : null;
               const noExiste = selected && val && !candidato;
@@ -147,11 +150,13 @@ const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto,
                 return 'border-black';
               };
               return (
-                <div key={i} className="relative">
-                  <div className={`w-9 h-9 sm:w-10 sm:h-10 border bg-white flex items-center justify-center ${getBorderClass()}`}>
+                <div key={i}>
+                  <div className={`w-11 h-11 sm:w-10 sm:h-10 border bg-white flex items-center justify-center ${getBorderClass()}`}>
                     {selected ? (
                       <input
                         type="text"
+                        inputMode="numeric"
+                        pattern="[0-9]*"
                         value={val}
                         onChange={(e) => onVotoPreferencial(categoria, i, e.target.value)}
                         className="w-full h-full text-center text-sm font-bold border-none focus:ring-0 p-0"
@@ -161,12 +166,102 @@ const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto,
                       <div className="w-full h-full bg-gray-100/50 cursor-not-allowed" />
                     )}
                   </div>
+                  {selected && val && (
+                    <p className={`lg:hidden text-[9px] leading-tight mt-0.5 text-center truncate w-11 sm:w-10 ${candidato ? 'text-green-700' : 'text-red-600'}`}>
+                      {candidato ? normalizeName(candidato.nombre).split(' ').slice(-1)[0] : 'No existe'}
+                    </p>
+                  )}
                 </div>
               );
             })}
           </div>
         </>
       )}
+    </div>
+  );
+};
+
+// Lookup de votos pro-crimen por DNI (para cruzar con presidenciales)
+const proCrimenByDni = new Map();
+senadoresNacional.forEach(c => {
+  if (c.votosProCrimen) proCrimenByDni.set(c.dni, { votos: c.votosProCrimen, slug: c.porestosnoSlug });
+});
+
+// Inline candidate details for mobile — shows photo, flags, links below the selected card
+const MobileCandidateDetails = ({ candidatos, region }) => {
+  if (!candidatos || candidatos.length === 0) return null;
+  return (
+    <div className="px-3 pb-3 space-y-2">
+      {candidatos.map((c, i) => (
+        <div key={i} className="bg-white rounded-lg border border-slate-200 p-2.5 flex flex-col gap-1.5">
+          {c.noExiste ? (
+            <div className="bg-red-50 border-l-4 border-red-600 p-2 rounded-r-md shadow-sm">
+              <div className="flex items-center gap-2">
+                <span className="text-red-600 text-sm">⚠</span>
+                <span className="text-xs font-semibold text-red-800 uppercase">NÚMERO NO EXISTE</span>
+              </div>
+              <p className="text-xs text-gray-700 mt-1 ml-5">El número {c.numPref} no corresponde a ningún candidato. Tu voto preferencial no será contado.</p>
+            </div>
+          ) : (
+            <>
+              <div className="flex items-center gap-2.5">
+                <img
+                  src={c.foto?.startsWith('http') ? c.foto : `${JNE_FOTO}${c.foto}`}
+                  alt={c.nombre}
+                  className="w-10 h-10 rounded-full object-cover shrink-0 border border-slate-200"
+                  onError={(e) => { e.target.style.display = 'none'; }}
+                />
+                <div className="flex-1 min-w-0">
+                  <p className="text-sm font-semibold text-slate-800 truncate">{normalizeName(c.nombre)}</p>
+                  <a
+                    href={c.hojaVida}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[11px] text-blue-600 hover:underline font-medium"
+                  >
+                    Ver hoja de vida →
+                  </a>
+                </div>
+              </div>
+              {c.estado && c.estado !== 'INSCRITO' && (() => {
+                const enProceso = ESTADOS_EN_PROCESO.includes(c.estado);
+                const esRechazado = !ESTADOS_VALIDOS.includes(c.estado) && !enProceso;
+                if (esRechazado) return (
+                  <div className="bg-red-50 border-l-4 border-red-600 p-2 rounded-r-md shadow-sm">
+                    <div className="flex items-center gap-2">
+                      <span className="text-red-600 text-sm">⚠</span>
+                      <span className="text-xs font-semibold text-red-800 uppercase">CANDIDATURA NO VÁLIDA</span>
+                    </div>
+                    <p className="text-xs text-gray-700 mt-1 ml-5">Estado: {c.estado}. Tu voto preferencial no será contado.</p>
+                  </div>
+                );
+                if (enProceso) return (
+                  <div className="bg-amber-50 border-l-4 border-amber-500 p-2 rounded-r-md shadow-sm">
+                    <div className="flex items-center gap-2">
+                      <span className="text-amber-600 text-sm">⚠</span>
+                      <span className="text-xs font-semibold text-amber-800 uppercase">CANDIDATURA EN PROCESO</span>
+                    </div>
+                    <p className="text-xs text-gray-700 mt-1 ml-5">{c.estado === 'PUBLICADO PARA TACHAS' ? 'Abierto a tachas ciudadanas' : 'Pendiente de inscripción'}. Tu voto podría no contar.</p>
+                  </div>
+                );
+                return null;
+              })()}
+              <JudicialAlert
+                sentenciaPenal={c.flags?.sentenciaPenal}
+                sentenciaPenalDetalle={c.flags?.sentenciaPenalDetalle}
+                sentenciaObliga={c.flags?.sentenciaObliga}
+                sentenciaObligaDetalle={c.flags?.sentenciaObligaDetalle}
+                congresistaActual={c.flags?.congresistaActual}
+                exCongresista={c.flags?.exCongresista}
+                cargosAnteriores={c.flags?.cargosAnteriores}
+                sexo={c.sexo}
+              />
+              {region && <NoViveAquiAlert domicilio={c.domicilio} region={region} />}
+              <ProCrimeAlert votos={c.votosProCrimen || []} slug={c.porestosnoSlug} />
+            </>
+          )}
+        </div>
+      ))}
     </div>
   );
 };
@@ -181,6 +276,7 @@ const ColumnaHeader = ({ titulo, subtitulo, className = "", tituloClassName = "t
 export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'lima', showCongressionalHighlights = false }) {
   const [votos, setVotos] = useState(createInitialVotos);
   const [activeTab, setActiveTab] = useState('presidente');
+  const [searchQuery, setSearchQuery] = useState('');
 
   const handleVotoPresidente = (valor) => {
     const nuevo = votos.presidente === valor ? null : valor;
@@ -214,41 +310,27 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
     return votos[tabId]?.partido ? '✓' : '';
   };
 
-  const renderColumnaContent = (categoria, titulo, subtitulo, numPref, options = {}) => (
-    <div className="flex flex-col h-full w-full">
-      {!options.hideHeader && <ColumnaHeader titulo={titulo} subtitulo={subtitulo} />}
-      <div className="flex-1">
-        <div className="flex flex-col w-full">
-          {categoria === 'presidente' ? (
-            partidosParlamentarios.map((p) => {
-              const esCongreso = PARTIDOS_CONGRESO_IDS.includes(p.idOrg);
-              const highlight = showCongressionalHighlights && esCongreso;
-              return (
-                <div key={p.id} className={`${highlight ? 'bg-[#fee2e2]' : 'bg-white border-b border-gray-300'}`}>
-                  <CandidatoCard
-                    partido={p}
-                    selected={votos.presidente === p.idOrg}
-                    onClick={() => handleVotoPresidente(p.idOrg)}
-                    showCongressHighlight={highlight}
-                  />
-                </div>
-              );
-            })
-          ) : (
-            partidosParlamentarios.map((p) => {
-              const esCongreso = PARTIDOS_CONGRESO_IDS.includes(p.idOrg);
-              const highlight = showCongressionalHighlights && esCongreso;
-              return (
-                <div key={p.id} className={`${highlight ? 'bg-[#fee2e2]' : 'bg-white border-b border-gray-300'}`}>
-                  <PartidoCardConPreferencial partido={p} categoria={categoria} numPreferencial={numPref ? parseInt(numPref) : 2} voto={votos[categoria]} regionSeleccionada={regionSeleccionada} onVotoPartido={handleVotoPartido} onVotoPreferencial={handleVotoPreferencial} />
-                </div>
-              );
-            })
-          )}
-        </div>
-      </div>
-    </div>
-  );
+  const activeTabIndex = TABS.findIndex(t => t.id === activeTab);
+  const goToTab = (index) => {
+    if (index >= 0 && index < TABS.length) {
+      setActiveTab(TABS[index].id);
+      setSearchQuery('');
+    }
+  };
+
+  const filteredPartidos = searchQuery.trim()
+    ? partidosParlamentarios.filter(p =>
+        p.nombre.toLowerCase().includes(searchQuery.trim().toLowerCase()) ||
+        (p.siglas && p.siglas.toLowerCase().includes(searchQuery.trim().toLowerCase()))
+      )
+    : partidosParlamentarios;
+
+  const NUM_PREFERENCIAL = {
+    senadoresNacional: 2,
+    senadoresRegional: 1,
+    diputados: 2,
+    parlamenAndino: 2,
+  };
 
   return (
     <div className="mx-auto rounded-lg shadow-2xl">
@@ -263,31 +345,156 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
           </p>
         </div>
 
-        {/* Mobile: Tabs */}
+        {/* Mobile: Tab-based navigation */}
         <div className="lg:hidden">
-          <div className="flex border-b border-slate-300 bg-slate-100 overflow-x-auto">
-            {TABS.map((tab) => (
-              <button
-                key={tab.id}
-                onClick={() => setActiveTab(tab.id)}
-                className={`flex-1 min-w-[70px] py-2 px-1 text-[10px] font-medium transition-colors relative ${activeTab === tab.id ? 'bg-white text-slate-800 border-b-2 border-slate-700' : 'text-slate-600 hover:bg-slate-200'
+          {/* Category tabs */}
+          <div className="flex border-b border-slate-200 bg-white">
+            {TABS.map((tab, i) => {
+              const isActive = i === activeTabIndex;
+              const isCompleted = !!getVotoIndicator(tab.id);
+              return (
+                <button
+                  key={tab.id}
+                  onClick={() => goToTab(i)}
+                  className={`flex-1 py-2.5 text-center text-[10px] sm:text-[11px] font-medium transition-colors relative ${
+                    isActive
+                      ? 'text-slate-800 font-bold'
+                      : isCompleted
+                        ? 'text-green-700'
+                        : 'text-slate-400'
                   }`}
-              >
-                {tab.short}
-                {getVotoIndicator(tab.id) && <span className="ml-1 text-slate-700">✓</span>}
-              </button>
-            ))}
+                >
+                  <span className="leading-tight">{tab.label}</span>
+                  {isCompleted && !isActive && <span className="ml-0.5">✓</span>}
+                  {isActive && (
+                    <div className="absolute bottom-0 left-2 right-2 h-0.5 bg-slate-700 rounded-full" />
+                  )}
+                </button>
+              );
+            })}
           </div>
-          <div>
-            {activeTab === 'presidente' && <ColumnaHeader titulo="PRESIDENTE Y" subtitulo="VICEPRESIDENTES" className="bg-slate-700" />}
-            {activeTab === 'senadoresNacional' && <ColumnaHeader titulo="SENADORES" subtitulo="A NIVEL NACIONAL" className="bg-slate-600" />}
-            {activeTab === 'senadoresRegional' && <ColumnaHeader titulo="SENADORES" subtitulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" />}
-            {activeTab === 'diputados' && <ColumnaHeader titulo="DIPUTADOS" subtitulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" />}
-            {activeTab === 'parlamenAndino' && <ColumnaHeader titulo="PARLAMENTO ANDINO" className="bg-slate-600" />}
-            <div className="overflow-y-auto max-h-[60vh]">
-              {renderColumnaContent(activeTab, '', '', null, { hideHeader: true })}
+
+          {/* Category header */}
+          {activeTab === 'presidente' && <ColumnaHeader titulo="PRESIDENTE Y" subtitulo="VICEPRESIDENTES" className="bg-slate-700" />}
+          {activeTab === 'senadoresNacional' && <ColumnaHeader titulo="SENADORES" subtitulo="A NIVEL NACIONAL" className="bg-slate-600" />}
+          {activeTab === 'senadoresRegional' && <ColumnaHeader titulo="SENADORES" subtitulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" />}
+          {activeTab === 'diputados' && <ColumnaHeader titulo="DIPUTADOS" subtitulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" />}
+          {activeTab === 'parlamenAndino' && <ColumnaHeader titulo="PARLAMENTO ANDINO" className="bg-slate-600" />}
+
+          {/* Search filter */}
+          <div className="sticky top-0 z-10 bg-white border-b border-slate-200 px-3 py-2">
+            <div className="relative">
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="Buscar partido..."
+                className="w-full pl-8 pr-8 py-2 text-sm border border-slate-300 rounded-lg focus:ring-2 focus:ring-slate-400 focus:border-slate-400 bg-slate-50"
+              />
+              <svg className="absolute left-2.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+              {searchQuery && (
+                <button
+                  onClick={() => setSearchQuery('')}
+                  className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 p-0.5"
+                >
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              )}
             </div>
           </div>
+
+          {/* Party list */}
+          <div className="overflow-y-auto max-h-[50vh]">
+            {filteredPartidos.length === 0 ? (
+              <div className="py-8 text-center text-slate-500 text-sm">
+                No se encontraron partidos
+              </div>
+            ) : (
+              filteredPartidos.map((p) => {
+                const esCongreso = PARTIDOS_CONGRESO_IDS.includes(p.idOrg);
+                const highlight = showCongressionalHighlights && esCongreso;
+                const isSelected = activeTab === 'presidente'
+                  ? votos.presidente === p.idOrg
+                  : votos[activeTab]?.partido === p.id;
+
+                // Build candidate details for selected party
+                let mobileCandidatos = null;
+                if (isSelected) {
+                  if (activeTab === 'presidente') {
+                    const pres = candidatosPresidenciales.find(c => c.idOrg === p.idOrg);
+                    if (pres) {
+                      const proCrimen = pres.dni ? proCrimenByDni.get(pres.dni) : null;
+                      const esFemenino = pres.nombre?.includes('KEIKO') || pres.nombre?.includes('BEATRIZ') || pres.nombre?.includes('VERONIKA') || pres.nombre?.includes('MARIA');
+                      mobileCandidatos = [{
+                        nombre: pres.nombre,
+                        foto: pres.foto,
+                        sexo: esFemenino ? 'FEMENINO' : 'MASCULINO',
+                        flags: pres.flags || { sentenciaPenal: false, sentenciaObliga: false },
+                        votosProCrimen: proCrimen?.votos || null,
+                        porestosnoSlug: proCrimen?.slug || null,
+                        hojaVida: pres.idOrg && pres.dni ? `https://votoinformado.jne.gob.pe/hoja-vida/${pres.idOrg}/${pres.dni}` : null,
+                      }];
+                    }
+                  } else {
+                    const voto = votos[activeTab];
+                    const prefFiltrados = voto.preferencial.filter(v => v);
+                    if (prefFiltrados.length > 0) {
+                      let datos = [];
+                      if (activeTab === 'senadoresNacional') datos = senadoresNacional;
+                      else if (activeTab === 'senadoresRegional') datos = senadoresRegional[regionSeleccionada] || [];
+                      else if (activeTab === 'diputados') datos = diputadosData[regionSeleccionada] || [];
+                      else if (activeTab === 'parlamenAndino') datos = parlamenAndino;
+                      mobileCandidatos = prefFiltrados.map(num => {
+                        const c = buscarCandidato(p.idOrg, num, datos);
+                        return c ? { ...c, hojaVida: `https://votoinformado.jne.gob.pe/hoja-vida/${p.idOrg}/${c.dni}`, numPref: num } : { noExiste: true, numPref: num };
+                      });
+                    }
+                  }
+                }
+
+                return (
+                  <div
+                    key={p.id}
+                    className={`transition-colors ${
+                      highlight ? 'bg-[#fee2e2]' :
+                      isSelected ? 'bg-blue-50' :
+                      'bg-white'
+                    } border-b border-gray-300`}
+                  >
+                    {activeTab === 'presidente' ? (
+                        <CandidatoCard
+                          partido={p}
+                          selected={votos.presidente === p.idOrg}
+                          onClick={() => handleVotoPresidente(p.idOrg)}
+                          showCongressHighlight={highlight}
+                        />
+                      ) : (
+                        <PartidoCardConPreferencial
+                          partido={p}
+                          categoria={activeTab}
+                          numPreferencial={NUM_PREFERENCIAL[activeTab] || 2}
+                          voto={votos[activeTab]}
+                          regionSeleccionada={regionSeleccionada}
+                          onVotoPartido={handleVotoPartido}
+                          onVotoPreferencial={handleVotoPreferencial}
+                        />
+                      )}
+                    {isSelected && mobileCandidatos && (
+                      <MobileCandidateDetails
+                        candidatos={mobileCandidatos}
+                        region={activeTab !== 'presidente' && activeTab !== 'senadoresNacional' && activeTab !== 'parlamenAndino' ? regionSeleccionada : null}
+                      />
+                    )}
+                  </div>
+                );
+              })
+            )}
+          </div>
+
         </div>
 
         {/* Desktop: single scroll container with sticky headers */}

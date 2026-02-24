@@ -231,6 +231,101 @@ const HemicycleDiagram = ({ parties }) => {
     );
 };
 
+const MobileCongresoChart = ({ parties }) => {
+    const totalSeats = 130;
+    const listedSeats = parties.reduce((sum, p) => sum + p.congresistas, 0);
+    const noAgrupados = totalSeats - listedSeats;
+
+    return (
+        <div className="space-y-4">
+            {/* Stacked horizontal bar */}
+            <div>
+                <div className="flex rounded-lg overflow-hidden h-7">
+                    {parties.map(p => (
+                        <div
+                            key={p.nombre}
+                            style={{
+                                width: `${(p.congresistas / totalSeats) * 100}%`,
+                                backgroundColor: PARTY_COLORS[p.nombre]
+                            }}
+                            className="h-full"
+                        />
+                    ))}
+                    {noAgrupados > 0 && (
+                        <div
+                            style={{
+                                width: `${(noAgrupados / totalSeats) * 100}%`,
+                                backgroundColor: PARTY_COLORS["NO AGRUPADO"]
+                            }}
+                            className="h-full"
+                        />
+                    )}
+                </div>
+                <p className="text-[10px] text-slate-500 text-center mt-1">130 congresistas en total</p>
+            </div>
+
+            {/* Party list */}
+            <div className="space-y-0.5">
+                {parties.map(p => (
+                    <div key={p.nombre} className="flex items-center gap-2.5 py-2 px-2 rounded-lg">
+                        <div
+                            className="w-3 h-3 rounded-full shrink-0"
+                            style={{ backgroundColor: PARTY_COLORS[p.nombre] }}
+                        />
+                        {p.idOrg ? (
+                            <div className="w-7 h-7 bg-white rounded border border-slate-200 p-0.5 shrink-0 flex items-center justify-center">
+                                <img
+                                    src={`${JNE_LOGO}${p.idOrg}.jpg`}
+                                    alt={p.nombre}
+                                    className="w-full h-full object-contain"
+                                    onError={e => { e.target.src = `${JNE_LOGO_REMOTE}${p.idOrg}`; e.target.onerror = null; }}
+                                />
+                            </div>
+                        ) : (
+                            <div className="w-7 h-7 shrink-0" />
+                        )}
+                        <span className="text-xs font-medium flex-1 min-w-0 truncate">{p.nombre}</span>
+                        <div className="flex items-center gap-1.5 shrink-0">
+                            <div className="w-16 h-2 bg-slate-100 rounded-full overflow-hidden">
+                                <div
+                                    className="h-full rounded-full"
+                                    style={{
+                                        width: `${(p.congresistas / parties[0].congresistas) * 100}%`,
+                                        backgroundColor: PARTY_COLORS[p.nombre]
+                                    }}
+                                />
+                            </div>
+                            <span className="text-sm font-bold tabular-nums w-6 text-right">{p.congresistas}</span>
+                        </div>
+                    </div>
+                ))}
+                {noAgrupados > 0 && (
+                    <div className="flex items-center gap-2.5 py-2 px-2 rounded-lg">
+                        <div
+                            className="w-3 h-3 rounded-full shrink-0"
+                            style={{ backgroundColor: PARTY_COLORS["NO AGRUPADO"] }}
+                        />
+                        <div className="w-7 h-7 shrink-0" />
+                        <span className="text-xs font-medium flex-1 text-slate-400">NO AGRUPADO</span>
+                        <div className="flex items-center gap-1.5 shrink-0">
+                            <div className="w-16 h-2 bg-slate-100 rounded-full overflow-hidden">
+                                <div
+                                    className="h-full rounded-full"
+                                    style={{
+                                        width: `${(noAgrupados / parties[0].congresistas) * 100}%`,
+                                        backgroundColor: PARTY_COLORS["NO AGRUPADO"]
+                                    }}
+                                />
+                            </div>
+                            <span className="text-sm font-bold tabular-nums w-6 text-right">{noAgrupados}</span>
+                        </div>
+                    </div>
+                )}
+            </div>
+        </div>
+    );
+};
+
 export default function LeyendaCongreso({ active, onToggle }) {
     const [showModal, setShowModal] = useState(false);
 
@@ -282,14 +377,14 @@ export default function LeyendaCongreso({ active, onToggle }) {
                 </div>
             </div>
 
+            {/* Desktop: Centered modal with hemicycle */}
             {showModal && (
-                <div className="fixed inset-0 bg-black/60 z-[1000] flex items-center justify-center p-4 transition-opacity duration-300 backdrop-blur-sm"
+                <div className="hidden lg:flex fixed inset-0 bg-black/60 z-[1000] items-center justify-center p-4 transition-opacity duration-300 backdrop-blur-sm"
                     onClick={() => setShowModal(false)}
                     role="dialog"
                     aria-modal="true">
                     <div className="bg-white rounded-xl w-full max-w-[620px] max-h-[92vh] flex flex-col shadow-2xl animate-in fade-in zoom-in duration-200"
                         onClick={(e) => e.stopPropagation()}>
-                        {/* Header */}
                         <div className="p-6 relative flex flex-col justify-center min-h-[85px] bg-[#be1823] rounded-t-xl">
                             <h2 className="text-[15px] sm:text-[17px] font-[900] text-white pr-10 leading-[1.1] uppercase mb-0.5">
                                 Composición del Congreso 2021-2026
@@ -304,16 +399,54 @@ export default function LeyendaCongreso({ active, onToggle }) {
                                 ✕
                             </button>
                         </div>
-
-                        {/* List and Diagram */}
                         <div className="flex-1 overflow-y-auto p-6 custom-scrollbar pb-8">
-
                             <HemicycleDiagram parties={CONGRESO_PARTIES} />
-
                         </div>
                     </div>
                 </div>
             )}
+
+            {/* Mobile: Bottom sheet with compact chart */}
+            <div
+                className={`lg:hidden fixed inset-0 z-[1000] transition-opacity duration-300 ${
+                    showModal ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+                }`}
+            >
+                <div
+                    className="absolute inset-0 bg-black/50 backdrop-blur-sm"
+                    onClick={() => setShowModal(false)}
+                />
+                <div className={`absolute bottom-0 left-0 right-0 bg-white rounded-t-2xl max-h-[85vh] overflow-hidden flex flex-col transition-transform duration-300 ease-out ${
+                    showModal ? 'translate-y-0' : 'translate-y-full'
+                }`}>
+                    {/* Drag handle */}
+                    <div className="flex justify-center pt-3 pb-1">
+                        <div className="w-10 h-1 bg-slate-300 rounded-full" />
+                    </div>
+                    {/* Header */}
+                    <div className="px-4 pb-3 flex justify-between items-start">
+                        <div>
+                            <h2 className="text-sm font-black text-slate-800 uppercase leading-tight">
+                                Composición del Congreso 2021-2026
+                            </h2>
+                            <p className="text-[11px] text-slate-500 mt-0.5">Información al 22 de Febrero del 2026</p>
+                        </div>
+                        <button
+                            onClick={() => setShowModal(false)}
+                            className="text-slate-400 hover:text-slate-600 p-1 rounded-full hover:bg-slate-100 shrink-0 ml-2"
+                        >
+                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div className="border-t border-slate-200" />
+                    {/* Content */}
+                    <div className="flex-1 overflow-y-auto px-4 py-4">
+                        <MobileCongresoChart parties={CONGRESO_PARTIES} />
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
