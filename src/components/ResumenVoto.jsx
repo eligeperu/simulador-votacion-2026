@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { candidatosPresidenciales, partidosParlamentarios } from '../data/candidatos';
+import { candidatosPresidenciales, partidosParlamentarios, formulaPresidencial } from '../data/candidatos';
 import { JNE_LOGO, JNE_LOGO_REMOTE, JNE_FOTO, ESTADOS_VALIDOS, ESTADOS_EN_PROCESO, normalizeName, buscarCandidato } from '../data/constants';
 import senadoresNacional from '../data/senadoresNacional';
 import senadoresRegional from '../data/senadoresRegional';
@@ -31,6 +31,10 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
     const esFemenino = base?.nombre?.includes('KEIKO') || base?.nombre?.includes('BEATRIZ') || base?.nombre?.includes('VERONIKA') || base?.nombre?.includes('MARIA');
 
     const proCrimen = base?.dni ? proCrimenByDni.get(base.dni) : null;
+    const formula = valor ? (formulaPresidencial.get(valor) || []) : [];
+    const vicePresidentes = formula
+      .filter(c => c.numeroCandidato > 1)
+      .sort((a, b) => a.numeroCandidato - b.numeroCandidato);
     return {
       ...(base || { nombre: 'VOTO EN BLANCO', color: '#9CA3AF', siglas: '—' }),
       sexo: esFemenino ? 'FEMENINO' : 'MASCULINO',
@@ -39,7 +43,8 @@ export default function ResumenVoto({ votos, onReset, onVotar, regionSeleccionad
       porestosnoSlug: proCrimen?.slug || null,
       resumen: base?.resumen || null,
       formacionAcademica: base?.formacionAcademica || null,
-      hojaVida: base?.idOrg && base?.dni ? `https://votoinformado.jne.gob.pe/hoja-vida/${base.idOrg}/${base.dni}` : null
+      hojaVida: base?.idOrg && base?.dni ? `https://votoinformado.jne.gob.pe/hoja-vida/${base.idOrg}/${base.dni}` : null,
+      vicePresidentes,
     };
   };
 
@@ -241,6 +246,51 @@ const ResumenItem = ({ titulo, seleccion, compact = false, region = null }) => (
           />
           <ProCrimeAlert votos={seleccion.votosProCrimen || []} slug={seleccion.porestosnoSlug} />
         </div>
+        {seleccion.vicePresidentes?.length > 0 && seleccion.vicePresidentes.map((vp) => (
+          <div key={vp.numeroCandidato} className="flex flex-col gap-1">
+            <p className="text-[10px] text-slate-400 uppercase font-semibold leading-tight mt-1">
+              {vp.numeroCandidato === 2 ? '1er Vicepresidente' : '2do Vicepresidente'}
+            </p>
+            <div className="flex items-center gap-2">
+              {vp.foto ? (
+                <img
+                  src={vp.foto}
+                  alt={vp.nombre}
+                  className="w-8 h-8 rounded-full object-cover shrink-0"
+                  onError={(e) => { e.target.style.display = 'none'; }}
+                />
+              ) : <div className="w-8 h-8 rounded-full bg-gray-200 shrink-0" />}
+              <div className="flex-1 min-w-0">
+                <p className="text-xs font-medium truncate">{normalizeName(vp.nombre)}</p>
+                {vp.dni && seleccion.idOrg && (
+                  <a
+                    href={`https://votoinformado.jne.gob.pe/hoja-vida/${seleccion.idOrg}/${vp.dni}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[11px] text-blue-600 hover:underline"
+                  >
+                    Ver hoja de vida
+                  </a>
+                )}
+              </div>
+            </div>
+            <JudicialAlert
+              sentenciaPenal={vp.flags?.sentenciaPenal}
+              sentenciaPenalDetalle={vp.flags?.sentenciaPenalDetalle}
+              sentenciaObliga={vp.flags?.sentenciaObliga}
+              sentenciaObligaDetalle={vp.flags?.sentenciaObligaDetalle}
+              congresistaActual={vp.flags?.congresistaActual}
+              exCongresista={vp.flags?.exCongresista}
+              cargosAnteriores={vp.flags?.cargosAnteriores}
+              sexo={vp.sexo}
+            />
+            <EducacionAlert
+              educacionMax={vp.resumen?.educacionMax}
+              institucion={vp.resumen?.institucion}
+              formacion={vp.formacionAcademica}
+            />
+          </div>
+        ))}
       </div>
     )}
 

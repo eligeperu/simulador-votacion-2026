@@ -1,4 +1,5 @@
 import candidatosData from './candidatosPresidenciales-enriched.json';
+import formulaData from './formulaPresidencial.json';
 
 // Candidatos presidenciales desde JSON con datos enriquecidos del JNE
 export const candidatosPresidenciales = candidatosData.data.map(c => ({
@@ -14,6 +15,11 @@ export const candidatosPresidenciales = candidatosData.data.map(c => ({
   resumen: c.resumen,
   formacionAcademica: c.formacionAcademica
 }));
+
+// Formula presidencial: president + vice presidents per party, keyed by idOrg
+export const formulaPresidencial = new Map(
+  (formulaData.data || []).map(p => [p.idOrg, p.candidatos || []])
+);
 
 export const partidosParlamentarios = [
   { id: 1, nombre: "Alianza Electoral Venceremos", siglas: "AV", color: "#991B1B", idOrg: 3025 },

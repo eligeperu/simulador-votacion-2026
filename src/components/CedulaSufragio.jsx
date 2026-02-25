@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { candidatosPresidenciales, partidosParlamentarios } from '../data/candidatos';
+import { candidatosPresidenciales, partidosParlamentarios, formulaPresidencial } from '../data/candidatos';
 import { JNE_LOGO, JNE_LOGO_REMOTE, JNE_FOTO, ESTADOS_VALIDOS, ESTADOS_EN_PROCESO, buscarCandidato, createInitialVotos, normalizeName } from '../data/constants';
 import JudicialAlert from './JudicialAlert';
 import EducacionAlert from './EducacionAlert';
@@ -206,6 +206,9 @@ const MobileCandidateDetails = ({ candidatos, region }) => {
             </div>
           ) : (
             <>
+              {c.cargoLabel && (
+                <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wide">{c.cargoLabel}</p>
+              )}
               <div className="flex items-center gap-2.5">
                 <img
                   src={c.foto?.startsWith('http') ? c.foto : `${JNE_FOTO}${c.foto}`}
@@ -499,7 +502,7 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
                     if (pres) {
                       const proCrimen = pres.dni ? proCrimenByDni.get(pres.dni) : null;
                       const esFemenino = pres.nombre?.includes('KEIKO') || pres.nombre?.includes('BEATRIZ') || pres.nombre?.includes('VERONIKA') || pres.nombre?.includes('MARIA');
-                      mobileCandidatos = [{
+                      const presEntry = {
                         nombre: pres.nombre,
                         foto: pres.foto,
                         sexo: esFemenino ? 'FEMENINO' : 'MASCULINO',
@@ -509,7 +512,24 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
                         resumen: pres.resumen || null,
                         formacionAcademica: pres.formacionAcademica || null,
                         hojaVida: pres.idOrg && pres.dni ? `https://votoinformado.jne.gob.pe/hoja-vida/${pres.idOrg}/${pres.dni}` : null,
-                      }];
+                        cargoLabel: 'Presidente',
+                      };
+                      const formula = formulaPresidencial.get(p.idOrg) || [];
+                      const vpEntries = formula
+                        .filter(c => c.numeroCandidato > 1)
+                        .sort((a, b) => a.numeroCandidato - b.numeroCandidato)
+                        .map(vp => ({
+                          nombre: vp.nombre,
+                          foto: vp.foto,
+                          sexo: vp.sexo || null,
+                          flags: vp.flags || { sentenciaPenal: false, sentenciaObliga: false },
+                          resumen: vp.resumen || null,
+                          formacionAcademica: vp.formacionAcademica || null,
+                          hojaVida: p.idOrg && vp.dni ? `https://votoinformado.jne.gob.pe/hoja-vida/${p.idOrg}/${vp.dni}` : null,
+                          cargoLabel: vp.numeroCandidato === 2 ? '1er Vicepresidente' : '2do Vicepresidente',
+                          estado: vp.estado,
+                        }));
+                      mobileCandidatos = [presEntry, ...vpEntries];
                     }
                   } else {
                     const voto = votos[activeTab];
@@ -571,26 +591,30 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
 
         {/* Desktop: single scroll container with sticky headers */}
         <div className="hidden lg:block w-full overflow-x-auto overflow-y-auto max-h-[700px]">
-          {/* Sticky headers */}
-          <div className="flex divide-x divide-gray-300 sticky top-0 z-10 w-fit min-w-full">
-            <div className="min-w-[196px] flex-1">
-              <div className="bg-slate-700 text-white py-1 px-2 text-center"><h3 className="font-bold text-xs uppercase tracking-wider">PRESIDENTE Y</h3></div>
-              <ColumnaHeader titulo="VICEPRESIDENTES" className="bg-slate-600" tituloClassName="text-[10px]" />
-            </div>
-            <div className="flex-[2] flex flex-col">
-              <div className="bg-slate-700 text-white py-1 px-2 text-center"><h3 className="font-bold text-xs uppercase tracking-wider">SENADORES</h3></div>
-              <div className="flex divide-x divide-gray-300">
-                <div className="min-w-[246px] flex-1"><ColumnaHeader titulo="A NIVEL NACIONAL" className="bg-slate-600" tituloClassName="text-[10px]" /></div>
-                <div className="min-w-[246px] flex-1"><ColumnaHeader titulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" tituloClassName="text-[10px]" /></div>
+          {/* Sticky headers — two rows: top group labels, then sub-labels */}
+          <div className="sticky top-0 z-10 w-fit min-w-full">
+            {/* Top row: group labels */}
+            <div className="flex divide-x divide-gray-300">
+              <div className="min-w-[196px] flex-1 bg-slate-700 text-white py-1 px-2 text-center">
+                <h3 className="font-bold text-xs uppercase tracking-wider">PRESIDENTE Y</h3>
+              </div>
+              <div className="min-w-[492px] flex-[2] bg-slate-700 text-white py-1 px-2 text-center">
+                <h3 className="font-bold text-xs uppercase tracking-wider">SENADORES</h3>
+              </div>
+              <div className="min-w-[246px] flex-1 bg-slate-700 text-white py-1 px-2 text-center">
+                <h3 className="font-bold text-xs uppercase tracking-wider">DIPUTADOS</h3>
+              </div>
+              <div className="min-w-[246px] flex-1 bg-slate-700 text-white py-1 px-2 text-center">
+                <h3 className="font-bold text-xs uppercase tracking-wider">PARLAMENTO</h3>
               </div>
             </div>
-            <div className="min-w-[246px] flex-1">
-              <div className="bg-slate-700 text-white py-1 px-2 text-center"><h3 className="font-bold text-xs uppercase tracking-wider">DIPUTADOS</h3></div>
-              <ColumnaHeader titulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" tituloClassName="text-[10px]" />
-            </div>
-            <div className="min-w-[246px] flex-1">
-              <div className="bg-slate-700 text-white py-1 px-2 text-center"><h3 className="font-bold text-xs uppercase tracking-wider">PARLAMENTO</h3></div>
-              <ColumnaHeader titulo="ANDINO" className="bg-slate-600" tituloClassName="text-[10px]" />
+            {/* Sub-labels row */}
+            <div className="flex divide-x divide-gray-300">
+              <div className="min-w-[196px] flex-1"><ColumnaHeader titulo="VICEPRESIDENTES" className="bg-slate-600" tituloClassName="text-[10px]" /></div>
+              <div className="min-w-[246px] flex-1"><ColumnaHeader titulo="A NIVEL NACIONAL" className="bg-slate-600" tituloClassName="text-[10px]" /></div>
+              <div className="min-w-[246px] flex-1"><ColumnaHeader titulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" tituloClassName="text-[10px]" /></div>
+              <div className="min-w-[246px] flex-1"><ColumnaHeader titulo={regionSeleccionada.toUpperCase()} className="bg-slate-600" tituloClassName="text-[10px]" /></div>
+              <div className="min-w-[246px] flex-1"><ColumnaHeader titulo="ANDINO" className="bg-slate-600" tituloClassName="text-[10px]" /></div>
             </div>
           </div>
           {/* Body: Row-based for horizontal shading continuity */}
