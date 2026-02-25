@@ -29,11 +29,7 @@ const CandidatoCard = ({ partido, selected, onClick, showCongressHighlight = fal
   return (
     <div
       onClick={!esRetirado && !skipPresidente ? onClick : undefined}
-<<<<<<< HEAD
       className={`flex items-center gap-[10px] p-[10px] min-h-[50px] transition-opacity ${esRetirado ? 'cursor-default opacity-40' : skipPresidente ? 'cursor-default' : 'cursor-pointer hover:opacity-90'} border-l-4 ${showCongressHighlight ? 'border-red-600' : showPenalSentenceHighlight ? 'border-[#be1823]' : 'border-transparent'}`}
-=======
-      className={`flex items-center gap-[10px] p-[10px] min-h-[56px] lg:min-h-[50px] transition-opacity ${esRetirado ? 'cursor-default opacity-40' : skipPresidente ? 'cursor-default' : 'cursor-pointer hover:opacity-90'} border-l-4 ${showCongressHighlight ? 'border-red-600' : 'border-transparent'}`}
->>>>>>> 211e2edd94b5156c12f066f41ba12914082ff820
     >
       <div className="w-[76px] text-left shrink-0">
         <h3 className={`font-bold text-[9px] sm:text-[10px] uppercase leading-tight break-words ${skipPresidente || esRetirado ? 'invisible' : 'text-black'}`}>
@@ -102,11 +98,7 @@ const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto,
   };
 
   return (
-<<<<<<< HEAD
     <div className={`flex items-center gap-[10px] p-[10px] min-h-[50px] transition-opacity ${esRetirado ? '' : 'hover:opacity-90'} border-l-4 ${showPenalSentenceHighlight ? 'border-[#be1823]' : 'border-transparent'}`}>
-=======
-    <div className={`flex items-center gap-[10px] p-[10px] min-h-[56px] lg:min-h-[50px] transition-opacity ${esRetirado ? '' : 'hover:opacity-90'}`}>
->>>>>>> 211e2edd94b5156c12f066f41ba12914082ff820
       <div
         className={`w-[76px] text-left shrink-0 ${esRetirado ? 'cursor-default' : 'cursor-pointer'}`}
         onClick={!esRetirado ? () => onVotoPartido(categoria, partido.id) : undefined}
@@ -337,7 +329,28 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
     return votos[tabId]?.partido ? '✓' : '';
   };
 
-<<<<<<< HEAD
+  const activeTabIndex = TABS.findIndex(t => t.id === activeTab);
+  const goToTab = (index) => {
+    if (index >= 0 && index < TABS.length) {
+      setActiveTab(TABS[index].id);
+      setSearchQuery('');
+    }
+  };
+
+  const filteredPartidos = searchQuery.trim()
+    ? partidosParlamentarios.filter(p =>
+        p.nombre.toLowerCase().includes(searchQuery.trim().toLowerCase()) ||
+        (p.siglas && p.siglas.toLowerCase().includes(searchQuery.trim().toLowerCase()))
+      )
+    : partidosParlamentarios;
+
+  const NUM_PREFERENCIAL = {
+    senadoresNacional: 2,
+    senadoresRegional: 1,
+    diputados: 2,
+    parlamenAndino: 2,
+  };
+
   const renderColumnaContent = (categoria, titulo, subtitulo, numPref, options = {}) => (
     <div className="flex flex-col h-full w-full">
       {!options.hideHeader && <ColumnaHeader titulo={titulo} subtitulo={subtitulo} />}
@@ -389,29 +402,6 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
       </div>
     </div>
   );
-=======
-  const activeTabIndex = TABS.findIndex(t => t.id === activeTab);
-  const goToTab = (index) => {
-    if (index >= 0 && index < TABS.length) {
-      setActiveTab(TABS[index].id);
-      setSearchQuery('');
-    }
-  };
-
-  const filteredPartidos = searchQuery.trim()
-    ? partidosParlamentarios.filter(p =>
-        p.nombre.toLowerCase().includes(searchQuery.trim().toLowerCase()) ||
-        (p.siglas && p.siglas.toLowerCase().includes(searchQuery.trim().toLowerCase()))
-      )
-    : partidosParlamentarios;
-
-  const NUM_PREFERENCIAL = {
-    senadoresNacional: 2,
-    senadoresRegional: 1,
-    diputados: 2,
-    parlamenAndino: 2,
-  };
->>>>>>> 211e2edd94b5156c12f066f41ba12914082ff820
 
   return (
     <div className="mx-auto rounded-lg shadow-2xl">
