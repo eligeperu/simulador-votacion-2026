@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-02-20T19:47:41.228Z",
+  "fetchedAt": "2026-02-24T13:04:53.937Z",
   "idProcesoElectoral": 124,
   "count": 204,
   "data": [
@@ -370,7 +370,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:39:32.082Z",
+      "fetchedAt": "2026-02-24T12:54:36.096Z",
       "datoGeneral": {
         "idHojaVida": 243434,
         "idProcesoElectoral": 124,
@@ -662,7 +662,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:39:32.082Z",
+      "fetchedAt": "2026-02-24T12:54:36.096Z",
       "datoGeneral": {
         "idHojaVida": 243514,
         "idProcesoElectoral": 124,
@@ -889,7 +889,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:39:32.082Z",
+      "fetchedAt": "2026-02-24T12:54:36.096Z",
       "datoGeneral": {
         "idHojaVida": 243556,
         "idProcesoElectoral": 124,
@@ -1035,7 +1035,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:39:32.082Z",
+      "fetchedAt": "2026-02-24T12:54:36.096Z",
       "datoGeneral": {
         "idHojaVida": 243571,
         "idProcesoElectoral": 124,
@@ -1321,7 +1321,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:39:32.082Z",
+      "fetchedAt": "2026-02-24T12:54:36.096Z",
       "datoGeneral": {
         "idHojaVida": 243654,
         "idProcesoElectoral": 124,
@@ -1529,7 +1529,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:39:32.082Z",
+      "fetchedAt": "2026-02-24T12:54:36.096Z",
       "datoGeneral": {
         "idHojaVida": 243703,
         "idProcesoElectoral": 124,
@@ -1669,7 +1669,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:39:32.082Z",
+      "fetchedAt": "2026-02-24T12:54:36.096Z",
       "datoGeneral": {
         "idHojaVida": 243786,
         "idProcesoElectoral": 124,
@@ -1835,7 +1835,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:39:32.082Z",
+      "fetchedAt": "2026-02-24T12:54:36.096Z",
       "datoGeneral": {
         "idHojaVida": 243789,
         "idProcesoElectoral": 124,
@@ -2058,7 +2058,7 @@
         }
       ],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:39:32.082Z",
+      "fetchedAt": "2026-02-24T12:54:36.096Z",
       "datoGeneral": {
         "idHojaVida": 243845,
         "idProcesoElectoral": 124,
@@ -2224,7 +2224,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:39:32.082Z",
+      "fetchedAt": "2026-02-24T12:54:36.096Z",
       "datoGeneral": {
         "idHojaVida": 243880,
         "idProcesoElectoral": 124,
@@ -2501,7 +2501,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:39:57.169Z",
+      "fetchedAt": "2026-02-24T12:55:04.526Z",
       "datoGeneral": {
         "idHojaVida": 243912,
         "idProcesoElectoral": 124,
@@ -2674,7 +2674,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:39:57.169Z",
+      "fetchedAt": "2026-02-24T12:55:04.526Z",
       "datoGeneral": {
         "idHojaVida": 243941,
         "idProcesoElectoral": 124,
@@ -2836,7 +2836,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:39:57.169Z",
+      "fetchedAt": "2026-02-24T12:55:04.526Z",
       "datoGeneral": {
         "idHojaVida": 243965,
         "idProcesoElectoral": 124,
@@ -2976,7 +2976,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:39:57.169Z",
+      "fetchedAt": "2026-02-24T12:55:04.526Z",
       "datoGeneral": {
         "idHojaVida": 243968,
         "idProcesoElectoral": 124,
@@ -3254,7 +3254,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:39:57.169Z",
+      "fetchedAt": "2026-02-24T12:55:04.526Z",
       "datoGeneral": {
         "idHojaVida": 244076,
         "idProcesoElectoral": 124,
@@ -3523,7 +3523,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:39:57.169Z",
+      "fetchedAt": "2026-02-24T12:55:04.526Z",
       "datoGeneral": {
         "idHojaVida": 244106,
         "idProcesoElectoral": 124,
@@ -3629,7 +3629,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:39:57.169Z",
+      "fetchedAt": "2026-02-24T12:55:04.526Z",
       "datoGeneral": {
         "idHojaVida": 244143,
         "idProcesoElectoral": 124,
@@ -3769,7 +3769,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:39:57.169Z",
+      "fetchedAt": "2026-02-24T12:55:04.526Z",
       "datoGeneral": {
         "idHojaVida": 244149,
         "idProcesoElectoral": 124,
@@ -3966,7 +3966,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:39:57.169Z",
+      "fetchedAt": "2026-02-24T12:55:04.526Z",
       "datoGeneral": {
         "idHojaVida": 244181,
         "idProcesoElectoral": 124,
@@ -4116,7 +4116,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:39:57.169Z",
+      "fetchedAt": "2026-02-24T12:55:04.526Z",
       "datoGeneral": {
         "idHojaVida": 244191,
         "idProcesoElectoral": 124,
@@ -4266,7 +4266,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:40:22.010Z",
+      "fetchedAt": "2026-02-24T12:55:34.177Z",
       "datoGeneral": {
         "idHojaVida": 244206,
         "idProcesoElectoral": 124,
@@ -4617,7 +4617,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:40:22.010Z",
+      "fetchedAt": "2026-02-24T12:55:34.177Z",
       "datoGeneral": {
         "idHojaVida": 244518,
         "idProcesoElectoral": 124,
@@ -4910,7 +4910,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:40:22.010Z",
+      "fetchedAt": "2026-02-24T12:55:34.177Z",
       "datoGeneral": {
         "idHojaVida": 244542,
         "idProcesoElectoral": 124,
@@ -5064,7 +5064,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:40:22.010Z",
+      "fetchedAt": "2026-02-24T12:55:34.177Z",
       "datoGeneral": {
         "idHojaVida": 244620,
         "idProcesoElectoral": 124,
@@ -5300,7 +5300,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:40:22.010Z",
+      "fetchedAt": "2026-02-24T12:55:34.177Z",
       "datoGeneral": {
         "idHojaVida": 244695,
         "idProcesoElectoral": 124,
@@ -5675,7 +5675,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:40:22.010Z",
+      "fetchedAt": "2026-02-24T12:55:34.177Z",
       "datoGeneral": {
         "idHojaVida": 244713,
         "idProcesoElectoral": 124,
@@ -5975,7 +5975,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:40:22.010Z",
+      "fetchedAt": "2026-02-24T12:55:34.177Z",
       "datoGeneral": {
         "idHojaVida": 244727,
         "idProcesoElectoral": 124,
@@ -6198,7 +6198,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:40:22.010Z",
+      "fetchedAt": "2026-02-24T12:55:34.177Z",
       "datoGeneral": {
         "idHojaVida": 244953,
         "idProcesoElectoral": 124,
@@ -6476,7 +6476,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:40:22.010Z",
+      "fetchedAt": "2026-02-24T12:55:34.177Z",
       "datoGeneral": {
         "idHojaVida": 244979,
         "idProcesoElectoral": 124,
@@ -6758,7 +6758,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:40:22.010Z",
+      "fetchedAt": "2026-02-24T12:55:34.177Z",
       "datoGeneral": {
         "idHojaVida": 245079,
         "idProcesoElectoral": 124,
@@ -6995,7 +6995,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:40:46.929Z",
+      "fetchedAt": "2026-02-24T12:56:05.626Z",
       "datoGeneral": {
         "idHojaVida": 245109,
         "idProcesoElectoral": 124,
@@ -7295,7 +7295,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:40:46.929Z",
+      "fetchedAt": "2026-02-24T12:56:05.626Z",
       "datoGeneral": {
         "idHojaVida": 245133,
         "idProcesoElectoral": 124,
@@ -7480,7 +7480,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:40:46.929Z",
+      "fetchedAt": "2026-02-24T12:56:05.626Z",
       "datoGeneral": {
         "idHojaVida": 245223,
         "idProcesoElectoral": 124,
@@ -7843,7 +7843,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:40:46.929Z",
+      "fetchedAt": "2026-02-24T12:56:05.626Z",
       "datoGeneral": {
         "idHojaVida": 245258,
         "idProcesoElectoral": 124,
@@ -8255,7 +8255,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:40:46.929Z",
+      "fetchedAt": "2026-02-24T12:56:05.626Z",
       "datoGeneral": {
         "idHojaVida": 245498,
         "idProcesoElectoral": 124,
@@ -8696,7 +8696,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:40:46.929Z",
+      "fetchedAt": "2026-02-24T12:56:05.626Z",
       "datoGeneral": {
         "idHojaVida": 245501,
         "idProcesoElectoral": 124,
@@ -9007,7 +9007,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:40:46.929Z",
+      "fetchedAt": "2026-02-24T12:56:05.626Z",
       "datoGeneral": {
         "idHojaVida": 245552,
         "idProcesoElectoral": 124,
@@ -9189,7 +9189,7 @@
         }
       ],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:40:46.929Z",
+      "fetchedAt": "2026-02-24T12:56:05.626Z",
       "datoGeneral": {
         "idHojaVida": 245564,
         "idProcesoElectoral": 124,
@@ -9378,7 +9378,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:40:46.929Z",
+      "fetchedAt": "2026-02-24T12:56:05.626Z",
       "datoGeneral": {
         "idHojaVida": 245707,
         "idProcesoElectoral": 124,
@@ -9643,7 +9643,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:40:46.929Z",
+      "fetchedAt": "2026-02-24T12:56:05.626Z",
       "datoGeneral": {
         "idHojaVida": 245726,
         "idProcesoElectoral": 124,
@@ -9758,7 +9758,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:41:12.691Z",
+      "fetchedAt": "2026-02-24T12:56:36.446Z",
       "datoGeneral": {
         "idHojaVida": 245861,
         "idProcesoElectoral": 124,
@@ -9935,7 +9935,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:41:12.691Z",
+      "fetchedAt": "2026-02-24T12:56:36.446Z",
       "datoGeneral": {
         "idHojaVida": 246034,
         "idProcesoElectoral": 124,
@@ -10052,7 +10052,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:41:12.691Z",
+      "fetchedAt": "2026-02-24T12:56:36.446Z",
       "datoGeneral": {
         "idHojaVida": 246140,
         "idProcesoElectoral": 124,
@@ -10492,7 +10492,7 @@
         }
       ],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:41:12.691Z",
+      "fetchedAt": "2026-02-24T12:56:36.446Z",
       "datoGeneral": {
         "idHojaVida": 246226,
         "idProcesoElectoral": 124,
@@ -10810,7 +10810,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:41:12.691Z",
+      "fetchedAt": "2026-02-24T12:56:36.446Z",
       "datoGeneral": {
         "idHojaVida": 246250,
         "idProcesoElectoral": 124,
@@ -11001,7 +11001,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:41:12.691Z",
+      "fetchedAt": "2026-02-24T12:56:36.447Z",
       "datoGeneral": {
         "idHojaVida": 246313,
         "idProcesoElectoral": 124,
@@ -11449,7 +11449,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:41:12.691Z",
+      "fetchedAt": "2026-02-24T12:56:36.447Z",
       "datoGeneral": {
         "idHojaVida": 246366,
         "idProcesoElectoral": 124,
@@ -11712,7 +11712,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:41:12.691Z",
+      "fetchedAt": "2026-02-24T12:56:36.447Z",
       "datoGeneral": {
         "idHojaVida": 246490,
         "idProcesoElectoral": 124,
@@ -11915,7 +11915,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:41:12.691Z",
+      "fetchedAt": "2026-02-24T12:56:36.447Z",
       "datoGeneral": {
         "idHojaVida": 246526,
         "idProcesoElectoral": 124,
@@ -12157,7 +12157,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:41:12.691Z",
+      "fetchedAt": "2026-02-24T12:56:36.447Z",
       "datoGeneral": {
         "idHojaVida": 246587,
         "idProcesoElectoral": 124,
@@ -12295,7 +12295,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:41:38.575Z",
+      "fetchedAt": "2026-02-24T12:57:07.917Z",
       "datoGeneral": {
         "idHojaVida": 246588,
         "idProcesoElectoral": 124,
@@ -12524,7 +12524,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:41:38.575Z",
+      "fetchedAt": "2026-02-24T12:57:07.917Z",
       "datoGeneral": {
         "idHojaVida": 246660,
         "idProcesoElectoral": 124,
@@ -12652,7 +12652,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:41:38.575Z",
+      "fetchedAt": "2026-02-24T12:57:07.917Z",
       "datoGeneral": {
         "idHojaVida": 246752,
         "idProcesoElectoral": 124,
@@ -12894,7 +12894,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:41:38.575Z",
+      "fetchedAt": "2026-02-24T12:57:07.917Z",
       "datoGeneral": {
         "idHojaVida": 246754,
         "idProcesoElectoral": 124,
@@ -13118,7 +13118,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:41:38.575Z",
+      "fetchedAt": "2026-02-24T12:57:07.917Z",
       "datoGeneral": {
         "idHojaVida": 246756,
         "idProcesoElectoral": 124,
@@ -13235,7 +13235,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:41:38.575Z",
+      "fetchedAt": "2026-02-24T12:57:07.917Z",
       "datoGeneral": {
         "idHojaVida": 246902,
         "idProcesoElectoral": 124,
@@ -13397,7 +13397,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:41:38.575Z",
+      "fetchedAt": "2026-02-24T12:57:07.917Z",
       "datoGeneral": {
         "idHojaVida": 246925,
         "idProcesoElectoral": 124,
@@ -13512,7 +13512,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:41:38.575Z",
+      "fetchedAt": "2026-02-24T12:57:07.917Z",
       "datoGeneral": {
         "idHojaVida": 246927,
         "idProcesoElectoral": 124,
@@ -13618,7 +13618,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:41:38.575Z",
+      "fetchedAt": "2026-02-24T12:57:07.917Z",
       "datoGeneral": {
         "idHojaVida": 246936,
         "idProcesoElectoral": 124,
@@ -13784,7 +13784,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:41:38.575Z",
+      "fetchedAt": "2026-02-24T12:57:07.917Z",
       "datoGeneral": {
         "idHojaVida": 246944,
         "idProcesoElectoral": 124,
@@ -14048,7 +14048,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:02.869Z",
+      "fetchedAt": "2026-02-24T12:57:38.165Z",
       "datoGeneral": {
         "idHojaVida": 246948,
         "idProcesoElectoral": 124,
@@ -14414,7 +14414,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:02.869Z",
+      "fetchedAt": "2026-02-24T12:57:38.165Z",
       "datoGeneral": {
         "idHojaVida": 247061,
         "idProcesoElectoral": 124,
@@ -14580,7 +14580,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:02.869Z",
+      "fetchedAt": "2026-02-24T12:57:38.165Z",
       "datoGeneral": {
         "idHojaVida": 247100,
         "idProcesoElectoral": 124,
@@ -14788,7 +14788,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:02.869Z",
+      "fetchedAt": "2026-02-24T12:57:38.165Z",
       "datoGeneral": {
         "idHojaVida": 247113,
         "idProcesoElectoral": 124,
@@ -15056,7 +15056,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:02.869Z",
+      "fetchedAt": "2026-02-24T12:57:38.165Z",
       "datoGeneral": {
         "idHojaVida": 247118,
         "idProcesoElectoral": 124,
@@ -15255,7 +15255,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:02.869Z",
+      "fetchedAt": "2026-02-24T12:57:38.165Z",
       "datoGeneral": {
         "idHojaVida": 247122,
         "idProcesoElectoral": 124,
@@ -15524,7 +15524,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:02.870Z",
+      "fetchedAt": "2026-02-24T12:57:38.165Z",
       "datoGeneral": {
         "idHojaVida": 247159,
         "idProcesoElectoral": 124,
@@ -15718,7 +15718,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:02.870Z",
+      "fetchedAt": "2026-02-24T12:57:38.165Z",
       "datoGeneral": {
         "idHojaVida": 247195,
         "idProcesoElectoral": 124,
@@ -16035,7 +16035,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:02.870Z",
+      "fetchedAt": "2026-02-24T12:57:38.165Z",
       "datoGeneral": {
         "idHojaVida": 247201,
         "idProcesoElectoral": 124,
@@ -16164,7 +16164,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:02.870Z",
+      "fetchedAt": "2026-02-24T12:57:38.165Z",
       "datoGeneral": {
         "idHojaVida": 247241,
         "idProcesoElectoral": 124,
@@ -16329,7 +16329,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:26.737Z",
+      "fetchedAt": "2026-02-24T12:58:10.891Z",
       "datoGeneral": {
         "idHojaVida": 247283,
         "idProcesoElectoral": 124,
@@ -16578,7 +16578,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:26.737Z",
+      "fetchedAt": "2026-02-24T12:58:10.891Z",
       "datoGeneral": {
         "idHojaVida": 247308,
         "idProcesoElectoral": 124,
@@ -16997,7 +16997,7 @@
       ],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:26.737Z",
+      "fetchedAt": "2026-02-24T12:58:10.891Z",
       "datoGeneral": {
         "idHojaVida": 247420,
         "idProcesoElectoral": 124,
@@ -17306,7 +17306,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:26.737Z",
+      "fetchedAt": "2026-02-24T12:58:10.891Z",
       "datoGeneral": {
         "idHojaVida": 247813,
         "idProcesoElectoral": 124,
@@ -17459,7 +17459,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:26.737Z",
+      "fetchedAt": "2026-02-24T12:58:10.891Z",
       "datoGeneral": {
         "idHojaVida": 247896,
         "idProcesoElectoral": 124,
@@ -17769,7 +17769,7 @@
       ],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:26.737Z",
+      "fetchedAt": "2026-02-24T12:58:10.891Z",
       "datoGeneral": {
         "idHojaVida": 247938,
         "idProcesoElectoral": 124,
@@ -18079,7 +18079,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:26.737Z",
+      "fetchedAt": "2026-02-24T12:58:10.891Z",
       "datoGeneral": {
         "idHojaVida": 247960,
         "idProcesoElectoral": 124,
@@ -18232,7 +18232,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:26.737Z",
+      "fetchedAt": "2026-02-24T12:58:10.891Z",
       "datoGeneral": {
         "idHojaVida": 248082,
         "idProcesoElectoral": 124,
@@ -18453,7 +18453,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:26.737Z",
+      "fetchedAt": "2026-02-24T12:58:10.891Z",
       "datoGeneral": {
         "idHojaVida": 248092,
         "idProcesoElectoral": 124,
@@ -18877,7 +18877,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:26.737Z",
+      "fetchedAt": "2026-02-24T12:58:10.891Z",
       "datoGeneral": {
         "idHojaVida": 248165,
         "idProcesoElectoral": 124,
@@ -19054,7 +19054,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:52.566Z",
+      "fetchedAt": "2026-02-24T12:58:41.024Z",
       "datoGeneral": {
         "idHojaVida": 248246,
         "idProcesoElectoral": 124,
@@ -19207,7 +19207,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:52.566Z",
+      "fetchedAt": "2026-02-24T12:58:41.024Z",
       "datoGeneral": {
         "idHojaVida": 248322,
         "idProcesoElectoral": 124,
@@ -19340,7 +19340,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:52.566Z",
+      "fetchedAt": "2026-02-24T12:58:41.024Z",
       "datoGeneral": {
         "idHojaVida": 248346,
         "idProcesoElectoral": 124,
@@ -19746,7 +19746,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:52.567Z",
+      "fetchedAt": "2026-02-24T12:58:41.024Z",
       "datoGeneral": {
         "idHojaVida": 248420,
         "idProcesoElectoral": 124,
@@ -20056,7 +20056,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:52.567Z",
+      "fetchedAt": "2026-02-24T12:58:41.024Z",
       "datoGeneral": {
         "idHojaVida": 248434,
         "idProcesoElectoral": 124,
@@ -20241,7 +20241,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:52.567Z",
+      "fetchedAt": "2026-02-24T12:58:41.024Z",
       "datoGeneral": {
         "idHojaVida": 248470,
         "idProcesoElectoral": 124,
@@ -20636,7 +20636,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:52.567Z",
+      "fetchedAt": "2026-02-24T12:58:41.024Z",
       "datoGeneral": {
         "idHojaVida": 248483,
         "idProcesoElectoral": 124,
@@ -20781,7 +20781,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:52.567Z",
+      "fetchedAt": "2026-02-24T12:58:41.025Z",
       "datoGeneral": {
         "idHojaVida": 248540,
         "idProcesoElectoral": 124,
@@ -20942,7 +20942,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:52.567Z",
+      "fetchedAt": "2026-02-24T12:58:41.025Z",
       "datoGeneral": {
         "idHojaVida": 248636,
         "idProcesoElectoral": 124,
@@ -21071,7 +21071,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:42:52.567Z",
+      "fetchedAt": "2026-02-24T12:58:41.025Z",
       "datoGeneral": {
         "idHojaVida": 248689,
         "idProcesoElectoral": 124,
@@ -21302,7 +21302,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:43:18.038Z",
+      "fetchedAt": "2026-02-24T12:59:11.941Z",
       "datoGeneral": {
         "idHojaVida": 248871,
         "idProcesoElectoral": 124,
@@ -21611,7 +21611,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:43:18.038Z",
+      "fetchedAt": "2026-02-24T12:59:11.941Z",
       "datoGeneral": {
         "idHojaVida": 248952,
         "idProcesoElectoral": 124,
@@ -21950,7 +21950,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:43:18.038Z",
+      "fetchedAt": "2026-02-24T12:59:11.941Z",
       "datoGeneral": {
         "idHojaVida": 248993,
         "idProcesoElectoral": 124,
@@ -22269,7 +22269,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:43:18.038Z",
+      "fetchedAt": "2026-02-24T12:59:11.941Z",
       "datoGeneral": {
         "idHojaVida": 249032,
         "idProcesoElectoral": 124,
@@ -22527,7 +22527,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:43:18.038Z",
+      "fetchedAt": "2026-02-24T12:59:11.941Z",
       "datoGeneral": {
         "idHojaVida": 249099,
         "idProcesoElectoral": 124,
@@ -22749,7 +22749,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:43:18.038Z",
+      "fetchedAt": "2026-02-24T12:59:11.941Z",
       "datoGeneral": {
         "idHojaVida": 249140,
         "idProcesoElectoral": 124,
@@ -22875,7 +22875,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:43:18.038Z",
+      "fetchedAt": "2026-02-24T12:59:11.941Z",
       "datoGeneral": {
         "idHojaVida": 249151,
         "idProcesoElectoral": 124,
@@ -23222,7 +23222,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:43:18.038Z",
+      "fetchedAt": "2026-02-24T12:59:11.941Z",
       "datoGeneral": {
         "idHojaVida": 249180,
         "idProcesoElectoral": 124,
@@ -23509,7 +23509,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:43:18.038Z",
+      "fetchedAt": "2026-02-24T12:59:11.941Z",
       "datoGeneral": {
         "idHojaVida": 249237,
         "idProcesoElectoral": 124,
@@ -23717,7 +23717,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:43:18.038Z",
+      "fetchedAt": "2026-02-24T12:59:11.941Z",
       "datoGeneral": {
         "idHojaVida": 249246,
         "idProcesoElectoral": 124,
@@ -23965,7 +23965,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:43:42.455Z",
+      "fetchedAt": "2026-02-24T12:59:40.965Z",
       "datoGeneral": {
         "idHojaVida": 249455,
         "idProcesoElectoral": 124,
@@ -24100,7 +24100,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:43:42.455Z",
+      "fetchedAt": "2026-02-24T12:59:40.965Z",
       "datoGeneral": {
         "idHojaVida": 249513,
         "idProcesoElectoral": 124,
@@ -24278,7 +24278,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:43:42.455Z",
+      "fetchedAt": "2026-02-24T12:59:40.965Z",
       "datoGeneral": {
         "idHojaVida": 249519,
         "idProcesoElectoral": 124,
@@ -24557,7 +24557,7 @@
       ],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:43:42.455Z",
+      "fetchedAt": "2026-02-24T12:59:40.965Z",
       "datoGeneral": {
         "idHojaVida": 249768,
         "idProcesoElectoral": 124,
@@ -24746,7 +24746,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:43:42.455Z",
+      "fetchedAt": "2026-02-24T12:59:40.965Z",
       "datoGeneral": {
         "idHojaVida": 249857,
         "idProcesoElectoral": 124,
@@ -24875,7 +24875,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:43:42.455Z",
+      "fetchedAt": "2026-02-24T12:59:40.965Z",
       "datoGeneral": {
         "idHojaVida": 249880,
         "idProcesoElectoral": 124,
@@ -25220,7 +25220,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:43:42.455Z",
+      "fetchedAt": "2026-02-24T12:59:40.965Z",
       "datoGeneral": {
         "idHojaVida": 249925,
         "idProcesoElectoral": 124,
@@ -25573,7 +25573,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:43:42.455Z",
+      "fetchedAt": "2026-02-24T12:59:40.965Z",
       "datoGeneral": {
         "idHojaVida": 249970,
         "idProcesoElectoral": 124,
@@ -25724,7 +25724,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:43:42.455Z",
+      "fetchedAt": "2026-02-24T12:59:40.965Z",
       "datoGeneral": {
         "idHojaVida": 249972,
         "idProcesoElectoral": 124,
@@ -25892,7 +25892,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:43:42.455Z",
+      "fetchedAt": "2026-02-24T12:59:40.965Z",
       "datoGeneral": {
         "idHojaVida": 250001,
         "idProcesoElectoral": 124,
@@ -26058,7 +26058,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:08.037Z",
+      "fetchedAt": "2026-02-24T13:00:15.518Z",
       "datoGeneral": {
         "idHojaVida": 250010,
         "idProcesoElectoral": 124,
@@ -26357,7 +26357,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:08.037Z",
+      "fetchedAt": "2026-02-24T13:00:15.518Z",
       "datoGeneral": {
         "idHojaVida": 250081,
         "idProcesoElectoral": 124,
@@ -26679,7 +26679,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:08.037Z",
+      "fetchedAt": "2026-02-24T13:00:15.518Z",
       "datoGeneral": {
         "idHojaVida": 250085,
         "idProcesoElectoral": 124,
@@ -26833,7 +26833,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:08.037Z",
+      "fetchedAt": "2026-02-24T13:00:15.518Z",
       "datoGeneral": {
         "idHojaVida": 250392,
         "idProcesoElectoral": 124,
@@ -26985,7 +26985,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:08.037Z",
+      "fetchedAt": "2026-02-24T13:00:15.518Z",
       "datoGeneral": {
         "idHojaVida": 250503,
         "idProcesoElectoral": 124,
@@ -27181,7 +27181,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:08.037Z",
+      "fetchedAt": "2026-02-24T13:00:15.518Z",
       "datoGeneral": {
         "idHojaVida": 250572,
         "idProcesoElectoral": 124,
@@ -27368,7 +27368,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:08.037Z",
+      "fetchedAt": "2026-02-24T13:00:15.518Z",
       "datoGeneral": {
         "idHojaVida": 250636,
         "idProcesoElectoral": 124,
@@ -27677,7 +27677,7 @@
         }
       ],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:08.037Z",
+      "fetchedAt": "2026-02-24T13:00:15.518Z",
       "datoGeneral": {
         "idHojaVida": 250650,
         "idProcesoElectoral": 124,
@@ -27808,7 +27808,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:08.037Z",
+      "fetchedAt": "2026-02-24T13:00:15.518Z",
       "datoGeneral": {
         "idHojaVida": 250847,
         "idProcesoElectoral": 124,
@@ -28107,7 +28107,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:08.037Z",
+      "fetchedAt": "2026-02-24T13:00:15.518Z",
       "datoGeneral": {
         "idHojaVida": 250852,
         "idProcesoElectoral": 124,
@@ -28337,7 +28337,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:32.418Z",
+      "fetchedAt": "2026-02-24T13:00:51.234Z",
       "datoGeneral": {
         "idHojaVida": 250879,
         "idProcesoElectoral": 124,
@@ -28476,7 +28476,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:32.418Z",
+      "fetchedAt": "2026-02-24T13:00:51.234Z",
       "datoGeneral": {
         "idHojaVida": 251080,
         "idProcesoElectoral": 124,
@@ -28623,7 +28623,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:32.418Z",
+      "fetchedAt": "2026-02-24T13:00:51.234Z",
       "datoGeneral": {
         "idHojaVida": 251178,
         "idProcesoElectoral": 124,
@@ -28761,7 +28761,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:32.418Z",
+      "fetchedAt": "2026-02-24T13:00:51.234Z",
       "datoGeneral": {
         "idHojaVida": 251202,
         "idProcesoElectoral": 124,
@@ -28899,7 +28899,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:32.418Z",
+      "fetchedAt": "2026-02-24T13:00:51.234Z",
       "datoGeneral": {
         "idHojaVida": 251276,
         "idProcesoElectoral": 124,
@@ -29361,7 +29361,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:32.418Z",
+      "fetchedAt": "2026-02-24T13:00:51.234Z",
       "datoGeneral": {
         "idHojaVida": 251304,
         "idProcesoElectoral": 124,
@@ -29579,7 +29579,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:32.418Z",
+      "fetchedAt": "2026-02-24T13:00:51.234Z",
       "datoGeneral": {
         "idHojaVida": 251395,
         "idProcesoElectoral": 124,
@@ -29787,7 +29787,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:32.418Z",
+      "fetchedAt": "2026-02-24T13:00:51.234Z",
       "datoGeneral": {
         "idHojaVida": 251420,
         "idProcesoElectoral": 124,
@@ -30119,7 +30119,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:32.418Z",
+      "fetchedAt": "2026-02-24T13:00:51.234Z",
       "datoGeneral": {
         "idHojaVida": 251526,
         "idProcesoElectoral": 124,
@@ -30505,7 +30505,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:32.418Z",
+      "fetchedAt": "2026-02-24T13:00:51.234Z",
       "datoGeneral": {
         "idHojaVida": 251667,
         "idProcesoElectoral": 124,
@@ -30846,7 +30846,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:58.135Z",
+      "fetchedAt": "2026-02-24T13:01:23.413Z",
       "datoGeneral": {
         "idHojaVida": 251720,
         "idProcesoElectoral": 124,
@@ -31243,7 +31243,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:58.135Z",
+      "fetchedAt": "2026-02-24T13:01:23.413Z",
       "datoGeneral": {
         "idHojaVida": 251739,
         "idProcesoElectoral": 124,
@@ -31369,7 +31369,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:58.135Z",
+      "fetchedAt": "2026-02-24T13:01:23.413Z",
       "datoGeneral": {
         "idHojaVida": 251899,
         "idProcesoElectoral": 124,
@@ -31714,7 +31714,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:58.135Z",
+      "fetchedAt": "2026-02-24T13:01:23.413Z",
       "datoGeneral": {
         "idHojaVida": 251915,
         "idProcesoElectoral": 124,
@@ -32122,7 +32122,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:58.135Z",
+      "fetchedAt": "2026-02-24T13:01:23.413Z",
       "datoGeneral": {
         "idHojaVida": 251932,
         "idProcesoElectoral": 124,
@@ -32306,7 +32306,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:58.135Z",
+      "fetchedAt": "2026-02-24T13:01:23.413Z",
       "datoGeneral": {
         "idHojaVida": 252024,
         "idProcesoElectoral": 124,
@@ -32512,7 +32512,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:58.135Z",
+      "fetchedAt": "2026-02-24T13:01:23.413Z",
       "datoGeneral": {
         "idHojaVida": 252050,
         "idProcesoElectoral": 124,
@@ -32772,7 +32772,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:58.135Z",
+      "fetchedAt": "2026-02-24T13:01:23.413Z",
       "datoGeneral": {
         "idHojaVida": 252090,
         "idProcesoElectoral": 124,
@@ -32993,7 +32993,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:58.135Z",
+      "fetchedAt": "2026-02-24T13:01:23.413Z",
       "datoGeneral": {
         "idHojaVida": 252133,
         "idProcesoElectoral": 124,
@@ -33236,7 +33236,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:44:58.135Z",
+      "fetchedAt": "2026-02-24T13:01:23.413Z",
       "datoGeneral": {
         "idHojaVida": 252134,
         "idProcesoElectoral": 124,
@@ -33552,7 +33552,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:45:22.887Z",
+      "fetchedAt": "2026-02-24T13:01:56.873Z",
       "datoGeneral": {
         "idHojaVida": 252161,
         "idProcesoElectoral": 124,
@@ -33714,7 +33714,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:45:22.887Z",
+      "fetchedAt": "2026-02-24T13:01:56.873Z",
       "datoGeneral": {
         "idHojaVida": 252419,
         "idProcesoElectoral": 124,
@@ -33997,7 +33997,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:45:22.887Z",
+      "fetchedAt": "2026-02-24T13:01:56.873Z",
       "datoGeneral": {
         "idHojaVida": 252484,
         "idProcesoElectoral": 124,
@@ -34266,7 +34266,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:45:22.887Z",
+      "fetchedAt": "2026-02-24T13:01:56.873Z",
       "datoGeneral": {
         "idHojaVida": 252515,
         "idProcesoElectoral": 124,
@@ -34598,7 +34598,7 @@
       ],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:45:22.887Z",
+      "fetchedAt": "2026-02-24T13:01:56.873Z",
       "datoGeneral": {
         "idHojaVida": 252568,
         "idProcesoElectoral": 124,
@@ -34762,7 +34762,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:45:22.887Z",
+      "fetchedAt": "2026-02-24T13:01:56.873Z",
       "datoGeneral": {
         "idHojaVida": 252579,
         "idProcesoElectoral": 124,
@@ -34916,7 +34916,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:45:22.887Z",
+      "fetchedAt": "2026-02-24T13:01:56.873Z",
       "datoGeneral": {
         "idHojaVida": 252673,
         "idProcesoElectoral": 124,
@@ -35097,7 +35097,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:45:22.887Z",
+      "fetchedAt": "2026-02-24T13:01:56.873Z",
       "datoGeneral": {
         "idHojaVida": 252688,
         "idProcesoElectoral": 124,
@@ -35259,7 +35259,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:45:22.887Z",
+      "fetchedAt": "2026-02-24T13:01:56.873Z",
       "datoGeneral": {
         "idHojaVida": 252725,
         "idProcesoElectoral": 124,
@@ -35488,7 +35488,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:45:22.887Z",
+      "fetchedAt": "2026-02-24T13:01:56.873Z",
       "datoGeneral": {
         "idHojaVida": 252768,
         "idProcesoElectoral": 124,
@@ -35617,7 +35617,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:45:48.291Z",
+      "fetchedAt": "2026-02-24T13:02:29.886Z",
       "datoGeneral": {
         "idHojaVida": 252881,
         "idProcesoElectoral": 124,
@@ -35903,7 +35903,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:45:48.291Z",
+      "fetchedAt": "2026-02-24T13:02:29.886Z",
       "datoGeneral": {
         "idHojaVida": 253001,
         "idProcesoElectoral": 124,
@@ -36052,7 +36052,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:45:48.291Z",
+      "fetchedAt": "2026-02-24T13:02:29.886Z",
       "datoGeneral": {
         "idHojaVida": 253078,
         "idProcesoElectoral": 124,
@@ -36253,7 +36253,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:45:48.291Z",
+      "fetchedAt": "2026-02-24T13:02:29.886Z",
       "datoGeneral": {
         "idHojaVida": 253105,
         "idProcesoElectoral": 124,
@@ -36683,7 +36683,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:45:48.291Z",
+      "fetchedAt": "2026-02-24T13:02:29.886Z",
       "datoGeneral": {
         "idHojaVida": 253136,
         "idProcesoElectoral": 124,
@@ -36825,7 +36825,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:45:48.291Z",
+      "fetchedAt": "2026-02-24T13:02:29.886Z",
       "datoGeneral": {
         "idHojaVida": 253155,
         "idProcesoElectoral": 124,
@@ -37130,7 +37130,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:45:48.291Z",
+      "fetchedAt": "2026-02-24T13:02:29.886Z",
       "datoGeneral": {
         "idHojaVida": 253165,
         "idProcesoElectoral": 124,
@@ -37436,7 +37436,7 @@
       ],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:45:48.291Z",
+      "fetchedAt": "2026-02-24T13:02:29.886Z",
       "datoGeneral": {
         "idHojaVida": 253213,
         "idProcesoElectoral": 124,
@@ -37624,7 +37624,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:45:48.291Z",
+      "fetchedAt": "2026-02-24T13:02:29.886Z",
       "datoGeneral": {
         "idHojaVida": 253241,
         "idProcesoElectoral": 124,
@@ -37825,7 +37825,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:45:48.291Z",
+      "fetchedAt": "2026-02-24T13:02:29.886Z",
       "datoGeneral": {
         "idHojaVida": 253263,
         "idProcesoElectoral": 124,
@@ -38029,7 +38029,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:46:12.861Z",
+      "fetchedAt": "2026-02-24T13:03:02.643Z",
       "datoGeneral": {
         "idHojaVida": 253271,
         "idProcesoElectoral": 124,
@@ -38171,7 +38171,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:46:12.861Z",
+      "fetchedAt": "2026-02-24T13:03:02.643Z",
       "datoGeneral": {
         "idHojaVida": 253360,
         "idProcesoElectoral": 124,
@@ -38326,7 +38326,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:46:12.861Z",
+      "fetchedAt": "2026-02-24T13:03:02.643Z",
       "datoGeneral": {
         "idHojaVida": 253364,
         "idProcesoElectoral": 124,
@@ -38692,7 +38692,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:46:12.862Z",
+      "fetchedAt": "2026-02-24T13:03:02.643Z",
       "datoGeneral": {
         "idHojaVida": 253366,
         "idProcesoElectoral": 124,
@@ -38945,7 +38945,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:46:12.862Z",
+      "fetchedAt": "2026-02-24T13:03:02.643Z",
       "datoGeneral": {
         "idHojaVida": 253433,
         "idProcesoElectoral": 124,
@@ -39509,7 +39509,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:46:12.862Z",
+      "fetchedAt": "2026-02-24T13:03:02.643Z",
       "datoGeneral": {
         "idHojaVida": 253523,
         "idProcesoElectoral": 124,
@@ -39803,7 +39803,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:46:12.862Z",
+      "fetchedAt": "2026-02-24T13:03:02.643Z",
       "datoGeneral": {
         "idHojaVida": 253526,
         "idProcesoElectoral": 124,
@@ -40179,7 +40179,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:46:12.862Z",
+      "fetchedAt": "2026-02-24T13:03:02.643Z",
       "datoGeneral": {
         "idHojaVida": 253558,
         "idProcesoElectoral": 124,
@@ -40512,7 +40512,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:46:12.862Z",
+      "fetchedAt": "2026-02-24T13:03:02.643Z",
       "datoGeneral": {
         "idHojaVida": 253565,
         "idProcesoElectoral": 124,
@@ -40904,7 +40904,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:46:12.862Z",
+      "fetchedAt": "2026-02-24T13:03:02.643Z",
       "datoGeneral": {
         "idHojaVida": 253567,
         "idProcesoElectoral": 124,
@@ -41170,7 +41170,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:46:38.361Z",
+      "fetchedAt": "2026-02-24T13:03:33.552Z",
       "datoGeneral": {
         "idHojaVida": 253653,
         "idProcesoElectoral": 124,
@@ -41495,7 +41495,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:46:38.361Z",
+      "fetchedAt": "2026-02-24T13:03:33.552Z",
       "datoGeneral": {
         "idHojaVida": 253661,
         "idProcesoElectoral": 124,
@@ -41806,7 +41806,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:46:38.361Z",
+      "fetchedAt": "2026-02-24T13:03:33.552Z",
       "datoGeneral": {
         "idHojaVida": 253970,
         "idProcesoElectoral": 124,
@@ -42096,7 +42096,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:46:38.361Z",
+      "fetchedAt": "2026-02-24T13:03:33.552Z",
       "datoGeneral": {
         "idHojaVida": 254018,
         "idProcesoElectoral": 124,
@@ -42389,7 +42389,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:46:38.361Z",
+      "fetchedAt": "2026-02-24T13:03:33.552Z",
       "datoGeneral": {
         "idHojaVida": 254049,
         "idProcesoElectoral": 124,
@@ -42689,7 +42689,7 @@
       ],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:46:38.361Z",
+      "fetchedAt": "2026-02-24T13:03:33.552Z",
       "datoGeneral": {
         "idHojaVida": 254052,
         "idProcesoElectoral": 124,
@@ -43039,7 +43039,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:46:38.361Z",
+      "fetchedAt": "2026-02-24T13:03:33.552Z",
       "datoGeneral": {
         "idHojaVida": 254063,
         "idProcesoElectoral": 124,
@@ -43329,7 +43329,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:46:38.361Z",
+      "fetchedAt": "2026-02-24T13:03:33.552Z",
       "datoGeneral": {
         "idHojaVida": 254312,
         "idProcesoElectoral": 124,
@@ -43679,7 +43679,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:46:38.361Z",
+      "fetchedAt": "2026-02-24T13:03:33.552Z",
       "datoGeneral": {
         "idHojaVida": 254379,
         "idProcesoElectoral": 124,
@@ -44118,7 +44118,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:46:38.361Z",
+      "fetchedAt": "2026-02-24T13:03:33.552Z",
       "datoGeneral": {
         "idHojaVida": 254410,
         "idProcesoElectoral": 124,
@@ -44538,7 +44538,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:47:03.078Z",
+      "fetchedAt": "2026-02-24T13:04:10.533Z",
       "datoGeneral": {
         "idHojaVida": 254497,
         "idProcesoElectoral": 124,
@@ -44858,7 +44858,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:47:03.078Z",
+      "fetchedAt": "2026-02-24T13:04:10.533Z",
       "datoGeneral": {
         "idHojaVida": 254509,
         "idProcesoElectoral": 124,
@@ -45089,7 +45089,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:47:03.078Z",
+      "fetchedAt": "2026-02-24T13:04:10.533Z",
       "datoGeneral": {
         "idHojaVida": 254515,
         "idProcesoElectoral": 124,
@@ -45463,7 +45463,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:47:03.078Z",
+      "fetchedAt": "2026-02-24T13:04:10.533Z",
       "datoGeneral": {
         "idHojaVida": 254542,
         "idProcesoElectoral": 124,
@@ -45614,7 +45614,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:47:03.078Z",
+      "fetchedAt": "2026-02-24T13:04:10.533Z",
       "datoGeneral": {
         "idHojaVida": 254545,
         "idProcesoElectoral": 124,
@@ -45822,7 +45822,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:47:03.078Z",
+      "fetchedAt": "2026-02-24T13:04:10.533Z",
       "datoGeneral": {
         "idHojaVida": 254595,
         "idProcesoElectoral": 124,
@@ -46093,7 +46093,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:47:03.078Z",
+      "fetchedAt": "2026-02-24T13:04:10.533Z",
       "datoGeneral": {
         "idHojaVida": 254664,
         "idProcesoElectoral": 124,
@@ -46478,7 +46478,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:47:03.078Z",
+      "fetchedAt": "2026-02-24T13:04:10.533Z",
       "datoGeneral": {
         "idHojaVida": 254746,
         "idProcesoElectoral": 124,
@@ -46812,7 +46812,7 @@
         }
       ],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:47:03.078Z",
+      "fetchedAt": "2026-02-24T13:04:10.533Z",
       "datoGeneral": {
         "idHojaVida": 254755,
         "idProcesoElectoral": 124,
@@ -47050,7 +47050,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:47:03.078Z",
+      "fetchedAt": "2026-02-24T13:04:10.533Z",
       "datoGeneral": {
         "idHojaVida": 254799,
         "idProcesoElectoral": 124,
@@ -47256,7 +47256,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:47:29.507Z",
+      "fetchedAt": "2026-02-24T13:04:39.460Z",
       "datoGeneral": {
         "idHojaVida": 254837,
         "idProcesoElectoral": 124,
@@ -47508,7 +47508,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:47:29.507Z",
+      "fetchedAt": "2026-02-24T13:04:39.460Z",
       "datoGeneral": {
         "idHojaVida": 255026,
         "idProcesoElectoral": 124,
@@ -47749,7 +47749,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:47:29.507Z",
+      "fetchedAt": "2026-02-24T13:04:39.460Z",
       "datoGeneral": {
         "idHojaVida": 255070,
         "idProcesoElectoral": 124,
@@ -47909,7 +47909,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:47:29.507Z",
+      "fetchedAt": "2026-02-24T13:04:39.460Z",
       "datoGeneral": {
         "idHojaVida": 255146,
         "idProcesoElectoral": 124,
@@ -48182,7 +48182,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:47:29.507Z",
+      "fetchedAt": "2026-02-24T13:04:39.460Z",
       "datoGeneral": {
         "idHojaVida": 255148,
         "idProcesoElectoral": 124,
@@ -48454,7 +48454,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:47:29.507Z",
+      "fetchedAt": "2026-02-24T13:04:39.460Z",
       "datoGeneral": {
         "idHojaVida": 255191,
         "idProcesoElectoral": 124,
@@ -48714,7 +48714,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:47:29.507Z",
+      "fetchedAt": "2026-02-24T13:04:39.460Z",
       "datoGeneral": {
         "idHojaVida": 255317,
         "idProcesoElectoral": 124,
@@ -48932,7 +48932,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:47:29.507Z",
+      "fetchedAt": "2026-02-24T13:04:39.460Z",
       "datoGeneral": {
         "idHojaVida": 255339,
         "idProcesoElectoral": 124,
@@ -49182,7 +49182,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:47:29.507Z",
+      "fetchedAt": "2026-02-24T13:04:39.460Z",
       "datoGeneral": {
         "idHojaVida": 255341,
         "idProcesoElectoral": 124,
@@ -49474,7 +49474,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:47:29.507Z",
+      "fetchedAt": "2026-02-24T13:04:39.460Z",
       "datoGeneral": {
         "idHojaVida": 255381,
         "idProcesoElectoral": 124,
@@ -49655,7 +49655,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:47:41.228Z",
+      "fetchedAt": "2026-02-24T13:04:53.937Z",
       "datoGeneral": {
         "idHojaVida": 255397,
         "idProcesoElectoral": 124,
@@ -49843,7 +49843,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:47:41.228Z",
+      "fetchedAt": "2026-02-24T13:04:53.937Z",
       "datoGeneral": {
         "idHojaVida": 255450,
         "idProcesoElectoral": 124,
@@ -49978,7 +49978,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:47:41.228Z",
+      "fetchedAt": "2026-02-24T13:04:53.937Z",
       "datoGeneral": {
         "idHojaVida": 255558,
         "idProcesoElectoral": 124,
@@ -50158,7 +50158,7 @@
       "sentenciaPenal": [],
       "sentenciaObliga": [],
       "resoluciones": [],
-      "fetchedAt": "2026-02-20T19:47:41.228Z",
+      "fetchedAt": "2026-02-24T13:04:53.937Z",
       "datoGeneral": {
         "idHojaVida": 255598,
         "idProcesoElectoral": 124,
