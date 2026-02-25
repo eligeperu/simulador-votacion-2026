@@ -17,7 +17,7 @@ const randomDelay = () => DELAY_MS + Math.floor(Math.random() * DELAY_JITTER);
 // Browser-like headers to avoid CAPTCHA
 const BROWSER_HEADERS = '-H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" -H "Accept-Language: es-PE,es;q=0.9" -H "Referer: https://votoinformado.jne.gob.pe/"';
 
-function curlGet(url) {
+function curlGet(url) { 
   try {
     const result = execSync(`curl -sk "${url}" ${BROWSER_HEADERS} -H "Accept: application/json"`, { encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 });
     return JSON.parse(result);
