@@ -28,7 +28,7 @@ const CandidatoCard = ({ partido, selected, onClick, showCongressHighlight = fal
   return (
     <div
       onClick={!esRetirado && !skipPresidente ? onClick : undefined}
-      className={`flex items-center gap-[10px] p-[10px] min-h-[56px] lg:min-h-[50px] transition-opacity ${esRetirado ? 'cursor-default opacity-40' : skipPresidente ? 'cursor-default' : 'cursor-pointer hover:opacity-90'} border-l-4 ${showCongressHighlight ? 'border-red-600' : 'border-transparent'}`}
+      className={`flex items-center gap-[10px] p-[10px] min-h-[50px] transition-opacity ${esRetirado ? 'cursor-default opacity-40' : skipPresidente ? 'cursor-default' : 'cursor-pointer hover:opacity-90'} border-l-4 ${showCongressHighlight ? 'border-red-600' : showPenalSentenceHighlight ? 'border-[#be1823]' : 'border-transparent'}`}
     >
       <div className="w-[76px] text-left shrink-0">
         <h3 className={`font-bold text-[9px] sm:text-[10px] uppercase leading-tight break-words ${skipPresidente || esRetirado ? 'text-white' : 'text-black'}`}>
@@ -97,7 +97,7 @@ const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto,
   };
 
   return (
-    <div className={`flex items-center gap-[10px] p-[10px] min-h-[56px] lg:min-h-[50px] transition-opacity ${esRetirado ? '' : 'hover:opacity-90'}`}>
+    <div className={`flex items-center gap-[10px] p-[10px] min-h-[50px] transition-opacity ${esRetirado ? '' : 'hover:opacity-90'} border-l-4 ${showPenalSentenceHighlight ? 'border-[#be1823]' : 'border-transparent'}`}>
       <div
         className={`w-[76px] text-left shrink-0 ${esRetirado ? 'cursor-default' : 'cursor-pointer'}`}
         onClick={!esRetirado ? () => onVotoPartido(categoria, partido.id) : undefined}
@@ -337,6 +337,58 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
     diputados: 2,
     parlamenAndino: 2,
   };
+
+  const renderColumnaContent = (categoria, titulo, subtitulo, numPref, options = {}) => (
+    <div className="flex flex-col h-full w-full">
+      {!options.hideHeader && <ColumnaHeader titulo={titulo} subtitulo={subtitulo} />}
+      <div className="flex-1">
+        <div className="flex flex-col w-full">
+          {categoria === 'presidente' ? (
+            partidosParlamentarios.map((p) => {
+              const esCongreso = PARTIDOS_CONGRESO_IDS.includes(p.idOrg);
+              const esPenal = partidosConSentencias.has(p.idOrg);
+              const highlightCongreso = !p.retirado && showCongressionalHighlights && esCongreso;
+              const highlightPenal = !p.retirado && showSentenciasHighlights && esPenal;
+
+              return (
+                <div key={p.id} className={`${highlightCongreso ? 'bg-[#fee2e2]' : highlightPenal ? 'bg-red-50' : 'bg-white border-b border-gray-300'}`}>
+                  <CandidatoCard
+                    partido={p}
+                    selected={votos.presidente === p.idOrg}
+                    onClick={() => handleVotoPresidente(p.idOrg)}
+                    showCongressHighlight={highlightCongreso}
+                    showPenalSentenceHighlight={highlightPenal}
+                  />
+                </div>
+              );
+            })
+          ) : (
+            partidosParlamentarios.map((p) => {
+              const esCongreso = PARTIDOS_CONGRESO_IDS.includes(p.idOrg);
+              const esPenal = partidosConSentencias.has(p.idOrg);
+              const highlightCongreso = !p.retirado && showCongressionalHighlights && esCongreso;
+              const highlightPenal = !p.retirado && showSentenciasHighlights && esPenal;
+
+              return (
+                <div key={p.id} className={`${highlightCongreso ? 'bg-[#fee2e2]' : highlightPenal ? 'bg-red-50' : 'bg-white border-b border-gray-300'}`}>
+                  <PartidoCardConPreferencial
+                    partido={p}
+                    categoria={categoria}
+                    numPreferencial={numPref ? parseInt(numPref) : 2}
+                    voto={votos[categoria]}
+                    regionSeleccionada={regionSeleccionada}
+                    onVotoPartido={handleVotoPartido}
+                    onVotoPreferencial={handleVotoPreferencial}
+                    showPenalSentenceHighlight={highlightPenal}
+                  />
+                </div>
+              );
+            })
+          )}
+        </div>
+      </div>
+    </div>
+  );
 
   return (
     <div className="mx-auto rounded-lg shadow-2xl">
