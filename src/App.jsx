@@ -4,6 +4,7 @@ import ResumenVoto from './components/ResumenVoto';
 import GuiaBicameralidad from './components/GuiaBicameralidad';
 import Candidatos from './components/Candidatos';
 import LeyendaCongreso from './components/LeyendaCongreso';
+import FiltroSentencias from './components/FiltroSentencias';
 import { createInitialVotos } from './data/constants';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
   const [mostrarResumenMobile, setMostrarResumenMobile] = useState(false);
   const [page, setPage] = useState('simulador');
   const [showCongressionalHighlights, setShowCongressionalHighlights] = useState(false);
+  const [showSentenciasHighlights, setShowSentenciasHighlights] = useState(false);
   const [timeLeft, setTimeLeft] = useState({ months: 0, days: 0, hours: 0, minutes: 0 });
 
   const handleVotoCompleto = (nuevosVotos) => setVotos(nuevosVotos);
@@ -90,7 +92,10 @@ function App() {
       </header>
 
       <div className="max-w-[1600px] mx-auto px-2">
-        <LeyendaCongreso active={showCongressionalHighlights} onToggle={setShowCongressionalHighlights} />
+        <div className="flex flex-col sm:flex-row gap-2 sm:gap-6 mb-2">
+          <LeyendaCongreso active={showCongressionalHighlights} onToggle={setShowCongressionalHighlights} />
+          <FiltroSentencias active={showSentenciasHighlights} onToggle={setShowSentenciasHighlights} />
+        </div>
 
         <div className="flex flex-col lg:flex-row gap-6 items-start">
           <div className="flex-1 w-full lg:min-w-0">
@@ -100,6 +105,7 @@ function App() {
                 onVotoCompleto={handleVotoCompleto}
                 regionSeleccionada={regionSeleccionada}
                 showCongressionalHighlights={showCongressionalHighlights}
+                showSentenciasHighlights={showSentenciasHighlights}
               />
             </div>
           </div>

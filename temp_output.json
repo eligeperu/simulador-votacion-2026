@@ -1,0 +1,60 @@
+[
+  [
+    {
+      "idHvSentenciaPenal": 136041,
+      "tengoSentenciaPenal": "SI",
+      "nuItemSentenciaPenal": 1,
+      "txExpedientePenal": "9454-2010-01801-JR-PE-43",
+      "feSentenciaPenal": "14/01/2014",
+      "txOrganoJudiPenal": "CUADRAGESIMO TERCER JUZGADO PENAL DE LIMA",
+      "txDelitoPenal": "FALSEDAD GENERICA",
+      "txFalloPenal": "02 AÑOS",
+      "idParamModalidad": 11,
+      "txModalidad": "SUSPENDIDA",
+      "txOtraModalidad": null,
+      "idParamCumpleFallo": 20,
+      "txCumpleFallo": "PENA CUMPLIDA",
+      "idEstado": 1,
+      "idHojaVida": 243906,
+      "txComentario": "REHABILITADO"
+    }
+  ],
+  [
+    {
+      "idHvSentenciaPenal": 136082,
+      "tengoSentenciaPenal": "SI",
+      "nuItemSentenciaPenal": 1,
+      "txExpedientePenal": "4948",
+      "feSentenciaPenal": "01/01/2018",
+      "txOrganoJudiPenal": "JUZGADO PENAL UNIPERSONAL DE TRUJILLO",
+      "txDelitoPenal": "FAMILIA/ALIMENTO",
+      "txFalloPenal": "ARCHIVADO",
+      "idParamModalidad": 13,
+      "txModalidad": "OTRO",
+      "txOtraModalidad": "ARCHIVADO",
+      "idParamCumpleFallo": 21,
+      "txCumpleFallo": "EN CUMPLIMIENTO",
+      "idEstado": 1,
+      "idHojaVida": 244156,
+      "txComentario": "CORTE SUPERIOR DE JUSTICIA DE LA LIBERTAD"
+    },
+    {
+      "idHvSentenciaPenal": 136083,
+      "tengoSentenciaPenal": "SI",
+      "nuItemSentenciaPenal": 2,
+      "txExpedientePenal": "387",
+      "feSentenciaPenal": "01/01/1988",
+      "txOrganoJudiPenal": "N-I/LAMBAYEQUE EXP 14-1988",
+      "txDelitoPenal": "VIOLENCIA FAMILIAR",
+      "txFalloPenal": "ARCHIVADO",
+      "idParamModalidad": 13,
+      "txModalidad": "OTRO",
+      "txOtraModalidad": "ARCHIVADO",
+      "idParamCumpleFallo": 21,
+      "txCumpleFallo": "EN CUMPLIMIENTO",
+      "idEstado": 1,
+      "idHojaVida": 244156,
+      "txComentario": null
+    }
+  ]
+]
