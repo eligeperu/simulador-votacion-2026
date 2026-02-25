@@ -1,10 +1,11 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { candidatosPresidenciales, partidosParlamentarios } from '../data/candidatos';
 import { JNE_LOGO, JNE_LOGO_REMOTE, ESTADOS_VALIDOS, ESTADOS_EN_PROCESO, buscarCandidato, createInitialVotos } from '../data/constants';
 import senadoresNacional from '../data/senadoresNacional';
 import senadoresRegional from '../data/senadoresRegional';
 import diputadosData from '../data/diputados';
 import parlamenAndino from '../data/parlamenAndino';
+import { getPartidosConSentenciasPenales } from './FiltroSentencias';
 
 const TABS = [
   { id: 'presidente', label: 'Presidente', short: 'PRES' },
@@ -16,7 +17,7 @@ const TABS = [
 
 const PARTIDOS_CONGRESO_IDS = [1257, 2173, 1366, 1264, 2218, 2731, 22, 14, 4]; // idOrg de partidos en el Congreso actual
 
-const CandidatoCard = ({ partido, selected, onClick, showCongressHighlight = false }) => {
+const CandidatoCard = ({ partido, selected, onClick, showCongressHighlight = false, showPenalSentenceHighlight = false }) => {
   const candidato = candidatosPresidenciales.find(c => c.idOrg === partido.idOrg);
   const esRetirado = partido.retirado;
   const skipPresidente = partido.skipPresidente;
@@ -24,10 +25,10 @@ const CandidatoCard = ({ partido, selected, onClick, showCongressHighlight = fal
   return (
     <div
       onClick={!esRetirado && !skipPresidente ? onClick : undefined}
-      className={`flex items-center gap-[10px] p-[10px] min-h-[50px] transition-opacity ${esRetirado ? 'cursor-default opacity-40' : skipPresidente ? 'cursor-default' : 'cursor-pointer hover:opacity-90'} border-l-4 ${showCongressHighlight ? 'border-red-600' : 'border-transparent'}`}
+      className={`flex items-center gap-[10px] p-[10px] min-h-[50px] transition-opacity ${esRetirado ? 'cursor-default opacity-40' : skipPresidente ? 'cursor-default' : 'cursor-pointer hover:opacity-90'} border-l-4 ${showCongressHighlight ? 'border-red-600' : showPenalSentenceHighlight ? 'border-[#be1823]' : 'border-transparent'}`}
     >
       <div className="w-[76px] text-left shrink-0">
-        <h3 className={`font-bold text-[9px] sm:text-[10px] uppercase leading-tight break-words ${skipPresidente || esRetirado ? 'text-white' : 'text-black'}`}>
+        <h3 className={`font-bold text-[9px] sm:text-[10px] uppercase leading-tight break-words ${skipPresidente || esRetirado ? 'invisible' : 'text-black'}`}>
           {partido.nombre}
         </h3>
       </div>
@@ -80,7 +81,7 @@ const CandidatoCard = ({ partido, selected, onClick, showCongressHighlight = fal
   );
 };
 
-const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto, regionSeleccionada, onVotoPartido, onVotoPreferencial }) => {
+const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto, regionSeleccionada, onVotoPartido, onVotoPreferencial, showPenalSentenceHighlight = false }) => {
   const selected = voto.partido === partido.id;
   const esRetirado = partido.retirado;
 
@@ -93,7 +94,7 @@ const PartidoCardConPreferencial = ({ partido, categoria, numPreferencial, voto,
   };
 
   return (
-    <div className={`flex items-center gap-[10px] p-[10px] min-h-[50px] transition-opacity ${esRetirado ? '' : 'hover:opacity-90'}`}>
+    <div className={`flex items-center gap-[10px] p-[10px] min-h-[50px] transition-opacity ${esRetirado ? '' : 'hover:opacity-90'} border-l-4 ${showPenalSentenceHighlight ? 'border-[#be1823]' : 'border-transparent'}`}>
       <div
         className={`w-[76px] text-left shrink-0 ${esRetirado ? 'cursor-default' : 'cursor-pointer'}`}
         onClick={!esRetirado ? () => onVotoPartido(categoria, partido.id) : undefined}
@@ -178,9 +179,21 @@ const ColumnaHeader = ({ titulo, subtitulo, className = "", tituloClassName = "t
   </div>
 );
 
-export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'lima', showCongressionalHighlights = false }) {
+export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'lima', showCongressionalHighlights = false, showSentenciasHighlights = false }) {
   const [votos, setVotos] = useState(createInitialVotos);
   const [activeTab, setActiveTab] = useState('presidente');
+
+  const [partidosConSentencias, setPartidosConSentencias] = useState(new Set());
+
+  // Determinar los partidos con sentencias si el filtro está activo
+  useEffect(() => {
+    if (showSentenciasHighlights) {
+      const partidos = getPartidosConSentenciasPenales();
+      setPartidosConSentencias(new Set(partidos.map(p => p.idOrg)));
+    } else {
+      setPartidosConSentencias(new Set());
+    }
+  }, [showSentenciasHighlights]);
 
   const handleVotoPresidente = (valor) => {
     const nuevo = votos.presidente === valor ? null : valor;
@@ -222,14 +235,18 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
           {categoria === 'presidente' ? (
             partidosParlamentarios.map((p) => {
               const esCongreso = PARTIDOS_CONGRESO_IDS.includes(p.idOrg);
-              const highlight = showCongressionalHighlights && esCongreso;
+              const esPenal = partidosConSentencias.has(p.idOrg);
+              const highlightCongreso = !p.retirado && showCongressionalHighlights && esCongreso;
+              const highlightPenal = !p.retirado && showSentenciasHighlights && esPenal;
+
               return (
-                <div key={p.id} className={`${highlight ? 'bg-[#fee2e2]' : 'bg-white border-b border-gray-300'}`}>
+                <div key={p.id} className={`${highlightCongreso ? 'bg-[#fee2e2]' : highlightPenal ? 'bg-red-50' : 'bg-white border-b border-gray-300'}`}>
                   <CandidatoCard
                     partido={p}
                     selected={votos.presidente === p.idOrg}
                     onClick={() => handleVotoPresidente(p.idOrg)}
-                    showCongressHighlight={highlight}
+                    showCongressHighlight={highlightCongreso}
+                    showPenalSentenceHighlight={highlightPenal}
                   />
                 </div>
               );
@@ -237,10 +254,22 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
           ) : (
             partidosParlamentarios.map((p) => {
               const esCongreso = PARTIDOS_CONGRESO_IDS.includes(p.idOrg);
-              const highlight = showCongressionalHighlights && esCongreso;
+              const esPenal = partidosConSentencias.has(p.idOrg);
+              const highlightCongreso = !p.retirado && showCongressionalHighlights && esCongreso;
+              const highlightPenal = !p.retirado && showSentenciasHighlights && esPenal;
+
               return (
-                <div key={p.id} className={`${highlight ? 'bg-[#fee2e2]' : 'bg-white border-b border-gray-300'}`}>
-                  <PartidoCardConPreferencial partido={p} categoria={categoria} numPreferencial={numPref ? parseInt(numPref) : 2} voto={votos[categoria]} regionSeleccionada={regionSeleccionada} onVotoPartido={handleVotoPartido} onVotoPreferencial={handleVotoPreferencial} />
+                <div key={p.id} className={`${highlightCongreso ? 'bg-[#fee2e2]' : highlightPenal ? 'bg-red-50' : 'bg-white border-b border-gray-300'}`}>
+                  <PartidoCardConPreferencial
+                    partido={p}
+                    categoria={categoria}
+                    numPreferencial={numPref ? parseInt(numPref) : 2}
+                    voto={votos[categoria]}
+                    regionSeleccionada={regionSeleccionada}
+                    onVotoPartido={handleVotoPartido}
+                    onVotoPreferencial={handleVotoPreferencial}
+                    showPenalSentenceHighlight={highlightPenal}
+                  />
                 </div>
               );
             })
@@ -318,18 +347,28 @@ export default function CedulaSufragio({ onVotoCompleto, regionSeleccionada = 'l
           <div className="flex flex-col w-fit min-w-full">
             {partidosParlamentarios.map((p) => {
               const esCongreso = PARTIDOS_CONGRESO_IDS.includes(p.idOrg);
-              const highlight = showCongressionalHighlights && esCongreso;
+              const esPenal = partidosConSentencias.has(p.idOrg);
+              const highlightCongreso = !p.retirado && showCongressionalHighlights && esCongreso;
+              const highlightPenal = !p.retirado && showSentenciasHighlights && esPenal;
+
+              const rowBgClass = highlightCongreso
+                ? 'bg-[#fee2e2] divide-x divide-red-200 border-red-200'
+                : highlightPenal
+                  ? 'bg-red-50 divide-x divide-red-200 border-red-200'
+                  : 'bg-white divide-x divide-gray-300 border-gray-300';
+
               return (
                 <div
                   key={p.id}
-                  className={`flex border-b ${highlight ? 'bg-[#fee2e2] divide-x divide-red-200 border-red-200' : 'bg-white divide-x divide-gray-300 border-gray-300'}`}
+                  className={`flex border-b ${rowBgClass}`}
                 >
                   <div className="min-w-[196px] flex-1">
                     <CandidatoCard
                       partido={p}
                       selected={votos.presidente === p.idOrg}
                       onClick={() => handleVotoPresidente(p.idOrg)}
-                      showCongressHighlight={highlight}
+                      showCongressHighlight={highlightCongreso}
+                      showPenalSentenceHighlight={highlightPenal}
                     />
                   </div>
                   <div className="min-w-[246px] flex-1">
